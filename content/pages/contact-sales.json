@@ -1,0 +1,21 @@
+{
+  "title": "Contact sales",
+  "path": "/contact-sales",
+  "seoTitle": "Contact Sales",
+  "seoDescription": "Questions? Feel free to contact us.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Talk to sales",
+      "title": "Speak to our data experts",
+      "subtitle": "Pick a time that works for you and see how DataChannel can simplify your data stack.",
+      "embed": {
+        "kind": "hubspot-meeting",
+        "url": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+      }
+    },
+    {
+      "type": "logos"
+    }
+  ]
+}

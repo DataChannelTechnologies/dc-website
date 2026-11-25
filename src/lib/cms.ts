@@ -80,6 +80,43 @@ export type ReverseEtlDestination = Seo & {
   videoUrl: string;
 };
 
+export type BlogTag = Seo & Tag;
+export type Author = Seo & { slug: string; name: string; image: string };
+export type BlogPost = Seo & {
+  slug: string;
+  name: string;
+  date: string;
+  updated: string;
+  summary: string;
+  image: string;
+  tag: string;
+  author: string;
+  readTime: string;
+  featuredOnBlogPage: boolean;
+  featureMain: boolean;
+  productTutorial: boolean;
+  featureOnHomePage: boolean;
+  content: string;
+};
+export type CaseStudy = Seo & {
+  slug: string;
+  name: string; // headline quote
+  companyName: string;
+  personName: string;
+  personRole: string;
+  personImage: string;
+  content: string;
+};
+export type Career = Seo & {
+  slug: string;
+  name: string;
+  department: string;
+  location: string;
+  workingTime: string;
+  departmentIcon: string;
+  description: string;
+};
+
 const cache = new Map<string, unknown[]>();
 
 function readCollection<T extends { slug: string; name: string }>(folder: string): T[] {
@@ -111,6 +148,14 @@ export const getWarehouses = () => readCollection<Warehouse>("warehouses");
 export const getEtlSources = () => readCollection<EtlSource>("etl-sources");
 export const getReverseEtlDestinations = () => readCollection<ReverseEtlDestination>("reverse-etl-destinations");
 
+export const getBlogTags = () => readCollection<BlogTag>("blog-tags");
+export const getAuthors = () => readCollection<Author>("authors");
+/** Newest first. */
+export const getBlogPosts = () =>
+  [...readCollection<BlogPost>("blogs")].sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.name.localeCompare(b.name));
+export const getCaseStudies = () => readCollection<CaseStudy>("case-studies");
+export const getCareers = () => readCollection<Career>("careers");
+
 const find = <T extends { slug: string }>(items: T[], slug: string) => items.find((i) => i.slug === slug);
 export const getIntegration = (slug: string) => find(getIntegrations(), slug);
 export const getDestination = (slug: string) => find(getDestinations(), slug);
@@ -119,11 +164,42 @@ export const getEtlSource = (slug: string) => find(getEtlSources(), slug);
 export const getReverseEtlDestination = (slug: string) => find(getReverseEtlDestinations(), slug);
 export const getIntegrationTag = (slug: string) => find(getIntegrationTags(), slug);
 export const getDestinationTag = (slug: string) => find(getDestinationTags(), slug);
+export const getBlogTag = (slug: string) => find(getBlogTags(), slug);
+export const getAuthor = (slug: string) => find(getAuthors(), slug);
+export const getBlogPost = (slug: string) => find(getBlogPosts(), slug);
+export const getCaseStudy = (slug: string) => find(getCaseStudies(), slug);
+export const getCareer = (slug: string) => find(getCareers(), slug);
 
 /** CMS rich text is stored as Markdown (raw HTML allowed). Content is authored by trusted editors. */
 export function renderMarkdown(md: string): string {
   if (!md) return "";
   return marked.parse(md, { gfm: true, async: false }) as string;
+}
+
+export function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/<[^>]+>/g, "")
+    .replace(/&[a-z]+;|&#\d+;/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 80);
+}
+
+/** Markdown -> HTML with id attributes on h2/h3 (for the table of contents), plus the h2 outline. */
+export function renderArticle(md: string): { html: string; toc: { id: string; text: string }[] } {
+  const toc: { id: string; text: string }[] = [];
+  const seen = new Map<string, number>();
+  const html = renderMarkdown(md).replace(/<h([23])>([\s\S]*?)<\/h\1>/g, (_m, level: string, inner: string) => {
+    const text = inner.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
+    let id = slugify(text) || "section";
+    const n = seen.get(id) ?? 0;
+    seen.set(id, n + 1);
+    if (n) id = `${id}-${n}`;
+    if (level === "2" && text) toc.push({ id, text });
+    return `<h${level} id="${id}">${inner}</h${level}>`;
+  });
+  return { html, toc };
 }
 
 /** Converts a YouTube/Vimeo watch URL into an embeddable URL, or returns null. */

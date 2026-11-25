@@ -1,0 +1,18 @@
+{
+  "title": "Schedule a demo",
+  "path": "/schedule-demo",
+  "seoTitle": "Schedule a Demo with DataChannel",
+  "seoDescription": "Use this page to book a quick demo or exploratory call with DataChannel's product experts.",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Schedule a demo with DataChannel",
+      "subtitle": "Book a quick demo or exploratory call with our product experts.",
+      "embed": {
+        "kind": "iframe",
+        "url": "https://calendly.com/mitali-narula?embed_type=Inline&hide_gdpr_banner=1",
+        "height": 720
+      }
+    }
+  ]
+}

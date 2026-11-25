@@ -1,0 +1,101 @@
+{
+  "title": "Contact us",
+  "path": "/contact-us",
+  "seoTitle": "Contact Us-  DataChannel - Reliable Automated ETL & Reverse ETL platform",
+  "seoDescription": "Questions? Feel free to contact us.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Contact",
+      "title": "Questions? Feel free to contact us.",
+      "subtitle": "Send us a message and our team will get back to you shortly.",
+      "align": "center"
+    },
+    {
+      "type": "form",
+      "heading": "Send us a message",
+      "body": "Prefer email? Write to us at [info@datachannel.co](mailto:info@datachannel.co).",
+      "form": "contact",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "subject",
+          "label": "Subject"
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "submitLabel": "Send message",
+      "successMessage": "Thank you! Your submission has been received!"
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Get in touch with us through the right channels",
+      "columns": 2,
+      "items": [
+        {
+          "icon": "support",
+          "title": "Help & Support",
+          "body": "Check out our support docs to find answers to common questions, or email [support@datachannel.co](mailto:support@datachannel.co).",
+          "link": {
+            "label": "Read the documentation",
+            "href": "https://docs.datachannel.co"
+          }
+        },
+        {
+          "icon": "users",
+          "title": "Partnership Enquiry",
+          "body": "Looking to partner with us or become a reseller? Email [sales@datachannel.co](mailto:sales@datachannel.co)."
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Our offices",
+      "columns": 2,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "globe",
+          "title": "USA",
+          "body": "37 Tall Oaks Road, Stamford, CT 06903. USA."
+        },
+        {
+          "icon": "globe",
+          "title": "India",
+          "body": "Magnum Global Park, 20th Floor, Sector-58, Gurgaon-122011, India\n\nPhone: +91 - 01244035770"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

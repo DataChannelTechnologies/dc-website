@@ -1,0 +1,143 @@
+{
+  "title": "ETL",
+  "path": "/etl",
+  "seoTitle": "DataChannel - Extract, Transform & Load (ETL) | Product Features",
+  "seoDescription": "Use DataChannel's ETL to securely integrate data from all the databases and apps that drive your business instead of manual data downloads, spreadsheets or ad-hoc scripts into a cloud data warehouse",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "ETL",
+      "title": "Data when and where you need it",
+      "subtitle": "Securely connect to all the databases and apps that drive your business instead of manual data downloads, spreadsheets or ad-hoc scripts",
+      "ctas": [
+        {
+          "label": "Start Free Trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "image": "/images/pages/etl/etl-hero.png"
+    },
+    {
+      "type": "richText",
+      "heading": "Hassle free data pipelines from any data source",
+      "body": "Extract & load data from SaaS apps, relational databases, cloud storage platforms, REST APIs & more"
+    },
+    {
+      "type": "split",
+      "heading": "Get access to our ever expanding collection of data sources",
+      "body": "We have 100+ pre-built integrations for all popular cloud apps and data sources. If you have a specific requirement not covered by our existing list, we will be happy to build the integration for you.",
+      "image": "/images/pages/etl/integrations-full.png",
+      "imagePosition": "right",
+      "ctas": [
+        {
+          "label": "All Data Sources",
+          "href": "/integrations"
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Connect multiple Data Warehouses",
+      "body": "We support all popular cloud data warehouses like Google Bigquery, AWS Redshift, Snowflake & many more. Choose to configure your own warehouse or select a DataChannel managed warehouse. Decide which region your data resides in.",
+      "image": "/images/pages/etl/warehouses.png",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Pre & post-load data transformations that execute in your data warehouse",
+      "body": "Write your data transformations in native SQL and schedule them with DataChannel. Set up dependencies on data pipelines to ensure data freshness and integrity",
+      "image": "/images/pages/etl/transformations.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Automate your data transfer with reliable, scalable and stable pipelines",
+      "columns": 3,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "settings",
+          "title": "Granular control over pipeline configuration"
+        },
+        {
+          "icon": "clock",
+          "title": "Advanced scheduling options"
+        },
+        {
+          "icon": "refresh",
+          "title": "Automated handling of source schema changes"
+        },
+        {
+          "icon": "lock",
+          "title": "Secure credential management with OAuth2"
+        },
+        {
+          "icon": "chart",
+          "title": "Activity & change history tracking"
+        },
+        {
+          "icon": "zap",
+          "title": "Real time alerts & failure notifications"
+        },
+        {
+          "icon": "database",
+          "title": "Preview data without ever leaving the platform"
+        },
+        {
+          "icon": "file",
+          "title": "Extensive documentation & on-screen help"
+        },
+        {
+          "icon": "shield",
+          "title": "Extensive Logs & complete visibility of pipeline health"
+        }
+      ]
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "image": "/images/pages/etl/case-study-wakefit.png",
+          "title": "“DataChannel is flexible and scalable. It has everything we need, from granular control over data we are integrating to a quick turnaround time by the support team.”",
+          "body": "**Puneet Tripathi**  \nHead of Analytics at Wakefit",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wakefit-datachannel"
+          }
+        },
+        {
+          "image": "/images/pages/etl/case-study-plix.webp",
+          "title": "“DataChannel did all of what we asked for at scale without any major roadblocks along the way.”",
+          "body": "**Rishubh Satiya**  \nCo-founder & CEO at Plix",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/plixlife"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

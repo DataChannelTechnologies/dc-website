@@ -1,0 +1,181 @@
+{
+  "title": "Compare: DataChannel vs Funnel",
+  "path": "/compare/datachannel-vs-funnel",
+  "seoTitle": "DataChannel Vs Funnel",
+  "seoDescription": "Learn as to how you can use a single platform for both ETL & Reverse ETL &  save 300% in costs on your projects by choosing DataChannel instead of Fivetran",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Funnel Vs DataChannel",
+      "title": "Use a single platform for all your ETL & Reverse ETL needs",
+      "subtitle": "What if you could pay 4x less for better features and complete control over your data? Stop wasting time and money on multiple over priced tools and switch to DataChannel for a unified ETL & Reverse ETL platform. [Try DataChannel](https://console.datachannel.co/register) as a Funnel alternative for free."
+    },
+    {
+      "type": "split",
+      "heading": "All the features at a fraction of the cost",
+      "bullets": [
+        "ETL & Reverse ETL within the same platform",
+        "Managed Data Warehouse Option",
+        "Unlimited users & data sources",
+        "dbtCore™ and dbtCloud Integration",
+        "More than 250% cost savings",
+        "Simple usage based pricing (No Flexpoints complications)",
+        "Advanced Data Orchestration"
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "",
+        "DataChannel",
+        "Funnel"
+      ],
+      "rows": [
+        {
+          "feature": "Plan Type",
+          "values": [
+            "Professional",
+            "Business"
+          ]
+        },
+        {
+          "feature": "Rows Per Month",
+          "values": [
+            "50M",
+            "50M"
+          ]
+        },
+        {
+          "feature": "Reverse ETL",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse",
+          "values": [
+            "Managed Data Warehouse Option",
+            "No Managed Data Warehouse"
+          ]
+        },
+        {
+          "feature": "Data to warehouse",
+          "values": [
+            "Data sent in real time to data warehouse",
+            "Data export warehouse limited to once every 2 hours"
+          ]
+        },
+        {
+          "feature": "Billing",
+          "values": [
+            "Monthly Billing Option",
+            "Only annual billing available"
+          ]
+        },
+        {
+          "feature": "Price",
+          "values": [
+            "$1199/month",
+            "$2500/month"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Migrate from Funnel for free",
+      "body": "You never need to worry about getting started. We’ll get you up and running fast.",
+      "image": "/images/pages/compare--datachannel-vs-funnel/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Request your migration",
+          "href": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "“What we love about DataChannel is the consistent data flow and reliability of data pipelines.”",
+          "body": "**Youval Peltier**\n\nVP eCommerce Marketing & Analytics",
+          "image": "/images/pages/compare--datachannel-vs-funnel/case-study-better-being.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/betterbeing-datachannel"
+          }
+        },
+        {
+          "title": "“DataChannel has greatly improved our ability to access data reliably that was previously challenging to obtain.”",
+          "body": "**Melvin Davis Vallully**\n\nHead of Data Analytics, Wow Skin Science",
+          "image": "/images/pages/compare--datachannel-vs-funnel/case-study-wow-skin-science.png",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wow-skin-science"
+          }
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "See how business teams can use DataChannel",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Digital Marketing & Analytics",
+          "body": "Achieve improved and insightful marketing reports with seamless data automation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/digital-marketing"
+          }
+        },
+        {
+          "icon": "database",
+          "title": "Data Engineers & Analysts",
+          "body": "No more complicated data or clogged silos. With DataChannel the data is constantly prepared for analysis.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/data-engineers-analysts"
+          }
+        },
+        {
+          "icon": "code",
+          "title": "IT, Product Teams & Engineering",
+          "body": "Get a reliable, scalable, and precise solution for data collection and transformation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us · Free hands-on onboarding & support · Simple usage based pricing",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

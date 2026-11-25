@@ -46,6 +46,23 @@ _warehouseRel: &warehouseRel { widget: relation, collection: warehouses, search_
 _integrationTagRel: &integrationTagRel { widget: relation, collection: integration-tags, search_fields: [name], value_field: "{{slug}}", display_fields: [name], required: false, default: "" }
 _destinationTagRel: &destinationTagRel { widget: relation, collection: destination-tags, search_fields: [name], value_field: "{{slug}}", display_fields: [name], required: false, default: "" }
 
+_ctaList: &ctaList
+  label: Buttons
+  name: ctas
+  widget: list
+  required: false
+  summary: "{{label}}"
+  fields:
+    - { label: Label, name: label, widget: string }
+    - { label: URL, name: href, widget: string }
+    - { label: Style, name: variant, widget: select, options: [primary, outline], required: false }
+_embedFields: &embedFields
+  widget: object
+  fields:
+    - { label: Kind, name: kind, widget: select, options: [hubspot-meeting, video, iframe] }
+    - { label: URL, name: url, widget: string }
+    - { label: Height (px), name: height, widget: number, required: false, value_type: int }
+
 collections:
   - name: pages
     label: Pages
@@ -412,6 +429,327 @@ collections:
     identifier_field: name
     editor: { preview: false }
     fields: *tagFields
+
+
+  - name: site-pages
+    label: Pages (section builder)
+    label_singular: Page
+    folder: content/pages
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.path}}"
+    identifier_field: title
+    summary: "{{path}} · {{title}}"
+    sortable_fields: [path, title]
+    editor: { preview: false }
+    fields:
+      - { label: Internal title, name: title, widget: string }
+      - label: URL path
+        name: path
+        widget: string
+        pattern: ['^/[a-z0-9-]+(/[a-z0-9-]+)*$', "Must start with / and use lowercase letters, numbers, hyphens, e.g. /compare/datachannel-vs-hevo"]
+        hint: "The public URL. Migrated pages must keep their Webflow path. Don't change it on published pages."
+      - { label: SEO title, name: seoTitle, widget: string, required: false, default: "" }
+      - { label: SEO description, name: seoDescription, widget: text, required: false, default: "" }
+      - { label: Hide from search engines (noindex), name: noindex, widget: boolean, required: false, default: false }
+      - label: Sections
+        name: blocks
+        widget: list
+        hint: "The first section must be a Hero (it holds the page H1)."
+        typeKey: type
+        types:
+          - label: Hero
+            name: hero
+            widget: object
+            summary: "{{title}}"
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+              - { label: Title (H1), name: title, widget: string }
+              - { <<: *md, label: Subtitle, name: subtitle }
+              - *ctaList
+              - { label: Perks, name: perks, widget: list, required: false, field: { label: Perk, name: perk, widget: string } }
+              - { label: Image, name: image, widget: image, required: false }
+              - { <<: *embedFields, label: Embed (scheduler / video / iframe), name: embed, required: false }
+              - { label: Alignment, name: align, widget: select, options: [left, center], required: false, default: left }
+          - label: Rich text
+            name: richText
+            widget: object
+            summary: "{{heading}}"
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { <<: *md, label: Body, name: body, required: true }
+              - { label: Width, name: width, widget: select, options: [narrow, wide], required: false, default: narrow }
+              - { label: Grey background, name: muted, widget: boolean, required: false, default: false }
+          - label: Text + image
+            name: split
+            widget: object
+            summary: "{{heading}}"
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+              - { label: Heading, name: heading, widget: string }
+              - { <<: *md, label: Body, name: body }
+              - { label: Bullets, name: bullets, widget: list, required: false, field: { label: Bullet, name: bullet, widget: string } }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Image position, name: imagePosition, widget: select, options: [left, right], required: false, default: right }
+              - *ctaList
+              - { label: Grey background, name: muted, widget: boolean, required: false, default: false }
+          - label: Feature grid
+            name: featureGrid
+            widget: object
+            summary: "{{heading}}"
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - { label: Columns, name: columns, widget: select, options: [2, 3, 4], required: false, default: 3 }
+              - { label: Style, name: style, widget: select, options: [cards, plain, dark], required: false, default: cards }
+              - { label: Image style, name: imageStyle, widget: select, options: [icon, photo, cover], required: false, default: icon, hint: "icon = small logo, photo = round portrait, cover = full-width image" }
+              - label: Items
+                name: items
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { <<: *md, label: Body, name: body }
+                  - { label: Image (optional), name: image, widget: image, required: false }
+                  - { label: Icon (used if no image), name: icon, widget: select, required: false, options: [check, zap, shield, database, chart, clock, users, globe, layers, workflow, sparkles, rocket, plug, refresh, lock, settings, dollar, support, trending, filter, bell, code, cloud, file] }
+                  - { <<: *link, label: Link, name: link, required: false }
+          - label: Stats
+            name: stats
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Items, name: items, widget: list, summary: "{{value}} {{label}}", fields: [{ label: Value, name: value, widget: string }, { label: Label, name: label, widget: string }] }
+          - label: Comparison table
+            name: comparisonTable
+            widget: object
+            summary: "{{heading}}"
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - { label: Column headers, name: columns, widget: list, hint: "First = feature column header, second = DataChannel (highlighted), then competitors", field: { label: Header, name: header, widget: string } }
+              - { label: Highlighted column (1 = first product column), name: highlightColumn, widget: number, value_type: int, min: 1, required: false, default: 1 }
+              - label: Rows
+                name: rows
+                widget: list
+                summary: "{{feature}}"
+                fields:
+                  - { label: Feature, name: feature, widget: string }
+                  - { label: Values, name: values, widget: list, hint: "One per product column. Use yes / no / partial for icons, or any text.", field: { label: Value, name: value, widget: string } }
+              - { <<: *md, label: Note, name: note }
+          - label: Testimonials
+            name: testimonials
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - label: Items
+                name: items
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: Headline (optional pull quote), name: headline, widget: string, required: false }
+                  - { label: Quote, name: quote, widget: text }
+                  - { label: Name, name: name, widget: string }
+                  - { label: Role, name: role, widget: string, required: false }
+                  - { label: Photo, name: image, widget: image, required: false }
+                  - { label: Stats, name: stats, widget: list, required: false, summary: "{{value}} {{label}}", fields: [{ label: Value, name: value, widget: string }, { label: Label, name: label, widget: string }] }
+                  - { <<: *link, label: Link (optional), name: link, required: false }
+          - label: Customer logos
+            name: logos
+            widget: object
+            fields:
+              - { label: Title (optional), name: title, widget: string, required: false }
+              - { label: Show G2 / Capterra review badges, name: showReviews, widget: boolean, required: false, default: false }
+          - label: FAQ
+            name: faq
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - { label: Questions, name: items, widget: list, summary: "{{question}}", fields: [{ label: Question, name: question, widget: string }, { <<: *md, label: Answer, name: answer, required: true }] }
+          - label: Pricing plans
+            name: pricing
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - label: Plans
+                name: plans
+                widget: list
+                summary: "{{name}} {{price}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Price, name: price, widget: string }
+                  - { label: Period, name: period, widget: string, required: false }
+                  - { label: Description, name: description, widget: text, required: false }
+                  - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+                  - { <<: *link, label: Button, name: cta }
+                  - { label: Highlight as most popular, name: highlighted, widget: boolean, required: false, default: false }
+              - { <<: *md, label: Note, name: note }
+          - label: Steps
+            name: steps
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - { label: Steps, name: items, widget: list, summary: "{{title}}", fields: [{ label: Title, name: title, widget: string }, { label: Body, name: body, widget: text }] }
+          - label: CTA banner
+            name: cta
+            widget: object
+            summary: "{{heading}}"
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Body, name: body, widget: text, required: false }
+              - *ctaList
+          - label: CTA cards (from home page)
+            name: ctaCards
+            widget: object
+            fields:
+              - { label: Note, name: note, widget: hidden, default: "Uses the closing CTA cards from the Home page", required: false }
+          - label: Embed (scheduler / video / iframe)
+            name: embed
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { label: Subtitle, name: subtitle, widget: text, required: false }
+              - { label: Kind, name: kind, widget: select, options: [hubspot-meeting, video, iframe] }
+              - { label: URL, name: url, widget: string }
+              - { label: Height (px), name: height, widget: number, required: false, value_type: int }
+          - label: Form
+            name: form
+            widget: object
+            summary: "{{form}} form"
+            fields:
+              - { label: Heading, name: heading, widget: string, required: false }
+              - { <<: *md, label: Text beside the form, name: body }
+              - { label: Form type, name: form, widget: select, options: [contact, lead], hint: "contact: name, email, subject, message · lead: name, email, company, phone, message" }
+              - label: Fields
+                name: fields
+                widget: list
+                summary: "{{label}}"
+                fields:
+                  - { label: Field, name: name, widget: select, options: [name, email, subject, message, company, phone] }
+                  - { label: Label, name: label, widget: string }
+                  - { label: Type, name: type, widget: select, options: [text, email, tel, textarea], required: false, default: text }
+                  - { label: Required, name: required, widget: boolean, required: false, default: false }
+                  - { label: Placeholder, name: placeholder, widget: string, required: false }
+              - { label: Offer (lead forms, hidden value), name: offer, widget: string, required: false }
+              - { label: Submit label, name: submitLabel, widget: string, required: false }
+              - { label: Success message, name: successMessage, widget: string, required: false }
+              - { label: Redirect after submit (optional), name: redirectTo, widget: string, required: false }
+
+  # ---------------------------------------------------------------------------
+  # Blog & company collections migrated from Webflow.
+  # ---------------------------------------------------------------------------
+  - name: blogs
+    label: Blog posts (/blogs/…)
+    label_singular: Blog post
+    folder: content/blogs
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{date}} · {{name}}"
+    sortable_fields: [date, name]
+    editor: { preview: false }
+    fields:
+      - { label: Title, name: name, widget: string }
+      - *slug
+      - { label: Published date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Last updated, name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false, default: "" }
+      - { label: Summary (card text & meta description), name: summary, widget: text }
+      - { label: Cover image, name: image, widget: image, required: false, default: "" }
+      - { label: Topic, name: tag, widget: relation, collection: blog-tags, search_fields: [name], value_field: "{{slug}}", display_fields: [name] }
+      - { label: Author, name: author, widget: relation, collection: authors, search_fields: [name], value_field: "{{slug}}", display_fields: [name] }
+      - { label: Read time, name: readTime, widget: string, required: false, default: "", hint: "e.g. 5 mins to read" }
+      - { label: Featured on blog page, name: featuredOnBlogPage, widget: boolean, default: false }
+      - { label: Main feature, name: featureMain, widget: boolean, default: false }
+      - { label: Product tutorial, name: productTutorial, widget: boolean, default: false }
+      - { label: Feature on home page, name: featureOnHomePage, widget: boolean, default: false }
+      - { label: Content, name: content, widget: markdown }
+      - *seoTitle
+      - *seoDescription
+
+  - name: authors
+    label: Blog authors (/author/…)
+    label_singular: Author
+    folder: content/authors
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { label: Photo, name: image, widget: image, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: blog-tags
+    label: Blog topics (/blog-tag/…)
+    label_singular: Blog topic
+    folder: content/blog-tags
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { label: Text colour, name: color, widget: color, required: false, default: "" }
+      - { label: Background colour, name: background, widget: color, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: case-studies
+    label: Case studies (/case-study/…)
+    label_singular: Case study
+    folder: content/case-studies
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: companyName
+    summary: "{{companyName}}"
+    editor: { preview: false }
+    fields:
+      - { label: Company name, name: companyName, widget: string }
+      - *slug
+      - { label: Headline quote, name: name, widget: string }
+      - { label: Person name, name: personName, widget: string }
+      - { label: Person role, name: personRole, widget: string }
+      - { label: Image, name: personImage, widget: image, required: false, default: "" }
+      - { label: Content, name: content, widget: markdown }
+      - *seoTitle
+      - *seoDescription
+
+  - name: careers
+    label: Careers (/career/…)
+    label_singular: Job opening
+    folder: content/careers
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    editor: { preview: false }
+    fields:
+      - { label: Job title, name: name, widget: string }
+      - *slug
+      - { label: Department, name: department, widget: select, options: [Sales, Marketing, Engineering, Design, Product] }
+      - { label: Location, name: location, widget: string, default: "Gurugram, India" }
+      - { label: Working time, name: workingTime, widget: select, options: [Full time, Part time, Contract] }
+      - { label: Department icon, name: departmentIcon, widget: image, required: false, default: "" }
+      - { label: Description, name: description, widget: markdown }
+      - *seoTitle
+      - *seoDescription
 
   - name: settings
     label: Site settings

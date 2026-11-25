@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 
+import { Analytics } from "@/components/analytics";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { homeContent, siteContent } from "@/lib/content";
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader site={siteContent} />
         <main>{children}</main>
         <SiteFooter site={siteContent} />
+        <Analytics />
       </body>
     </html>
   );

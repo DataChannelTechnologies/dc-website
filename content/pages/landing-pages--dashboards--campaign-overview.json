@@ -1,0 +1,74 @@
+{
+  "title": "Dashboard template: Campaign Overview",
+  "path": "/landing-pages/dashboards/campaign-overview",
+  "seoTitle": "Campaign Overview | DataChannel",
+  "seoDescription": "Understand what factors impact Customer Value over time, and the purchasing gap between customers’ first and last purchase with a ready-to-use free dashboard template built in Tableau powered by DataChannel",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Campaign Overview",
+      "subtitle": "Understand what factors impact Customer Value over time, and the purchasing gap between customers’ first and last purchase"
+    },
+    {
+      "type": "form",
+      "heading": "Get this Dashboard Template",
+      "form": "lead",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "required": true,
+          "placeholder": "Enter your name"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter your business email"
+        },
+        {
+          "name": "company",
+          "label": "Company Name",
+          "required": true,
+          "placeholder": "Enter the name of your company"
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "required": true,
+          "placeholder": "Enter your phone number"
+        }
+      ],
+      "offer": "Campaign Overview",
+      "submitLabel": "Send me this template",
+      "successMessage": "Thank you! Link to the dashboard template has been emailed to you!"
+    },
+    {
+      "type": "embed",
+      "kind": "iframe",
+      "height": 1527,
+      "url": "https://public.tableau.com/views/CampaignPerformance_16686756632920/CampaignLevel?:embed=y&:showVizHome=no&:display_count=yes&:toolbar=yes&:tabs=no&:language=en-US"
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

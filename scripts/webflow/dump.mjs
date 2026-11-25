@@ -1,4 +1,4 @@
-// Downloads the live items of the integration-family Webflow collections into
+// Downloads the live items of the migrated Webflow collections into
 // .webflow-cache/. Credentials come from .env (WEBFLOW_SITE_API_ID = API token).
 // Run via: docker compose --profile tools run --rm webflow-import
 import fs from "node:fs";
@@ -12,6 +12,8 @@ const cols = {
   destinations: "636b5bf35192965aae40cba3", "destination-tags": "636b58d4d0fed9749222e73e",
   warehouses: "6385cfc174a733b291549130", "etl-sources": "6385d299cdea47221ef558ef",
   "reverse-etl-destinations": "639ae7c95d394f7c2ee0af4c", category: "634fa785d369cb34fd0b6dda",
+  blogs: "634fa785d369cb844a0b6dd3", author: "634fa785d369cbbd0e0b6dd4", "blog-tag": "634fa785d369cbce160b6dd2",
+  "case-study": "634fa785d369cb7b440b6dd6", career: "634fa785d369cb9bef0b6dd5",
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function get(url) {

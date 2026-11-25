@@ -1,0 +1,328 @@
+{
+  "title": "Landing page: DataChannel vs Fivetran",
+  "path": "/landing-pages/datachannel-vs-fivetran",
+  "seoTitle": "DataChannel | Reliable,  Scalable & Cost Effective Alternative to Fivetran",
+  "seoDescription": "DataChannel is a cloud based data integration and reverse ETL platform to automate the data collection, preparation and management process of all your marketing, CRM, financial & operational data. Save up to 90% on your monthly costs by switching to DataChannel today.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "DataChannel Vs. Fivetran",
+      "title": "Overpaying for Fivetran? Switch to DataChannel and Cut Costs by 70%",
+      "subtitle": "Get ETL and Reverse ETL, unlimited transformations 200+ integrations, and AI analytics, all at a predictable flat price.",
+      "perks": [
+        "#1 Best Fivetran Alternative",
+        "No Code, cloud native ETL & Reverse ETL",
+        "Simple predictable pricing"
+      ]
+    },
+    {
+      "type": "form",
+      "form": "lead",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Full Name"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Work Email"
+        }
+      ],
+      "submitLabel": "Get a free 30-min demo",
+      "successMessage": "Thank you! Your submission has been received!",
+      "redirectTo": "/landing-pages/book-demo"
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "quote": "DataChannel is flexible and scalable.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "image": "/images/testimonials/puneet-tripathi.jpg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "25",
+              "label": "manhours saved per month"
+            }
+          ]
+        },
+        {
+          "quote": "DataChannel redefines your relationship with data.",
+          "name": "Kshitij N",
+          "role": "Marekting Data Analyst",
+          "image": "/images/testimonials/kshitij-review.jpeg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "50",
+              "label": "manhours saved per month"
+            }
+          ]
+        },
+        {
+          "quote": "DataChannel is a reliable ETL and replication partner.",
+          "name": "Emily L",
+          "role": "Co-Founder @ Small Business",
+          "image": "/images/testimonials/emily-review.jpeg",
+          "stats": [
+            {
+              "value": "8",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "logos"
+    },
+    {
+      "type": "featureGrid",
+      "heading": "The Problem with Fivetran’s Pricing",
+      "columns": 2,
+      "items": [
+        {
+          "title": "$5000/month",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/fivetran-logo.png",
+          "body": "You end up paying EXTRA for:\n\n- Every million rows (MAR-based charges)\n- Reverse ETL (requires another tool like Census)\n- Custom connectors\n- Every model run as part of transformations\n- Priority support"
+        },
+        {
+          "title": "$899/month",
+          "image": "/images/logo.png",
+          "body": "Get upto 70% savings on your monthly bill by:\n\n- Flat, usage-based pricing you can actually predict\n- ETL + Reverse ETL in one platform\n- 200+ integrations at no extra cost\n- Unlimited transformations\n- Free migration, onboarding assistance, dedicated account manager & priority support"
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "heading": "Check How Much You Can Save With DataChannel",
+      "subtitle": "Use the calculator below to compare your actual costs with Fivetran vs DataChannel",
+      "kind": "iframe",
+      "url": "https://dc-vs-fivetran-v2.netlify.app/",
+      "height": 800
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Why Smart Data Teams Don’t Stick with Fivetran",
+      "subtitle": "Get a clear look at DataChannel Vs. Fivetran: what’s included and what isn’t",
+      "columns": 3,
+      "items": [
+        {
+          "title": "ETL & Reverse ETL in one platform",
+          "body": "Move data in and out of your warehouse with a single, unified tool.",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-etl.png"
+        },
+        {
+          "title": "Free Unlimited data transformations",
+          "body": "Support for SQL, dbtCore™ and dbtCloud.\n\nNo limits on number of scheduled transformations",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-transformations.png"
+        },
+        {
+          "title": "DataChannel’s Management API",
+          "body": "Using DataChannel’s Public Management API you can automate and manage critical tasks in every plan, at no extra cost.",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-api.png"
+        },
+        {
+          "title": "Ask Neo (AI Data Analyst)",
+          "body": "Ask questions in plain English and get instant charts, dashboards, and insights.\n\nMaintain granular access control and complete data security and compliance",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-neo.png"
+        },
+        {
+          "title": "Built‑in data orchestration",
+          "body": "Design, schedule, and automate end‑to‑end workflows directly in the platform. No need for additional tools like Airflow",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-orchestration.png"
+        },
+        {
+          "title": "All integrations included",
+          "body": "Connect to any available source or destination. No cap on connections. Transparent billing based on rows moved",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-integrations.png"
+        },
+        {
+          "title": "Custom integrations at no extra cost",
+          "body": "Tell us your business‑specific connector needs—we build and maintain them for you.",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-custom-connector.png"
+        },
+        {
+          "title": "Enterprise workspaces",
+          "body": "Manage multiple organizations or teams under one account with isolated workspaces.",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-workspace.png"
+        },
+        {
+          "title": "Predictable, volume‑based pricing",
+          "body": "Pay only for the rows you move—no surprise platform fees.",
+          "image": "/images/pages/landing-pages--datachannel-vs-fivetran/icon-pricing.png"
+        }
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "Benefits & Features",
+        "DataChannel",
+        "Fivetran"
+      ],
+      "rows": [
+        {
+          "feature": "ETL & Reverse ETL in same platform",
+          "values": [
+            "yes",
+            "❌ Using Census"
+          ]
+        },
+        {
+          "feature": "In-built Data orchestration & monitoring",
+          "values": [
+            "yes",
+            "❌ Limited"
+          ]
+        },
+        {
+          "feature": "Conversational AI Analyst (Neo)",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse option",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Unlimited Data Transformations",
+          "values": [
+            "yes",
+            "❌ Additional Cost"
+          ]
+        },
+        {
+          "feature": "Access to Management API",
+          "values": [
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Multiple Workspaces in an Account",
+          "values": [
+            "✅ Enterprise Only",
+            "❌ Business Critical Only"
+          ]
+        },
+        {
+          "feature": "Transparent pricing",
+          "values": [
+            "✅ Yes (predictable cost)",
+            "❌ No (MAR-based, fluctuates)"
+          ]
+        },
+        {
+          "feature": "Custom connectors without extra cost",
+          "values": [
+            "yes",
+            "❌ Additional Cost"
+          ]
+        },
+        {
+          "feature": "Access to all Integrations",
+          "values": [
+            "✅ Yes (predictable cost)",
+            "❌ Additional Cost (Per Integration)"
+          ]
+        },
+        {
+          "feature": "Migration assistance & assisted on-boarding",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Dedicated account manager for every client",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Support Turn Around Time",
+          "values": [
+            "yes",
+            "❌ Plan Based Support"
+          ]
+        },
+        {
+          "feature": "ISO, HIPAA, GDPR compliance",
+          "values": [
+            "✅ Priority Support in all Plans",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Get More Power Than Fivetran, At a Much Lower Price",
+      "body": "ETL & Reverse ETL · Ask Neo AI Assistant · Data Orchestration · Unlimited Transformations · Enterprise Security"
+    },
+    {
+      "type": "split",
+      "eyebrow": "ETL & Reverse ETL",
+      "heading": "No-Code, Cloud Native ETL and Reverse ETL pipelines - setup in minutes",
+      "body": "Set up no-code pipelines in minutes. Stream data both ways and unify sources for faster insights.",
+      "image": "/images/pages/landing-pages--datachannel-vs-fivetran/tab-etl-reverse-etl.webp"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Ask Neo AI Assistant",
+      "heading": "AI Powered natural language based AI assistant",
+      "body": "Get instant answers, charts, and dashboards in plain English with Neo, your built-in AI data analyst.",
+      "image": "/images/pages/landing-pages--datachannel-vs-fivetran/tab-ask-neo.webp",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "eyebrow": "Data Orchestration",
+      "heading": "Visually design and monitor your data pipelines and workflows",
+      "body": "Visualize workflows, manage dependencies, and schedule jobs with retry logic and backfills built in.",
+      "image": "/images/pages/landing-pages--datachannel-vs-fivetran/tab-orchestration.webp"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Unlimited Transformations",
+      "heading": "SQL & dbtCore based data transformations",
+      "body": "Run unlimited SQL and dbt transformations inside DataChannel without add-ons",
+      "image": "/images/pages/landing-pages--datachannel-vs-fivetran/tab-transformations.webp",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "eyebrow": "Enterprise Security",
+      "heading": "Security, Governance & Compliance",
+      "body": "Your data stays in your warehouse with end-to-end encryption and compliance (ISO, HIPAA, GDPR).",
+      "image": "/images/pages/landing-pages--datachannel-vs-fivetran/tab-security.webp"
+    }
+  ]
+}

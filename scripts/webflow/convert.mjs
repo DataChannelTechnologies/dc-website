@@ -10,6 +10,8 @@ import TurndownService from "turndown";
 const OUT = process.env.WEBFLOW_CACHE_DIR || ".webflow-cache", SITE = process.cwd();
 const load = (c) => JSON.parse(fs.readFileSync(`${OUT}/${c}.json`, "utf8")).items;
 const td = new TurndownService({ headingStyle: "atx", bulletListMarker: "-", codeBlockStyle: "fenced", emDelimiter: "*" });
+td.keep(["iframe"]); // embedded videos stay as raw HTML inside the Markdown
+td.addRule("figcaption", { filter: "figcaption", replacement: (c) => (c.trim() ? `\n\n*${c.trim()}*\n\n` : "") });
 
 const imageJobs = new Map(); // remote url -> local public path
 function localImage(url, collection) {
@@ -102,6 +104,47 @@ for (const { fieldData: f } of load("reverse-etl-destinations"))
     showVideo: !!f["show-video"], videoUrl: f["demo-video-link"]?.url || "",
     seoTitle: "", seoDescription: "",
   });
+
+// --- Blog, authors, tags, case studies, careers -----------------------------
+const authors = load("author"), bTags = load("blog-tag");
+const authorMap = byId(authors), bTagMap = byId(bTags);
+for (const { fieldData: f } of bTags)
+  write("blog-tags", f.slug, { name: f.name, slug: f.slug, color: f["tag-color"] || "", background: f["background-color"] || "", seoTitle: "", seoDescription: "" });
+for (const { fieldData: f } of authors)
+  write("authors", f.slug, { name: f.name, slug: f.slug, image: img(f.image, "authors"), seoTitle: "", seoDescription: "" });
+for (const item of load("blogs")) {
+  const f = item.fieldData;
+  write("blogs", f.slug, {
+    name: f.name, slug: f.slug,
+    date: date(item.createdOn), updated: date(item.lastPublished || item.lastUpdated),
+    summary: f["card-text"] || "", image: img(f.image, "blogs"),
+    tag: ref(bTagMap, f["blog-tag"], f.slug), author: ref(authorMap, f.author, f.slug),
+    readTime: f["time-to-read"] || "",
+    featuredOnBlogPage: !!f["featured-on-blog-page"], featureMain: !!f["feature-main"],
+    productTutorial: !!f["product-tutorial"], featureOnHomePage: !!f["feature-on-home-page"],
+    content: md(f["blog-content"], "blogs"),
+    seoTitle: "", seoDescription: "",
+  });
+}
+for (const { fieldData: f } of load("case-study"))
+  write("case-studies", f.slug, {
+    name: f.name.replace(/^["“]+|["”]+$/g, ""), slug: f.slug, companyName: f["company-name"] || "",
+    personName: f["people-name"] || "", personRole: f["people-position"] || "", personImage: img(f["people-image"], "case-studies"),
+    content: md(f["case-study-content"], "case-studies"),
+    seoTitle: f["seo-title"] || "", seoDescription: "",
+  });
+{
+  const raw = JSON.parse(fs.readFileSync(`${OUT}/career.json`, "utf8"));
+  const opt = (slug, id) => raw.schema.fields.find((x) => x.slug === slug)?.validations?.options?.find((o) => o.id === id)?.name || "";
+  for (const { fieldData: f } of raw.items)
+    write("careers", f.slug, {
+      name: f.name, slug: f.slug,
+      department: opt("career-department", f["career-department"]), location: opt("career-location-2", f["career-location-2"]),
+      workingTime: opt("career-working-time", f["career-working-time"]), departmentIcon: img(f["career-department-icon"], "careers"),
+      description: md(f["career-description-2"], "careers"),
+      seoTitle: "", seoDescription: "",
+    });
+}
 
 // Download images (8 at a time)
 const jobs = [...imageJobs.entries()];

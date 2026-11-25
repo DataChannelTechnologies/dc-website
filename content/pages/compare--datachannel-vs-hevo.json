@@ -1,0 +1,173 @@
+{
+  "title": "Compare: DataChannel vs Hevo",
+  "path": "/compare/datachannel-vs-hevo",
+  "seoTitle": "Compare DataChannel Vs Hevo",
+  "seoDescription": "Learn as to how you can save up to 50% in costs on your ETL & Reverse ETL projects by choosing DataChannel instead of Hevo",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Hevo Vs DataChannel",
+      "title": "Scale exponentially without worrying about excessive costs",
+      "subtitle": "Leverage the power of a reliable & scalable unified ETL & Reverse ETL platform while never worrying about exorbitant and inflated bills. [Try DataChannel](https://console.datachannel.co/register) as a Hevo alternative for free."
+    },
+    {
+      "type": "split",
+      "heading": "Feature rich & cost effective alternative to Hevo",
+      "bullets": [
+        "ETL & Reverse ETL within the same platform",
+        "Managed Data Warehouse Option",
+        "Advanced Data Orchestration",
+        "More than 40% cost savings",
+        "REST API for Pipeline automation",
+        "dbtCore™ and dbtCloud Integration"
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "",
+        "DataChannel",
+        "Hevo"
+      ],
+      "rows": [
+        {
+          "feature": "Plan Type",
+          "values": [
+            "Professional",
+            "Professional"
+          ]
+        },
+        {
+          "feature": "Rows Per Month",
+          "values": [
+            "50 M",
+            "50 M"
+          ]
+        },
+        {
+          "feature": "Reverse ETL",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse",
+          "values": [
+            "Managed Data Warehouse Option",
+            "No Option for Managed Data Warehouse"
+          ]
+        },
+        {
+          "feature": "Additional rows",
+          "values": [
+            "Additional Rows at $15 per M",
+            "Additional Rows at $25 per M"
+          ]
+        },
+        {
+          "feature": "Price",
+          "values": [
+            "$1199/month",
+            "$1499/month"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Migrate from Hevo for free",
+      "body": "You never need to worry about getting started. We’ll get you up and running fast.",
+      "image": "/images/pages/compare--datachannel-vs-hevo/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Request your migration",
+          "href": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "“DataChannel has greatly improved our ability to access data reliably that was previously challenging to obtain.”",
+          "body": "**Melvin Davis Vallully**\n\nHead of Data Analytics, Wow Skin Science",
+          "image": "/images/pages/compare--datachannel-vs-hevo/case-study-wow-skin-science.png",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wow-skin-science"
+          }
+        },
+        {
+          "title": "“DataChannel is flexible and scalable. It has everything we need, from granular control over data we are integrating to a quick turnaround time by the support team.”",
+          "body": "**Puneet Tripathi**\n\nHead of Analytics at Wakefit",
+          "image": "/images/pages/compare--datachannel-vs-hevo/case-study-wakefit.png",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wakefit-datachannel"
+          }
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "See how business teams can use DataChannel",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Digital Marketing & Analytics",
+          "body": "Achieve improved and insightful marketing reports with seamless data automation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/digital-marketing"
+          }
+        },
+        {
+          "icon": "database",
+          "title": "Data Engineers & Analysts",
+          "body": "No more complicated data or clogged silos. With DataChannel the data is constantly prepared for analysis.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/data-engineers-analysts"
+          }
+        },
+        {
+          "icon": "code",
+          "title": "IT, Product Teams & Engineering",
+          "body": "Get a reliable, scalable, and precise solution for data collection and transformation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us · Free hands-on onboarding & support · Simple usage based pricing",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "title": "Landing page: ETL tools",
+  "path": "/landing-pages/etl-tools",
+  "seoTitle": "DataChannel - Reliable Automated ELT & Reverse ETL platform",
+  "seoDescription": "DataChannel is a cloud based data integration, ELT and reverse ETL platform to automate the data collection, preparation and management process of all your marketing, CRM, financial & operational data.",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "The modern data pipeline - ETL, Reverse ETL, Transformations in one",
+      "subtitle": "Automate ELT & ETL, transform data with dbt/SQL and activate clean data across your stack - all from a single compliance ready platform",
+      "perks": [
+        "200+ connectors",
+        "40% average ETL cost savings",
+        "1000+ man hours saved per month",
+        "premium support",
+        "4.8/5 on G2",
+        "4.8/5 on Capterra",
+        "14 Day Free Trial"
+      ]
+    },
+    {
+      "type": "form",
+      "heading": "Get a personalized walkthrough of DataChannel",
+      "body": "By clicking on book a demo, you acknowledge having read our [privacy policy](/privacy-policy)",
+      "form": "lead",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "required": true,
+          "placeholder": "Full Name"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Work Email"
+        }
+      ],
+      "submitLabel": "Get a free 30-min demo",
+      "successMessage": "Thank you! Your submission has been received!",
+      "redirectTo": "/landing-pages/book-demo"
+    },
+    {
+      "type": "logos"
+    },
+    {
+      "type": "split",
+      "heading": "Single platform for data movement",
+      "body": "Save upto 70% by replacing multiple tools with DataChannel",
+      "image": "/images/pages/landing-pages--etl-tools/data-movement.webp",
+      "muted": true
+    },
+    {
+      "type": "richText",
+      "heading": "Everything a modern data engineering team needs — in a single platform",
+      "body": "ETL & Reverse ETL · Ask Neo AI · Data Orchestration · Transformations · Security"
+    },
+    {
+      "type": "split",
+      "eyebrow": "ETL & Reverse ETL",
+      "heading": "No-Code, Cloud Native ETL and Reverse ETL pipelines - setup in minutes",
+      "body": "Set up no-code pipelines in minutes. Stream data both ways and unify sources for faster insights.",
+      "bullets": [
+        "Built to scale with high-volume syncs",
+        "Secured with end-to-end encryption",
+        "Fully automated with retries & alerts",
+        "Works seamlessly with 200+ connectors"
+      ],
+      "image": "/images/pages/landing-pages--etl-tools/etl-reverse-etl.webp",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Ask Neo AI",
+      "heading": "AI Powered natural language based AI assistant",
+      "body": "Get instant answers, charts, and dashboards in plain English with Neo, your built-in AI data analyst.",
+      "bullets": [
+        "Neo works with your business context and data",
+        "No need to learn SQL to perform data analysis",
+        "Granular access controls to stay compliant",
+        "Rich interactive visualizations"
+      ],
+      "image": "/images/pages/landing-pages--etl-tools/ask-neo-ai.webp",
+      "imagePosition": "left"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Data Orchestration",
+      "heading": "Visually design and monitor your data pipelines and workflows",
+      "body": "Visualize workflows, manage dependencies, and schedule jobs with retry logic and backfills built in.",
+      "bullets": [
+        "Intuitive drag & drop UI to create complex workflows",
+        "Set up retries and conditional execution logic",
+        "Monitor state of execution of every node",
+        "Detailed logs and notifications"
+      ],
+      "image": "/images/pages/landing-pages--etl-tools/data-orchestration.webp",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Transformations",
+      "heading": "SQL & dbtCore based data transformations",
+      "body": "Run unlimited SQL and dbt transformations inside DataChannel without add-ons",
+      "bullets": [
+        "Use SQL or dbtCore to transform data",
+        "Free unlimited transformation runs",
+        "Detailed logs and alerts",
+        "Schedule runs after data refreshes through Orchestration"
+      ],
+      "image": "/images/pages/landing-pages--etl-tools/transformations.webp",
+      "imagePosition": "left"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Security",
+      "heading": "Security, Governance & Compliance",
+      "body": "Your data stays in your warehouse with end-to-end encryption and compliance (ISO, HIPAA, GDPR).",
+      "bullets": [
+        "Stay compliant with complete peace of mind",
+        "Trusted partner with leading platforms",
+        "Highest rated product for quality of support",
+        "Highest value for money spent"
+      ],
+      "image": "/images/pages/landing-pages--etl-tools/security.webp",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "heading": "Ready to talk to our team?",
+      "muted": true,
+      "body": "Schedule a call with our support specialists to discuss your specific needs and migration requirements.",
+      "image": "/images/pages/landing-pages--etl-tools/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Book a Demo",
+          "href": "/book-a-demo"
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "“DataChannel makes ETL easy, effective & efficient.” - Tom Murray",
+      "body": "**Managing Director, Jump 450 Media**\n\nAll we did was set up a few pipelines by entering our credentials and tweaking some source-specific parameters like breakdown criteria, frequency of update, etc. to suit our client’s needs, and that’s it. Now, thirty different sources are being automatically aggregated & delivered into our AWS Redshift warehouse, at a granularity and frequency of our choosing without us ever writing a single piece of code whatsoever."
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "headline": "DataChannel is flexible and scalable.",
+          "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "image": "/images/testimonials/puneet-tripathi.jpg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "25",
+              "label": "man hours saved per month"
+            }
+          ]
+        },
+        {
+          "headline": "DataChannel redefines your relationship with data.",
+          "quote": "Our team simply loves DataChannel, it enables them to make data-driven marketing decisions and that too in real-time.",
+          "name": "Kshitij N",
+          "role": "Marketing Analyst",
+          "image": "/images/testimonials/kshitij-review.jpeg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "50",
+              "label": "man hours saved per month"
+            }
+          ]
+        },
+        {
+          "headline": "DataChannel is a reliable data ETL and replication partner.",
+          "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built in dashboards on our advertising channels. DataChannel helped us save tons of time with the repetitive data download, cleaning, and aggregation.",
+          "name": "Emily L",
+          "role": "Co-founder, Small Business",
+          "image": "/images/testimonials/emily-review.jpeg",
+          "stats": [
+            {
+              "value": "8",
+              "label": "data sources connected"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

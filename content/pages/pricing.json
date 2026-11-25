@@ -1,0 +1,443 @@
+{
+  "title": "Pricing",
+  "path": "/pricing",
+  "seoTitle": "Pricing",
+  "seoDescription": "DataChannel provides transparent & straightforward pricing for organizations of all sizes. Learn more about our pricing plans, including the benefits available to our clients.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Pricing",
+      "title": "Simple & Transparent pricing.",
+      "subtitle": "Find a plan that is right for you, try it free for 14 days\n\nThe only platform combining ETL, Reverse ETL, Data Orchestration, and Unlimited Transformations with generative AI based insights directly from your data warehouse",
+      "align": "center"
+    },
+    {
+      "type": "pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$399",
+          "period": "/month",
+          "description": "5 Million Rows per month. $25 per million rows after 5 million",
+          "features": [
+            "Unlimited Data Sources (ETL)",
+            "Unlimited Data Destinations (Reverse ETL)",
+            "Unlimited Orchestration flows",
+            "Unlimited Data Transformations - SQL & dbtCore™",
+            "Unlimited Users",
+            "Email & Ticket Support",
+            "ISO & GDPR Compliant, Meets HIPAA Requirements"
+          ],
+          "cta": {
+            "label": "Get started",
+            "href": "https://console.datachannel.co/register"
+          }
+        },
+        {
+          "name": "Professional",
+          "price": "$899",
+          "period": "/month",
+          "description": "30 Million rows per month. $15 per million rows after 30 million",
+          "features": [
+            "Everything in Starter",
+            "Custom Connector Development",
+            "Management API Access",
+            "Guided On-Boarding",
+            "Unlimited Users",
+            "Unlimited Log Retention",
+            "Email, Tickets & Chat support",
+            "ISO & GDPR Compliant, Meets HIPAA Requirements"
+          ],
+          "cta": {
+            "label": "Get started",
+            "href": "https://console.datachannel.co/register"
+          },
+          "highlighted": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "$1999",
+          "period": "/month onwards",
+          "description": "For large companies and enterprise data teams",
+          "features": [
+            "Everything in Professional plan",
+            "Create Multiple Workspaces",
+            "Dedicated Slack support",
+            "Dedicated Account Manager",
+            "Priority Custom Connector Development",
+            "Custom Terms & Redlines",
+            "ISO & GDPR Compliant, Meets HIPAA Requirements"
+          ],
+          "cta": {
+            "label": "Talk To Sales",
+            "href": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+          }
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Choose your optional add-ons to complement and complete your plan",
+      "columns": 2,
+      "items": [
+        {
+          "icon": "sparkles",
+          "title": "Ask Neo (AI Data Analyst)",
+          "body": "Query your data warehouse in plain simple English and get real-time responses and insights\n\n**$99 / month**\n\nIncludes: 500 Questions per month\n\nAdditional questions at $5 for every 25 questions"
+        },
+        {
+          "icon": "database",
+          "title": "Managed Google BigQuery Data Warehouse",
+          "body": "Don't have a Data Warehouse or a team to manage one? Let DataChannel provision and manage it for you.\n\n**$200 / month**\n\nIncludes: 50 GB of data storage\n\nAdditional storage at $100 per 50 GB"
+        }
+      ]
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "richText",
+      "heading": "“DataChannel makes ETL easy, effective & efficient.” - Tom Murray",
+      "body": "*Managing Director, Jump 450 Media*\n\n> All we did was set up a few pipelines by entering our credentials and tweaking some source-specific parameters like breakdown criteria, frequency of update, etc. to suit our client’s needs, and that’s it. Now, thirty different sources are being automatically aggregated & delivered into our AWS Redshift warehouse, at a granularity and frequency of our choosing without us ever writing a single piece of code whatsoever.",
+      "muted": true
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "headline": "DataChannel is flexible and scalable.",
+          "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "25",
+              "label": "man hours saved per month"
+            }
+          ],
+          "image": "/images/testimonials/puneet-tripathi.jpg"
+        },
+        {
+          "headline": "DataChannel redefines your relationship with data.",
+          "quote": "Our team simply loves DataChannel, it enables them to make data-driven marketing decisions and that too in real-time.",
+          "name": "Kshitij N",
+          "role": "Marketing Analyst",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "50",
+              "label": "man hours saved per month"
+            }
+          ],
+          "image": "/images/testimonials/kshitij-review.jpeg"
+        },
+        {
+          "headline": "DataChannel is a reliable data ETL and replication partner.",
+          "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built in dashboards on our advertising channels. Data Channel helped us save tons of time with the repetitive data download, cleaning, and aggregation.",
+          "name": "Emily L",
+          "role": "Co-founder, Small Business",
+          "stats": [
+            {
+              "value": "8",
+              "label": "data sources connected"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ],
+          "image": "/images/testimonials/emily-review.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "heading": "Compare Plans By Features",
+      "columns": [
+        "Features",
+        "Forever Free",
+        "Starter",
+        "Professional",
+        "Enterprise"
+      ],
+      "highlightColumn": 3,
+      "rows": [
+        {
+          "feature": "Rows included per month",
+          "values": [
+            "1 Million",
+            "5 Million",
+            "20 Million",
+            "Billions of rows"
+          ]
+        },
+        {
+          "feature": "Additional rows",
+          "values": [
+            "no",
+            "$ 25 / million",
+            "$10 / million",
+            "Custom pricing"
+          ]
+        },
+        {
+          "feature": "Data Sources",
+          "values": [
+            "2",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse",
+          "values": [
+            "50 GB",
+            "Add On",
+            "Add On",
+            "Custom pricing"
+          ]
+        },
+        {
+          "feature": "Connect own Data Warehouse",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Reverse ETL",
+          "values": [
+            "✓ (01 Destination)",
+            "✓ (02 Destinations)",
+            "✓ (04 Destinations)",
+            "✓ (Unlimited)"
+          ]
+        },
+        {
+          "feature": "User Accounts",
+          "values": [
+            "5",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited"
+          ]
+        },
+        {
+          "feature": "Transformations",
+          "values": [
+            "20",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited"
+          ]
+        },
+        {
+          "feature": "Data Models",
+          "values": [
+            "20",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited"
+          ]
+        },
+        {
+          "feature": "Ingestion Log Retention",
+          "values": [
+            "7 Days",
+            "90 Days",
+            "1 year",
+            "Unlimited"
+          ]
+        },
+        {
+          "feature": "Advanced Scheduling",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "1:1 Assisted On-Boarding",
+          "values": [
+            "no",
+            "no",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Security Certifications",
+          "values": [
+            "ISO, HIPAA & GDPR",
+            "ISO, HIPAA & GDPR",
+            "ISO, HIPAA & GDPR",
+            "ISO, HIPAA & GDPR"
+          ]
+        },
+        {
+          "feature": "Custom Connector On Request",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "Priority"
+          ]
+        },
+        {
+          "feature": "Historical Data Load",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Templatized BI Dashboards",
+          "values": [
+            "no",
+            "no",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Dedicated Data Architect",
+          "values": [
+            "no",
+            "no",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Dedicated Account Manager",
+          "values": [
+            "no",
+            "no",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Multiple Destination Support",
+          "values": [
+            "no",
+            "no",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Custom Terms & Redlines",
+          "values": [
+            "no",
+            "no",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Support",
+          "values": [
+            "24x5 Email",
+            "Email & Tickets",
+            "Email, Tickets & Chat",
+            "Slack, Email & Chat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Start leveraging your data in minutes",
+      "body": "Select from a growing library of 100+ fully managed connectors and 20+ destinations - SaaS apps, databases, data warehouses, and more.",
+      "image": "/images/pages/pricing/integrations.png",
+      "imagePosition": "right",
+      "ctas": [
+        {
+          "label": "View all integrations",
+          "href": "/integrations"
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "We are here to help!",
+      "body": "Ask us anything or schedule a demo",
+      "image": "/images/pages/pricing/aakriti-chopra.png",
+      "imagePosition": "left",
+      "ctas": [
+        {
+          "label": "Reach out to us",
+          "href": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "faq",
+      "heading": "Got questions?",
+      "subtitle": "We are here to help. We will be glad to address any queries you may have about billing and pricing.",
+      "items": [
+        {
+          "question": "What does the Free Trial include?",
+          "answer": "We offer a no-commitment trial, with access to all destinations and features, for 14 days. After that, your account will convert into a Free plan."
+        },
+        {
+          "question": "Can I ask for help setting up DataChannel?",
+          "answer": "Yes. We’re happy to help customers regardless of their size. Please email us and book a time with us and we’ll make sure set up is as effortless as possible."
+        },
+        {
+          "question": "What if you do not have an integration I need?",
+          "answer": "We would be happy to build it for you. For our Enterprise plan customers we do so on-priority. Write to us with your request at [support@datachannel.co](mailto:support@datachannel.co)"
+        },
+        {
+          "question": "What is DataChannel managed data warehouse?",
+          "answer": "If you wish to avoid the hefty cost of creating and managing your own data warehouse, you can use our professionally trained DBAs and host your the data in our secure cloud-hosted data warehouse with options to choose between AWS Redshift or Google Bigquery."
+        },
+        {
+          "question": "Can I get support for my Data Visualization or Dashboarding requirements?",
+          "answer": "Yes. We have a number of implementation partners with Data Visualization experts having extensive experience of working with various technologies like Tableau, PowerBI, Klipfolio, Amazon QuickSights, Google Data Studio."
+        },
+        {
+          "question": "I have more questions. Where can I find answers?",
+          "answer": "Please reach out to our sales team at [sales@datachannel.co](mailto:sales@datachannel.co) and book a time with our specialists. We will get back to you at the earliest."
+        },
+        {
+          "question": "How does your pricing compare with alternatives?",
+          "answer": "We are proud to have one of the most fair and competitive offerings. Please visit this [comparison](/compare) page to see how we stack up against our competitors."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "title": "Solutions: Digital Marketing & Analytics",
+  "path": "/solutions/digital-marketing",
+  "seoTitle": "Digital Marketing & Analytics",
+  "seoDescription": "Learn how DataChannel helps Digital Marketing teams and Marketing Analysts make sense of their data by integrating data from all their advertising platforms and tools into a single data warehouse.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Digital Marketing & Analytics",
+      "title": "Empowering digital marketers with rapid insights",
+      "subtitle": "Provide marketing teams rapid access to fresh data from all advertising platforms and marketing automation tools, anytime they need it. Sync customer data across all platforms seamlessly",
+      "ctas": [
+        {
+          "label": "Start Free Trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "image": "/images/pages/solutions--digital-marketing/hero.webp"
+    },
+    {
+      "type": "richText",
+      "heading": "DataChannel makes it effortless to work with marketing data",
+      "body": "It shouldn’t be complicated to get the data you need. DataChannel offers you point-and-click control so you can easily integrate data from all marketing channels & get a complete picture of your performance"
+    },
+    {
+      "type": "split",
+      "heading": "Collect data from anywhere & send it wherever you need to",
+      "body": "With integrations to all key marketing platforms, getting your data is a breeze. Build reports and dashboards wherever you like. Whether it’s Google Data Studio, or a data warehouse export, we support it",
+      "image": "/images/pages/solutions--digital-marketing/collect-data.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "heading": "Get immediate insights into marketing performance metrics and optimize your ROAS",
+      "body": "DataChannel makes it easy to swiftly integrate data from critical marketing platforms, including advertising channels, CRMs, email marketing, and more, into a cloud data warehouse for analysis. Take the guesswork out of your performance metrics, no code or engineering resources required. Connect your favorite BI tools to create powerful reports and dashboards for your campaign performance",
+      "image": "/images/pages/solutions--digital-marketing/cohorts-by-state.png",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Hyper personalize your campaigns with quality data",
+      "body": "Run hyper-personalized campaigns across your marketing platforms. Manage your segments and audiences in a single place. Experiment without asking for engineering favors",
+      "image": "/images/pages/solutions--digital-marketing/personalise-campaigns.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Automate your data transfer with reliable, scalable and stable pipelines",
+      "columns": 4,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "settings",
+          "title": "Granular control over pipeline configuration"
+        },
+        {
+          "icon": "clock",
+          "title": "Advanced scheduling options"
+        },
+        {
+          "icon": "refresh",
+          "title": "Automated handling of source schema changes"
+        },
+        {
+          "icon": "code",
+          "title": "SQL Model Builder & Editor"
+        },
+        {
+          "icon": "layers",
+          "title": "Multiple Sync Behaviors - Upsert, Replace or Append"
+        },
+        {
+          "icon": "bell",
+          "title": "Set up alerts directly on top of your data warehouse"
+        },
+        {
+          "icon": "lock",
+          "title": "Secure credential management with OAuth2"
+        },
+        {
+          "icon": "chart",
+          "title": "Activity & change history tracking"
+        },
+        {
+          "icon": "zap",
+          "title": "Real time alerts & failure notifications"
+        },
+        {
+          "icon": "database",
+          "title": "Preview data without ever leaving the platform"
+        },
+        {
+          "icon": "file",
+          "title": "Extensive documentation & on-screen help"
+        },
+        {
+          "icon": "shield",
+          "title": "Comprehensive Logs & complete visibility of pipeline health"
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "image": "/images/pages/solutions--digital-marketing/case-study-plix.webp",
+          "title": "“DataChannel did all of what we asked for at scale without any major roadblocks along the way.”",
+          "body": "**Rishubh Satiya**  \nCo-founder & CEO at Plix",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/plixlife"
+          }
+        },
+        {
+          "image": "/images/pages/solutions--digital-marketing/case-study-better-being.webp",
+          "title": "“What we love about DataChannel is the consistent data flow and reliability of data pipelines.”",
+          "body": "**Youval Peltier**  \nVP eCommerce Marketing & Analytics",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/betterbeing-datachannel"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

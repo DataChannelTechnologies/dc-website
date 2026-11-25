@@ -1,0 +1,149 @@
+{
+  "title": "Solutions: IT, Product Teams & Engineering",
+  "path": "/solutions/it-product-teams-engineering",
+  "seoTitle": "IT, Product Teams & Engineering",
+  "seoDescription": "Learn how DataChannel helps IT, Product Teams & Engineering teams make sense of their data by integrating data from all their data sources and tools into a single data warehouse.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "IT, Product Teams & Engineering",
+      "title": "Streamline your processes for greater efficiency",
+      "subtitle": "DataChannel does the tedious work to provide you with stable & scalable data infrastructure. So that your team can focus on scaling your reporting and analysis efforts",
+      "ctas": [
+        {
+          "label": "Start Free Trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "image": "/images/pages/solutions--it-product-teams-engineering/hero.png"
+    },
+    {
+      "type": "richText",
+      "heading": "Faster time to value for data",
+      "body": "Power reporting, monitor all your KPIs and always be on top of your business performance metrics"
+    },
+    {
+      "type": "split",
+      "heading": "Assured data integrity",
+      "body": "Always maintain your data’s accuracy and granularity. Clean and prepare your data without ever affecting the raw data",
+      "image": "/images/pages/solutions--it-product-teams-engineering/data-integrity.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "heading": "Create a future-proof solution",
+      "body": "No matter how your tech stack changes, we will support you. You have complete flexibility and choose to change the data warehouse or the reporting solution",
+      "image": "/images/pages/solutions--it-product-teams-engineering/future-proof-solution.png",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Get complete observability with latest version of your customers data",
+      "body": "DataChannel ensures your models are using the latest data from the right sources, all in your warehouse. This improves the quality and confidence of your reporting in your BI tool or in Google Sheets with our integration that keeps the reports in sync",
+      "image": "/images/pages/solutions--it-product-teams-engineering/observability.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Automate your data transfer with reliable, scalable and stable pipelines",
+      "columns": 4,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "settings",
+          "title": "Granular control over pipeline configuration"
+        },
+        {
+          "icon": "clock",
+          "title": "Advanced scheduling options"
+        },
+        {
+          "icon": "refresh",
+          "title": "Automated handling of source schema changes"
+        },
+        {
+          "icon": "code",
+          "title": "SQL Model Builder & Editor"
+        },
+        {
+          "icon": "layers",
+          "title": "Multiple Sync Behaviors - Upsert, Replace or Append"
+        },
+        {
+          "icon": "bell",
+          "title": "Set up alerts directly on top of your data warehouse"
+        },
+        {
+          "icon": "lock",
+          "title": "Secure credential management with OAuth2"
+        },
+        {
+          "icon": "chart",
+          "title": "Activity & change history tracking"
+        },
+        {
+          "icon": "zap",
+          "title": "Real time alerts & failure notifications"
+        },
+        {
+          "icon": "database",
+          "title": "Preview data without ever leaving the platform"
+        },
+        {
+          "icon": "file",
+          "title": "Extensive documentation & on-screen help"
+        },
+        {
+          "icon": "shield",
+          "title": "Comprehensive Logs & complete visibility of pipeline health"
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "image": "/images/pages/solutions--it-product-teams-engineering/case-study-jump.webp",
+          "title": "“DataChannel makes ETL easy, effective & efficient.”",
+          "body": "**Tom Murray**  \nManaging Director, Jump 450 Media",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/jump-450-media"
+          }
+        },
+        {
+          "image": "/images/pages/solutions--it-product-teams-engineering/case-study-blissclub.webp",
+          "title": "“DataChannel has helped us gain access to real-time data quickly, helping us smoothen out the bottlenecks faced while analyzing data.”",
+          "body": "**Minu Margeret**  \nFounder & CEO at BlissClub",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/blissclub-datachannel"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

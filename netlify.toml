@@ -11,3 +11,27 @@
   from = "/admin"
   to = "/admin/"
   status = 301
+
+# Redirects carried over from Webflow (Site settings -> Publishing -> 301 redirects).
+# Only /pricing-old was discoverable from outside; add the rest of Webflow's list here.
+[[redirects]]
+  from = "/pricing-old"
+  to = "/pricing"
+  status = 301
+
+# Webflow Ecommerce system pages: no equivalent outside Webflow, so send their
+# (indexed) URLs to pricing with a permanent redirect.
+[[redirects]]
+  from = "/checkout"
+  to = "/pricing"
+  status = 301
+
+[[redirects]]
+  from = "/paypal-checkout"
+  to = "/pricing"
+  status = 301
+
+[[redirects]]
+  from = "/order-confirmation"
+  to = "/pricing"
+  status = 301

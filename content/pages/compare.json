@@ -1,0 +1,160 @@
+{
+  "title": "Compare (competitor comparisons index)",
+  "path": "/compare",
+  "seoTitle": "Competitor Feature Comparison - DataChannel",
+  "seoDescription": "Which is better for your company: single ETL & Reverse ETL Platform or multiple over priced tools? Learn why DataChannel is the right solution for your business.",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "See how DataChannel stacks up against competition",
+      "subtitle": "Integrate data from multiple data sources to any data warehouse. Activate your data and empower your business teams.",
+      "ctas": [
+        {
+          "label": "Start your free trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "perks": [
+        "Free 14 Day Trial",
+        "No credit card needed",
+        "Setup in minutes"
+      ],
+      "embed": {
+        "kind": "video",
+        "url": "https://www.youtube.com/watch?v=WCmn4k54p18"
+      }
+    },
+    {
+      "type": "featureGrid",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Fivetran",
+          "body": "Compare the features & pricing of DataChannel & Fivetran. Learn how you can save more than 300% on cost by choosing DataChannel over Fivetran.",
+          "link": {
+            "label": "Compare Fivetran",
+            "href": "/compare/datachannel-vs-fivetran"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Hevo",
+          "body": "Compare the features & pricing of DataChannel & Hevo. Learn about the advantages of using a feature rich and easy to use platform like DataChannel over Hevo",
+          "link": {
+            "label": "Compare Hevo",
+            "href": "/compare/datachannel-vs-hevo"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Funnel",
+          "body": "Compare the features & pricing of DataChannel & Funnel. Learn how you can save more than 250% on costs by using a unified ETL & Reverse ETL tool",
+          "link": {
+            "label": "Compare Funnel",
+            "href": "/compare/datachannel-vs-funnel"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Airbyte",
+          "body": "Compare the features & pricing of DataChannel & Airbyte. Learn how you can save more than 200% on cost by choosing DataChannel over Airbyte Cloud.",
+          "link": {
+            "label": "Compare Airbyte",
+            "href": "/compare/datachannel-vs-airbyte"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Supermetrics",
+          "body": "Compare the features & pricing of DataChannel & Supermetrics. Learn about the advantages of using DataChannel over Supermetrics",
+          "link": {
+            "label": "Compare Supermetrics",
+            "href": "/compare/datachannel-vs-supermetrics"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Hightouch",
+          "body": "Compare the features & pricing of DataChannel & Hightouch. Learn how you can save more than 300% on costs by choosing DataChannel over Hightouch",
+          "link": {
+            "label": "Compare Hightouch",
+            "href": "/compare/datachannel-vs-hightouch"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Census",
+          "body": "Compare the features & pricing of DataChannel & Census. Learn how you can save more than 300% on cost by choosing DataChannel over Census.",
+          "link": {
+            "label": "Compare Census",
+            "href": "/compare/datachannel-vs-census"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Stitch",
+          "body": "Compare the features & pricing of DataChannel & Stitch. Learn about the advantages of using a unified ETL & Reverse ETL platform like DataChannel over Stitch",
+          "link": {
+            "label": "Compare Stitch",
+            "href": "/compare/datachannel-vs-stitch"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": "DataChannel Vs Flywheel",
+          "body": "Compare the features & pricing of DataChannel & Flywheel. Learn about the advantages of using a unified ETL & Reverse ETL platform like DataChannel over Flywheel",
+          "link": {
+            "label": "Compare Flywheel",
+            "href": "/compare/datachannel-vs-flywheel"
+          }
+        }
+      ]
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "“DataChannel was the perfect solution we were looking for to democratize our data across multiple teams and tools seamlessly.”",
+          "body": "**Siva**\n\nCEO at Nimble Wireless",
+          "image": "/images/pages/compare/case-study-nimble-wireless.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/nimble-wireless-datachannel"
+          }
+        },
+        {
+          "title": "“DataChannel makes ETL easy, effective & efficient.”",
+          "body": "**Tom Murray**\n\nManaging Director, Jump 450 Media",
+          "image": "/images/pages/compare/case-study-jump-450-media.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/jump-450-media"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us · Free hands-on onboarding & support · Simple usage based pricing",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

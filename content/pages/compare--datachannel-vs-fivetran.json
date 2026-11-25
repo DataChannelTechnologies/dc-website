@@ -1,0 +1,174 @@
+{
+  "title": "Compare: DataChannel vs Fivetran",
+  "path": "/compare/datachannel-vs-fivetran",
+  "seoTitle": "DataChannel Vs Fivetran",
+  "seoDescription": "Learn as to how you can use a single platform for both ETL & Reverse ETL &  save 300% in costs on your projects by choosing DataChannel instead of Fivetran",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Fivetran Vs DataChannel",
+      "title": "Use a single platform for all your ETL & Reverse ETL needs",
+      "subtitle": "What if you could pay 3x less for better features? Stop wasting time and money on multiple over priced tools and switch to DataChannel for a unified ETL & Reverse ETL platform. [Try DataChannel](https://console.datachannel.co/register) as a Fivetran alternative for free."
+    },
+    {
+      "type": "split",
+      "heading": "All the features at a fraction of the cost",
+      "bullets": [
+        "ETL & Reverse ETL within the same platform",
+        "Managed Data Warehouse Option",
+        "Unlimited users & data sources",
+        "dbt™ integration",
+        "More than 200% cost savings",
+        "Simple usage based pricing (No MAR complexity)",
+        "Advanced Data Orchestration"
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "",
+        "DataChannel",
+        "Fivetran"
+      ],
+      "rows": [
+        {
+          "feature": "Plan Type",
+          "values": [
+            "Professional",
+            "Standard"
+          ]
+        },
+        {
+          "feature": "Rows Per Month",
+          "values": [
+            "30 M",
+            "30 M"
+          ]
+        },
+        {
+          "feature": "Reverse ETL",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse",
+          "values": [
+            "Managed Data Warehouse Option",
+            "No Managed Data Warehouse"
+          ]
+        },
+        {
+          "feature": "On-boarding",
+          "values": [
+            "Assisted On-Boarding",
+            "No on-boarding assistance"
+          ]
+        },
+        {
+          "feature": "Price",
+          "values": [
+            "$899/month",
+            "$5000/month"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Migrate from Fivetran for free",
+      "body": "You never need to worry about getting started. We’ll get you up and running fast.",
+      "image": "/images/pages/compare--datachannel-vs-fivetran/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Request your migration",
+          "href": "#"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "“DataChannel did all of what we asked for at scale without any major roadblocks along the way.”",
+          "body": "**Rishubh Satiya**\n\nCo-founder & CEO at Plix",
+          "image": "/images/pages/compare--datachannel-vs-fivetran/case-study-plix.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/plixlife"
+          }
+        },
+        {
+          "title": "“DataChannel truly streamlined our approach to extracting insights from our partner marketing platforms.”",
+          "body": "**Timothy T**\n\nCEO, Joy Wallet",
+          "image": "/images/pages/compare--datachannel-vs-fivetran/case-study-joywallet.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/joywallet"
+          }
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "See how business teams can use DataChannel",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Digital Marketing & Analytics",
+          "body": "Achieve improved and insightful marketing reports with seamless data automation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/digital-marketing"
+          }
+        },
+        {
+          "icon": "database",
+          "title": "Data Engineers & Analysts",
+          "body": "No more complicated data or clogged silos. With DataChannel the data is constantly prepared for analysis.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/data-engineers-analysts"
+          }
+        },
+        {
+          "icon": "code",
+          "title": "IT, Product Teams & Engineering",
+          "body": "Get a reliable, scalable, and precise solution for data collection and transformation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us · Free hands-on onboarding & support · Simple usage based pricing",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "title": "Landing page: DataChannel vs Airbyte (datachannelvsairbyte)",
+  "path": "/landing-pages/datachannelvsairbyte",
+  "seoTitle": "DataChannelVsAirbyte",
+  "seoDescription": "DataChannel is a cloud based data integration and reverse ETL platform to automate the data collection, preparation and management process of all your marketing, CRM, financial & operational data.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Airbyte Vs DataChannel",
+      "title": "Scale exponentially without worrying about excessive costs",
+      "subtitle": "Leverage the power of a reliable & scalable unified ETL & Reverse ETL platform while never worrying about exorbitant and inflated bills.\n\n[Try DataChannel](https://console.datachannel.co/register) as a Airbyte alternative for free."
+    },
+    {
+      "type": "form",
+      "form": "lead",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Full Name"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Work Email"
+        }
+      ],
+      "submitLabel": "Get a free 30-min demo",
+      "successMessage": "Thank you! Your submission has been received!",
+      "redirectTo": "/landing-pages/book-demo"
+    },
+    {
+      "type": "split",
+      "heading": "Feature rich & cost effective alternative to Airbyte",
+      "bullets": [
+        "ETL & Reverse ETL within the same platform",
+        "Managed Data Warehouse Option",
+        "Advanced Data Orchestration",
+        "More than 15% cost savings",
+        "REST API for Pipeline automation",
+        "dbtCore™ and dbtCloud Integration"
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "",
+        "DataChannel",
+        "Airbyte"
+      ],
+      "rows": [
+        {
+          "feature": "Plan Type",
+          "values": [
+            "Professional",
+            "Professional"
+          ]
+        },
+        {
+          "feature": "Rows Per Month",
+          "values": [
+            "50 M",
+            "50 M"
+          ]
+        },
+        {
+          "feature": "Reverse ETL",
+          "values": [
+            "yes",
+            "no"
+          ]
+        },
+        {
+          "feature": "Managed Data Warehouse",
+          "values": [
+            "Managed Data Warehouse Option",
+            "No Option for Managed Data Warehouse"
+          ]
+        },
+        {
+          "feature": "Additional rows",
+          "values": [
+            "Additional Rows at $15 per M",
+            "Additional Rows at $25 per M"
+          ]
+        },
+        {
+          "feature": "Price",
+          "values": [
+            "$1199/month",
+            "$1349/month"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "quote": "DataChannel is flexible and scalable.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "image": "/images/testimonials/puneet-tripathi.jpg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "25",
+              "label": "manhours saved per month"
+            }
+          ]
+        },
+        {
+          "quote": "DataChannel redefines your relationship with data.",
+          "name": "Kshitij N",
+          "role": "Marekting Data Analyst",
+          "image": "/images/testimonials/kshitij-review.jpeg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "50",
+              "label": "manhours saved per month"
+            }
+          ]
+        },
+        {
+          "quote": "DataChannel is a reliable ETL and replication partner.",
+          "name": "Emily L",
+          "role": "Co-Founder @ Small Business",
+          "image": "/images/testimonials/emily-review.jpeg",
+          "stats": [
+            {
+              "value": "8",
+              "label": "datasources integrated"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "logos"
+    },
+    {
+      "type": "split",
+      "heading": "Migrate from Airbyte for free",
+      "body": "You never need to worry about getting started. We’ll get you up and running fast.",
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Request your migration",
+          "href": "/landing-pages/book-demo"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Single platform for data movement",
+      "body": "Save upto 70% by replacing multiple tools with DataChannel",
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/data-movement.webp"
+    },
+    {
+      "type": "richText",
+      "heading": "Everything a modern data engineering team needs — in a single platform",
+      "body": "ETL & Reverse ETL · Ask Neo AI · Data Orchestration · Transformations · Security"
+    },
+    {
+      "type": "split",
+      "eyebrow": "ETL & Reverse ETL",
+      "heading": "No-Code, Cloud Native ETL and Reverse ETL pipelines - setup in minutes",
+      "body": "Set up no-code pipelines in minutes. Stream data both ways and unify sources for faster insights.",
+      "bullets": [
+        "Built to scale with high-volume syncs",
+        "Secured with end-to-end encryption",
+        "Fully automated with retries & alerts",
+        "Works seamlessly with 200+ connectors"
+      ],
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/tab-etl-reverse-etl.webp"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Ask Neo AI",
+      "heading": "AI Powered natural language based AI assistant",
+      "body": "Get instant answers, charts, and dashboards in plain English with Neo, your built-in AI data analyst.",
+      "bullets": [
+        "Neo works with your business context and data",
+        "No need to learn SQL to perform data analysis",
+        "Granular access controls to stay compliant",
+        "Rich interactive visualizations"
+      ],
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/tab-ask-neo.webp",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "eyebrow": "Data Orchestration",
+      "heading": "Visually design and monitor your data pipelines and workflows",
+      "body": "Visualize workflows, manage dependencies, and schedule jobs with retry logic and backfills built in.",
+      "bullets": [
+        "Intuitive drag & drop UI to create complex workflows",
+        "Set up retries and conditional execution logic",
+        "Monitor state of execution of every node",
+        "Detailed logs and notifications"
+      ],
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/tab-orchestration.webp"
+    },
+    {
+      "type": "split",
+      "eyebrow": "Transformations",
+      "heading": "SQL & dbtCore based data transformations",
+      "body": "Run unlimited SQL and dbt transformations inside DataChannel without add-ons",
+      "bullets": [
+        "Use SQL or dbtCore to transform data",
+        "Free unlimited transformation runs",
+        "Detailed logs and alerts",
+        "Schedule runs after data refreshes through Orchestration"
+      ],
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/tab-transformations.webp",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "eyebrow": "Security",
+      "heading": "Security, Governance & Compliance",
+      "body": "Your data stays in your warehouse with end-to-end encryption and compliance (ISO, HIPAA, GDPR).",
+      "bullets": [
+        "Stay compliant with complete peace of mind",
+        "Trusted partner with leading platforms",
+        "Highest rated product for quality of support",
+        "Highest value for money spent"
+      ],
+      "image": "/images/pages/landing-pages--datachannelvsairbyte/tab-security.webp"
+    }
+  ]
+}

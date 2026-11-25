@@ -1,6 +1,6 @@
 # DataChannel website
 
-Webflow → Netlify migration of datachannel.co. Built with **Next.js 15 (static export)**, **Tailwind v4 + shadcn/ui**, and **Decap CMS** (the successor to Netlify CMS). Migrated so far: the **Home page** and the **integration-family Webflow CMS collections** (~950 pages) on their original URLs.
+Webflow → Netlify migration of datachannel.co. Built with **Next.js 15 (static export)**, **Tailwind v4 + shadcn/ui**, and **Decap CMS** (the successor to Netlify CMS). All public pages of the Webflow site (every URL in its sitemap) are migrated on their **original URLs**: the Home page, all Webflow CMS collections, and the static pages (rebuilt as CMS-editable section pages).
 
 ## Run locally (Docker only — nothing to install on the host)
 
@@ -25,22 +25,37 @@ docker compose down
 | `src/components/ui/*` | shadcn/ui primitives (`components.json` is set up, so `npx shadcn add …` works inside the container) |
 | `public/images/*` | Assets pulled from the live Webflow site |
 
-## CMS collections migrated from Webflow
+## Content model
 
-| CMS collection | Folder | Public URL | Entries |
-| --- | --- | --- | --- |
-| Integrations | `content/integrations` | `/integration/<slug>` | 133 |
-| ETL source pages | `content/etl-sources` | `/etl-sources/<slug>` | 534 |
-| Destinations | `content/destinations` | `/destinations/<slug>` | 45 |
-| Reverse ETL pages | `content/reverse-etl-destinations` | `/reverse-etl-destinations/<slug>` | 232 |
-| Warehouses | `content/warehouses` | `/warehouses/<slug>` | 6 |
-| Integration / destination categories | `content/*-tags` | (used for filters/badges) | 10 / 8 |
+| CMS collection | Folder | Public URL |
+| --- | --- | --- |
+| Home page / Site settings | `content/home.json`, `content/site.json` | `/`, header, nav, footer |
+| Pages (section builder) | `content/pages` | the page's own `path` field, e.g. `/pricing`, `/compare/datachannel-vs-hevo` |
+| Blog posts | `content/blogs` | `/blogs/<slug>` (+ index `/blogs`) |
+| Blog authors / topics | `content/authors`, `content/blog-tags` | `/author/<slug>`, `/blog-tag/<slug>` |
+| Case studies | `content/case-studies` | `/case-study/<slug>` (+ index `/case-studies`) |
+| Careers | `content/careers` | `/career/<slug>` (+ index `/careers`) |
+| Integrations | `content/integrations` | `/integration/<slug>` (+ index `/integrations`) |
+| ETL source pages | `content/etl-sources` | `/etl-sources/<slug>` |
+| Destinations | `content/destinations` | `/destinations/<slug>` (+ index `/destinations`) |
+| Reverse ETL pages | `content/reverse-etl-destinations` | `/reverse-etl-destinations/<slug>` |
+| Warehouses | `content/warehouses` | `/warehouses/<slug>` (+ index `/data-warehouses`) |
+| Categories | `content/integration-tags`, `content/destination-tags` | (filters and badges) |
 
-Listing pages: `/integrations`, `/destinations`, `/data-warehouses`. `sitemap.xml` is generated from the same data.
+**Section pages** (`content/pages/*.json`) are built from 15 block types (hero, rich text, text + image, feature grid, stats, comparison table, testimonials, logos, FAQ, pricing, steps, CTA banner, CTA cards, embed, form). The schema is in `src/lib/pages.ts` and the renderers are in `src/components/blocks/blocks.tsx`. Check page files with `docker compose run --rm --no-deps web node scripts/validate-pages.mjs`.
 
-**URL rules (SEO):** the JSON **file name is the URL slug**. Don't rename files for published pages. `trailingSlash: false` makes Next export `integration/foo.html`, which Netlify serves at exactly `/integration/foo` (the Webflow URL). Every page sets a canonical URL on `https://www.datachannel.co`. Titles and descriptions use the same templates as Webflow, and each entry has optional SEO override fields.
+`sitemap.xml` and `robots.txt` are generated from the same data.
 
-**Re-sync from Webflow** (before cut-over only, because it overwrites migrated entries): `docker compose --profile tools run --rm webflow-import`, then review `git diff`.
+**URL rules (SEO):** for collections the JSON **file name is the URL slug**, and for section pages it's the `path` field. Don't rename or change them on published pages. `trailingSlash: false` makes Next export `integration/foo.html`, which Netlify serves at exactly `/integration/foo` (the Webflow URL). Every page sets a canonical URL on `https://www.datachannel.co`. Titles and descriptions use the same templates as Webflow, and each entry has optional SEO override fields.
+
+**Re-sync Webflow CMS collections** (before cut-over only, because it overwrites migrated entries; static pages are not included): `docker compose --profile tools run --rm webflow-import`, then review `git diff`.
+
+## Forms and analytics
+
+- **Forms** use Netlify Forms (contact, lead, career application with résumé upload). Netlify detects them from `public/__forms.html`, so keep that file in sync with `src/components/forms/form-definitions.ts`. In Netlify, turn on **Forms → form detection** once, then set up email notifications under Forms → Notifications.
+- **Demo and sales schedulers** are HubSpot Meetings embeds. `/schedule-demo` keeps its Calendly embed.
+- **Analytics** (GTM, GA4, HubSpot, LinkedIn Insight, Microsoft Clarity, Meta pixel; same IDs as Webflow) are in `src/components/analytics.tsx` and only load on `www.datachannel.co` / `datachannel.co`.
+- **Retired Webflow Ecommerce pages** (`/checkout`, `/paypal-checkout`, `/order-confirmation`) 301-redirect to `/pricing` (`netlify.toml`).
 
 ## Deploy to Netlify
 
@@ -52,8 +67,7 @@ For the CMS in production, the config uses the **GitHub** backend. Netlify Ident
 2. In Netlify go to Project configuration → Security → OAuth → **Install provider** → GitHub, and paste the app's client ID and secret.
 3. Editors open `/admin/` and log in with a GitHub account that has write access to this repo.
 
-## Not done yet
+## Before switching the domain
 
-- Remaining pages: blogs, case studies, compare, careers, authors, landing pages, and static pages like pricing and about. Nav and footer links to these 404 until they are built.
-- The webinar "play" card links to sign-up; the video embed hasn't been wired up yet.
-- Webflow API credentials in `.env` aren't used yet. They're there for migrating the CMS collections (blog posts, case studies) later.
+- Copy any 301 redirects configured in Webflow (Site settings → Publishing → 301 redirects) into `netlify.toml`.
+- Delete `WEBFLOW_SITE_ID` / `WEBFLOW_SITE_API_ID` from `.env` and revoke the token in Webflow once no more re-syncs are needed.

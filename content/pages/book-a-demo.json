@@ -1,0 +1,53 @@
+{
+  "title": "Book a demo",
+  "path": "/book-a-demo",
+  "seoTitle": "Book A Demo- DataChannel - Reliable automated ETL & Reverse ETL platform",
+  "seoDescription": "Schedule a 15-minute discovery call with our product experts to assess how DataChannel can partner with you.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "15 minute discovery call",
+      "title": "Book a demo",
+      "subtitle": "Schedule a quick discovery call with our product experts to assess how DataChannel can partner with you.",
+      "perks": [
+        "Free 14 day trial",
+        "No credit card needed",
+        "Get set up in minutes"
+      ],
+      "embed": {
+        "kind": "hubspot-meeting",
+        "url": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+      }
+    },
+    {
+      "type": "logos"
+    },
+    {
+      "type": "testimonials",
+      "heading": "What our customers say",
+      "items": [
+        {
+          "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "image": "/images/testimonials/puneet-tripathi.jpg"
+        },
+        {
+          "quote": "Our team simply loves DataChannel, it enables them to make data-driven marketing decisions and that too in real-time.",
+          "name": "Kshitij N",
+          "role": "Marketing Analyst",
+          "image": "/images/testimonials/kshitij-review.jpeg"
+        },
+        {
+          "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built in dashboards on our advertising channels. DataChannel helped us save tons of time with the repetitive data download, cleaning, and aggregation.",
+          "name": "Emily L",
+          "role": "Co-founder, Small Business",
+          "image": "/images/testimonials/emily-review.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "ctaCards"
+    }
+  ]
+}

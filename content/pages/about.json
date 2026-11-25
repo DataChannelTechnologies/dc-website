@@ -1,0 +1,308 @@
+{
+  "title": "About",
+  "path": "/about",
+  "seoTitle": "About - DataChannel - Reliable automated ETL & Reverse ETL platform",
+  "seoDescription": "DataChannel is a cloud based data integration and reverse ETL platform to automate the data collection, preparation and management process of all your marketing, CRM, financial & operational data.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "About us",
+      "title": "We want to transform your relationship with data",
+      "subtitle": "Our mission is to help you build a robust and transparent single source of truth, visible across the entire business",
+      "image": "/images/pages/about/dc-team.webp"
+    },
+    {
+      "type": "split",
+      "heading": "What we do",
+      "body": "Every business is now in the business of data. In an era where digital transformation drives success, companies are amassing vast amounts of data—but only those that **effectively harness it** will gain a competitive edge. **Trusted by agile, data-driven organizations**, we are committed to delivering **transparency, scalability, and efficiency** in every step of your data journey.",
+      "image": "/images/pages/about/team-discussion.webp",
+      "imagePosition": "right"
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Our Values",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "shield",
+          "title": "Transparency and Candor",
+          "body": "Full transparency in all actions and communication. Share opinions or concerns openly without fear. Do the right thing, even when it's harder in the short run"
+        },
+        {
+          "icon": "zap",
+          "title": "Work smarter, not harder",
+          "body": "Have a bias towards action and leverage technology to work for you whenever possible. Find the work life balance that works for you and then lean a bit more towards life."
+        },
+        {
+          "icon": "users",
+          "title": "Trust and Care",
+          "body": "One team, One dream. Assume positive intent and do not let other's fail when you can. Respect diverse opinion and trust your team to have your back. Diversity in thought and unity in actions."
+        },
+        {
+          "icon": "trending",
+          "title": "Humility and Maximizing Growth",
+          "body": "Never pull rank and leave your ego at the door. Be ready to learn from whoever you can. Have higher standards and expectations of yourself, than others do of you. Actively move the needle forward everyday for yourself and the team."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Independence",
+          "body": "Encourage independent thought and original thinking. Make your own calls, say and do things you think are right and not what \"they\" think is right."
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Meet the people behind the product",
+      "columns": 4,
+      "imageStyle": "photo",
+      "items": [
+        {
+          "title": "Avni Sood",
+          "body": "Co-Founder & CEO",
+          "image": "/images/pages/about/avni-sood.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "http://www.linkedin.com/in/avnisood"
+          }
+        },
+        {
+          "title": "Sandeep Singh",
+          "body": "Co-Founder & CTO",
+          "image": "/images/pages/about/sandeep-singh.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/sandeep-singh-a435b65/"
+          }
+        },
+        {
+          "title": "Saurabh Omar",
+          "body": "Product Manager",
+          "image": "/images/pages/about/saurabh-omar.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/saurabhomgupta/"
+          }
+        },
+        {
+          "title": "Rijumone Chowdhary",
+          "body": "Lead Developer",
+          "image": "/images/pages/about/rijumone-chowdhary.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/rijumone/"
+          }
+        },
+        {
+          "title": "Rahul Kumar",
+          "body": "Senior Developer",
+          "image": "/images/pages/about/rahul-kumar.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/rahul-kumar-b67b9280/"
+          }
+        },
+        {
+          "title": "Ankit Juneja",
+          "body": "Senior Developer",
+          "image": "/images/pages/about/ankit-juneja.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dev-ankitjuneja/"
+          }
+        },
+        {
+          "title": "Rupesh",
+          "body": "Developer",
+          "image": "/images/pages/about/rupesh.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/rupesh-mishra-745102151/"
+          }
+        },
+        {
+          "title": "Abhishek",
+          "body": "Developer",
+          "image": "/images/pages/about/abhishek.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/abhishek-pandey-184272187/"
+          }
+        },
+        {
+          "title": "Animesh",
+          "body": "Developer",
+          "image": "/images/pages/about/animesh.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "http://linkedin.com/in/animesh-verma/"
+          }
+        },
+        {
+          "title": "Abhishek Tiwari",
+          "body": "Manager Analytics",
+          "image": "/images/pages/about/abhishek-tiwari.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/abhishektiwari26/"
+          }
+        },
+        {
+          "title": "Aakriti Chopra",
+          "body": "Associate Director- Sales",
+          "image": "/images/pages/about/aakriti-chopra.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/aakriti-chopra-6037785a/"
+          }
+        },
+        {
+          "title": "Nikhil Jain",
+          "body": "Data Analyst",
+          "image": "/images/pages/about/nikhil-jain.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/nikhiljain318"
+          }
+        },
+        {
+          "title": "Raaghav Gaur",
+          "body": "Associate Product Manager",
+          "image": "/images/pages/about/raaghav-gaur.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/raaghav-gaur-b6637965/"
+          }
+        },
+        {
+          "title": "Arti Gupta",
+          "body": "Product Content & Social Media Lead",
+          "image": "/images/pages/about/arti-gupta.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/arti-gupta566a42127/"
+          }
+        },
+        {
+          "title": "Reetika Rana",
+          "body": "Senior Manager - TA",
+          "image": "/images/pages/about/reetika-rana.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/reetika-rana-1ba1a1a9/"
+          }
+        },
+        {
+          "title": "Neha",
+          "body": "Senior Manager - TA",
+          "image": "/images/pages/about/neha.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/neha-singh-recruiter/"
+          }
+        },
+        {
+          "title": "Rishabh Sohal",
+          "body": "UX Analyst",
+          "image": "/images/pages/about/rishabh-sohal.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/rishabhsohal03/"
+          }
+        },
+        {
+          "title": "Devvart",
+          "body": "Finance Manager",
+          "image": "/images/pages/about/devvart.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/devvart-khaspuriya-a43a77155/"
+          }
+        },
+        {
+          "title": "Shivam Kashyap",
+          "body": "UI/UX Designer",
+          "image": "/images/pages/about/shivam-kashyap.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/shivam-kashyap-326796147/"
+          }
+        },
+        {
+          "title": "Karan Rawat",
+          "body": "QA Analyst",
+          "image": "/images/pages/about/karan-rawat.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/karan-rawat09/"
+          }
+        },
+        {
+          "title": "Pavneet Kaur",
+          "body": "Senior Finance Associate",
+          "image": "/images/pages/about/pavneet-kaur.webp",
+          "link": {
+            "label": "LinkedIn",
+            "href": "http://www.linkedin.com/in/pavneet-kaur-633039278"
+          }
+        },
+        {
+          "title": "Harsh Gupta",
+          "body": "Developer",
+          "image": "/images/pages/about/harsh-gupta.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/hgupta7629"
+          }
+        },
+        {
+          "title": "Mahesh Keswani",
+          "body": "Developer",
+          "image": "/images/pages/about/mahesh-keswani.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/mahesh-k-69605018b/"
+          }
+        },
+        {
+          "title": "Ganesh Pandey",
+          "body": "Developer",
+          "image": "/images/pages/about/ganesh-pandey.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/pandeyganesha/"
+          }
+        },
+        {
+          "title": "Aakanksha Pandey",
+          "body": "Senior Sales Specialist",
+          "image": "/images/pages/about/aakanksha-pandey.png",
+          "link": {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/aakanksha-pandey-26a83a196/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Join us",
+      "body": "- **[Customer Success Consultant](/career/customer-success-consultant)** — Engineering · Gurugram, India · Full time\n- **[Back End Developer (Intern)](/career/back-end-developer-intern)** — Engineering · Gurugram, India · Part time\n- **[Front End Developer (Intern)](/career/front-end-developer-intern)** — Engineering · Gurugram, India · Part time\n- **[Full Stack Developer](/career/full-stack-developer)** — Engineering · Gurugram, India · Full time\n\n[See all open roles →](/careers)"
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

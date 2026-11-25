@@ -1,0 +1,101 @@
+{
+  "title": "Landing page: Book demo",
+  "path": "/landing-pages/book-demo",
+  "seoTitle": "Book Demo",
+  "seoDescription": "Schedule a 15-minute discovery call with our product experts to assess how DataChannel can partner with you.",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Book a demo",
+      "subtitle": "Schedule a quick discovery call with our product experts to assess how DataChannel can partner with you",
+      "embed": {
+        "kind": "hubspot-meeting",
+        "url": "https://meetings-na2.hubspot.com/aakriti-chopra/demo-scheduler"
+      }
+    },
+    {
+      "type": "split",
+      "heading": "“DataChannel makes ETL easy, effective & efficient.” - Tom Murray",
+      "body": "**Managing Director, Jump 450 Media**\n\nAll we did was set up a few pipelines by entering our credentials and tweaking some source-specific parameters like breakdown criteria, frequency of update, etc. to suit our client’s needs, and that’s it. Now, thirty different sources are being automatically aggregated & delivered into our AWS Redshift warehouse, at a granularity and frequency of our choosing without us ever writing a single piece of code whatsoever."
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "headline": "DataChannel is flexible and scalable.",
+          "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "image": "/images/testimonials/puneet-tripathi.jpg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "25",
+              "label": "man hours saved per month"
+            }
+          ]
+        },
+        {
+          "headline": "DataChannel redefines your relationship with data.",
+          "quote": "Our team simply loves DataChannel, it enables them to make data-driven marketing decisions and that too in real-time.",
+          "name": "Kshitij N",
+          "role": "Marketing Analyst",
+          "image": "/images/testimonials/kshitij-review.jpeg",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "50",
+              "label": "man hours saved per month"
+            }
+          ]
+        },
+        {
+          "headline": "DataChannel is a reliable data ETL and replication partner.",
+          "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built in dashboards on our advertising channels. DataChannel helped us save tons of time with the repetitive data download, cleaning, and aggregation.",
+          "name": "Emily L",
+          "role": "Co-founder, Small Business",
+          "image": "/images/testimonials/emily-review.jpeg",
+          "stats": [
+            {
+              "value": "8",
+              "label": "data sources connected"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Empower your business with seamless data integration",
+      "columns": 3,
+      "style": "dark",
+      "items": [
+        {
+          "icon": "workflow",
+          "title": "Unified ELT & Reverse ETL platform",
+          "body": "Only platform designed to handle both forward and reverse data flow pipelines without coding or scripts"
+        },
+        {
+          "icon": "database",
+          "title": "Choose where your data resides",
+          "body": "All popular cloud data warehouses supported. Connect your own data warehouse or choose a DataChannel managed warehouse."
+        },
+        {
+          "icon": "dollar",
+          "title": "Truly cost effective solution",
+          "body": "Our transparent usage based pricing ensures you get maximum value for your investment without paying for multiple tools."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "title": "Solutions: Data Engineers & Analysts",
+  "path": "/solutions/data-engineers-analysts",
+  "seoTitle": "Data Engineers & Analysts",
+  "seoDescription": "Learn how DataChannel helps Data Engineers & Analysts make sense of their data by integrating data from all their databases and other data sources into a single data warehouse.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Data Engineers & Analysts",
+      "title": "Effectively deliver data in minutes, not weeks",
+      "subtitle": "Save valuable engineering time & resources unlocking value from your data by leveraging 100+ pre-built integrations instead of unreliable custom scripts",
+      "ctas": [
+        {
+          "label": "Start Free Trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "image": "/images/pages/solutions--data-engineers-analysts/hero.png"
+    },
+    {
+      "type": "richText",
+      "heading": "Integrate effortlessly with your modern data stack",
+      "body": "Automatically and continuously updated pipelines, freeing you up to focus on game-changing insights instead of ETL. DataChannel flawlessly plugs into your existing tech stack to operationalize data at scale"
+    },
+    {
+      "type": "split",
+      "heading": "Full granularity and scalability",
+      "body": "DataChannel gathers, cleans, and loads data from every data source you need. It offers full control over what part of the data you wish to move and when. Scale to billions of rows of data without worrying about maintaining elaborate infrastructure",
+      "image": "/images/pages/solutions--data-engineers-analysts/scalability.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "heading": "Accelerated data analysis",
+      "body": "Use automated data connectors to all popular SaaS applications, relational databases, cloud storage platforms, and other ad-hoc sources to speed up data integration and harmonization. Ingest data from any REST API or stream events using webhooks.",
+      "image": "/images/pages/solutions--data-engineers-analysts/data-analytics.png",
+      "imagePosition": "left",
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Operationalize your data - Sync to any destination with Reverse ETL",
+      "body": "Data teams are forever stretched due to ever changing business requirements. Take advantage of the data stack you’ve already built, and empower business teams to self-serve by making data available to them in the tools they use daily.",
+      "image": "/images/pages/solutions--data-engineers-analysts/reverse-etl-sync.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Automate your data transfer with reliable, scalable and stable pipelines",
+      "columns": 4,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "settings",
+          "title": "Granular control over pipeline configuration"
+        },
+        {
+          "icon": "clock",
+          "title": "Advanced scheduling options"
+        },
+        {
+          "icon": "refresh",
+          "title": "Automated handling of source schema changes"
+        },
+        {
+          "icon": "code",
+          "title": "SQL Model Builder & Editor"
+        },
+        {
+          "icon": "layers",
+          "title": "Multiple Sync Behaviors - Upsert, Replace or Append"
+        },
+        {
+          "icon": "bell",
+          "title": "Set up alerts directly on top of your data warehouse"
+        },
+        {
+          "icon": "lock",
+          "title": "Secure credential management with OAuth2"
+        },
+        {
+          "icon": "chart",
+          "title": "Activity & change history tracking"
+        },
+        {
+          "icon": "zap",
+          "title": "Real time alerts & failure notifications"
+        },
+        {
+          "icon": "database",
+          "title": "Preview data without ever leaving the platform"
+        },
+        {
+          "icon": "file",
+          "title": "Extensive documentation & on-screen help"
+        },
+        {
+          "icon": "shield",
+          "title": "Comprehensive Logs & complete visibility of pipeline health"
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "image": "/images/pages/solutions--data-engineers-analysts/case-study-plix.webp",
+          "title": "“DataChannel did all of what we asked for at scale without any major roadblocks along the way.”",
+          "body": "**Rishubh Satiya**  \nCo-founder & CEO at Plix",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/plixlife"
+          }
+        },
+        {
+          "image": "/images/pages/solutions--data-engineers-analysts/case-study-wow-skin-science.png",
+          "title": "“DataChannel has greatly improved our ability to access data reliably that was previously challenging to obtain.”",
+          "body": "**Melvin Davis Vallully**  \nHead of Data Analytics, Wow Skin Science",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wow-skin-science"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

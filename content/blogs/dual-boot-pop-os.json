@@ -1,0 +1,18 @@
+{
+  "name": "Dual Boot Pop-OS with Windows: The correct way",
+  "slug": "dual-boot-pop-os",
+  "date": "2023-09-25",
+  "updated": "2024-06-25",
+  "summary": "In this blog you'll learn about how to configure a dual boot system with Pop-OS & Windows.",
+  "image": "/images/cms/blogs/popos_windows_datachannel-214967.webp",
+  "tag": "data-activation",
+  "author": "rahul-kumar",
+  "readTime": "3 mins to read",
+  "featuredOnBlogPage": false,
+  "featureMain": false,
+  "productTutorial": false,
+  "featureOnHomePage": false,
+  "content": "## Introduction\n\nYou will see numerous articles on this all of which will tell you to do a (**sudo update-grub)** once you have installed Pop-OS with Windows. But this will not work because Pop-OS doesn’t use grub as it’s boot manager. So, in this article I will explain the sure-shot way of doing this which is also mentioned in the System76 blog but that includes too many details which is not required for the majority of the users.\n\nSo basically these are the steps that a user has to do to dual boot Pop-OS with windows. \n\n-   Download Pop-OS iso image from [https://pop.system76.com/](https://pop.system76.com/)\n-   Create a bootable pendrive of this iso image using any bootable media creation tool (e.g., Rufus in windows, Disk utilities in Ubuntu etc…)\n-   Boot from this pendrive and start installing Pop-OS on your system. You can follow this article: [https://www.thewindowsclub.com/how-to-dual-boot-pop-os-and-windows](https://www.thewindowsclub.com/how-to-dual-boot-pop-os-and-windows). One thing that I will recommend is that you create a EFI partition of 2 GB for this because both Pop-os and windows will be in this partition.\n-   Once Pop-OS installation is complete, you will observe that you no longer get a boot menu from where you can choose to boot into windows. So basically, you will only be able to boot into Pop-os.\n\n## The Real Magic\n\nThis is how you repair your boot so that you get options for both windows and pops-os.\n\n-   You need an os-prober to detect that there is one other OS (Windows) installed in your system. For this, run these commands in your terminal:\n\n             **sudo apt update**\n\n              **sudo apt install os-prober**\n\n              **sudo os-prober**\n\n-   This will show an output which will look something like **/dev/nvme0n1p1@/efi/Microsoft/Boot/bootmgfw.efi.** Here **/dev/nvme0n1p1** is the windows boot partition. You will have to mount this partition in pop os by running this command: **sudo mount /dev/nvme0n1p1 /mnt**\n-   You will need to copy the Microsoft boot files in your current boot partition. So run these commands:\n\n             **sudo su**\n\n             **cp -R /mnt/efi/Microsoft /boot/efi/Microsoft**\n\n-   Add a delay in your boot menu by editing this file **/boot/efi/loader/loader.conf** and add timeout 2 to this file.\n-   Reboot and enter BIOS. Change your boot order so that Pop-OS is at top. Save the changes and Exit.\n-   Now, you will get a boot menu which will let you select the OS to boot into.\n\nThere you have it! You now have a reliable way to use Pop-OS in a dual boot system.\n\n<iframe src=\"https://www.youtube.com/embed/7YNX-5fwkAI\" title=\"The best Data Orchestration tool\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n\nThe rapid shift to cloud native technologies has provided a number of opportunities to even relatively small businesses to use a  number of SaaS tools and applications at nominal prices. Know more about this emerging trend in our latest piece [here](https://www.datachannel.co/blogs/what-is-etl-and-how-the-etl-process-works).",
+  "seoTitle": "",
+  "seoDescription": ""
+}

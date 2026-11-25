@@ -1,0 +1,112 @@
+{
+  "title": "Dashboard templates",
+  "path": "/landing-pages/dashboard-templates",
+  "seoTitle": "Dashboard Templates | Free Collection of Tableau Dashboard Templates",
+  "seoDescription": "Measure the impact of marketing on your business with a suite of ready-to-use free dashboard templates built in Tableau powered by DataChannel",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Marketing Performance Dashboard Templates",
+      "align": "center",
+      "subtitle": "Measure the impact of marketing on your business with a suite of ready-to-use free dashboard templates built in Tableau"
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "Marketing Overview",
+          "body": "Get insights into Key Performance, Efficiency and Awareness metrics trends across all Marketing platforms. Highlight successes and areas of improvement from an overall marketing perspective.",
+          "image": "/images/pages/landing-pages--dashboard-templates/marketing-overview.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/marketing-overview"
+          }
+        },
+        {
+          "title": "Campaign Overview",
+          "body": "Understand what factors impact Customer Value over time, and the purchasing gap between customers’ first and last purchase",
+          "image": "/images/pages/landing-pages--dashboard-templates/campaign-overview.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/campaign-overview"
+          }
+        },
+        {
+          "title": "Shopify Overview",
+          "body": "Get insights into the performance of your Shopify store in a glance. Understand acquisition channels & trends along with key metrics like CLTV, CAC, AOV and many more.",
+          "image": "/images/pages/landing-pages--dashboard-templates/shopify-overview.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/shopify-overview"
+          }
+        },
+        {
+          "title": "Marketplace Overview",
+          "body": "Get a snapshot of revenue trends across e-Commerce marketplaces across key categories, products & brands.",
+          "image": "/images/pages/landing-pages--dashboard-templates/marketplace-overview.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/marketplace-overview"
+          }
+        },
+        {
+          "title": "Product & Category Breakdown",
+          "body": "Analyze your customers’ journeys through the lens of products (SKU) or major and minor Product categories in your D2C store",
+          "image": "/images/pages/landing-pages--dashboard-templates/product-and-category-breakdown.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/product-breakdown"
+          }
+        },
+        {
+          "title": "Cohorts By Acquisition Month",
+          "body": "Understand the impact and trends of your important KPIs like Lifetime Value (LTV) across time",
+          "image": "/images/pages/landing-pages--dashboard-templates/cohorts-by-acquisition-month.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/cohorts-by-acquisition-month"
+          }
+        },
+        {
+          "title": "Cohorts By Acquisition Product",
+          "body": "Analyze the first touchpoint of their customers through the lens of Products. Identify popular products among first-time and repeat customers and products that require more attention.",
+          "image": "/images/pages/landing-pages--dashboard-templates/cohorts-by-acquisition-product.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/cohorts-by-acquisition-product"
+          }
+        },
+        {
+          "title": "Cohorts By Acquisition Location",
+          "body": "Analyze the first touchpoint of their customers through the lens of Geography. Identify the places with higher first-time and repeat customers and, hence, could be targeted more",
+          "image": "/images/pages/landing-pages--dashboard-templates/cohorts-by-acquisition-location.png",
+          "link": {
+            "label": "Explore Dashboard",
+            "href": "/landing-pages/dashboards/cohorts-by-acquisition-location"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Reverse ETL",
+  "path": "/reverse-etl",
+  "seoTitle": "DataChannel - Reverse ETL | Product Features",
+  "seoDescription": "Read about how DataChannel's Reverse ETL platform allows you to operationalize your analytics by syncing data from your data warehouse to business applications your teams use",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Reverse ETL",
+      "title": "Activate your data seamlessly",
+      "subtitle": "Sync data from your data warehouse to business apps your teams rely on everyday. Manage customer segments & audiences, set up notifications directly on top of your data warehouse.",
+      "ctas": [
+        {
+          "label": "Start Free Trial",
+          "href": "https://console.datachannel.co/register"
+        }
+      ],
+      "image": "/images/pages/reverse-etl/reverse-etl-hero.png"
+    },
+    {
+      "type": "richText",
+      "heading": "Activate data and empower business teams",
+      "body": "Send your data from your data warehouse to any marketing, sales, or business application of your choice."
+    },
+    {
+      "type": "split",
+      "heading": "Power of the data warehouse in the hands of modern marketing teams",
+      "body": "Use your data warehouse as your CDP and keep your audiences across advertising and marketing automation platforms in sync at all times",
+      "image": "/images/pages/reverse-etl/reverse-etl-square.png",
+      "imagePosition": "right"
+    },
+    {
+      "type": "split",
+      "heading": "Start syncing data in minutes",
+      "body": "Connect your data warehouse and start syncing data to an ever growing list of supported destinations. Choose from various advertising, CRM, email marketing & messaging platforms",
+      "image": "/images/pages/reverse-etl/integrations-full.png",
+      "imagePosition": "left",
+      "ctas": [
+        {
+          "label": "All Destinations",
+          "href": "/destinations"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "split",
+      "heading": "Set up alerts & notifications directly on top of your data warehouse",
+      "body": "Repeatedly checking dashboards is a thing of the past. Now get alerts in your existing messaging applications as your data updates in the data warehouse",
+      "image": "/images/pages/reverse-etl/slack-notification.gif",
+      "imagePosition": "right"
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Deliver trusted data from the warehouse into all your tools",
+      "columns": 3,
+      "style": "plain",
+      "items": [
+        {
+          "icon": "code",
+          "title": "SQL Model Builder & Editor"
+        },
+        {
+          "icon": "clock",
+          "title": "Advanced scheduling options"
+        },
+        {
+          "icon": "layers",
+          "title": "Multiple Sync Behaviors - Upsert, Replace or Append"
+        },
+        {
+          "icon": "lock",
+          "title": "Secure credential management with OAuth2"
+        },
+        {
+          "icon": "chart",
+          "title": "Activity & change history tracking"
+        },
+        {
+          "icon": "zap",
+          "title": "Real time alerts & failure notifications"
+        },
+        {
+          "icon": "database",
+          "title": "Preview data without ever leaving the platform"
+        },
+        {
+          "icon": "file",
+          "title": "Extensive documentation & on-screen help"
+        },
+        {
+          "icon": "shield",
+          "title": "Extensive Logs & complete visibility of sync health"
+        }
+      ]
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "image": "/images/pages/reverse-etl/case-study-wakefit.png",
+          "title": "“DataChannel is flexible and scalable. It has everything we need, from granular control over data we are integrating to a quick turnaround time by the support team.”",
+          "body": "**Puneet Tripathi**  \nHead of Analytics at Wakefit",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wakefit-datachannel"
+          }
+        },
+        {
+          "image": "/images/pages/reverse-etl/case-study-jump.webp",
+          "title": "“DataChannel makes ETL easy, effective & efficient.”",
+          "body": "**Tom Murray**  \nManaging Director, Jump 450 Media",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/jump-450-media"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

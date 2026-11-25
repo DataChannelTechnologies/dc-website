@@ -1,0 +1,34 @@
+{
+  "title": "Landing page: Thank you (demo booked)",
+  "path": "/landing-pages/thank-you",
+  "seoTitle": "Thank You",
+  "seoDescription": "Schedule a 15-minute discovery call with our product experts to assess how DataChannel can partner with you.",
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Thank You for Booking a Demo with DataChannel! 🎉",
+      "align": "center",
+      "subtitle": "We’ve reserved your slot. You’ll receive a confirmation email shortly with the meeting details."
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "items": [
+        {
+          "icon": "users",
+          "title": "To Make the Most of Your Demo",
+          "body": "- Be ready to share your current data integration challenges or workflows.\n- Feel free to invite one or more team members from Data / Analytics / Engineering who work closely with ETL pipelines.\n- Ensure you have access to your data sources (e.g., databases, SaaS apps) you’d like to connect."
+        },
+        {
+          "icon": "rocket",
+          "title": "While You Wait, Explore More",
+          "body": "- [Product Overview (Explore on YouTube) ↗](https://youtu.be/vX7p6I9S4Wk)\n- [Read some Customer Case Studies ↗](#)\n- [Read the Product Documentation ↗](https://docs.datachannel.co)\n- [Blog / Resources ↗](/blogs)"
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "body": "Have questions before the demo? Reach out at [support@datachannel.co](mailto:support@datachannel.co)"
+    }
+  ]
+}

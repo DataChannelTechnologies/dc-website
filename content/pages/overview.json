@@ -1,0 +1,239 @@
+{
+  "title": "Platform overview",
+  "path": "/overview",
+  "seoTitle": "Platform Overview |  DataChannel | Reliable Automated ELT & Reverse ETL Platform",
+  "seoDescription": "DataChannel is a cloud based data integration and reverse ETL platform to automate the data collection, preparation and management process of all your marketing, CRM, financial & operational data.",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Platform overview",
+      "title": "Single platform for all your ETL & Reverse ETL requirements.",
+      "subtitle": "Integrate data from multiple data sources to any data warehouse. Activate your data and empower your business teams.",
+      "ctas": [
+        {
+          "label": "Start your free trial",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "See how this works",
+          "href": "https://www.youtube.com/watch?v=WCmn4k54p18",
+          "variant": "outline"
+        }
+      ],
+      "perks": [
+        "Free 14-day trial",
+        "No credit card needed",
+        "Setup in minutes"
+      ],
+      "image": "/images/pages/overview/overview-hero.png"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Empower your business with seamless data integration",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "layers",
+          "title": "Unified ELT & Reverse ETL platform",
+          "body": "Only platform designed to handle both forward and reverse data flow pipelines without coding or scripts"
+        },
+        {
+          "icon": "database",
+          "title": "Choose where your data resides",
+          "body": "All popular cloud data warehouses supported. Connect your own data warehouse or choose a DataChannel managed warehouse."
+        },
+        {
+          "icon": "dollar",
+          "title": "Truly cost effective solution",
+          "body": "Our transparent usage based pricing ensures you get maximum value for your investment without paying for multiple tools."
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "Only ETL & Reverse ETL solution you will ever need",
+      "columns": 4,
+      "style": "dark",
+      "items": [
+        {
+          "icon": "settings",
+          "title": "Complete control over your data",
+          "body": "Our data connectors offer granular control over what fields you wish to sync. Avoid bringing in restricted / PII data."
+        },
+        {
+          "icon": "plug",
+          "title": "100+ battle-tested integrations",
+          "body": "Gather all your data from any platform you are using - marketing, sales, financial, eCommerce or real time events."
+        },
+        {
+          "icon": "refresh",
+          "title": "Automatic updates",
+          "body": "Our integrations are thoroughly tested and reliable - so you never need to worry about API updates or quota limits."
+        },
+        {
+          "icon": "zap",
+          "title": "Accelerate time to insights",
+          "body": "Prepare data for analytics seamlessly as it lands in the warehouse through powerful data models and workflows that run in sync with your pipelines."
+        },
+        {
+          "icon": "trending",
+          "title": "Designed to scale with your business",
+          "body": "Scale to billions of rows of data without worrying about maintaining elaborate infrastructure and rising server costs."
+        },
+        {
+          "icon": "clock",
+          "title": "Flexible & Advanced Scheduling",
+          "body": "Orchestrate your data flow with our advanced scheduling options and dependency checks. Refresh pipelines at as low as 15 minute intervals."
+        },
+        {
+          "icon": "shield",
+          "title": "Security",
+          "body": "DataChannel leverages OAuth2 to connect securely to your data sources, so you never have to worry about sharing credentials. Store data in your own cloud infrastructure by connecting your data warehouse."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Intuitive & simple self-serve interface",
+          "body": "Our transparent usage based pricing ensures you get maximum value for your investment without paying for multiple tools."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "Start leveraging your data in four easy steps",
+      "items": [
+        {
+          "title": "Choose your data destination",
+          "body": "Reliably centralize data into the destination of your choice"
+        },
+        {
+          "title": "Connect your data source",
+          "body": "Securely connect to all the databases and apps that drive your business"
+        },
+        {
+          "title": "Configure & schedule your pipelines",
+          "body": "Select what data to sync and when with our advanced scheduling options and granular pipeline configuration"
+        },
+        {
+          "title": "Start consuming your data",
+          "body": "Never worry about the pipelines again and focus on drawing critical business insights using tools of your choice"
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "“DataChannel makes ETL easy, effective & efficient.” - Tom Murray",
+      "body": "*Managing Director, Jump 450 Media*\n\n> All we did was set up a few pipelines by entering our credentials and tweaking some source-specific parameters like breakdown criteria, frequency of update, etc. to suit our client’s needs, and that’s it. Now, thirty different sources are being automatically aggregated & delivered into our AWS Redshift warehouse, at a granularity and frequency of our choosing without us ever writing a single piece of code whatsoever.",
+      "muted": true
+    },
+    {
+      "type": "testimonials",
+      "items": [
+        {
+          "headline": "DataChannel is flexible and scalable.",
+          "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+          "name": "Puneet Tripathi",
+          "role": "Head of Analytics @ Wakefit",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "25",
+              "label": "man hours saved per month"
+            }
+          ],
+          "image": "/images/testimonials/puneet-tripathi.jpg"
+        },
+        {
+          "headline": "DataChannel redefines your relationship with data.",
+          "quote": "Our team simply loves DataChannel, it enables them to make data-driven marketing decisions and that too in real-time.",
+          "name": "Kshitij N",
+          "role": "Marketing Analyst",
+          "stats": [
+            {
+              "value": "12",
+              "label": "data sources integrated"
+            },
+            {
+              "value": "50",
+              "label": "man hours saved per month"
+            }
+          ],
+          "image": "/images/testimonials/kshitij-review.jpeg"
+        },
+        {
+          "headline": "DataChannel is a reliable data ETL and replication partner.",
+          "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built in dashboards on our advertising channels. Data Channel helped us save tons of time with the repetitive data download, cleaning, and aggregation.",
+          "name": "Emily L",
+          "role": "Co-founder, Small Business",
+          "stats": [
+            {
+              "value": "8",
+              "label": "data sources connected"
+            },
+            {
+              "value": "30",
+              "label": "Million rows of data moved per month"
+            }
+          ],
+          "image": "/images/testimonials/emily-review.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "See how business teams can use DataChannel",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Digital Marketing & Analytics",
+          "body": "Achieve improved and insightful marketing reports with seamless data automation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/digital-marketing"
+          }
+        },
+        {
+          "icon": "code",
+          "title": "Data Engineers & Analysts",
+          "body": "No more complicated data or clogged silos. With DataChannel the data is constantly prepared for analysis.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/data-engineers-analysts"
+          }
+        },
+        {
+          "icon": "settings",
+          "title": "IT, Product Teams & Engineering",
+          "body": "Get a reliable, scalable, and precise solution for data collection and transformation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us, with free hands-on onboarding & support and simple usage based pricing.",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}

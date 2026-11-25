@@ -1,0 +1,181 @@
+{
+  "title": "Compare: DataChannel vs Hightouch",
+  "path": "/compare/datachannel-vs-hightouch",
+  "seoTitle": "DataChannel Vs Hightouch",
+  "seoDescription": "Learn as to how you can use a single platform for both ETL & Reverse ETL &  save 200% in costs on your projects by choosing DataChannel instead of Hightouch",
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": "Hightouch Vs DataChannel",
+      "title": "Activate your data with a single platform for all your ETL & Reverse ETL needs",
+      "subtitle": "What if you could use a single platform for your entire data pipeline? Stop wasting time and money on multiple over priced tools and switch to DataChannel for a unified ETL & Reverse ETL platform. [Try DataChannel](https://console.datachannel.co/register) as a Hightouch alternative for free."
+    },
+    {
+      "type": "split",
+      "heading": "All in one data engineers' toolkit",
+      "bullets": [
+        "ETL & Reverse ETL within the same platform",
+        "Managed Data Warehouse Option",
+        "Unlimited users",
+        "Unlimited data sources",
+        "More than 200% cost savings",
+        "Simple usage based pricing",
+        "Forever Free Tier"
+      ]
+    },
+    {
+      "type": "comparisonTable",
+      "columns": [
+        "",
+        "DataChannel",
+        "Hightouch"
+      ],
+      "rows": [
+        {
+          "feature": "Plan Type",
+          "values": [
+            "Professional",
+            "Pro"
+          ]
+        },
+        {
+          "feature": "Destinations",
+          "values": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "feature": "ETL",
+          "values": [
+            "Yes, 100+ sources",
+            "no"
+          ]
+        },
+        {
+          "feature": "Extract, Load & Transform",
+          "values": [
+            "yes",
+            "No ETL"
+          ]
+        },
+        {
+          "feature": "Sync frequency",
+          "values": [
+            "15 min sync interval",
+            "Min 1 hour sync frequency"
+          ]
+        },
+        {
+          "feature": "Audience segments",
+          "values": [
+            "Build audience segments",
+            "No audience builder"
+          ]
+        },
+        {
+          "feature": "Price",
+          "values": [
+            "$400/month",
+            "$800/month"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Migrate from Hightouch for free",
+      "body": "You never need to worry about getting started. We’ll get you up and running fast.",
+      "image": "/images/pages/compare--datachannel-vs-hightouch/aakriti-chopra.png",
+      "ctas": [
+        {
+          "label": "Request your migration",
+          "href": "https://meetings-na2.hubspot.com/aakriti-chopra/google-meets"
+        }
+      ],
+      "muted": true
+    },
+    {
+      "type": "ctaCards"
+    },
+    {
+      "type": "logos",
+      "showReviews": true
+    },
+    {
+      "type": "featureGrid",
+      "columns": 2,
+      "imageStyle": "cover",
+      "items": [
+        {
+          "title": "“Getting access to timely KPIs has been a game-changer !”",
+          "body": "**Vinit Kachchi**\n\nSr. Associate Data Analyst at The Souled Store",
+          "image": "/images/pages/compare--datachannel-vs-hightouch/case-study-the-souled-store.webp",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/thesouledstore-datachannel"
+          }
+        },
+        {
+          "title": "“DataChannel is flexible and scalable. It has everything we need, from granular control over data we are integrating to a quick turnaround time by the support team.”",
+          "body": "**Puneet Tripathi**\n\nHead of Analytics at Wakefit",
+          "image": "/images/pages/compare--datachannel-vs-hightouch/case-study-wakefit.png",
+          "link": {
+            "label": "Read case study",
+            "href": "/case-study/wakefit-datachannel"
+          }
+        }
+      ]
+    },
+    {
+      "type": "featureGrid",
+      "heading": "See how business teams can use DataChannel",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "chart",
+          "title": "Digital Marketing & Analytics",
+          "body": "Achieve improved and insightful marketing reports with seamless data automation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/digital-marketing"
+          }
+        },
+        {
+          "icon": "database",
+          "title": "Data Engineers & Analysts",
+          "body": "No more complicated data or clogged silos. With DataChannel the data is constantly prepared for analysis.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/data-engineers-analysts"
+          }
+        },
+        {
+          "icon": "code",
+          "title": "IT, Product Teams & Engineering",
+          "body": "Get a reliable, scalable, and precise solution for data collection and transformation.",
+          "link": {
+            "label": "Learn More",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Try DataChannel Free for 14 days",
+      "body": "No contracts, no credit card. The first 14 days are on us · Free hands-on onboarding & support · Simple usage based pricing",
+      "ctas": [
+        {
+          "label": "Get started now",
+          "href": "https://console.datachannel.co/register"
+        },
+        {
+          "label": "Write to us at info@datachannel.co",
+          "href": "mailto:info@datachannel.co",
+          "variant": "outline"
+        }
+      ]
+    }
+  ]
+}
