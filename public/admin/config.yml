@@ -1,0 +1,304 @@
+# Decap CMS (formerly Netlify CMS) configuration.
+# Production: git-gateway via Netlify Identity (enable both in the Netlify UI).
+# Local: `docker compose up` also starts decap-server on :8081, and
+# `local_backend: true` makes /admin/index.html write straight to ./content.
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend:
+  url: http://localhost:8081/api/v1
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+site_url: https://www.datachannel.co
+logo_url: /images/logo.png
+
+# Reusable field groups
+_link: &link
+  widget: object
+  collapsed: true
+  fields:
+    - { label: Label, name: label, widget: string }
+    - { label: URL, name: href, widget: string }
+
+collections:
+  - name: pages
+    label: Pages
+    editor: { preview: false }
+    files:
+      - name: home
+        label: Home page
+        file: content/home.json
+        format: json
+        fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Highlighted words, name: highlight, widget: string, hint: "Rendered after the title with a gradient" }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { <<: *link, label: Primary button, name: primaryCta }
+              - { <<: *link, label: Secondary button, name: secondaryCta }
+              - { label: Perks, name: perks, widget: list, field: { label: Perk, name: perk, widget: string } }
+
+          - label: Stats strip
+            name: stats
+            widget: list
+            summary: "{{value}} — {{label}}"
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }
+
+          - label: Review badges
+            name: reviews
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Image, name: image, widget: image }
+                  - { label: URL, name: href, widget: string }
+
+          - label: Customer logos
+            name: logos
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Logos
+                name: items
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Image, name: image, widget: image }
+
+          - label: Platform section
+            name: platform
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+                  - { label: Image, name: image, widget: image }
+                  - { <<: *link, label: Link, name: cta }
+
+          - label: Neo (AI analyst) section
+            name: neo
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                summary: "{{title}}"
+                hint: "The first feature is shown as the large tile"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+                  - { label: Image, name: image, widget: image, required: false, default: "" }
+
+          - label: Data activation section
+            name: activation
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Tabs
+                name: features
+                widget: list
+                summary: "{{tab}}"
+                fields:
+                  - { label: Tab label, name: tab, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+                  - { label: Image, name: image, widget: image }
+                  - { <<: *link, label: Link, name: cta }
+
+          - label: Testimonials
+            name: testimonials
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Featured quote
+                name: featured
+                widget: object
+                fields:
+                  - { label: Headline, name: headline, widget: string }
+                  - { label: Quote, name: quote, widget: text }
+                  - { label: Name, name: name, widget: string }
+                  - { label: Role, name: role, widget: string }
+                  - { label: Photo, name: image, widget: image, required: false, default: "" }
+              - label: Cards
+                name: items
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: Headline, name: headline, widget: string }
+                  - { label: Quote, name: quote, widget: text }
+                  - { label: Name, name: name, widget: string }
+                  - { label: Role, name: role, widget: string }
+                  - { label: Photo, name: image, widget: image, required: false, default: "" }
+                  - label: Stats
+                    name: stats
+                    widget: list
+                    fields:
+                      - { label: Value, name: value, widget: string }
+                      - { label: Label, name: label, widget: string }
+
+          - label: Trust badges
+            name: trust
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Badges
+                name: badges
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Image, name: image, widget: image }
+                  - { label: URL (optional), name: href, widget: string, required: false, default: "" }
+
+          - label: Webinar
+            name: webinar
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Body, name: body, widget: text }
+              - { label: Thumbnail, name: image, widget: image }
+              - { <<: *link, label: Button, name: cta }
+
+          - label: Blog teaser
+            name: blog
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Posts
+                name: posts
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+                  - { label: Image, name: image, widget: image }
+                  - { label: URL, name: href, widget: string }
+              - { <<: *link, label: Button, name: cta }
+
+          - label: Closing CTA cards
+            name: ctaCards
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Cards
+                name: items
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { label: Icon, name: icon, widget: select, options: [rocket, message, plug] }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+                  - { <<: *link, label: Button, name: cta }
+
+  - name: settings
+    label: Site settings
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Header, navigation & footer
+        file: content/site.json
+        format: json
+        fields:
+          - { label: Site name, name: name, widget: string }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Contact email, name: email, widget: string }
+          - label: Announcement bar
+            name: announcement
+            widget: object
+            fields:
+              - { label: Show, name: enabled, widget: boolean }
+              - { label: Text, name: text, widget: string }
+              - { <<: *link, label: Link, name: link }
+          - label: Main navigation
+            name: nav
+            widget: list
+            summary: "{{label}}"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL (leave empty for dropdowns), name: href, widget: string, required: false, default: "" }
+              - label: Dropdown items
+                name: items
+                widget: list
+                required: false
+                default: []
+                summary: "{{label}}"
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Description, name: description, widget: string }
+                  - { label: URL, name: href, widget: string }
+          - label: Header buttons
+            name: headerCtas
+            widget: object
+            fields:
+              - { <<: *link, label: Sign in, name: signIn }
+              - { <<: *link, label: Sign up, name: signUp }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Tagline, name: tagline, widget: text }
+              - label: Link columns
+                name: columns
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - label: Links
+                    name: links
+                    widget: list
+                    summary: "{{label}}"
+                    fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: URL, name: href, widget: string }
+              - label: Legal links
+                name: legal
+                widget: list
+                summary: "{{label}}"
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: href, widget: string }
+              - label: Social links
+                name: social
+                widget: list
+                summary: "{{platform}}"
+                fields:
+                  - { label: Platform, name: platform, widget: select, options: [linkedin, x, facebook] }
+                  - { label: URL, name: href, widget: string }
+              - { label: Copyright, name: copyright, widget: string }

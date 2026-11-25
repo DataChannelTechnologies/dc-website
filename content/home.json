@@ -1,0 +1,222 @@
+{
+  "seo": {
+    "title": "DataChannel | Reliable ELT, Reverse ETL & Conversational BI Platform",
+    "description": "Integrate, access, analyze and activate your data instantly. Reliable ETL, powerful orchestration and AI-driven natural language querying in a single platform."
+  },
+  "hero": {
+    "eyebrow": "ELT · Reverse ETL · Conversational BI",
+    "title": "Empower every decision",
+    "highlight": "with data",
+    "subtitle": "Integrate, access, analyze and activate your data instantly. With reliable data integration (ETL), powerful orchestration, and AI-driven natural language querying, eliminate technical barriers and make data accessible to all — so your business can make smarter, faster decisions.",
+    "primaryCta": { "label": "Start your free trial", "href": "https://console.datachannel.co/register" },
+    "secondaryCta": { "label": "Book a demo", "href": "/book-a-demo" },
+    "perks": ["Free 14 day trial", "No credit card needed", "Get set up in minutes"]
+  },
+  "logos": {
+    "title": "Join the growing list of data-driven companies transforming their data stack with DataChannel",
+    "items": [
+      { "name": "Wakefit", "image": "/images/customers/wakefit-logo.png" },
+      { "name": "Jump 450 Media", "image": "/images/customers/jump-logo.png" },
+      { "name": "The Souled Store", "image": "/images/customers/souled-store-logo.png" },
+      { "name": "Blissclub", "image": "/images/customers/blissclub-logo.png" },
+      { "name": "Fernish", "image": "/images/customers/fernish-logo.png" },
+      { "name": "Nimble", "image": "/images/customers/nimble-logo.png" },
+      { "name": "Plix", "image": "/images/customers/plix-logo.png" },
+      { "name": "Mother Sparsh", "image": "/images/customers/mother-sparsh-logo.png" },
+      { "name": "Neemans", "image": "/images/customers/neemans-logo.png" },
+      { "name": "WOW Skin Science", "image": "/images/customers/wow-skin-logo.png" },
+      { "name": "Bounce", "image": "/images/customers/bounce-logo.png" },
+      { "name": "Belula", "image": "/images/customers/belula-logo.jpg" },
+      { "name": "Assembly", "image": "/images/customers/assembly-logo.png" },
+      { "name": "FableStreet", "image": "/images/customers/fablestreet-logo.png" },
+      { "name": "Scout", "image": "/images/customers/scout-logo.png" },
+      { "name": "Joywallet", "image": "/images/customers/joywallet-logo.png" },
+      { "name": "RagingBull", "image": "/images/customers/ragingbull-logo.png" },
+      { "name": "Better Being", "image": "/images/customers/betterbeing-logo.png" }
+    ]
+  },
+  "reviews": {
+    "title": "See what the software community has to say about us",
+    "items": [
+      { "name": "G2", "image": "/images/badges/g2.png", "href": "https://www.g2.com/products/datachannel/reviews" },
+      { "name": "Capterra", "image": "/images/badges/capterra.png", "href": "https://www.capterra.com/p/215967/DataChannel/" }
+    ]
+  },
+  "stats": [
+    { "value": "100+", "label": "Fully managed connectors" },
+    { "value": "20+", "label": "Reverse ETL destinations" },
+    { "value": "75%", "label": "Lower data-stack costs" },
+    { "value": "14 days", "label": "Free full-feature trial" }
+  ],
+  "platform": {
+    "eyebrow": "One platform",
+    "title": "Single platform for reliable & scalable ETL / Reverse ETL pipelines",
+    "subtitle": "Spending excessively on multiple complex tools? Efficiently scale data ops and go from raw data to insights using a single platform custom built for your data and business teams — and save up to 75% of your costs.",
+    "features": [
+      {
+        "title": "Choose from the most popular cloud data warehouses",
+        "body": "Don't want the hassle of managing a data warehouse? We are the only platform that offers an integrated managed data warehouse to meet all your data management needs.",
+        "image": "/images/product/warehouse.png",
+        "cta": { "label": "Explore data warehouses", "href": "/data-warehouses" }
+      },
+      {
+        "title": "Start leveraging your data in minutes",
+        "body": "Select from a growing library of 100+ fully managed connectors and 20+ destinations — SaaS apps, databases, data warehouses, and more.",
+        "image": "/images/product/integrations.png",
+        "cta": { "label": "Check out all integrations", "href": "/integrations" }
+      },
+      {
+        "title": "Granular control & data visibility",
+        "body": "Completely secure, granular control over what data to move. Schedule and transform your data for analytics in sync with your pipelines. Preview data in your warehouse without SQL workbenches.",
+        "image": "/images/product/toolkit.png",
+        "cta": { "label": "View all product features", "href": "/overview" }
+      }
+    ]
+  },
+  "neo": {
+    "eyebrow": "Meet Neo",
+    "title": "Your AI-powered conversational data analyst",
+    "subtitle": "Talk to your data in natural language. No need to learn SQL or write complex queries.",
+    "features": [
+      {
+        "title": "Go from questions to insights in seconds",
+        "body": "Bring your data to life with Ask Neo. Talk to Neo in natural language and get answers to all your queries without writing complex SQL or code.",
+        "image": "/images/product/hero-neo-feature-collections.png"
+      },
+      {
+        "title": "Customise and control the data Neo can access",
+        "body": "Data teams use customisable data visibility settings and retain complete control. Add context and a glossary of metrics and calculations to improve Neo's understanding of your business data.",
+        "image": "/images/product/home-neo-feature-collection-access.png"
+      },
+      {
+        "title": "Control and security you can trust",
+        "body": "Keep your data secure and compliant with customizable access control. Manage user permissions to restrict access to sensitive data — governance without compromising on agility.",
+        "image": ""
+      }
+    ]
+  },
+  "activation": {
+    "eyebrow": "Data activation",
+    "title": "Activate your data with DataChannel",
+    "subtitle": "Reverse ETL: send data from your warehouse to any marketing, sales, or business application of your choice.",
+    "features": [
+      {
+        "tab": "Warehouse as CDP",
+        "title": "Leverage the power of your data warehouse as a CDP",
+        "body": "Build a 360° view of your customer in your data warehouse, retain complete control over sensitive customer data and empower your business SaaS applications.",
+        "image": "/images/product/reverse-etl.webp",
+        "cta": { "label": "View all supported destinations", "href": "/destinations" }
+      },
+      {
+        "tab": "Audience builder",
+        "title": "Create & manage audiences with a no-code audience builder",
+        "body": "Create customer segments — no SQL required. With our point-and-click audience builder, business teams can segment customers and create cohorts without relying on data teams.",
+        "image": "/images/product/segment.png",
+        "cta": { "label": "Learn about Reverse ETL", "href": "/reverse-etl" }
+      },
+      {
+        "tab": "Alerts",
+        "title": "Go beyond dashboards & create alerts on your warehouse",
+        "body": "Constantly checking dashboards is a thing of the past. Get proactive notifications in your existing messaging stack as your data changes.",
+        "image": "/images/product/slack-alerts.gif",
+        "cta": { "label": "See how it works", "href": "/reverse-etl" }
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Customer stories",
+    "title": "Teams that ship decisions faster with DataChannel",
+    "featured": {
+      "headline": "DataChannel makes ETL easy, effective & efficient.",
+      "quote": "All we did was set up a few pipelines by entering our credentials and tweaking some source-specific parameters like breakdown criteria, frequency of update, etc. to suit our client's needs, and that's it. Now, thirty different sources are being automatically aggregated & delivered into our AWS Redshift warehouse, at a granularity and frequency of our choosing, without us ever writing a single piece of code.",
+      "name": "Tom Murray",
+      "role": "Managing Director, Jump 450 Media",
+      "image": ""
+    },
+    "items": [
+      {
+        "headline": "DataChannel is flexible and scalable.",
+        "quote": "It has everything we need, from granular control over data we are integrating, to a quick turnaround time by the support team.",
+        "name": "Puneet Tripathi",
+        "role": "Head of Analytics, Wakefit",
+        "image": "/images/testimonials/puneet-tripathi.jpg",
+        "stats": [
+          { "value": "12", "label": "data sources integrated" },
+          { "value": "25", "label": "man hours saved / month" }
+        ]
+      },
+      {
+        "headline": "DataChannel redefines your relationship with data.",
+        "quote": "Our team simply loves DataChannel. It enables them to make data-driven marketing decisions, and that too in real time.",
+        "name": "Kshitij N",
+        "role": "Marketing Analyst",
+        "image": "/images/testimonials/kshitij-review.jpeg",
+        "stats": [
+          { "value": "12", "label": "data sources integrated" },
+          { "value": "50", "label": "man hours saved / month" }
+        ]
+      },
+      {
+        "headline": "A reliable data ETL and replication partner.",
+        "quote": "Prior to DataChannel, my team was deferring to manual reports, pivot tables, and built-in dashboards on our advertising channels. DataChannel helped us save tons of time on repetitive data download, cleaning, and aggregation.",
+        "name": "Emily L",
+        "role": "Co-founder, Small Business",
+        "image": "/images/testimonials/emily-review.jpeg",
+        "stats": [
+          { "value": "8", "label": "data sources connected" },
+          { "value": "30M", "label": "rows moved / month" }
+        ]
+      }
+    ]
+  },
+  "trust": {
+    "title": "Enterprise-grade security & trusted partnerships",
+    "badges": [
+      { "name": "ISO 27001", "image": "/images/badges/iso-27001.png", "href": "" },
+      { "name": "GDPR", "image": "/images/badges/gdpr.svg", "href": "/gdpr-data-protection-guidelines" },
+      { "name": "HIPAA", "image": "/images/badges/hipaa.png", "href": "" },
+      { "name": "Google Cloud Partner", "image": "/images/badges/google-cloud-partner.png", "href": "https://cloud.google.com/find-a-partner/partner/datachannel" },
+      { "name": "Amazon Ads Verified Partner", "image": "/images/badges/verified-partner-badge.png", "href": "https://advertising.amazon.com/partners/directory/details/amzn1.ads1.ma1.8jpeime7nsdou7iopkgg30uaf/DataChannel" }
+    ]
+  },
+  "ctaCards": {
+    "title": "Empower your business with seamless data integration",
+    "items": [
+      {
+        "icon": "rocket",
+        "title": "Sign up for free",
+        "body": "Start your full-feature 14 day trial today. No credit card required.",
+        "cta": { "label": "Start free trial", "href": "https://console.datachannel.co/register" }
+      },
+      {
+        "icon": "message",
+        "title": "Speak to sales",
+        "body": "Chat with one of our trusted experts to see how DataChannel works.",
+        "cta": { "label": "Contact sales", "href": "/contact-sales" }
+      },
+      {
+        "icon": "plug",
+        "title": "View integrations",
+        "body": "Browse our expansive and growing library of destinations and sources.",
+        "cta": { "label": "Browse integrations", "href": "/integrations" }
+      }
+    ]
+  },
+  "webinar": {
+    "eyebrow": "Webinar",
+    "title": "Leverage customer data to run personalized marketing campaigns",
+    "body": "Join Aashna, Senior Data Analyst at DecisionTree, as she talks about how to use DataChannel to convert a data warehouse into a CDP and use customer data to run hyper-targeted campaigns on Facebook, Google and other marketing & email platforms.",
+    "image": "/images/product/aashnathumbnail.png",
+    "cta": { "label": "Get started for free", "href": "https://console.datachannel.co/register" }
+  },
+  "blog": {
+    "eyebrow": "From the blog",
+    "title": "Latest from our data engineering blog",
+    "posts": [
+      { "title": "Top 7 Reverse ETL Tools in 2025", "date": "2025-04-14", "image": "/images/blog/reverse-etl-tools-2025.webp", "href": "/blogs/top-7-reverse-etl-tools-in-2025" },
+      { "title": "Year in Review: 2024", "date": "2024-12-30", "image": "/images/blog/year-in-review-2024.webp", "href": "/blogs/year-in-review-2024" },
+      { "title": "Top 7 Data Orchestration Tools: 2024", "date": "2024-05-02", "image": "/images/blog/data-orchestration-tools-2024.webp", "href": "/blogs/top-7-data-orchestration-tools-2024" }
+    ],
+    "cta": { "label": "Read more on our blog", "href": "/blogs" }
+  }
+}

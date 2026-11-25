@@ -1,0 +1,44 @@
+# Everything runs in containers — nothing is installed on the host.
+#   docker compose up            -> dev site on http://localhost:3100 (+ CMS proxy on :8081)
+#   docker compose --profile prod up preview   -> production static build on http://localhost:3101
+x-node: &node
+  image: node:22-alpine
+  working_dir: /app
+  volumes:
+    - .:/app
+    - node_modules:/app/node_modules
+    - next_cache:/app/.next
+  environment:
+    NEXT_TELEMETRY_DISABLED: "1"
+    WATCHPACK_POLLING: "true"
+
+services:
+  web:
+    <<: *node
+    command: sh -c "npm install --no-audit --no-fund && npm run dev"
+    ports:
+      - "${WEB_PORT:-3100}:3000"
+
+  # Local backend for Decap CMS: lets /admin/index.html edit files in ./content
+  # without Netlify Identity while developing.
+  cms:
+    <<: *node
+    command: npx --yes decap-server@3
+    environment:
+      PORT: "8081"
+      GIT_REPO_DIRECTORY: /app
+      # Bind inside the container; the port is only published on the host loopback.
+      BIND_HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8081:8081"
+
+  preview:
+    <<: *node
+    profiles: ["prod"]
+    command: sh -c "npm install --no-audit --no-fund && npm run build && npx --yes serve@14 out -l 3001"
+    ports:
+      - "${PREVIEW_PORT:-3101}:3001"
+
+volumes:
+  node_modules:
+  next_cache:

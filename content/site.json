@@ -1,0 +1,269 @@
+{
+  "name": "DataChannel",
+  "logo": "/images/logo.png",
+  "email": "info@datachannel.co",
+  "announcement": {
+    "enabled": true,
+    "text": "Meet Neo — your AI-powered conversational data analyst.",
+    "link": {
+      "label": "Learn more",
+      "href": "#neo"
+    }
+  },
+  "nav": [
+    {
+      "label": "Product",
+      "href": "",
+      "items": [
+        {
+          "label": "Overview",
+          "description": "Learn about DataChannel's features and benefits",
+          "href": "/overview"
+        },
+        {
+          "label": "Extract, Load & Transform",
+          "description": "Integrate data into a single source of truth",
+          "href": "/etl"
+        },
+        {
+          "label": "Data Activation – Reverse ETL",
+          "description": "Make warehouse data available in the tools business teams use daily",
+          "href": "/reverse-etl"
+        },
+        {
+          "label": "Data Sources",
+          "description": "See the list of all the supported data sources",
+          "href": "/integrations"
+        },
+        {
+          "label": "Destinations",
+          "description": "See the list of all supported reverse ETL destinations",
+          "href": "/destinations"
+        }
+      ]
+    },
+    {
+      "label": "Solutions",
+      "href": "",
+      "items": [
+        {
+          "label": "Digital Marketing & Analytics",
+          "description": "Improved, insightful marketing reports with seamless data automation",
+          "href": "/solutions/digital-marketing"
+        },
+        {
+          "label": "Data Engineers & Analysts",
+          "description": "No more clogged silos — data constantly prepared for analysis",
+          "href": "/solutions/data-engineers-analysts"
+        },
+        {
+          "label": "IT, Product Teams & Engineering",
+          "description": "A reliable, scalable solution for data collection and transformation",
+          "href": "/solutions/it-product-teams-engineering"
+        }
+      ]
+    },
+    {
+      "label": "Customers",
+      "href": "/case-studies",
+      "items": []
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing",
+      "items": []
+    },
+    {
+      "label": "Resources",
+      "href": "",
+      "items": [
+        {
+          "label": "Blog",
+          "description": "Insights around Data Engineering, ELT & Reverse ETL",
+          "href": "/blogs"
+        },
+        {
+          "label": "How We Compare",
+          "description": "How DataChannel stacks up against competitors",
+          "href": "/compare"
+        },
+        {
+          "label": "Book A Demo",
+          "description": "A 15 minute discovery call with our product experts",
+          "href": "/book-a-demo"
+        },
+        {
+          "label": "Documentation",
+          "description": "View the product documentation",
+          "href": "https://docs.datachannel.co"
+        }
+      ]
+    },
+    {
+      "label": "Company",
+      "href": "",
+      "items": [
+        {
+          "label": "About",
+          "description": "Read our story and what we represent",
+          "href": "/about"
+        },
+        {
+          "label": "Careers",
+          "description": "Build the future of the modern data stack with us",
+          "href": "/careers"
+        },
+        {
+          "label": "Contact",
+          "description": "Have queries or questions? Reach out to us",
+          "href": "/contact-us"
+        }
+      ]
+    }
+  ],
+  "headerCtas": {
+    "signIn": {
+      "label": "Sign In",
+      "href": "https://console.datachannel.co/login"
+    },
+    "signUp": {
+      "label": "Start free trial",
+      "href": "https://console.datachannel.co/register"
+    }
+  },
+  "footer": {
+    "tagline": "Reliable ELT, Reverse ETL & conversational BI — one platform for your data and business teams.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          {
+            "label": "Overview",
+            "href": "/overview"
+          },
+          {
+            "label": "Extract, Load & Transform",
+            "href": "/etl"
+          },
+          {
+            "label": "Activate – Reverse ETL",
+            "href": "/reverse-etl"
+          },
+          {
+            "label": "Pricing",
+            "href": "/pricing"
+          },
+          {
+            "label": "Log In",
+            "href": "https://console.datachannel.co/login"
+          }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "links": [
+          {
+            "label": "Data Sources",
+            "href": "/integrations"
+          },
+          {
+            "label": "Data Warehouses",
+            "href": "/data-warehouses"
+          },
+          {
+            "label": "Data Destinations",
+            "href": "/destinations"
+          }
+        ]
+      },
+      {
+        "title": "Solutions",
+        "links": [
+          {
+            "label": "Digital Marketing & Analytics",
+            "href": "/solutions/digital-marketing"
+          },
+          {
+            "label": "Data Engineers & Analysts",
+            "href": "/solutions/data-engineers-analysts"
+          },
+          {
+            "label": "IT, Product Teams & Engineering",
+            "href": "/solutions/it-product-teams-engineering"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Customers",
+            "href": "/case-studies"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact-us"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Blog",
+            "href": "/blogs"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies"
+          },
+          {
+            "label": "How we compare",
+            "href": "/compare"
+          },
+          {
+            "label": "Documentation",
+            "href": "https://docs.datachannel.co"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      {
+        "label": "Terms of Service",
+        "href": "/terms-of-services"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "GDPR Guidelines",
+        "href": "/gdpr-data-protection-guidelines"
+      }
+    ],
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://www.linkedin.com/company/mydatachannel"
+      },
+      {
+        "platform": "x",
+        "href": "https://twitter.com/MyDataChannel"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://www.facebook.com/mydatachannel/"
+      }
+    ],
+    "copyright": "© DataChannel Technologies. All rights reserved."
+  }
+}
