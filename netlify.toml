@@ -2,6 +2,10 @@
   command = "npm run build"
   publish = "out"
 
+[functions]
+  # submission-created.mjs posts every Netlify Forms submission to Slack
+  directory = "netlify/functions"
+
 [build.environment]
   NODE_VERSION = "22"
   NEXT_TELEMETRY_DISABLED = "1"
@@ -12,11 +16,36 @@
   to = "/admin/"
   status = 301
 
-# Redirects carried over from Webflow (Site settings -> Publishing -> 301 redirects).
-# Only /pricing-old was discoverable from outside; add the rest of Webflow's list here.
+# Redirects carried over from Webflow (Site settings -> Publishing -> 301 redirects,
+# export of 2026-11-25). Keep in sync if more are added before cut-over.
+[[redirects]]
+  from = "/blog"
+  to = "/blogs"
+  status = 301
+
+[[redirects]]
+  from = "/features"
+  to = "/overview"
+  status = 301
+
+[[redirects]]
+  from = "/request-demo"
+  to = "/book-a-demo"
+  status = 301
+
+[[redirects]]
+  from = "/career"
+  to = "/careers"
+  status = 301
+
 [[redirects]]
   from = "/pricing-old"
   to = "/pricing"
+  status = 301
+
+[[redirects]]
+  from = "/old-home-3"
+  to = "/overview"
   status = 301
 
 # Webflow Ecommerce system pages: no equivalent outside Webflow, so send their

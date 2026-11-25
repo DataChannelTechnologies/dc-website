@@ -4,6 +4,8 @@ Webflow → Netlify migration of datachannel.co. Built with **Next.js 15 (static
 
 ## Run locally (Docker only — nothing to install on the host)
 
+See `CLAUDE.md` for the full command reference (engineers vs content writers, checks, screenshots, pausing Netlify deploys).
+
 ```bash
 docker compose up -d          # site: http://localhost:3100   CMS proxy: 127.0.0.1:8081
 docker compose logs -f web    # follow the dev server
@@ -52,7 +54,11 @@ docker compose down
 
 ## Forms and analytics
 
-- **Forms** use Netlify Forms (contact, lead, career application with résumé upload). Netlify detects them from `public/__forms.html`, so keep that file in sync with `src/components/forms/form-definitions.ts`. In Netlify, turn on **Forms → form detection** once, then set up email notifications under Forms → Notifications.
+- **Forms** use Netlify Forms (contact, lead, career application with résumé upload). Netlify detects them from `public/__forms.html`, so keep that file in sync with `src/components/forms/form-definitions.ts`.
+- **Form notifications go to Slack:** `netlify/functions/submission-created.mjs` runs on every verified submission and posts it, including a résumé download link, to a Slack incoming webhook. One-time setup in Netlify:
+  1. **Forms → Enable form detection.**
+  2. **Project configuration → Environment variables → Add variable:** `SLACK_WEBHOOK_URL` = the webhook URL, scope **Functions**. To get one, create a Slack app at api.slack.com/apps (Create New App → From scratch), open **Incoming Webhooks**, activate it, then **Add New Webhook to Workspace** and pick the channel. The URL is a secret, so don't commit it.
+  3. Deploy, then submit each form once to test.
 - **Demo and sales schedulers** are HubSpot Meetings embeds. `/schedule-demo` keeps its Calendly embed.
 - **Analytics** (GTM, GA4, HubSpot, LinkedIn Insight, Microsoft Clarity, Meta pixel; same IDs as Webflow) are in `src/components/analytics.tsx` and only load on `www.datachannel.co` / `datachannel.co`.
 - **Retired Webflow Ecommerce pages** (`/checkout`, `/paypal-checkout`, `/order-confirmation`) 301-redirect to `/pricing` (`netlify.toml`).

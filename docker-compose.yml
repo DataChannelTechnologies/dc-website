@@ -39,7 +39,24 @@ services:
     ports:
       - "${PREVIEW_PORT:-3101}:3001"
 
-  # Re-imports the integration-family collections from the Webflow API.
+  # Production build / checks without disturbing the running dev server
+  # (own .next cache). Output goes to ./out (gitignored).
+  #   docker compose --profile tools run --rm build                      -> npm run build
+  #   docker compose --profile tools run --rm build npx tsc --noEmit     -> typecheck
+  #   docker compose --profile tools run --rm build node scripts/validate-pages.mjs
+  build:
+    image: node:22-alpine
+    working_dir: /app
+    profiles: ["tools"]
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+      - /app/.next
+    environment:
+      NEXT_TELEMETRY_DISABLED: "1"
+    command: npm run build
+
+  # Re-imports the Webflow CMS collections from the Webflow API.
   #   docker compose --profile tools run --rm webflow-import
   webflow-import:
     <<: *node
