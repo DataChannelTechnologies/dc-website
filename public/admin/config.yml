@@ -1,10 +1,16 @@
 # Decap CMS (formerly Netlify CMS) configuration.
-# Production: git-gateway via Netlify Identity (enable both in the Netlify UI).
+# Production: GitHub backend. Editors log in with GitHub and need write access
+# to the repo. The OAuth handshake goes through Netlify's OAuth provider
+# (Project configuration -> Security -> OAuth -> install the GitHub provider).
 # Local: `docker compose up` also starts decap-server on :8081, and
 # `local_backend: true` makes /admin/index.html write straight to ./content.
 backend:
-  name: git-gateway
+  name: github
+  repo: DataChannelTechnologies/dc-website
   branch: main
+  # Netlify project the OAuth provider is installed on. Needed once the site
+  # is served from a custom domain (e.g. www.datachannel.co).
+  site_domain: datachanne1.netlify.app
 
 local_backend:
   url: http://localhost:8081/api/v1
@@ -12,7 +18,7 @@ local_backend:
 media_folder: public/images/uploads
 public_folder: /images/uploads
 
-site_url: https://www.datachannel.co
+site_url: https://datachanne1.netlify.app
 logo_url: /images/logo.png
 
 # Reusable field groups

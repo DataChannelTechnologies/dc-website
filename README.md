@@ -29,7 +29,11 @@ docker compose down
 
 `netlify.toml` already sets the build: `npm run build` → publish `out/` (Node 22).
 
-For the CMS in production, the config uses the `git-gateway` backend: in Netlify enable **Identity** and **Git Gateway**, then invite editors. If Identity isn't available on your Netlify plan, switch `backend` in `public/admin/config.yml` to `github` and set up a GitHub OAuth app instead.
+For the CMS in production, the config uses the **GitHub** backend. Netlify Identity / Git Gateway is deprecated and can't be enabled on new projects. One-time setup:
+
+1. Create a GitHub OAuth App (org Settings → Developer settings → OAuth Apps). Set the homepage to the site URL and the callback URL to `https://api.netlify.com/auth/done`.
+2. In Netlify go to Project configuration → Security → OAuth → **Install provider** → GitHub, and paste the app's client ID and secret.
+3. Editors open `/admin/` and log in with a GitHub account that has write access to this repo.
 
 ## Not done yet
 
