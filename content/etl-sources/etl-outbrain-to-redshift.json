@@ -1,0 +1,13 @@
+{
+  "name": "ETL Outbrain To Redshift",
+  "slug": "etl-outbrain-to-redshift",
+  "source": "outbrain",
+  "warehouse": "amazon-redshift",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Outbrain as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Outbrain account using the [+](https://api.datachannel.co/datasources/outbrain/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDU3MTg5MC4zNDU5NDk2fQ.TNgl2iMNkj-mIQpqQqWn3TtlCeAvE4d_c5zeuZhIfxanVsaoMapVgKB3OPe-FwXHpAXqSqwiW6alTQ0VygQ5lsmFUxRnhtpFJ3fT4r44-OKkKT4FfkpKVXoCNghNiXbK7nsOhas-XfA12i0kh5VucI4tUTFSNm3XIg5HLdbvJo0dSM0kEOGFFeR9sgAnNSTg6l-PZ8US2ANOeBbz2xgmCxXE4AM4mhz49mbyUIdqhyEyg3xxPNWEwzKRwPfIPR_WN9qsov52X2U-_Ccr_8jpTWFAwlG1sdYrlsUKqwXOI3h5azFXa03nbk8uvIidKdsO9TM4YShck3kYmoCSGvHWdXu63pQizxIc_3X59BJoC8tvMo5pb2SvUdHMXjOcm1QInHcHg2ATkOCxYWPjT57em342mpGrGcD3FuCVLpEc5diAumIK7WmKefP3B1fPiJCZ7FTJJnMXtnPEIhRbJCYlJNexcDOW6j2yqLN8pDqu_90u1LIoxPlcnIY2kFwrXRpr) icon with your **Username** & **Password**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/outbrain/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -29,6 +29,23 @@ _link: &link
     - { label: Label, name: label, widget: string }
     - { label: URL, name: href, widget: string }
 
+_slug: &slug
+  label: URL slug
+  name: slug
+  widget: string
+  pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "Lowercase letters, numbers and hyphens only"]
+  hint: "Becomes the page URL and file name. Don't change it on published pages: the URL won't move and SEO will suffer."
+
+_seoTitle: &seoTitle { label: SEO title (optional), name: seoTitle, widget: string, required: false, default: "", hint: "Leave empty to use the standard template title" }
+_seoDescription: &seoDescription { label: SEO description (optional), name: seoDescription, widget: text, required: false, default: "", hint: "Leave empty to use the standard template description" }
+_md: &md { widget: markdown, required: false, default: "", buttons: [bold, italic, link, heading-three, bulleted-list, numbered-list, quote, code], editor_components: [image] }
+
+_integrationRel: &integrationRel { widget: relation, collection: integrations, search_fields: [name], value_field: "{{slug}}", display_fields: [name] }
+_destinationRel: &destinationRel { widget: relation, collection: destinations, search_fields: [name], value_field: "{{slug}}", display_fields: [name] }
+_warehouseRel: &warehouseRel { widget: relation, collection: warehouses, search_fields: [name], value_field: "{{slug}}", display_fields: [name] }
+_integrationTagRel: &integrationTagRel { widget: relation, collection: integration-tags, search_fields: [name], value_field: "{{slug}}", display_fields: [name], required: false, default: "" }
+_destinationTagRel: &destinationTagRel { widget: relation, collection: destination-tags, search_fields: [name], value_field: "{{slug}}", display_fields: [name], required: false, default: "" }
+
 collections:
   - name: pages
     label: Pages
@@ -232,6 +249,169 @@ collections:
                   - { label: Title, name: title, widget: string }
                   - { label: Body, name: body, widget: text }
                   - { <<: *link, label: Button, name: cta }
+
+
+  # ---------------------------------------------------------------------------
+  # Collections migrated from the Webflow CMS. URL = /<path>/<file name>.
+  # ---------------------------------------------------------------------------
+  - name: integrations
+    label: Integrations (/integration/…)
+    label_singular: Integration
+    folder: content/integrations
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{name}} · {{category}}"
+    sortable_fields: [name, releaseDate]
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { <<: *integrationTagRel, label: Category, name: category }
+      - { label: Short info, name: shortInfo, widget: text }
+      - { label: Icon, name: icon, widget: image, required: false, default: "" }
+      - { label: Hero image, name: image, widget: image, required: false, default: "" }
+      - { <<: *md, label: Brief, name: brief }
+      - { label: Show "About" section, name: showAbout, widget: boolean, default: true }
+      - { <<: *md, label: About, name: about }
+      - { <<: *md, label: Available data (pipelines), name: availableData }
+      - { label: Source API documentation URL, name: sourceDocsUrl, widget: string, required: false, default: "" }
+      - { label: DataChannel documentation URL, name: docsUrl, widget: string, required: false, default: "" }
+      - { label: Release date, name: releaseDate, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: etl-sources
+    label: ETL source pages (/etl-sources/…)
+    label_singular: ETL source page
+    folder: content/etl-sources
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    sortable_fields: [name]
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string, hint: "Internal name, e.g. ETL Shopify Data to Snowflake" }
+      - *slug
+      - { <<: *integrationRel, label: Data source (integration), name: source }
+      - { <<: *warehouseRel, label: Data warehouse, name: warehouse }
+      - { <<: *integrationTagRel, label: Category, name: category }
+      - { label: Show steps, name: showSteps, widget: boolean, default: true }
+      - { <<: *md, label: Steps to configure, name: steps }
+      - { label: Show video, name: showVideo, widget: boolean, default: false }
+      - { label: Demo video URL (YouTube/Vimeo), name: videoUrl, widget: string, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: destinations
+    label: Destinations (/destinations/…)
+    label_singular: Destination
+    folder: content/destinations
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{name}} · {{category}}"
+    sortable_fields: [name, releaseDate]
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { <<: *destinationTagRel, label: Category, name: category }
+      - { label: Short info, name: shortInfo, widget: text }
+      - { label: Icon, name: icon, widget: image, required: false, default: "" }
+      - { label: Hero image, name: image, widget: image, required: false, default: "" }
+      - { <<: *md, label: Brief, name: brief }
+      - { label: Show "About" section, name: showAbout, widget: boolean, default: true }
+      - { <<: *md, label: About, name: about }
+      - { <<: *md, label: Available syncs, name: availableSync }
+      - { label: Source API documentation URL, name: sourceDocsUrl, widget: string, required: false, default: "" }
+      - { label: DataChannel documentation URL, name: docsUrl, widget: string, required: false, default: "" }
+      - { label: Release date, name: releaseDate, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: reverse-etl-destinations
+    label: Reverse ETL pages (/reverse-etl-destinations/…)
+    label_singular: Reverse ETL page
+    folder: content/reverse-etl-destinations
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    sortable_fields: [name]
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string, hint: "Internal name, e.g. Snowflake to HubSpot" }
+      - *slug
+      - { <<: *warehouseRel, label: Data warehouse, name: warehouse }
+      - { <<: *destinationRel, label: Destination, name: destination }
+      - { <<: *destinationTagRel, label: Category, name: category }
+      - { label: Show steps, name: showSteps, widget: boolean, default: true }
+      - { <<: *md, label: Steps to configure, name: steps }
+      - { label: Show video, name: showVideo, widget: boolean, default: false }
+      - { label: Demo video URL (YouTube/Vimeo), name: videoUrl, widget: string, required: false, default: "" }
+      - *seoTitle
+      - *seoDescription
+
+  - name: warehouses
+    label: Warehouses (/warehouses/…)
+    label_singular: Warehouse
+    folder: content/warehouses
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    editor: { preview: false }
+    fields:
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { label: Logo, name: logo, widget: image, required: false, default: "" }
+      - { label: Logo alt text, name: logoAlt, widget: string, required: false, default: "" }
+      - { label: Icon, name: icon, widget: image, required: false, default: "" }
+      - { label: Icon alt text, name: iconAlt, widget: string, required: false, default: "" }
+      - { label: Information link, name: informationLink, widget: string, required: false, default: "" }
+      - { label: Managed warehouse available, name: managedWarehouseAvailable, widget: boolean, default: false }
+      - *seoTitle
+      - *seoDescription
+
+  - name: integration-tags
+    label: Integration categories
+    label_singular: Integration category
+    folder: content/integration-tags
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    editor: { preview: false }
+    fields: &tagFields
+      - { label: Name, name: name, widget: string }
+      - *slug
+      - { label: Text colour, name: color, widget: color, required: false, default: "" }
+      - { label: Background colour, name: background, widget: color, required: false, default: "" }
+
+  - name: destination-tags
+    label: Destination categories
+    label_singular: Destination category
+    folder: content/destination-tags
+    format: json
+    extension: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: name
+    editor: { preview: false }
+    fields: *tagFields
 
   - name: settings
     label: Site settings

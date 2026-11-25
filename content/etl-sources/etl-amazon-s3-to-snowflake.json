@@ -1,0 +1,13 @@
+{
+  "name": "ETL Amazon S3 To Snowflake",
+  "slug": "etl-amazon-s3-to-snowflake",
+  "source": "amazon-s3",
+  "warehouse": "snowflake",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Amazon S3 as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your S3 Bucket account using the [+](https://api.datachannel.co/datasources/amazon-s3/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTAwNTg2OC4yMDYzOTU5fQ.Vf9XX6s4hqU2WiBd_kVFXLXJTge9aGk2cAizGT4ptksbc0uxyRmjj3-4d2_PeHYnl3WJ5ckYp5Q5SPwXlcKeUWCW7u_rjJJ3oXC7yleJvz-3zjhXuSrQ_OyemLN2XHzFIhI7SiL8uZ10wCdyT-L1d6vPSbuf3a22-Fy5apwHngj1vWpGQMeBFcYVz93igUYnJ2H5k2wqq5E8vCt6nd6xrR6T9qKKniQBHXCYyC-2Gm8MElhGR47joXrPTgSEWXMtY5OvUBmnP-1zwOHNdZunqI22csGLEzyYT6vnM4PMIHXvJNahuy6hVOH5a9k4pbxmWQqTzsHiJ-zoF97lpCwAJ6YzmL8-xg9NHPOzHmG5R8IV4YF3VuPqPvgt4E-qWxcX417N7FahmOG0Ng5c0XdQUhO5Qwu1T-bmrWRQxg6Lyck4amcn8Sl7h6RAcqcMT2tsjs2vsD2w208wwVQP3I6FlTR8YT6SVHjOVt2qD2HB6IYei4XD9gU__TeC--tC0hBw) icon with your **Access Key, Secret Key, Bucket Name** & **AWS Location**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/amazon-s3/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

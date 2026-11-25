@@ -1,0 +1,17 @@
+{
+  "name": "Bing Ads",
+  "slug": "bing-ads",
+  "category": "marketing",
+  "shortInfo": "The Bing Ads connector enables streaming data from a user's warehouse to the Bing Ads platform ",
+  "icon": "/images/cms/destinations/bing-ads-logo-100x100-e88913.png",
+  "image": "/images/cms/destinations/bing-ads-logo-100x100-e88913.png",
+  "brief": "Bing Ads is an online advertising platform developed by Microsoft, where advertisers bid to display brief advertisements to web users.",
+  "showAbout": true,
+  "about": "Bing Ads provides a desktop tool to manage campaigns offline, called Microsoft Ads Editor. Using this editor you can make offline changes to your campaigns and later sync it online. Bing Ads also provides APIs that can be used to manage advertising campaigns.",
+  "availableSync": "[Audience](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/bing-ads/syncs/audience.html)\n\nThis sync can be used to upload audience data from a user specified data warehouse to the Bing Ads platform.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/advertising/bulk-service/customer-list-item?view=bingads-13",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/bing-ads/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

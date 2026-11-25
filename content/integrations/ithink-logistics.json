@@ -1,0 +1,17 @@
+{
+  "name": "IThink Logistics",
+  "slug": "ithink-logistics",
+  "category": "others",
+  "shortInfo": "Access shipment tracking, courier performance, delivery status, and logistics data.\n",
+  "icon": "/images/cms/integrations/ithinklogistics-3bfdb0.png",
+  "image": "/images/cms/integrations/ithinklogistics-3bfdb0.png",
+  "brief": "IThink Logistics Connector provides access to shipment and logistics data. It enable businesses to track deliveries, monitor courier performance, analyze shipping operations, and gain visibility into fulfillment efficiency.",
+  "showAbout": true,
+  "about": "IThink Logistics is a shipping aggregation and logistics management platform that enables businesses to manage shipments across multiple courier partners through a single interface. IThink Logistics helps businesses track shipment performance, monitor delivery status, and manage logistics operations to gain insights into shipping efficiency and customer experience.\n\nThe IThink Logistics Connector lets you sync data from the IThink Logistics platform to your data warehouse automatically.",
+  "availableData": "Orders\n\nThis pipeline can be used to request and retrieve Orders Report",
+  "sourceDocsUrl": "https://docs.ithinklogistics.com/",
+  "docsUrl": "",
+  "releaseDate": "2026-03-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

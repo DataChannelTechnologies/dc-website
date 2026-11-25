@@ -1,0 +1,13 @@
+{
+  "name": "ETL Amazon Marketing Stream to Snowflake",
+  "slug": "etl-amazon-marketing-stream-to-snowflake",
+  "source": "amazon-marketing-stream",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**Amazon Marketing Stream to Snowflake**\n\n1.  From the DataSources section select Amazon Marketing Stream as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Amazon Marketing Stream account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-marketing-stream/setup.html) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/amazon-marketing-stream/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "AppLovin",
+  "slug": "applovin",
+  "category": "marketing",
+  "shortInfo": "AppLovin help monetize and scale mobile apps.",
+  "icon": "/images/cms/integrations/applovin_icon-f900c8.png",
+  "image": "/images/cms/integrations/applovin_logo-51b8f2.png",
+  "brief": "Applovin helps developers market, monetize, analyze and publish their apps through its mobile advertising, marketing, and analytics platforms MAX, AppDiscovery, and SparkLabs.",
+  "showAbout": true,
+  "about": "Get access to Advertising Report and much more through this Applovin connector. It enables streaming of relevant Applovin data into a user determined data warehouse automatically once you configure the relevant pipelines.",
+  "availableData": "##### Advertiser Report\n\nThis pipeline can be used to request and retrieve the Advertising Report from the AppLovin platform.",
+  "sourceDocsUrl": "https://developers.applovin.com/en/ecommerce/reporting-api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/applovin/index.html",
+  "releaseDate": "2025-06-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

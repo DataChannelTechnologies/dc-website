@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to Google Sheets",
+  "slug": "postgresql-to-google-sheets",
+  "warehouse": "postgresql",
+  "destination": "google-sheets",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  Create a data model and specify the [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html) from which you want the data for your Google Sheets. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n2.  Authorise DataChannel to connect to your Google Sheets.\n3.  Click on **\\+ Data Sync** to start adding data syncs to your account.\n\n![googlesheets reverseetl](/images/cms/reverse-etl-destinations/googlesheets-reverseetl-93ff48.png)\n\n     4.  Details of individual syncs are available [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/syncs.html).",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

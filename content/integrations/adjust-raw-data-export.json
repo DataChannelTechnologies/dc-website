@@ -1,0 +1,17 @@
+{
+  "name": "Adjust Raw Data Export",
+  "slug": "adjust-raw-data-export",
+  "category": "marketing",
+  "shortInfo": "Adjust is a global app marketing analytics platform that helps you get a holistic view into the performance of your campaigns.",
+  "icon": "/images/cms/integrations/adjust_480-11d13d.jpg",
+  "image": "/images/cms/integrations/adjust_360-842325.png",
+  "brief": "Adjust raw data export makes it easy to send raw, user-level data to your servers or cloud storage provider which allows you to build your own database and recall data without ever having to request logs.",
+  "showAbout": true,
+  "about": "Adjust Raw Data Export connector enables you to export your raw user data from your Google Cloud Storage into your chosen data warehouse. You can use this data to build your own database and analyze data accordingly.\n\nLearn more about [Adjust Raw Data Export](https://help.adjust.com/en/article/raw-data-exports).",
+  "availableData": "[Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust-raw-data/pipelines/report.html)\n\nThis pipeline provides reports on events/datapoints selected by you based on your requirement. Learn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust-raw-data/index.html) here.",
+  "sourceDocsUrl": "https://help.adjust.com/en/article/raw-data-exports",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust-raw-data/index.html",
+  "releaseDate": "2023-07-18",
+  "seoTitle": "",
+  "seoDescription": ""
+}

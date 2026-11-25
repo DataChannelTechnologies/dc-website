@@ -1,0 +1,13 @@
+{
+  "name": "ETL MoEngage To Snowflake",
+  "slug": "etl-moengage-to-snowflake",
+  "source": "moengage",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select MoEngage as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your MoEngage Account using the [+](https://api.datachannel.co/datasources/moengage/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImU3OTMwMjdkYWI0YzcwNmQ2ODg0NGI4MDk2ZTBlYzQzMjYyMjIwMDAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjgyNDIyODUwLCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY4MjQ5MTc2OSwiZXhwIjoxNjgyNDk1MzY5LCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.icKpjH7Bu0t7LF7xWomA7LwnFhMDoKQ-UE8OJGMUQlHEB5bFfcHNDMXS6dHhhNHXfwtyklU6cllTge0DdEzNywcPh8JkCWlkN9jIvh2Pa0E9lSQF3adsoO4GZBExL6VM59yAQ9ZhkneR7GtOzZcflCbuKuFcrRrIvutpyHrTTcXWRcksz2fLlfazzAWX68yV_SDEe1oFj4FALxHGB5LENtf_T_ywelXTABsmaTEVOclbwmGyTisF6FEEIktzHoZFjxbK1FEYdiXT9cupC-COwEbXePIfb0csJ-WCY5H4_hy16Jeb5OJ-LgOdf6AHbd6PVd9WS0gXNujz24_O435Ymg) icon with your **App ID & App Secret.**\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/moengage/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

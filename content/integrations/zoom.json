@@ -1,0 +1,17 @@
+{
+  "name": "Zoom",
+  "slug": "zoom",
+  "category": "others",
+  "shortInfo": "Zoom is a video conferencing and communication platform that enables virtual meetings, webinars, and collaboration.",
+  "icon": "/images/cms/integrations/zoom-wp-35901c.png",
+  "image": "/images/cms/integrations/zoom-wp-35901c.png",
+  "brief": "Zoom is an information sharing, communication and collaboration platform for streamlining communications, thus enabling increased employee engagement, optimized in-person time, and improved productivity.",
+  "showAbout": true,
+  "about": "Get access to Meetings and Meeting Reports through this Zoom connector. It enables streaming of relevant Zoom data into a user determined data warehouse automatically once you configure the relevant pipelines.\n\nCheck more about Zoom api documentation [here](https://developers.zoom.us/docs/api/).",
+  "availableData": "[Meetings](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoom/pipelines/meetings.html)\n\nAccess granular data detailing all activities that occurred during a Zoom meeting.\n\n  \n[Meeting Reports](<http://Meeting Reports>)\n\nAccess meeting reports from Zoom Meetings.",
+  "sourceDocsUrl": "https://developers.zoom.us/docs/api/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoom/index.html",
+  "releaseDate": "2024-08-05",
+  "seoTitle": "",
+  "seoDescription": ""
+}

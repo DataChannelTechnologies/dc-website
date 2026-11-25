@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to FTP",
+  "slug": "postgresql-to-ftp",
+  "warehouse": "postgresql",
+  "destination": "ftp",
+  "category": "others",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

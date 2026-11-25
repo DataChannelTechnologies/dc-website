@@ -1,0 +1,17 @@
+{
+  "name": "Dukaan",
+  "slug": "dukaan",
+  "category": "ecommerce",
+  "shortInfo": "Dukaan is a DIY e-commerce platform that lets you create your free online store, and start selling online.",
+  "icon": "/images/cms/integrations/a-b0f4c7.png",
+  "image": "/images/cms/integrations/logo-42d5ad.png",
+  "brief": "Dukaan enables merchants with no programming skills to set up their e-commerce store.",
+  "showAbout": true,
+  "about": "Get access to relevant reports such as Orders, Products, Audiences, Inventory and much more through this Dukaan connector. It enables streaming of relevant Dukaan data into a user determined data warehouse automatically once you configure the relevant pipelines.\n\nCheck more about Dukaan api documentation [here](https://documenter.getpostman.com/view/25389466/2s9Yynk3f7#intro).",
+  "availableData": "[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve the details of orders in your Dukaan Account\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve the details of products in your Dukaan Account\n\n[Categories](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/pipelines/categories.html)\n\nThis pipeline can be used to request and retrieve the details of product categories in your Dukaan Account\n\n[Audiences](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/pipelines/audiences.html)\n\nThis pipeline can be used to request and retrieve the details of audiences in your Dukaan Account.\n\n[Inventory](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/pipelines/inventory.html)\n\nThis pipeline can be used to request and retrieve the details of inventory in your Dukaan Account.",
+  "sourceDocsUrl": "https://documenter.getpostman.com/view/25389466/2s9Yynk3f7#intro",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/index.html",
+  "releaseDate": "2024-05-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

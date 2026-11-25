@@ -1,0 +1,17 @@
+{
+  "name": "ClickPost",
+  "slug": "clickpost",
+  "category": "ecommerce",
+  "shortInfo": "ClickPost is a multi carrier shipping software that offers shipping and tracking services to eCommerce companies.",
+  "icon": "/images/cms/integrations/clickpost_360-c5454b.png",
+  "image": "/images/cms/integrations/clickpost-resize-a75bc2.jpg",
+  "brief": "ClickPost allows you to compare shipping app costs, book and monitor shipments, keeping you updated about the product and its location. It further utilizes this data to identify the supply chain gaps and optimize the shipping process.",
+  "showAbout": true,
+  "about": "ClickPost is a multi-carrier logistics management and intelligence platform that helps both small & large-sized enterprises with their logistics operations. It enables enterprises to choose from several carrier partners that ClickPost comes pre-integrated with already.\n\nLearn more about [ClickPost API documentation](https://docs.clickpost.ai/docs).",
+  "availableData": "[Track Order Dashboard Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clickpost/pipelines/track-order-dashboard-report.html)\n\nTrack Order Dashboard Report pipeline can be used to request and retrieve details of all the shipment updates received in Clickpost. This report applies to all MPS (Multi-Piece Shipment) and SPS (Single Piece Shipment) orders.\n\nThis connector supports all shipments created and transported within India, North America, Europe, Middle East, and South East Asia.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clickpost/index.html) here.",
+  "sourceDocsUrl": "https://docs.clickpost.ai/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clickpost/index.html",
+  "releaseDate": "2023-06-06",
+  "seoTitle": "",
+  "seoDescription": ""
+}

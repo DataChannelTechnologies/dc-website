@@ -1,0 +1,13 @@
+{
+  "name": "Move Data from Google Bigquery to Bing Ads",
+  "slug": "move-data-from-google-bigquery-to-bing-ads",
+  "warehouse": "google-bigquery",
+  "destination": "bing-ads",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**Google Bigquery to Bing Ads**\n\n**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a BigQuery Warehouse.\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**\\**You can fetch data directly from any table / view existing in your warehouse if you don’t want to set up a data model. In that case you can skip this step and directly move to configuring your destination.***\n\n**3\\. Configure your Data Destination** - Navigate to [Reverse ETL](https://console.datachannel.co/reverse-connectors) tab, click on \"All Destinations\" and select **Bing Ads.**\n\n-   Add Your Shopify Credentials using the “+” icon.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/bing-ads/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

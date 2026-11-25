@@ -1,0 +1,17 @@
+{
+  "name": "Criteo",
+  "slug": "criteo",
+  "category": "marketing",
+  "shortInfo": "Marketing Solutions and Retail Media",
+  "icon": "/images/cms/integrations/criteo-1-427a97.svg",
+  "image": "/images/cms/integrations/criteo-1-427a97.svg",
+  "brief": "With this connector, you can unlock the power of Criteo’s industry-leading innovations. Leverage Criteo’s powerful targeting solutions to create flexible apps customized to your needs, then automate and scale them. This Connector enables streaming relevant Criteo performance data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Build, scale, and activate first-party audiences with The Commerce Media Platform. Commerce data and intelligence help you focus your awareness campaigns where they’ll have the most impact. Reach consumers actively considering products or services similar to those you offer and drive them to your website or app with attention-grabbing creative. Bring consumers back to complete their transaction with ads purpose-built to generate conversions.  \n  \nLearn more about [Criteo API documentation.](https://developers.criteo.com/marketing-solutions/docs)",
+  "availableData": "[Audiences](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/audiences.html)\n\nThis pipeline can be used to request and retrieve details about the audience being targeted by Criteo.\n\n[Budgets](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/budgets.html)\n\nThis pipeline can be used to request and retrieve details about all of your active and scheduled budgets.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve details about the campaigns in your account.\n\n[Campaign Performance Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/campaign-performance-statistics.html)\n\nThis pipeline can be used to request and retrieve details about the campaign performance.\n\n[Categories](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/categories.html)\n\nThis pipeline can be used to request and retrieve categories for your portfolio.\n\n[Transaction ID Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/pipelines/transaction-id-statistics.html)\n\nThis pipeline can be used to request and retrieve the performance statistics of the transactions in your account.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/index.html) here.",
+  "sourceDocsUrl": "https://developers.criteo.com/marketing-solutions/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/criteo/index.html",
+  "releaseDate": "2022-10-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

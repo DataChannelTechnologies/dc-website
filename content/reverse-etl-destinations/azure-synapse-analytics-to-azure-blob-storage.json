@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Azure Blob Storage",
+  "slug": "azure-synapse-analytics-to-azure-blob-storage",
+  "warehouse": "azure-synapse",
+  "destination": "azure-blob-storage",
+  "category": "others",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

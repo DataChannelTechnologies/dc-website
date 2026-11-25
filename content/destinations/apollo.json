@@ -1,0 +1,17 @@
+{
+  "name": "Apollo",
+  "slug": "apollo",
+  "category": "crm-sales",
+  "shortInfo": "Find and research leads, personalize messaging, and launch campaigns",
+  "icon": "/images/cms/integrations/apollo-ca83ec.png",
+  "image": "/images/cms/integrations/apollo-ca83ec.png",
+  "brief": "Apollo.io is primarily used for **outbound prospecting, lead generation, and sales engagement**. It enables teams to find verified emails, send automated sequences, and manage sales workflows in one platform.",
+  "showAbout": true,
+  "about": "The Apollo Reverse ETL connector enables streaming data from a user determined warehouse (checkout model configuration [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/data_models.html)) to the Apollo platform in an automated manner.",
+  "availableSync": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/apollo/syncs/accounts.html)\n\nThis sync can be used to upload accounts from a user specified data warehouse to the Apollo platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/apollo/syncs/contacts.html)\n\nThis sync can be used to upload contacts from a user specified data warehouse to the Apollo platform.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/apollo/syncs/deals.html)\n\nThis sync can be used to upload deals from a user specified data warehouse to the Apollo platform.",
+  "sourceDocsUrl": "https://docs.apollo.io/docs/api-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/index.html",
+  "releaseDate": "2025-05-12",
+  "seoTitle": "",
+  "seoDescription": ""
+}

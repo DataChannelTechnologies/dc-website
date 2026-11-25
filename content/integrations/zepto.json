@@ -1,0 +1,17 @@
+{
+  "name": "Zepto",
+  "slug": "zepto",
+  "category": "ecommerce",
+  "shortInfo": "Zepto is a Quick commerce delivery platform providing instant delivery services.",
+  "icon": "/images/cms/integrations/zepto-100x100-1a7eb1.png",
+  "image": "/images/cms/integrations/zepto-100x100-1a7eb1.png",
+  "brief": "Zepto helps sellers to look at sales performance and inventory of their products to draw insights about what is working and what is not.The Zepto Connector lets you sync data from Zepto platform to your data warehouse automatically.",
+  "showAbout": true,
+  "about": "Zepto is a quick commerce platform and online grocery delivery service based in India that guarantees delivering groceries and other products within 10 minutes. It's known for its rapid delivery speed and competitive pricing. Zepto offers a wide range of products, including groceries, fresh produce, personal care items, and more.",
+  "availableData": "[Inventory Summary](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zepto/pipelines/inventory-summary.html)\n\nThis pipeline can be used to request and retrieve the Inventory Summary from the Zepto platform.\n\n[Sales Ledger Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zepto/pipelines/sales-ledger-report.html)\n\nThis pipeline can be used to request and retrieve the Sales Ledger Report from the Zepto platform.\n\n[Sales Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zepto/pipelines/sales-report.html)\n\nThis pipeline can be used to request and retrieve the Sales Report from the Zepto platform.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zepto/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

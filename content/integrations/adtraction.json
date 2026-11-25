@@ -1,0 +1,17 @@
+{
+  "name": "Adtraction",
+  "slug": "adtraction",
+  "category": "marketing",
+  "shortInfo": "Adtraction helps you find the right marketing partners to grow your business",
+  "icon": "/images/cms/integrations/adtraction_icon-640412.png",
+  "image": "/images/cms/integrations/adtraction_logo-63027c.png",
+  "brief": "Adtraction connects you to diverse marketing partners to reach your audience and increase sales",
+  "showAbout": true,
+  "about": "Get access to Statistics through this Adtraction connector. It enables streaming of relevant Adtraction data into a user determined data warehouse automatically once you configure the relevant pipelines.\n\nCheck more about Adtraction api documentation [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adtraction/index.html).",
+  "availableData": "[Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adtraction/pipelines/statistics.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adtraction/pipelines/statistics.html)This pipeline can be used to request and retrieve the aggregation of statistics across a defined time period.",
+  "sourceDocsUrl": "https://adtractionapi.docs.apiary.io/#",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adtraction/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

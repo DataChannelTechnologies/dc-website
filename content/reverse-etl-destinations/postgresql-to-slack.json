@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to Slack",
+  "slug": "postgresql-to-slack",
+  "warehouse": "postgresql",
+  "destination": "slack",
+  "category": "notifications",
+  "showSteps": true,
+  "steps": "1.  Create a data model and specify the [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html) from which you want the data for your Slack. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n2.  Authorise DataChannel to connect to your Slack.\n3.  Click on **\\+ Data Sync** to start adding data syncs to your account.\n\n![slack reverseetl](/images/cms/reverse-etl-destinations/slack-reverseetl-e70280.png)\n\n       4. Details of individual syncs are available [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/slack/syncs.html).",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

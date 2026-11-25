@@ -1,0 +1,13 @@
+{
+  "name": "ETL LinkedIn Community Management Data to Snowflake",
+  "slug": "etl-linkedin-community-management-data-to-snowflake",
+  "source": "linkedin-community-management",
+  "warehouse": "snowflake",
+  "category": "social-media",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **LinkedIn Community Management** as the data source.\n2.  Select your added **Snowflake** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Enter any desired Name for your credentials. Authorize DataChannel to connect to your LinkedIn account using OAuth.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/apollo/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

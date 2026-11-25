@@ -1,0 +1,12 @@
+{
+  "name": "MySQL",
+  "slug": "mysql",
+  "logo": "/images/cms/warehouses/mysqllogo-b929ef.png",
+  "logoAlt": "MySQL Logo",
+  "icon": "/images/cms/warehouses/mysqlicon-192de2.png",
+  "iconAlt": "MySQL Icon",
+  "informationLink": "https://www.mysql.com/",
+  "managedWarehouseAvailable": false,
+  "seoTitle": "",
+  "seoDescription": ""
+}

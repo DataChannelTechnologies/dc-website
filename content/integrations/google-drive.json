@@ -1,0 +1,17 @@
+{
+  "name": "Google Drive",
+  "slug": "google-drive",
+  "category": "others",
+  "shortInfo": "Store, share, and collaborate on files and folders from your mobile device, tablet, or computer",
+  "icon": "/images/cms/integrations/google_drive_icon-f3674a.png",
+  "image": "/images/cms/integrations/google_drive_logo-d61070.png",
+  "brief": "Drive can provide encrypted and secure access to your files. Files shared with you can be proactively scanned and removed when malware, spam, ransomware, or phishing is detected. And Drive is cloud-native, which eliminates the need for local files and can minimize risk to your devices. Drive integrates with Docs, Sheets, and Slides, cloud-native collaboration apps that enable your team to create content and collaborate more effectively in real time",
+  "showAbout": true,
+  "about": "Easy and secure access to your content. Store, share, and collaborate on files and folders from your mobile device, tablet, or computer.  \n  \nLearn more about [Google Drive API documentation.](https://www.google.com/intl/en_in/drive/)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-drive/pipelines/googledrive-csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-drive/pipelines/googledrive-json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-drive/pipelines/googledrive-excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-drive/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/drive/api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-drive/index.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

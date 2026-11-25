@@ -1,0 +1,17 @@
+{
+  "name": "Flipkart Seller",
+  "slug": "flipkart-seller",
+  "category": "ecommerce",
+  "shortInfo": "Flipkart Seller Platform is an e-commerce platform that allows sellers to register and manage various aspects of their businesses",
+  "icon": "/images/cms/integrations/image-31-1--8a143f.png",
+  "image": "/images/cms/integrations/image-31-1--8a143f.png",
+  "brief": "Get access to Seller Insights Report, Commission Invoice Transaction Details Report and much more through this Flipkart Seller connector.",
+  "showAbout": true,
+  "about": "Flipkart Seller Connector enables streaming relevant Flipkart Seller performance data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Commission Invoice Transaction Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-seller/pipelines/commission-invoice-transaction-details.html)\n\nThis pipeline can be used to request and retrieve Commission Invoice Transaction Details Report.\n\n[MP Fee Rebate Transactions](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-seller/pipelines/mp-fee-rebate-transactions.html)\n\nThis pipeline can be used to request and retrieve MP Fee Rebate Transactions Report.\n\n[Seller Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-seller/pipelines/seller-insights.html)\n\nThis pipeline can be used to request and retrieve Seller Insights Report.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-seller/index.html",
+  "releaseDate": "2024-09-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

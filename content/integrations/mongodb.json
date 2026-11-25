@@ -1,0 +1,17 @@
+{
+  "name": "MongoDB",
+  "slug": "mongodb",
+  "category": "databases",
+  "shortInfo": "MongoDB is a source-available, cross-platform, document-oriented database program.",
+  "icon": "/images/cms/integrations/image-576-2--f033fd.png",
+  "image": "/images/cms/integrations/image-576-2--f033fd.png",
+  "brief": "MongoDB is a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.",
+  "showAbout": true,
+  "about": "MongoDB Connector enables streaming data from the MongoDB database into a user determined warehouse through DataChannel dashboard.",
+  "availableData": "[**Table/View**](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mongodb/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database chosen by the user.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mongodb/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

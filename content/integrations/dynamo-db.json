@@ -1,0 +1,17 @@
+{
+  "name": "DynamoDB",
+  "slug": "dynamo-db",
+  "category": "databases",
+  "shortInfo": "DynamoDB is a managed NoSQL database service provided by Amazon Web Services (AWS).",
+  "icon": "/images/cms/integrations/dynamodb_icon-20268b.png",
+  "image": "/images/cms/integrations/dynamodb_logo-f53954.png",
+  "brief": "Amazon DynamoDB is a managed NoSQL database service provided by Amazon Web Services (AWS) and supports key-value and document data structures and is designed to handle a wide range of applications requiring scalability and performance.",
+  "showAbout": true,
+  "about": "DynamoDB Connector enables streaming data from the DynamoDB into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/dynamodb/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by the user.",
+  "sourceDocsUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CurrentAPI.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/dynamodb/index.html",
+  "releaseDate": "2025-07-08",
+  "seoTitle": "",
+  "seoDescription": ""
+}

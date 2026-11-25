@@ -1,0 +1,17 @@
+{
+  "name": "Files",
+  "slug": "files",
+  "category": "others",
+  "shortInfo": "Files Connector enables streaming a variety of files data into a warehouse through DataChannel dashboard.",
+  "icon": "/images/cms/integrations/files-8938ff.png",
+  "image": "/images/cms/integrations/files-8271d7.png",
+  "brief": "Files Connector enables streaming files data into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "The faster way to clean up, find and share files. Get personalised space clean up suggestions for unused apps, No more folders. Find exactly the things you want. Transfer files directly to people nearby without Data.  \n  \nLearn more about [Files API documentation.](https://files.google.com/)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/files/pipelines/csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/files/index.html) here.",
+  "sourceDocsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/files/index.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/files/index.html",
+  "releaseDate": "2022-12-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Shiprocket",
+  "slug": "shiprocket",
+  "category": "ecommerce",
+  "shortInfo": "A shipping and logistics platform primarily used for streamlining the order fulfillment process.",
+  "icon": "/images/cms/integrations/shiprocketicon-1-0b62b2.png",
+  "image": "/images/cms/integrations/shiprocketicon-1-0b62b2.png",
+  "brief": "Shiprocket is **a shipping and logistics platform primarily used by e-commerce businesses in India, streamlining their order fulfillment process**. It integrates with various online store platforms, allowing businesses to manage orders, print shipping labels, and track shipments.",
+  "showAbout": true,
+  "about": "Shiprocket is an online shipping platform that connects online retailers to multiple courier partners for shipping their products to their customers.\n\nShiprocket Connector enables streaming relevant Shiprocket data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shiprocket/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve a list of all created and available orders in your Shiprocket account.\n\n[Order Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shiprocket/pipelines/order-details.html)\n\nThis pipeline can be used to request and retrieve the order details from the Shiprocket platform.\n\n[Shipments](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shiprocket/pipelines/shipments.html)\n\nThis pipeline can be used to request and retrieve the shipments from the Shiprocket platform.",
+  "sourceDocsUrl": "https://apidocs.shiprocket.in/#intro",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shiprocket/index.html",
+  "releaseDate": "2025-06-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

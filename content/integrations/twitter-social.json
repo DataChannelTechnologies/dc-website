@@ -1,0 +1,17 @@
+{
+  "name": "Twitter Social",
+  "slug": "twitter-social",
+  "category": "social-media",
+  "shortInfo": "X: Leading online news and social networking site where people communicate in short messages.",
+  "icon": "/images/cms/integrations/twitterx_1_360-ac4fdb.png",
+  "image": "/images/cms/integrations/twitterx_1_360-ac4fdb.png",
+  "brief": "Twitter Social provides access to Twitter’s data for resources such as Tweets and Users.",
+  "showAbout": true,
+  "about": "DataChannel’s Twitter Social Connector enables streaming relevant Twitter data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.\n\nCheck more about API Documentation [here](https://developer.x.com/en/docs/platform-overview).",
+  "availableData": "[Tweets](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-social/pipelines/tweets.html)\n\nThis pipeline can be used to request and retrieve a variety of information about a Tweet.\n\n[User Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-social/pipelines/user-metrics.html)\n\nThis pipeline can be used to request and retrieve the metrics about an authorized user.\n\n[Users Blocked](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-social/pipelines/users-blocked.html)\n\nThis pipeline can be used to request and retrieve the list of blocked users.\n\n[Users Muted](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-social/pipelines/users-muted.html)\n\nThis pipeline can be used to request and retrieve the list of muted users.",
+  "sourceDocsUrl": "https://developer.x.com/en/docs/platform-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-social/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

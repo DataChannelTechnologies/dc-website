@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to GoogleAds Conversions",
+  "slug": "postgresql-to-googleads-conversions",
+  "warehouse": "postgresql",
+  "destination": "google-ads-conversions",
+  "category": "marketing",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

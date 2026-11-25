@@ -1,0 +1,13 @@
+{
+  "name": "ETL RevContent To MySQL",
+  "slug": "etl-revcontent-to-mysql",
+  "source": "revcontent",
+  "warehouse": "mysql",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select RevContent as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your RevContent account using the [+](https://api.datachannel.co/datasources/revcontent/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTE2ODczMy4zNDQyMzQyfQ.VYXxftlqUFfjN7UMp35UhXvOI_De5-Mdvp_ZiUXQxgsg8XkuW36ZyXpdkkGTCaQJd-CXVLsapNyYCVtF-VNnSdaS_QuRb8_zig68Gqd7_OxTHsJJ25YynFh7IX_jj_4LHJG6CbPEmnitihLhyL7eATkK7t0TPvhJaP3EAo54nKycUHiL2FCMjdfQnj43lNCvYEtWKvluhUau1muoEL9lVy8368J3vNaELYfAPElxIE9RdKWuEnEcIi8ciu4mGIr2xnMcsbcdS8THezCZ4NkAo_VD7BA6ee5fYqI9p1IM1Y3Bj5MbbBynv66x0jLo2ASno-EdCg185DhK2sawAKS3Z3RMpUU5_wp-wd05doJBFNXJWiQ7PgRozIlrpldBy_F0DrSUEiiyCwH5FFoKpTY7U1oIGMARGEZtoMGRs_HrGWrR14SK7TXVj29U6n1MODH_m_T0Vvy0u7cFOlgXQwtJvpeLAYp0OhYP6RGB8M3B1f2J_9PcuC8aILrFJyHwdk_q) icon with your **Client ID** & **Client Secret**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/revcontent/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

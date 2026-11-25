@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Freshsales",
+  "slug": "azure-synapse-analytics-to-freshsales",
+  "warehouse": "azure-synapse",
+  "destination": "freshsales",
+  "category": "crm-sales",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

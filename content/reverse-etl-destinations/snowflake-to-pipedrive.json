@@ -1,0 +1,13 @@
+{
+  "name": "Snowflake to Pipedrive",
+  "slug": "snowflake-to-pipedrive",
+  "warehouse": "snowflake",
+  "destination": "pipedrive",
+  "category": "others",
+  "showSteps": true,
+  "steps": "**Snowflake to Salesforce**\n\n**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a Snowflake Warehouse.\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Pipedrive.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/pipedrive/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjYyM2YzNmM4MTZlZTNkZWQ2YzU0NTkyZTM4ZGFlZjcyZjE1YTBmMTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjkwODA0NjQ0LCJ1c2VyX2lkIjoiOGE2OWRmNDNhNjJhNGM2ZTg0MjgxOGE3NmZkZmU0ZjkiLCJzdWIiOiI4YTY5ZGY0M2E2MmE0YzZlODQyODE4YTc2ZmRmZTRmOSIsImlhdCI6MTY5MTEzNjgxMiwiZXhwIjoxNjkxMTQwNDEyLCJlbWFpbCI6InNhbGVzQGRhdGFjaGFubmVsLmNvIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsic2FsZXNAZGF0YWNoYW5uZWwuY28iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.QWLYL4VS_KPu0a4SLCFWa0C1YvVDhNMNcHATc7E5Kk6yKyIAOdtbr-fynAlgHjGQpfyCnnnLdtH5tEo2wYb8XYvBKBUT_E7q2vh2xTZ5vgNbpJHD8B3FaYLxJhhutQw838tr86sLKN0ZAn5BZzUjdQbgccttRWigLDyru52cE-PR4F3vd2HtBrnpbQlct6bvAw2mx-QgFvM1SiaRFx9fesSmuZ8tsJvwF5vd5RFKuppVqygO5GZJMJSCSUZkURRDKD72vl_jlFHNuExQlwdHPmVOpIY3nErHkBFXgFyBPpTQRUUv2Nqh-7snVBo-a0DPZAkK7VqqaIe1Vst_t-mWag)” Button.\n\nClick on “[+Data Sync](https://console.datachannel.co/reverse-connectors/pipedrive/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://www.youtube.com/watch?v=lQXTVReoYCM&t=1s",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Redshift",
+  "slug": "amazon-redshift",
+  "category": "databases",
+  "shortInfo": "Stream data from a user determined warehouse to an Amazon Redshift warehouse",
+  "icon": "/images/cms/destinations/amazonredshift-1-1--8859fb.png",
+  "image": "/images/cms/destinations/amazonredshift-1-1--8859fb.png",
+  "brief": "Redshift Reverse ETL connector enables streaming data from a data warehouse to a Redshift warehouse through DataChannel. This happens in an automated manner after a user has configured relevant syncs and determined an update frequency.",
+  "showAbout": true,
+  "about": "Amazon Redshift is one of the most popular, scalable, easy to manage data warehouse options for those wanting to setup a Data Warehouse on the cloud. Read more about the features and how to get started with the popular platform from AWS [here](https://docs.aws.amazon.com/redshift/index.html).",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/redshift/syncs/export.html)\n\nThis sync can be used to load data from your data warehouse into Redshift platform.",
+  "sourceDocsUrl": "https://docs.aws.amazon.com/redshift/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/redshift/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

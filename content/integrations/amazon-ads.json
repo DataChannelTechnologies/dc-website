@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Ads",
+  "slug": "amazon-ads",
+  "category": "marketing",
+  "shortInfo": "Data for Sponsored Products, Sponsored Brands, and ASINs, enabling direct access for reporting",
+  "icon": "/images/cms/integrations/frame-1274-1--23fb5f.png",
+  "image": "/images/cms/integrations/frame-1274-1--23fb5f.png",
+  "brief": "The Amazon Ads connector enables access to the campaign and performance related data for Sponsored Products, Sponsored Brands, and ASINs, enabling direct access for reporting. Amazon Ads connector enables streaming of relevant Amazon Ads performance data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Amazon Ads supports advertisers, agencies, and tool providers of all sizes. Grow your business and increase sales with online advertising solutions that help you find, attract, and engage customers on and off Amazon. Advertising helps drive sales, build your brand, and engage customers on and off Amazon. Cost-per-click and cost-per-mille ad solutions can help you achieve your business goals.  \nLearn more bout [Amazon Ads API documentation.](https://advertising.amazon.com/API/docs/en-us)",
+  "availableData": "[Asins](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/pipelines/asins.html)\n\nThis pipeline can be used to request and retrieve ASIN performance report.\n\n[Sponsored Brands](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/pipelines/sponsored-brands.html)\n\nThis pipeline can be used to request and retrieve Sponsored Brands performance reports.\n\n[Sponsored Brands Video](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/pipelines/sponsored-brands-video.html)\n\nThis pipeline can be used to request and retrieve Sponsored Products Video performance reports.\n\n[Sponsored Display](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/pipelines/sponsored-display.html)\n\nThis pipeline can be used to request and retrieve Sponsored Display performance reports.\n\n[Sponsored Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/pipelines/sponsored-products.html)\n\nThis pipeline can be used to request and retrieve Sponsored Products performance reports.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/index.html) here.",
+  "sourceDocsUrl": "https://advertising.amazon.com/API/docs/en-us",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads/index.html",
+  "releaseDate": "2022-10-27",
+  "seoTitle": "",
+  "seoDescription": ""
+}

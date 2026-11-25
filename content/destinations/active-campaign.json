@@ -1,0 +1,17 @@
+{
+  "name": "Active Campaign",
+  "slug": "active-campaign",
+  "category": "crm-sales",
+  "shortInfo": "ActiveCampaign is a sales automation and CRM platform that helps sales teams growth.",
+  "icon": "/images/cms/destinations/64d9e26503d3b9488f8815e5_image-445-p-130x130q80-724bbc.webp",
+  "image": "/images/cms/destinations/64d9e25729638489ebbcb3d3_629dfc8845310cb9dd20a0b2-1-p-130x13-4543ee.webp",
+  "brief": "Active Campaign helps you automate all of the marketing tasks — engaging with customers via email and SMS, tracking customer relationships and much more.",
+  "showAbout": true,
+  "about": "The Active Campaign Reverse ETL connector enables streaming data from a user determined warehouse to the Active Campaign platform in an automated manner.\n\nCheck more about Active Campaign api documentation [here](https://developers.activecampaign.com/reference/overview).",
+  "availableSync": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/active-campaign/syncs/accounts.html)\n\nThis sync can be used to load data of accounts from your data warehouse into Active Campaign platform.\n\n[Account Contact Association](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/active-campaign/syncs/account-contact-association.html)\n\nThis sync can be used to load data of Account Contact Associations from your data warehouse into Active Campaign platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/active-campaign/syncs/contacts.html)\n\nThis sync can be used to load data of contacts from your data warehouse into Active Campaign platform.\n\n[Update List Status for a Contact](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/active-campaign/syncs/update-list-status-for-a-contact.html)\n\nThis sync can be used to subscribe a contact to a list or unsubscribe a contact from a list in your Active Campaign platform.",
+  "sourceDocsUrl": "https://developers.activecampaign.com/reference/overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/active-campaign/index.html",
+  "releaseDate": "2023-09-18",
+  "seoTitle": "",
+  "seoDescription": ""
+}

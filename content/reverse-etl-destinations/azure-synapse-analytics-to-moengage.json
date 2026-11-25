@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to MoEngage",
+  "slug": "azure-synapse-analytics-to-moengage",
+  "warehouse": "azure-synapse",
+  "destination": "moengage",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add an Azure Synapse Analytics Warehouse. \n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n You can fetch data directly from any table / view existing in your warehouse if you don’t want to set up a data model. In that case you can skip this step and directly move to configuring your destination.\n\n**3\\. Configure your Data Destination** - Navigate to All Destinations Tab inside [](https://console.datachannel.co/reverse-connectors)Reverse ETL and select MoEngage.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/moengage/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjVhNTA5ZjAxOWY3MGQ3NzlkODBmMTUyZDFhNWQzMzgxMWFiN2NlZjciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1NzczNzA5LCJ1c2VyX2lkIjoiMzBhYmYxY2NkNWM5NGMzMWJiODY1OGI1MDI5YTU3ZTAiLCJzdWIiOiIzMGFiZjFjY2Q1Yzk0YzMxYmI4NjU4YjUwMjlhNTdlMCIsImlhdCI6MTY3NTc3MzcxMiwiZXhwIjoxNjc1Nzc3MzEyLCJlbWFpbCI6InRsY0BkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInRsY0BkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.eSg9LwhJTFIvL3v9_fkzzw2rmnY7KyMnEYDNHLitSTbX9GjaEY1gQbkYTM49BpaP8NIl5cnppPx_zjOgirLRc2kAuOKE4enYpCPhoVKu0sNJc7954EO26G10NjjDnNysXuu0eLhp0YPRhV8UBwzDCcfzAPMfNuEs_Y8V-2Jt6FWxaMawZyZ4hRzsc9uYto897kXMKNi1Rd0L21eYHj9daE4Ga1uskUe2fcEwId9qlkFK5rBYuC7Au2FcJ2H-5G_pA7gMqAdDgBls1oU3_SDFR0cKG4Dm59gTv1fJniOJ9q6R7goE7IKTXYvM1CtBtN3wI1YXQWCVkHMtVoBUMeG4Gg)” Button.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/moengage/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

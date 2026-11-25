@@ -1,0 +1,13 @@
+{
+  "name": "Move Salesforce Commerce Cloud (SFCC) Data to Redshift",
+  "slug": "move-salesforce-commerce-cloud-sfcc-data-to-redshift",
+  "source": "salesforce-commerce-cloud",
+  "warehouse": "amazon-redshift",
+  "category": "crm-sales",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Salesforce Commerce Cloud (SFCC)** as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **SFCC** account using the **(+)** icon with your **Client ID, Client Secret, Organization ID, Short Code** & **Site Id.** Read more about how to find these details [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce-cc/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/salesforce-commerce-cloud/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

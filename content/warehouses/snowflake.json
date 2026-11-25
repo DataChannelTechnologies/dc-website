@@ -1,0 +1,12 @@
+{
+  "name": "Snowflake",
+  "slug": "snowflake",
+  "logo": "/images/cms/warehouses/snowflake_logo.svg-c549d0.png",
+  "logoAlt": "Snowflake Logo",
+  "icon": "/images/cms/warehouses/snowflake_icon.svg-098b07.png",
+  "iconAlt": "Snowflake Icon",
+  "informationLink": "https://www.snowflake.com/en/",
+  "managedWarehouseAvailable": false,
+  "seoTitle": "",
+  "seoDescription": ""
+}

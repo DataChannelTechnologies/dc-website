@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to MoEngage",
+  "slug": "postgresql-to-moengage",
+  "warehouse": "postgresql",
+  "destination": "moengage",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  Create a data model and specify the [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html) from which you want the data for your MoEngage. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n2.  Authorise DataChannel to connect to your MoEngage.\n3.  Click on **\\+ Data Sync** to start adding data syncs to your account.\n\n![moengage reverseetl](/images/cms/reverse-etl-destinations/moengage-reverseetl-c811fd.png)\n\n     4. Details of individual syncs are available [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-s3/syncs.html).",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

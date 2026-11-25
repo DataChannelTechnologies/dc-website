@@ -1,0 +1,13 @@
+{
+  "name": "Move NetSuite Data to MySQL",
+  "slug": "move-netsuite-data-to-mysql",
+  "source": "netsuite",
+  "warehouse": "mysql",
+  "category": "product",
+  "showSteps": true,
+  "steps": "**NetSuite to MySQL**\n\n1.  From the DataSources section select NetSuite as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your NetSuite account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite/setup.html) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/netsuite/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/-1hMkc2ZPbU",
+  "seoTitle": "",
+  "seoDescription": ""
+}

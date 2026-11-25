@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Marketing Stream",
+  "slug": "amazon-marketing-stream",
+  "category": "marketing",
+  "shortInfo": "Receive hourly Amazon Ads campaign metrics and information on campaign changes in near real time.",
+  "icon": "/images/cms/integrations/frame-1274-2--0c10bf.png",
+  "image": "/images/cms/integrations/frame-1274-2--0c10bf.png",
+  "brief": "Amazon Marketing Stream connector enables streaming of relevant Amazon Marketing Stream datasets into a user determined data warehouse.",
+  "showAbout": true,
+  "about": "Amazon Marketing Stream is a data-streaming service that partners or advertisers can use to subscribe to advertising data sets. It enables partners and advertisers to use AWS services natively to receive and process advertising data.",
+  "availableData": "[Dataset Subscription](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-marketing-stream/pipelines/dataset-subscription.html)\n\nThis pipeline can be used to request and retrieve datasets that advertisers have subscribed to.",
+  "sourceDocsUrl": "https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-stream/overview#overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-marketing-stream/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pinecone",
+  "slug": "pinecone",
+  "category": "product",
+  "shortInfo": "Vector storage and search for AI applications.",
+  "icon": "/images/cms/destinations/frame-16-b7994a.png",
+  "image": "/images/cms/destinations/frame-16-b7994a.png",
+  "brief": "Pinecone is a vector database that enables scalable similarity search and retrieval for AI, machine learning, and real-time applications.",
+  "showAbout": true,
+  "about": "Pinecone Reverse ETL connector enables streaming data from a user determined warehouse to Pinecone Vector Database in an automated manner.\n\nCheck more about api documentation [here](https://docs.pinecone.io/reference/api/2024-07/data-plane/upsert).",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pinecone/syncs/upsert-data.html)\n\nThis sync can be used to load data from a user specified data warehouse to the Pinecone vector database.",
+  "sourceDocsUrl": "https://docs.pinecone.io/reference/api/2024-07/data-plane/upsert",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pinecone/index.html",
+  "releaseDate": "2024-10-21",
+  "seoTitle": "",
+  "seoDescription": ""
+}

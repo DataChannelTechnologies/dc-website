@@ -1,0 +1,17 @@
+{
+  "name": "Netsuite Analytics",
+  "slug": "netsuite-analytics",
+  "category": "product",
+  "shortInfo": "Request & Retrieve data objects from the NetSuite platform.",
+  "icon": "/images/cms/integrations/netsuite-analytics-6ca508.png",
+  "image": "/images/cms/integrations/netsuite-analytics-6ca508.png",
+  "brief": "NetSuite is a cloud business management platform that helps organizations operate more effectively by automating core processes and providing real-time visibility into operational and financial performance. They offer varied and integrated applications for managing accounting, order processing, inventory management, production, supply chain and warehouse operations and much more.",
+  "showAbout": true,
+  "about": "DataChannel’s NetSuite Analytics Connector lets you sync data objects from the NetSuite’s SuiteAnalytics Connect automatically into your data warehouse. To analyse your company data, use this connector to query datasets to get information about all record types and fields.",
+  "availableData": "[Objects](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite-analytics/pipelines/objects.html)\n\nThis pipeline can be used to request and retrieve request and retrieve data objects from the NetSuite platform.",
+  "sourceDocsUrl": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_3963845427.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite-analytics/index.html",
+  "releaseDate": "2025-09-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

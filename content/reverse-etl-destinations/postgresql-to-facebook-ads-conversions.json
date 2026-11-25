@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to Facebook Ads Conversions",
+  "slug": "postgresql-to-facebook-ads-conversions",
+  "warehouse": "postgresql",
+  "destination": "facebook-ads-conversions",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  Select the [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html) and create a data model from which you want the data for your Facebook Ads. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n2.  Authorize DataChannel to connect to your Facebook Ads account using OAuth using the process described [in the documentation here](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth).\n3.  Click on add Data Sync button to start adding data syncs to your account.\n\n![facebook ads reverse etl sync configuration in data channel](/images/cms/reverse-etl-destinations/facebookads-reverseetl-1--28d21f.png)\n\nAdding a Data Sync to Facebook Ads in DataChannel\n\n4.Map the fields from your data model to fields in Facebook Ads.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

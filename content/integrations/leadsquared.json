@@ -1,0 +1,17 @@
+{
+  "name": "LeadSquared",
+  "slug": "leadsquared",
+  "category": "crm-sales",
+  "shortInfo": "Marketing automation and Sales execution platform",
+  "icon": "/images/cms/integrations/8n8tb2k7znbi-be248e.png",
+  "image": "/images/cms/integrations/leadsquared-logo-be2143.svg",
+  "brief": "LeadSquared is a marketing automation and sales execution platform that helps businesses increase their closures, manage their pipelines, and attribute their ROI accurately to people, marketing activities, lead sources, products, and locations. Some of the benefits included are reduced lead leakage, automated marketing and sales processes, complete sales tracking, and a CRM platform that guides sales teams about their actions. The Leadsquared connector enables access to the detailed information on LeadSquared resources such as Leads, Activities, Tasks, etc., enabling direct access for reporting. Leadsquared connector enables streaming of relevant Leadsquared platform data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Organize your lead capture, lead management, sales management & analytics in one platform. Trusted by 200,000+ users worldwide to manage their leads, sales and teams. Lead Management. Marketing Automation. Sales Automation CRM. Field Sales Automation.  \n  \nLearn more about [LeadSquared API documentation](https://www.leadsquared.com/)",
+  "availableData": "[Email Marketing](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/email-marketing.html)\n\nThis pipeline can be used to request and retrieve statistics on your email campaigns within a given date range.\n\n[Get Activities by Range](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/get-activities-by-range.html)\n\nThis pipeline can be used to request and retrieve activities within a given time frame.\n\n[Leads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/leads.html)\n\nThis pipeline can be used to request and retrieve the list of leads updated in a specific date range.\n\n[Leads by List](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/leads-by-list.html)\n\nThis pipeline can be used to request and retrieve leads in a specified list.\n\n[Leads Distribution by Engagement Source](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/leads-distribution-by-engagement-source.html)\n\nThis pipeline can be used to request and retrieve lead data based on various the engagement source.\n\n[Leads Distribution by Prospect Stage](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/pipelines/leads-distribution-by-prospect-stage.html)\n\nThis pipeline can be used to request and retrieve lead data based on the prospect stage.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/index.html) here.",
+  "sourceDocsUrl": "https://apidocs.leadsquared.com/overview/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/leadsquared/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

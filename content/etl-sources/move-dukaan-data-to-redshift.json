@@ -1,0 +1,13 @@
+{
+  "name": "Move Dukaan Data to Redshift",
+  "slug": "move-dukaan-data-to-redshift",
+  "source": "dukaan",
+  "warehouse": "amazon-redshift",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "**Dukaan to Redshift**\n\n1.  From the DataSources section select Dukaan as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Dukaan account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dukaan/setup.html) page.\n4.  Click on \"[\\+ Data Pipeline](https://console.datachannel.co/datasource/dukaan/report/new)\" to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

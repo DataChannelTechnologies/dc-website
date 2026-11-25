@@ -1,0 +1,17 @@
+{
+  "name": "Daakit",
+  "slug": "daakit",
+  "category": "others",
+  "shortInfo": "Manage orders, track shipments, monitor delivery status, and gain insights into logistics performance.",
+  "icon": "/images/cms/integrations/daakit-efb029.png",
+  "image": "/images/cms/integrations/daakit-efb029.png",
+  "brief": "Daakit is primarily used for logistics management, shipment tracking, and delivery operations. It enables businesses to monitor shipments, track delivery performance, manage order fulfillment workflows, and gain visibility into their logistics operations.",
+  "showAbout": true,
+  "about": "Daakit is a logistics and delivery management platform designed to help businesses streamline shipment tracking, order fulfillment, and delivery operations efficiently. The Daakit Connector enables streaming relevant Daakit data into a user-determined data warehouse.\n\nThis sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "Track AWB\n\nThis pipeline can be used to request and retrieve Track AWB Report",
+  "sourceDocsUrl": "https://documenter.getpostman.com/view/39298673/2sAYBRGEJq#5ff028e1-1b34-4c22-8b57-b6730009271a",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/daakit/index.html",
+  "releaseDate": "2026-01-27",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Unicommerce",
+  "slug": "azure-synapse-analytics-to-unicommerce",
+  "warehouse": "azure-synapse",
+  "destination": "unicommerce-reverse-etl",
+  "category": "e-commerce",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

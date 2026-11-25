@@ -1,0 +1,17 @@
+{
+  "name": "Simpli.fi",
+  "slug": "simpli-fi",
+  "category": "marketing",
+  "shortInfo": "Simply.fi is a programmatic advertising and marketing platform.",
+  "icon": "/images/cms/integrations/simpli.fi_symbol_15-2-1--69eced.png",
+  "image": "/images/cms/integrations/simpli.fi_symbol_15-2-1--69eced.png",
+  "brief": "Simpli.fi offers programmatic advertising and workflow software to agencies, brands, and media companies.",
+  "showAbout": true,
+  "about": "DataChannel’s Simply.fi Connector lets you sync data from the Simply.fi API automatically into your data warehouse. To access campaign data use this connector and track various metrics to aid in campaign management.",
+  "availableData": "[Campaign Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/simplifi/pipelines/campaign-stats.html)\n\nThis pipeline can be used to request and retrieve all the statistics of the campaigns you’ve created.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/simplifi/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve details of all the campaigns you’ve created.\n\n[Webhook Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/simplifi/pipelines/webhook-report.html)\n\nThis pipeline can be used to request and retrieve a previously configured report.",
+  "sourceDocsUrl": "https://app.simpli.fi/login#introduction",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/simplifi/index.html",
+  "releaseDate": "2024-08-06",
+  "seoTitle": "",
+  "seoDescription": ""
+}

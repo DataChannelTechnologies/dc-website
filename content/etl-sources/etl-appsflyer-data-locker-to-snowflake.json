@@ -1,0 +1,13 @@
+{
+  "name": "ETL AppsFlyer Data Locker To Snowflake",
+  "slug": "etl-appsflyer-data-locker-to-snowflake",
+  "source": "appsflyer-data-locker",
+  "warehouse": "snowflake",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **AppsFlyer Data Locker** as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your AppsFlyer Data locker using the [+](https://api.datachannel.co/datasources/appsflyer-datalocker/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImM4MjNkMWE0MTg5ZjI3NThjYWI4NDQ4ZmQ0MTIwN2ViZGZhMjVlMzkiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGF0YUNoYW5uZWwgTWFya2V0aW5nIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDZqTUxQR2R5UEhMVEVUcXpsVzB3Wkd0S2FRRDl4TVowSU94NkVkPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2ZpcmViYXNlLXByb2QtcHJvamVjdCIsImF1ZCI6ImZpcmViYXNlLXByb2QtcHJvamVjdCIsImF1dGhfdGltZSI6MTY4MTcxNDIwNiwidXNlcl9pZCI6ImU3NWI2N2FmMWU3MjQ2YTNhMGJjYjhkNzk2ZjcxZTZjIiwic3ViIjoiZTc1YjY3YWYxZTcyNDZhM2EwYmNiOGQ3OTZmNzFlNmMiLCJpYXQiOjE2ODE3MjI5NTQsImV4cCI6MTY4MTcyNjU1NCwiZW1haWwiOiJtYXJrZXRpbmdAZGF0YWNoYW5uZWwuY28iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMjA0NDk3NjIxNzg3MjI0Mjc1OCJdLCJlbWFpbCI6WyJtYXJrZXRpbmdAZGF0YWNoYW5uZWwuY28iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.InIoCRlI7SLxK9CUoxrxPfZpUTU89H7utex7gdHH8pggY_rD32a9McpDtu_VtsIlyOFuEUclUIQH-AJJO5G4ofHVUN4n1WzxojsSmJutjeVUX-Ypyw1UDX0s_v28sZxAIk0j4xc9y7RC9K4Kms22qhV7gXhDdWBBs2tdPuVpvtMa9ozxDysPFhS2hc_33tvbOyzR1nyP7Kd7dWykk8aNFnF98u21LPYfpUDKyoD1P88OuGyaoeTJBpZb81eumrIXuEqM6C44k21ReljYoc03EeHMxLSpCk0WIFdXSwUV2X6aSoXxwf2ZXSRcelfilXbWeLZFtzcwV3jVBxfAHzSLog) icon with your **AWS details (Access Key, Secret Key, Bucket Name & AWS Location)**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/appsflyer-datalocker/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

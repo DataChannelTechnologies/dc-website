@@ -1,0 +1,17 @@
+{
+  "name": "Pinterest",
+  "slug": "pinterest",
+  "category": "marketing",
+  "shortInfo": "Reach 400 million people who use Pinterest every month to discover and buy your products.",
+  "icon": "/images/cms/integrations/pinterest-logo-8561dda2e1-seeklogo.com-e8d38b.png",
+  "image": "/images/cms/integrations/pinterest-logo.wine-1-1--d9acc2.svg",
+  "brief": "People come to Pinterest in search of inspiration, crafted goods and a community of like-minded creatives, making it an ideal place for you to showcase the ideas and products that define your business. DataChannel’s Pinterest Connector lets you sync data from the Pinterest API automatically into your data warehouse. To understand how Pinterest users are interacting with your brand ’s marketing tactics, use this connector to track the performance of variety of metrics such as impression, page visit, signup, checkout, clicks, cart actions, and so on.",
+  "showAbout": true,
+  "about": "The people on Pinterest actually want to try your ideas or shop in your store. It’s a deeper, more meaningful kind of engagement than you’ll find on other platforms. Get in front of the 445 million people using Pinterest every month, and find your best audience yet.  \n  \nLearn more about [Pinterest API documentation.](https://in.pinterest.com/#top)",
+  "availableData": "[Ad Groups](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/ad-groups.html)\n\nThis pipeline can be used to request and retrieve detailed list of Ad Groups based on the filters provided.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve detailed list of campaigns based on the filters provided.\n\n[Ad Group Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/ad-group-performance-report.html)\n\nThis pipeline can be used to request and retrieve detailes about an Ad Group’s performance.\n\n[Ad Group Targeting Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/ad-group-targeting-performance-report.html)\n\nThis pipeline can be used to request and retrieve detailes about an ad group’s targeting performance.\n\n[Ad Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/ad-performance-report.html)\n\nThis pipeline can be used to request and retrieve detailes about an Ad’s performance.\n\n[Ad Targeting Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/pipelines/ad-targeting-performance-report.html)\n\nThis pipeline can be used to request and retrieve detailes about an ad’s targeting performance.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/index.html) here.",
+  "sourceDocsUrl": "https://developers.pinterest.com/docs/add-ons/about-addons/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pinterest/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

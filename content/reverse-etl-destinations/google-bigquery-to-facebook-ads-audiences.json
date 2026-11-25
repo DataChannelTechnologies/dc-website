@@ -1,0 +1,13 @@
+{
+  "name": "Google BigQuery to Facebook Ads Audiences",
+  "slug": "google-bigquery-to-facebook-ads-audiences",
+  "warehouse": "google-bigquery",
+  "destination": "facebook-ads-audiences",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a BigQuery Warehouse. \n\n*\\*To understand how to add a BigQuery Data Warehouse check out this* [*video*](https://www.youtube.com/watch?v=6061dvlRmaE&t=1s)*.*\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Facebook Ads.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/facebookads-v2/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNWI0MDljNmYyMmM0MDNlMWY5MWY5ODY3YWM0OTJhOTA2MTk1NTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1MjMxOTgyLCJ1c2VyX2lkIjoiMDdhMjBlYzUxODMwNDY0YTgzY2VjOWNkMzhhOGYyZWMiLCJzdWIiOiIwN2EyMGVjNTE4MzA0NjRhODNjZWM5Y2QzOGE4ZjJlYyIsImlhdCI6MTY3NTI0NDQ1NSwiZXhwIjoxNjc1MjQ4MDU1LCJlbWFpbCI6ImF5dXNoay5zaW5naEBkZWNpc2lvbi10cmVlLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImF5dXNoay5zaW5naEBkZWNpc2lvbi10cmVlLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.gOB6x_M3S2Kql9ai8bho-2s2nWt4MwTWDXw09-KNYP0CMNSixVIhOphO6X1-Cmzu5qQz3aRLYZxub2vGEdE46qZlkeNdoIEnatmuOh1OkqGkhE-zWYXMYMBWHZc02J42ynfrgbosvS9saElqd93GDLfNJp4DV6lRfDwK9A5sifalZyICYmL-VO5ObU5678TLxNJq0wk35U0sPm-Mi_xcND_fyQgW4ObP6xErLNqAo7ksSCpcNscmf7BGGYqYWZWboJj-mV_A02xpSHVNOnl1Tvn4pwUttXs3W2MP6Pdg5XSns3RP6oUFjfXD7w-v1poNGU3GMhdEQt8aHTbmnodcfw)” Button. You will easily be able to sign up using OAuth.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/fb-reverse/sync/new)” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/k2Oe0uWSkSs",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Everflow",
+  "slug": "everflow",
+  "category": "marketing",
+  "shortInfo": "Everflow is a Partner Marketing Platform that lets you amplify your revenue from multiple channels",
+  "icon": "/images/cms/integrations/everflow-icon-a92c84.png",
+  "image": "/images/cms/integrations/everflow-logo-7fe07a.png",
+  "brief": "Advertisers can access reporting data & raw conversion events via our Everflow connector.",
+  "showAbout": true,
+  "about": "Everflow is a Partner Marketing Platform that lets you Track, Understand & Simplify partnership management, attribution, and Analytics, etc.",
+  "availableData": "[Raw Conversions](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow/pipelines/raw-conversions.html)\n\nThis pipeline can be used to request and retrieve a list of conversions.\n\n[Reporting Data](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow/pipelines/reporting-data.html)\n\nThis pipeline can be used to request and retrieve all reporting metrics from the Everflow Platform.",
+  "sourceDocsUrl": "https://developers.everflow.io/docs/user-guide/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow/index.html",
+  "releaseDate": "2024-03-08",
+  "seoTitle": "",
+  "seoDescription": ""
+}

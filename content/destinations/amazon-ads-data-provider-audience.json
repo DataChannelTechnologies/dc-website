@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Ads DSP Audience",
+  "slug": "amazon-ads-data-provider-audience",
+  "category": "marketing",
+  "shortInfo": "Create custom audiences for Amazon Ads",
+  "icon": "/images/cms/destinations/amz-ads-dc6d07.png",
+  "image": "/images/cms/destinations/amz-ads-dc6d07.png",
+  "brief": "A Data Provider Audience refers to **an audience segment that an advertiser can create by providing data from their own systems or data providers to Amazon Ads**. This allows advertisers to target specific groups of customers with their advertising campaigns, whether on Amazon or on the broader web.",
+  "showAbout": true,
+  "about": "The Amazon Ads DSP Data Provider Reverse ETL connector enables streaming data from a user determined warehouse to the Amazon Ads DSP platform in an automated manner.",
+  "availableSync": "[Data Provider Audience](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-ads-dsp-dp/syncs/audience.html)\n\nThis sync can be used to create a targeting audience data from a user specified data warehouse to the Amazon Ads DSP platform.",
+  "sourceDocsUrl": "https://advertising.amazon.com/API/docs/en-us/guides/dsp/data-provider",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-ads-dsp-dp/index.html",
+  "releaseDate": "2025-05-27",
+  "seoTitle": "",
+  "seoDescription": ""
+}

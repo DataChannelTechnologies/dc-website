@@ -1,0 +1,17 @@
+{
+  "name": "Zemanta",
+  "slug": "zemanta",
+  "category": "marketing",
+  "shortInfo": "Programmatically create and manage campaigns, ad groups and content ads",
+  "icon": "/images/cms/integrations/4350b607-0c9a-421a-9b49-f718dd6e2c27-38d1f0.png",
+  "image": "/images/cms/integrations/4350b607-0c9a-421a-9b49-f718dd6e2c27-38d1f0.png",
+  "brief": "Zemanta is the world’s first multi-channel demand-side platform built for engagement and performance. Zemanta specialize in outcomes and post-click behavior optimization. The API enables Zemanta clients to programmatically create and manage campaigns, ad groups and content ads using RESTful objects. Custom performance reports are also available as part of the API",
+  "showAbout": true,
+  "about": "Zemanta helps advertisers break free from reach and frequency metrics. Using AI and machine learning Zemanta determines which publishers/platforms, placements and creatives lead to the right users engaging with your ads and websites to deliver desired outcomes and return on ad spend.  \n  \nLearn more about [Zemanta API documentation.](http://dev.zemanta.com/one/api/#reporting)",
+  "availableData": "[Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zemanta/pipelines/insights.html)\n\nThis pipeline can be used to request and retrieve statistics about Campaigns, Ad groups, and Content ads.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zemanta/index.html) here.",
+  "sourceDocsUrl": "http://dev.zemanta.com/one/api/#reporting",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zemanta/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

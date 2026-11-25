@@ -1,0 +1,17 @@
+{
+  "name": "Facebook Ads Conversions",
+  "slug": "facebook-ads-conversions",
+  "category": "marketing",
+  "shortInfo": "Leverage offline conversion data from your data warehouse to the Facebooks Ads platform",
+  "icon": "/images/cms/destinations/facebook-ads--860e26.png",
+  "image": "/images/cms/destinations/facebook-ads--860e26.png",
+  "brief": "This sync enables moving offline conversion data from a user specified data warehouse to the Facebooks Ads platform",
+  "showAbout": true,
+  "about": "The Facebook Ads Reverse ETL Sync enables streaming data from a user determined warehouse to the Facebook Ads platform in an automated manner.  \n  \nLearn more about [Facebook Ads Conversions.](https://en-gb.facebook.com/business/learn/facebook-create-ad-website-conversions)",
+  "availableSync": "[Offline Conversions](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/syncs/offline_conversions.html)\n\nThis sync can be used to request and retrieve offline conversion data from a user specified data warehouse to the Facebooks Ads platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/index.html) here.",
+  "sourceDocsUrl": "https://www.meta.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/syncs/offline_conversions.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

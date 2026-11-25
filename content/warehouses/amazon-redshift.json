@@ -1,0 +1,12 @@
+{
+  "name": "Amazon Redshift",
+  "slug": "amazon-redshift",
+  "logo": "/images/cms/warehouses/cf1808ffcf86f80a5acc9ad6a5d5bf27-36f78e.png",
+  "logoAlt": "Amazon Redshift Logo",
+  "icon": "/images/cms/warehouses/redshift-icon-eb42bb.png",
+  "iconAlt": "Amazon Redshift Icon",
+  "informationLink": "https://aws.amazon.com/redshift/",
+  "managedWarehouseAvailable": true,
+  "seoTitle": "",
+  "seoDescription": ""
+}

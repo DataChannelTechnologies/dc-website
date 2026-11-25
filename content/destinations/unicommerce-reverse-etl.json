@@ -1,0 +1,17 @@
+{
+  "name": "Unicommerce Reverse ETL",
+  "slug": "unicommerce-reverse-etl",
+  "category": "e-commerce",
+  "shortInfo": "Sync data from your warehouse to Unicommerce.",
+  "icon": "/images/cms/destinations/uniicon-1-84b8f3.svg",
+  "image": "/images/cms/destinations/unicommerce-1-55939d.svg",
+  "brief": "Unicommerce provides a SaaS (Software as a Service) for complete warehouse management of big e-commerce companies.",
+  "showAbout": true,
+  "about": "Unicommerce Reverse ETL sync enables streaming data from a user determined warehouse to Unicommerce platform in an automated manner.\n\nLearn more about [Unicommerce API documentation](https://documentation.unicommerce.com/docs/saleorder-create.html).",
+  "availableSync": "[Create Sale Order](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/unicommerce/index.html)\n\nThis sync can be used to request and retrieve data pertaining to sale order creation, from a user specified data warehouse to the Unicommerce platform.\n\nLearn more about the sync [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/unicommerce/index.html).",
+  "sourceDocsUrl": "https://documentation.unicommerce.com/docs/saleorder-create.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/unicommerce/index.html",
+  "releaseDate": "2023-07-05",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Microsoft Teams",
+  "slug": "microsoft-teams",
+  "category": "product",
+  "shortInfo": "Microsoft Teams is a proprietary business communication platform",
+  "icon": "/images/cms/destinations/image-548-de2eb5.png",
+  "image": "/images/cms/destinations/image-548-de2eb5.png",
+  "brief": "The Microsoft Teams allows communities, groups, or teams to contribute in a shared workspace where messages and digital content on a specific topic are shared.",
+  "showAbout": true,
+  "about": "The Microsoft Teams Reverse ETL connector enables streaming data from a user determined warehouse to the Microsoft Teams in an automated manner.\n\nCheck more about Microsoft Teams api documentation [here](https://learn.microsoft.com/en-us/graph/api/channel-post-messages?view=graph-rest-1.0&tabs=http).",
+  "availableSync": "[Message](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/microsoft-teams/syncs/message.html)[](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/microsoft-teams/syncs/message.html)  \nThis sync can be used to request and retrieve data from a user specified data warehouse to a Microsoft Teams channel.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/graph/api/channel-post-messages?view=graph-rest-1.0&tabs=http",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/microsoft-teams/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

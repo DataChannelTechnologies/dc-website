@@ -1,0 +1,12 @@
+{
+  "name": "PostgreSQL",
+  "slug": "postgresql",
+  "logo": "/images/cms/warehouses/postgresql-logo-b59cd9.png",
+  "logoAlt": "postgresql_logo",
+  "icon": "/images/cms/warehouses/postgresql-icon-8af61b.png",
+  "iconAlt": "postgresql_icon",
+  "informationLink": "https://www.postgresql.org",
+  "managedWarehouseAvailable": false,
+  "seoTitle": "",
+  "seoDescription": ""
+}

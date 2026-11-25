@@ -1,0 +1,13 @@
+{
+  "name": "ETL IThink Logistics Data to Amazon Redshift",
+  "slug": "etl-ithink-logistics-data-to-amazon-redshift",
+  "source": "ithink-logistics",
+  "warehouse": "amazon-redshift",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select IThink Logistics as the data source.\n2.  Select your added Amazon Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorise DataChannel to connect to your IThink Logistics account with Name, Access Token and Secret Key.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/apollo/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

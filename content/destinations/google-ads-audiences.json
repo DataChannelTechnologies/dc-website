@@ -1,0 +1,17 @@
+{
+  "name": "GoogleAds Audiences",
+  "slug": "google-ads-audiences",
+  "category": "marketing",
+  "shortInfo": "Define your audience and advertise to people important to your business on Google",
+  "icon": "/images/cms/integrations/google-ads1-476ca7.png",
+  "image": "/images/cms/destinations/google-ads-1-24ec7b.svg",
+  "brief": "",
+  "showAbout": true,
+  "about": "Grow your business with Google Ads. Get in front of customers when they're searching for businesses like yours on Google Search and Maps.  \n  \nLearn more about [Google Ads Audiences.](https://ads.google.com/intl/en_IN/home/?pli=1)",
+  "availableSync": "[Audience List Upload](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googleads/syncs/audience-list-upload.html)\n\nThis sync can be used to request and retrieve audience list upload data from a user specified data warehouse to the Googles Ads platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googleads/index.html) here.",
+  "sourceDocsUrl": "https://ads.google.com/intl/en_IN/home/?pli=1",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/index.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

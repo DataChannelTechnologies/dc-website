@@ -1,0 +1,17 @@
+{
+  "name": "Snapchat Conversion Events",
+  "slug": "snapchat-conversion-events",
+  "category": "marketing",
+  "shortInfo": "Now push web, app, and offline events data from a user specified data warehouse to Snapchat.",
+  "icon": "/images/cms/destinations/580b57fcd9996e24bc43c536-de253b.png",
+  "image": "/images/cms/integrations/snapchat-1-1-1-1--b05bd6.svg",
+  "brief": "Snapchat is a fast and fun way to share the moment with your friends and family.",
+  "showAbout": true,
+  "about": "The Snapchat Conversion API integration is a structured, privacy-centric interface that allows you to directly pass web, app, and offline events to Snap via a Server-to-Server integration.\n\nLearn more about [Snapchat Conversion API](https://marketingapi.snapchat.com/docs/conversion.html).",
+  "availableSync": "[Create Conversion Event](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/syncs/create-conversion-event.html)\n\nThis sync can be used to upload web, app, and offline events data from a user specified datawarehouse to the Snapchat platform.",
+  "sourceDocsUrl": "https://marketingapi.snapchat.com/docs/conversion.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/syncs/create-conversion-event.html",
+  "releaseDate": "2023-06-30",
+  "seoTitle": "",
+  "seoDescription": ""
+}

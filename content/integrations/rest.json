@@ -1,0 +1,17 @@
+{
+  "name": "Rest",
+  "slug": "rest",
+  "category": "others",
+  "shortInfo": "A generic & powerful all-purpose connector which can be used with any REST API",
+  "icon": "/images/cms/integrations/rest-2810d6.png",
+  "image": "/images/cms/integrations/rest_logo-08a5d1.png",
+  "brief": "REST connector is a generic all-purpose connector which can be used with any REST API friendly data source to efficiently ETL data into a user determined warehouse. The sync happens in an automated manner once a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.  \n  \nLearn more about [REST API documentation.](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/rest/index.html)",
+  "availableData": "[Resource](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/rest/pipelines/resource.html)\n\nThis pipeline can be used to request and retrieve data from any REST API friendly data source.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/rest/index.html) here.",
+  "sourceDocsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/rest/index.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/rest/index.html",
+  "releaseDate": "2022-12-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Google Analytics 4 (GA 4)",
+  "slug": "google-analytics-4",
+  "category": "marketing",
+  "shortInfo": "Google analytics service (GA 4) that enables you to measure traffic and engagement across your websites and apps.",
+  "icon": "/images/cms/integrations/googleanalytics4icon-321db6.png",
+  "image": "/images/cms/integrations/googleanalytics4logo_b-3--9b2d13.svg",
+  "brief": "DataChannel’s Google Analytics 4 (GA 4)integration lets you sync data from the Google Analytics 4 API automatically into your data warehouse. Google Analytics 4 has the flexibility to measure many different kinds of data, delivering a strong analytics experience that’s designed for the future.",
+  "showAbout": true,
+  "about": "Google Analytics 4 (GA 4) is an analytics service that enables you to measure traffic and engagement across your websites and apps. The next generation of Analytics which collects event-based data from both websites and apps. GA4 is a new property designed for the future of measurement: Collects both website and app data to better understand the customer journey.  \n  \nLearn more about [Google Analytics 4 API documentation](https://developers.google.com/analytics/devguides/reporting/data/v1/basics).",
+  "availableData": "[Raw Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-analytics4/pipelines/raw-data-report.html)\n\nThis pipeline can be used to request and retrieve raw data reports from the Google Analytics 4 API.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-analytics4/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/analytics/devguides/collection/ga4",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-analytics4/index.html",
+  "releaseDate": "2022-10-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pipedrive",
+  "slug": "pipedrive",
+  "category": "crm-sales",
+  "shortInfo": "Prioritize deals, track performance and predict revenue",
+  "icon": "/images/cms/integrations/pipedrive_logo-1--a41ad3.svg",
+  "image": "/images/cms/integrations/pipedrive_logo-1--a41ad3.svg",
+  "brief": "Pipedrive is a cloud-based sales customer relationship management platforms. It help users prioritize deals, track performance and predict revenue. The Pipedrive Connector lets you sync data from Pipedrive API to your data warehouse automatically.",
+  "showAbout": true,
+  "about": "The CRM platform to grow your business. The first CRM designed by salespeople, for salespeople. Do more to grow your business.  \n  \nLearn more about [Pipedrive API documentation.](https://www.pipedrive.com/)",
+  "availableData": "[Activities](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/pipelines/activities.html)\n\nThis pipeline can be used to request and retrieve all activities assigned to a particular user.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/pipelines/deals.html)\n\nThis pipeline can be used to request and retrieve all deals.\n\n[Leads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/pipelines/leads.html)\n\nThis pipeline can be used to request and retrieve all leads sorted by the time they were created, from oldest to newest.\n\n[Notes](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/pipelines/notes.html)\n\nThis pipeline can be used to request and retrieve all notes.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve the data about all products.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/index.html) here.",
+  "sourceDocsUrl": "https://developers.pipedrive.com/docs/api/v1",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/pipedrive/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

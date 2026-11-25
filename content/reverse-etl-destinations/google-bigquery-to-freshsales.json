@@ -1,0 +1,13 @@
+{
+  "name": "Google Bigquery to Freshsales",
+  "slug": "google-bigquery-to-freshsales",
+  "warehouse": "google-bigquery",
+  "destination": "freshsales",
+  "category": "crm-sales",
+  "showSteps": true,
+  "steps": "**Google BigQuery to Freshsales**\n\n**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a BigQuery Warehouse. \n\n*\\*To understand how to add a BigQuery Data Warehouse check out this* [*video*](https://www.youtube.com/watch?v=6061dvlRmaE&t=1s)*.*\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Freshsales.\n\n-   Add Your Credentials using the “**+**” Button.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/freshsales/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://www.youtube.com/watch?v=lQXTVReoYCM&t=1s",
+  "seoTitle": "",
+  "seoDescription": ""
+}

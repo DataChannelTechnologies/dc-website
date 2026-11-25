@@ -1,0 +1,17 @@
+{
+  "name": "Pinterest Ads Audiences",
+  "slug": "pinterest-ads-audience",
+  "category": "marketing",
+  "shortInfo": "Drive sales, increase conversions, create, manage and report on your Pinterest campaigns.",
+  "icon": "/images/cms/destinations/6360c6af839b20080ae8d38b_pinterest-logo-8561dda2e1-seeklogo--795d52.svg",
+  "image": "/images/cms/destinations/g26-dc7ff2.svg",
+  "brief": "There's a Pinterest ad format for every one of your business goals. See your options to start boosting awareness, driving sales and increasing conversions. Create, manage and report on your Pinterest campaigns. Learn how to use Ads Manager tools to get optimised, efficient results.",
+  "showAbout": true,
+  "about": "Track performance as you go to optimise your ads. When your campaign ends, dig deep with measurement reports and advanced analytics. Upload your customer list to reach people who have already engaged with your website, shop or Pinterest content.  \n  \nLearn more about [Pinterest Ads Audience.](https://business.pinterest.com/en-in/advertise/#targeting)",
+  "availableSync": "[Create and Update Audience Segment](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/syncs/create-and-update-audience-segment.html)\n\nThis sync can be used to upload audience data from a user specified data warehouse to the Pinterest platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/index.html) here.",
+  "sourceDocsUrl": "https://developers.pinterest.com/docs/api/v5/#operation/audiences/list",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/index.html",
+  "releaseDate": "2023-01-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

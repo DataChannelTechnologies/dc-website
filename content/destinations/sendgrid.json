@@ -1,0 +1,17 @@
+{
+  "name": "Sendgrid",
+  "slug": "sendgrid",
+  "category": "product",
+  "shortInfo": "SendGrid is a Denver, Colorado-based customer communication platform for transactional and marketing email.",
+  "icon": "/images/cms/destinations/image-547-2--0ff4a4.png",
+  "image": "/images/cms/destinations/image-547-2--0ff4a4.png",
+  "brief": "SendGrid is a customer communication platform that helps businesses send transactional and marketing emails. SendGrid offers email delivery management, ISP monitoring, and reporting features.",
+  "showAbout": true,
+  "about": "The Send Grid Reverse ETL connector enables streaming data from a user determined warehouse to the Send Grid platform in an automated manner.\n\nCheck more about SendGrid api documentation [here](https://docs.sendgrid.com/api-reference/how-to-use-the-sendgrid-v3-api/authentication).",
+  "availableSync": "[Contact](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/sendgrid/syncs/contact.html)\n\nThis sync can be used to upload contact details from your data warehouse to the Send Grid platform.\n\n[Mail](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/sendgrid/syncs/mail.html)\n\nThis sync can be used to upload mail details from your data warehouse to the Send Grid platform.",
+  "sourceDocsUrl": "https://docs.sendgrid.com/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/sendgrid/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

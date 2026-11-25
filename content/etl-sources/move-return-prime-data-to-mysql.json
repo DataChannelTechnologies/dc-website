@@ -1,0 +1,13 @@
+{
+  "name": "Move Return Prime Data to MySQL",
+  "slug": "move-return-prime-data-to-mysql",
+  "source": "return-prime",
+  "warehouse": "mysql",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Return Prime** as the data source.\n2.  Select your added **MySQL** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorise DataChannel to connect to your Return Prime account with your Access Token. For more details refer [here](https://build.returnprime.com/#c1e48d9f-099e-4768-9a82-1ebd155860df).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/returns-prime/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

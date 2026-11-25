@@ -1,0 +1,13 @@
+{
+  "name": "ETL Google Ads To Redshift",
+  "slug": "etl-google-ads-to-redshift",
+  "source": "google-ads",
+  "warehouse": "amazon-redshift",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Google Ads as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Google Ads account with your **Developer token** & **Manager Account ID** using OAuth, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/facebookads-v2/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/7ENeARflsN4",
+  "seoTitle": "",
+  "seoDescription": ""
+}

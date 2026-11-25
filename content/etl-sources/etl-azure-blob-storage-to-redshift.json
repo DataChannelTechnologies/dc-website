@@ -1,0 +1,13 @@
+{
+  "name": "ETL Azure Blob Storage to Redshift",
+  "slug": "etl-azure-blob-storage-to-redshift",
+  "source": "azure-blob-storage",
+  "warehouse": "amazon-redshift",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Azure Blob Storage** as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Azure Blob Storage** account using the **(+)** icon with your **Storage Account Name, Account Key** & **Endpoint Suffix****.** Read more about how to find these details [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/azure-blob-storage/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/RbzvzHhrwe4",
+  "seoTitle": "",
+  "seoDescription": ""
+}

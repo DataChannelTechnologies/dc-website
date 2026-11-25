@@ -1,0 +1,17 @@
+{
+  "name": "Apollo",
+  "slug": "apollo",
+  "category": "crm-sales",
+  "shortInfo": "Find and research leads, personalize messaging, and launch campaigns",
+  "icon": "/images/cms/integrations/apollo-ca83ec.png",
+  "image": "/images/cms/integrations/apollo-ca83ec.png",
+  "brief": "Apollo.io is primarily used for **outbound prospecting, lead generation, and sales engagement**. It enables teams to find verified emails, send automated sequences, and manage sales workflows in one platform.",
+  "showAbout": true,
+  "about": "Apollo is a sales intelligence and engagement platform designed to empower sales teams and marketers with the tools they need to find, engage, and convert prospects efficiently.\n\nApollo Connector enables streaming relevant Apollo data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Deals](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/pipelines/deals.html)\n\nThis pipeline can be used to request and retrieve every deal that has been created for your team’s Apollo account.\n\n[Search Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/pipelines/search-accounts.html)\n\nThis pipeline can be used to request and retrieve search results for the accounts that have been added to your team’s Apollo account.\n\n[Search Contacts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/pipelines/search-contacts.html)\n\nThis pipeline can be used to request and retrieve search results for the contacts that have been added to your team’s Apollo account.\n\n[Search Sequences](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/pipelines/search-sequences.html)\n\nThis pipeline can be used to request and retrieve search results for the sequences that have been created for your team’s Apollo account.",
+  "sourceDocsUrl": "https://docs.apollo.io/docs/api-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apollo/index.html",
+  "releaseDate": "2025-05-06",
+  "seoTitle": "",
+  "seoDescription": ""
+}

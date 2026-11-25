@@ -1,0 +1,17 @@
+{
+  "name": "Facebook Ads",
+  "slug": "facebook-ads",
+  "category": "marketing",
+  "shortInfo": "Measure ad campaign performance on Facebook.",
+  "icon": "/images/cms/integrations/f_logo_rgb-blue_58-0cb172.png",
+  "image": "/images/cms/integrations/facebook-ads-2--f1339f.svg",
+  "brief": "This Connector enables streaming relevant Facebook Ads performance data into a user determined warehouse. Reporting on various performance metrics relevant to the advertisement forms an integral part of most Advertisement applications. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Create and run campaigns using simple self-serve tools, and track their performance with easy-to-read reports. More than two billion people use Facebook every month – so no matter what kind of audience you want to reach, you'll find them here.\n\nLearn more about [Facebook Ads API documentation.](https://en-gb.facebook.com/business/ads)",
+  "availableData": "[Account Ads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/ads.html)\n\nRequest and retrieve a list of all the ads in your account.\n\n[Account Creatives](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/creatives.html)\n\nRequest and retrieve a list of all ad creatives in your account.\n\n[Account Adsets](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/adsets.html)\n\nGet statistics about Ads, Ad Sets, and Campaigns.\n\n[Account Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/campaigns.html)\n\nRequest and retrieve a list of all the campaigns in the selected account.\n\n[Account Ad Previews](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/ad-preview.html)\n\nRequest and retrieve the previews of all ads configured in your account.\n\n[Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/pipelines/insights.html)\n\nGet statistics about Ads, Ad Sets, and Campaigns.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/index.html) here.",
+  "sourceDocsUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-advanced/index.html",
+  "releaseDate": "2022-10-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

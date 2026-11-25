@@ -1,0 +1,17 @@
+{
+  "name": "ZohoBooks",
+  "slug": "zohobooks",
+  "category": "product",
+  "shortInfo": "Zoho Books is a online accounting software that is designed for businesses to manage invoices, bills, banking & inventory.",
+  "icon": "/images/cms/integrations/image-620-ef1e12.png",
+  "image": "/images/cms/integrations/image-620-ef1e12.png",
+  "brief": "**Zoho Books** keeps track of your cash flow, bank statements, spendings, projects, and put your tax compliance on autopilot**.**",
+  "showAbout": true,
+  "about": "The Zoho Books Connector lets you sync data from Zoho Books API to your data warehouse automatically.\n\nCheck more about api documentation [here](https://www.zoho.com/books/api/v3/introduction/#organization-id).",
+  "availableData": "[**Contacts**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/pipelines/contacts.html)\n\nThis pipeline can be used to request and retrieve details of the contacts from the Zoho Books platform.\n\n[**Sales Orders**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/pipelines/sales-orders.html)\n\nThis pipeline can be used to request and retrieve details of the Sales orders from the Zoho Books platform.\n\n[**Invoices**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/pipelines/invoices.html)\n\nThis pipeline can be used to request and retrieve details of the Invoices from the Zoho Books platform.\n\n[**Purchase Orders**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/pipelines/purchase-orders.html)\n\nThis pipeline can be used to request and retrieve details of the purchase orders from the Zoho Books platform.\n\n[**Customer Payments**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/pipelines/customer-payments.html)\n\nThis pipeline can be used to request and retrieve details of the customer payments from the Zoho Books platform.",
+  "sourceDocsUrl": "https://www.zoho.com/books/api/v3/introduction/#organization-id",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-books/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

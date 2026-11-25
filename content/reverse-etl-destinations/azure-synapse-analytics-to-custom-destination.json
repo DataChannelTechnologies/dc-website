@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Custom Destination",
+  "slug": "azure-synapse-analytics-to-custom-destination",
+  "warehouse": "azure-synapse",
+  "destination": "custom-destination",
+  "category": "others",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

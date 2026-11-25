@@ -1,0 +1,17 @@
+{
+  "name": "Zendesk",
+  "slug": "zendesk",
+  "category": "support",
+  "shortInfo": "Increase sales conversion by engaging important leads on their website",
+  "icon": "/images/cms/integrations/zendesk-icon.wine-b96bc7.png",
+  "image": "/images/cms/integrations/zendesk-logo.wine-1-1--09d492.png",
+  "brief": "Over 100,000 businesses rely on Zendesk to make customer experiences better. Zendesk provides the complete customer service solution that is easy to use and grows with your business Customer service is about more than the customer. It is about your business and your teams, too. Zendesk not only makes things easy on your customers, but sets your teams up for success and keeps your business in sync. It is everything you need, in one powerful package",
+  "showAbout": true,
+  "about": "Quick to Deploy. Easy to Use. Scales as You Grow. See Why More Businesses Choose Zendesk. Create The Best Experience for Your Customers & Your Agents.  \n  \nLearn more about [Zendesk API documentation.](https://www.zendesk.com/in/)",
+  "availableData": "[Agents](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/agents.html)\n\nThis pipeline can be used to request and retrieve agent information.\n\n[Agent Timeline](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/agent-timeline.html)\n\nThis pipeline can be used to request and retrieve agent information in a chronologically ordered list.\n\n[Agent Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/agent-events.html)\n\nThis pipeline can be used to request and retrieve agent-related updates in a chronologically ordered list.\n\n[Account](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/account.html)\n\nThis pipeline can be used to request and retrieve account information.\n\n[Departments](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/departments.html)\n\nThis pipeline can be used to request and retrieve department information.\n\n[Department Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/department-events.html)\n\nThis pipeline can be used to request and retrieve department-related updates in a chronologically ordered list.\n\n[Chats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/pipelines/chats.html)\n\nThis pipeline can be used to request and retrieve chat-related updates in a chronologically ordered list.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/index.html) here.",
+  "sourceDocsUrl": "https://developer.zendesk.com/documentation/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zendesk/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

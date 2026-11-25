@@ -1,0 +1,17 @@
+{
+  "name": "Zoho CRM",
+  "slug": "zoho-crm",
+  "category": "crm-sales",
+  "shortInfo": "Convert more leads, engage with customers, and increase revenue",
+  "icon": "/images/cms/integrations/167000003887543-94f3b7.png",
+  "image": "/images/cms/integrations/167000003887543-94f3b7.png",
+  "brief": "Zoho CRM is a customer relationship management software. It helps businesses convert more leads, engage with customers, and increase revenue. The Zoho CRM Connector lets you sync data from Zoho CRM API to your data warehouse automatically",
+  "showAbout": true,
+  "about": "Superfast Work, Steadfast Growth. Bring the very best out of your customer-facing teams with robust automation, comprehensive analytics, personalized solutions, and more. Sign up and get started in no time—the fastest implementation in the enterprise CRM market.  \n  \nLearn more about [Zoho CRM API documentation.](https://www.zoho.com/en-in/crm/)",
+  "availableData": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/accounts.html)\n\nThis pipeline can be used to request and retrieve\n\n[Activities](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/activities.html)\n\nThis pipeline can be used to request and retrieve\n\n[Agents](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/agents.html)\n\nThis pipeline can be used to request and retrieve\n\n[Calls](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/calls.html)\n\nThis pipeline can be used to request and retrieve\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/contacts.html)\n\nThis pipeline can be used to request and retrieve\n\n[Custom Views](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/custom-views.html)\n\nThis pipeline can be used to request and retrieve\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/deals.html)\n\nThis pipeline can be used to request and retrieve\n\n[Deleted Records](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/pipelines/deleted-records.html)\n\nThis pipeline can be used to request and retrieve\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/index.html) here.",
+  "sourceDocsUrl": "https://www.zoho.com/crm/developer/docs/api/v2/modules-api.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/zoho-crm/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

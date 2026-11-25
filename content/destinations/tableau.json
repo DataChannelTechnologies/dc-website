@@ -1,0 +1,17 @@
+{
+  "name": "Tableau",
+  "slug": "tableau",
+  "category": "product",
+  "shortInfo": "Tableau is an analytics solution that allows users to connect, analyze, and share their data.",
+  "icon": "/images/cms/destinations/image-555-2c1fb7.png",
+  "image": "/images/cms/destinations/image-555-2c1fb7.png",
+  "brief": "Tableau is a powerful data visualization tool that helps businesses derive valuable insights from their data",
+  "showAbout": true,
+  "about": "The Tableau Reverse ETL connector enables streaming data from a user determined warehouse to the Tableau platform in an automated manner.\n\nCheck more about api documentation [here](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_data_sources.htm#publish_data_source).",
+  "availableSync": "[Publish New Datasource](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/tableau/syncs/publish-new-datasource.html)\n\nThis sync can be used to publish a new data source from your data warehouse to the Tableau platform.\n\n[Update Data in Hyper Connection](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/tableau/syncs/update-data-in-hyper-connection.html)\n\nThis sync can be used to modify data in a published data source that has a live-to-Hyper connection from your data warehouse to the Tableau platform.",
+  "sourceDocsUrl": "https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_data_sources.htm#publish_data_source",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/tableau/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

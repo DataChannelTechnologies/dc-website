@@ -1,0 +1,17 @@
+{
+  "name": "Google Drive",
+  "slug": "google-drive",
+  "category": "others",
+  "shortInfo": "Cloud storage to store, access, and share files.",
+  "icon": "/images/cms/integrations/google_drive_icon-f3674a.png",
+  "image": "/images/cms/destinations/google_drive_logo-bc849f.png",
+  "brief": "Move data from your warehouse to Google Drive—automated, secure, and user-controlled.",
+  "showAbout": true,
+  "about": "The Google Drive Reverse ETL connector enables streaming data from a user determined warehouse to the Google Drive platform in an automated manner.",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-drive/syncs/export.html)\n\nThis sync can be used to load data from your data warehouse into Google Drive platform.",
+  "sourceDocsUrl": "https://developers.google.com/workspace/drive/api/reference/rest/v3",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-drive/",
+  "releaseDate": "2025-07-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

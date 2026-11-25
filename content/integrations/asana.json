@@ -1,0 +1,17 @@
+{
+  "name": "Asana",
+  "slug": "asana",
+  "category": "product",
+  "shortInfo": "Asana is a web-based task management and collaboration tool.",
+  "icon": "/images/cms/integrations/image-5-337e9f.png",
+  "image": "/images/cms/integrations/image-5-337e9f.png",
+  "brief": "Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work.",
+  "showAbout": true,
+  "about": "Get access to records of tasks, users and much more through this Asana connector. It enables streaming of relevant Asana data into a user determined data warehouse automatically once you configure the relevant pipelines.\n\nCheck more about asana api documentation [here](https://developers.asana.com/reference/rest-api-reference).",
+  "availableData": "[**Users**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/pipelines/users.html)\n\nThis pipeline can be used to request and retrieve all users in the specified workspace.\n\n[**Teams**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/pipelines/teams.html)\n\nThis pipeline can be used to request and retrieve all teams in the specified workspace.\n\n[**Tasks**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/pipelines/tasks.html)\n\nThis pipeline can be used to request and retrieve all tasks in the specified workspace.\n\n[**Custom Fields**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/pipelines/custom-fields.html)\n\nThis pipeline can be used to request and retrieve a list of all of the custom fields settings on a workspace, in compact form.",
+  "sourceDocsUrl": "https://developers.asana.com/reference/rest-api-reference",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

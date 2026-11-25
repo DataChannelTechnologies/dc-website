@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to GoogleAds Audiences",
+  "slug": "postgresql-to-googleads-audiences",
+  "warehouse": "postgresql",
+  "destination": "google-ads-audiences",
+  "category": "marketing",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

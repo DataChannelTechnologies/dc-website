@@ -1,0 +1,17 @@
+{
+  "name": "Airtable",
+  "slug": "airtable",
+  "category": "others",
+  "shortInfo": "The Airtable connector enables streaming data from a user's warehouse to the Airtable platform.",
+  "icon": "/images/cms/destinations/airtable_png-logo-b99a79.png",
+  "image": "/images/cms/destinations/airtable_png-logo-b99a79.png",
+  "brief": "Airtable is a cloud-based platform for creating and sharing relational databases. The user-friendly interface allows anyone to spin up a database in minutes.",
+  "showAbout": true,
+  "about": "Airtable is an AI-native app platform that enables users to build custom business applications through conversational interactions with its AI assistant, Omni. The platform combines structured data management with AI-powered app generation, allowing users to create production-ready applications by describing what they need in natural language",
+  "availableSync": "[Table Report](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/airtable/syncs/table-report.html)\n\nThis sync can be used to upload data in table form with the specified fields from a user specified data warehouse to the Airtable Platform.",
+  "sourceDocsUrl": "https://support.airtable.com/docs/api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/airtable/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

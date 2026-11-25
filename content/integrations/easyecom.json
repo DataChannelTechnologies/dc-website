@@ -1,0 +1,17 @@
+{
+  "name": "EasyEcom",
+  "slug": "easyecom",
+  "category": "ecommerce",
+  "shortInfo": "The EasyEcom integration enables merchants to track and allocate inventory across online and offline sales channels in an automated manner.",
+  "icon": "/images/cms/integrations/icon-easy-ff256c.png",
+  "image": "/images/cms/integrations/63a4b8b4ed5955b52a15eaf2_easyecom-logo-2-4--d06d3c.png",
+  "brief": "Simplified omnichannel retailing for sellers. Manage, track and maximize multichannel sales potential with a centralized dashboard to take channel-level control over inventory.",
+  "showAbout": true,
+  "about": "Omni-channel ERP to simplify your INVENTORY, WAREHOUSING, PURCHASING, RECONCILIATION and ACCOUNTING.  \nLearn more about [EasyEcom API documentation.](https://www.easyecom.io/)",
+  "availableData": "[Countries](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/countries.html)\n\nThis pipeline can be used to request and retrieve details of all the countries\n\n[GRNDetails](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/grn_details.html)\n\nThis pipeline can be used to request and retrieve details of all the GRN details\n\n[Customers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/customers.html)\n\nThis pipeline can be used to request and retrieve details of all the customers\n\n[InventoryDetails](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/inventory_details.html)\n\nThis pipeline can be used to request and retrieve details of all the inventory details\n\n[InventorySnapshots](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/inventory_snapshots.html)\n\nThis pipeline can be used to request and retrieve details of all the inventory snapshots\n\n[MarketPlaces](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/marketplaces.html)\n\nThis pipeline can be used to request and retrieve details of all the marketplaces\n\n[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve details of all the orders\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/index.html) here.",
+  "sourceDocsUrl": "https://api-docs.easyecom.io/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/easyecom/index.html",
+  "releaseDate": "2023-01-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

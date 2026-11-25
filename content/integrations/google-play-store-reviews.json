@@ -1,0 +1,17 @@
+{
+  "name": "Google Play Store Reviews",
+  "slug": "google-play-store-reviews",
+  "category": "product",
+  "shortInfo": "View user feedback for your app",
+  "icon": "/images/cms/integrations/google_play_arrow_logo-1-2--9b1395.webp",
+  "image": "/images/cms/integrations/google_play_arrow_logo-1-2--9b1395.webp",
+  "brief": "Google Play Store allows you to publish your apps and games to users around the world and grow your business.",
+  "showAbout": true,
+  "about": "DataChannel’s Google Play Store Reviews Connector enables you to get access to user feedback for an app.",
+  "availableData": "[Reviews](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-play-store-reviews/pipelines/reviews.html)\n\nThis pipeline can be used to discover what users are saying about an app.",
+  "sourceDocsUrl": "https://play.google.com/console/about/reviews/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-play-store-reviews/index.html",
+  "releaseDate": "2023-09-11",
+  "seoTitle": "",
+  "seoDescription": ""
+}

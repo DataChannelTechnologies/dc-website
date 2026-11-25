@@ -1,0 +1,17 @@
+{
+  "name": "MySQL",
+  "slug": "mysql",
+  "category": "databases",
+  "shortInfo": "Sync data from your data warehouse to MySQL",
+  "icon": "/images/cms/integrations/5968313-fb6348.png",
+  "image": "/images/cms/destinations/mysql-1-1--a337ea.svg",
+  "brief": "Load data directly from your data warehouse to MySQL without any code",
+  "showAbout": true,
+  "about": "MySQL Cluster enables users to meet the database challenges of next generation web, cloud, and communications services with uncompromising scalability.  \n  \nLearn more about [MySQL.](https://www.mysql.com/)",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/my-sql/syncs/export.html)\n\nThis sync can be used to request and retrieve data from a user specified datawarehouse to the MySQL.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/my-sql/index.html) here.",
+  "sourceDocsUrl": "https://www.mysql.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/my-sql/setup.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

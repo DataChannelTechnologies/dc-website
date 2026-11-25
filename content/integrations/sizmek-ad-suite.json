@@ -1,0 +1,17 @@
+{
+  "name": "Sizmek Ad Suite",
+  "slug": "sizmek-ad-suite",
+  "category": "marketing",
+  "shortInfo": " Create, distribute, customize, measure, and optimize campaigns across a variety of screens.",
+  "icon": "/images/cms/integrations/logosizmek-941cb1.png",
+  "image": "/images/cms/integrations/sizmek-logo1-3d6630.png",
+  "brief": "Sizmek Ad Suite is a global, multichannel ad server used to create, distribute, customize, measure, and optimize campaigns across a variety of screens. It offers multiple options for creative authoring, streamlined campaign management tools, advanced dynamic creative optimization capabilities, and Media Rating Council-accredited measurement.",
+  "showAbout": true,
+  "about": "Sizmek Ad Suite is a global, multichannel ad server used to create, distribute, customize, measure, and optimize campaigns across a variety of screens. It offers multiple options for creative authoring, streamlined campaign management tools, advanced dynamic creative optimization capabilities, and Media Rating Council-accredited measurement.  \nLearn more about [Sizmek Ad Suite API documentation.](https://advertising.amazon.com/solutions/products/sizmek-ad-suite)",
+  "availableData": "[Ad-hoc Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/sizmek/pipelines/adhoc.html)\n\nThis pipeline can be used to request and retrieve Ad-hoc report from Sizmek.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/sizmek/index.html) here.",
+  "sourceDocsUrl": "https://developers.sizmek.com/hc/en-us/articles/360029611991-Introduction-to-the-Sizmek-Ad-Suite-API",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/sizmek/index.html",
+  "releaseDate": "2023-01-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

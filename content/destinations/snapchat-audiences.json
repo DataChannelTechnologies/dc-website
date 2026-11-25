@@ -1,0 +1,17 @@
+{
+  "name": "Snapchat Ads Audiences",
+  "slug": "snapchat-audiences",
+  "category": "marketing",
+  "shortInfo": "Target users based on their online and real world interests and behaviors, their geographic location, and by demographic.",
+  "icon": "/images/cms/destinations/580b57fcd9996e24bc43c536-de253b.png",
+  "image": "/images/cms/integrations/snapchat-1-1-1-1--b05bd6.svg",
+  "brief": "Unlock greater reach and relevance with Snapchat’s easy to use custom audiences. Re-engage with high-intent and engaged Snapchatters with effective retargeting strategies. Personalize your retargeting ads to create a unique shopping experience on Snapchat with Dynamic Product Ads.",
+  "showAbout": true,
+  "about": "Snapchat Ads are designed to help you get the results that are important to you. We'll guide you, but you always remain in control of how much you spend.  \n  \nLearn more about [Snapchat Ads Audiences.](https://forbusiness.snapchat.com/advertising/targeting)",
+  "availableSync": "[Create and Update Audience Segment](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/syncs/create-and-update-audience-segment.html)\n\nThis sync can be used to upload audience data from a user specified data warehouse to the Snapchat platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/index.html) here.",
+  "sourceDocsUrl": "https://marketingapi.snapchat.com/docs/#create-an-audience-segment",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snapchat/index.html",
+  "releaseDate": "2023-01-04",
+  "seoTitle": "",
+  "seoDescription": ""
+}

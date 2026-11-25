@@ -1,0 +1,13 @@
+{
+  "name": "Move Myntra SJIT data to Amazon Redshift",
+  "slug": "move-myntra-sjit-to",
+  "source": "myntra-sjit",
+  "warehouse": "amazon-redshift",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Myntra SJIT** as the data source.\n2.  Select your added Amazon Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Myntra SJIT using the **+** icon with your Name, Access Token and Refresh Token.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/myntra-sjit/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

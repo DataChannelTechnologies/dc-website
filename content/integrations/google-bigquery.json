@@ -1,0 +1,17 @@
+{
+  "name": "Google BigQuery",
+  "slug": "google-bigquery",
+  "category": "databases",
+  "shortInfo": "Cloud data warehouse to power your data-driven innovation",
+  "icon": "/images/cms/integrations/google-big-query-logo-ac63e7c329-seeklogo.com-301cf3.png",
+  "image": "/images/cms/integrations/google-big-query-logo-ac63e7c329-seeklogo.com-301cf3.png",
+  "brief": "BigQuery is a completely serverless and cost-effective enterprise data warehouse. It has built-in machine learning, BI that works across clouds, and scales with your data. BigQuery ML enables data scientists and data analysts to build and operationalize ML models on planet-scale structured, semi-structured, and now unstructured data directly inside BigQuery, using simple SQL—in a fraction of the time. Export BigQuery ML models for online prediction into Vertex AI or your own serving layer. Query all data types with BigQuery: structured, semi-structured and unstructured. Use BigLake to explore and unify different data types and build advanced models. Centrally discover, manage, monitor, and govern data across data lakes, data warehouses, and data marts with consistent controls with Dataplex, an intelligent data fabric that enables organizations to provide access to trusted data",
+  "showAbout": true,
+  "about": "BigQuery is a serverless, cost-effective and multicloud data warehouse designed to help you turn big data into valuable business insights.  \n  \nLearn more about [Google BigQuery API documentation.](https://cloud.google.com/bigquery)",
+  "availableData": "Table/View\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by the user.\n\nCustom Query\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/bigquery/index.html) here.",
+  "sourceDocsUrl": "https://cloud.google.com/bigquery/docs/reference/libraries-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/bigquery/index.html",
+  "releaseDate": "2022-11-04",
+  "seoTitle": "",
+  "seoDescription": ""
+}

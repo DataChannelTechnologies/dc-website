@@ -1,0 +1,17 @@
+{
+  "name": "Myntra Partner Portal",
+  "slug": "myntra-partner-portal",
+  "category": "ecommerce",
+  "shortInfo": "Monitor orders, inventory levels, product catalogs, sales and fulfillment.\n",
+  "icon": "/images/cms/integrations/myntra-partner-portal-f51916.png",
+  "image": "/images/cms/integrations/myntra-partner-portal-f51916.png",
+  "brief": "Myntra Partner Portal Connector provides access to order, inventory, catalog, and sales data. It enable businesses to monitor fulfillment, track performance, manage products, and optimize marketplace operations.",
+  "showAbout": true,
+  "about": "Myntra Partner Portal is a seller management platform that enables brands and sellers to manage their product catalog, inventory, orders, and business operations on Myntra through a unified interface. Myntra Partner Portal helps sellers monitor sales performance, track order fulfillment, manage inventory levels, and gain insights into customer demand and business growth.\n\nThe Myntra Partner Portal Connector lets you sync data from the Myntra Partner Portal to your data warehouse automatically.",
+  "availableData": "SJIT Report\n\nThis pipeline can be used to request and retrieve SJIT Report",
+  "sourceDocsUrl": "https://apidocs.myntra.com/",
+  "docsUrl": "",
+  "releaseDate": "2026-03-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL Amazon Ads To Redshift",
+  "slug": "etl-amazon-ads-to-redshift",
+  "source": "amazon-ads",
+  "warehouse": "amazon-redshift",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Amazon Ads as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Amazon Ads account using the [+](https://api.datachannel.co/datasources/amazon-ads/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY2OTk2NzQ2Ni45NzQ1MTg4fQ.FGVY4g48CTyKkCpH_bxvYPVOk3ey-CHZ-_iTi1OJ5oOSpK4TkH8pNDEulHiXuwfqpQnzcUNOMCy_6I05eJgU4OAl0RKNWRzb4c-moAsrHcldFKVV9Io5-SFo3Q-bmZ5BEZIebLnk7DYlAFahlL-VD9dnzj3zORFXo-ik4VN3MeOLA71-d93dMQRkkjWgvnWentbD31ZKcwobduQKV2p1OXoNEgvGsOAeJYr0n3yxm2FtCckZvhQ9uTHjOXmj2GpPDyAwzMo1CRROejopm5Z75cvTBj-EcXLxM8tcK1DCQUeuvNqg5glvbPRphZkUILx0PRriG-YOHGJBdk7idLcebA_TIZpqDTi6jaed_WWAepH5t039Tulxv2iDzu99rhxLGDAWfN_74PMM1wSXmaTQrPItpK4CzxKVUnzGdNVNsSv48k_XqPGmXFIdFRpCQ3gBFhCdIVHMxhREkLzE4C54FdFS7cEoMJr7SlnOLfUd88jGiETAIL9C9M6Li5MIcfO8) icon with your **Client Id** & **Client Secret**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/amazon-ads/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/ssBXZ83JIdw",
+  "seoTitle": "",
+  "seoDescription": ""
+}

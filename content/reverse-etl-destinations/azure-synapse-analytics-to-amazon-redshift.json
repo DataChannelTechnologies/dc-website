@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Amazon Redshift",
+  "slug": "azure-synapse-analytics-to-amazon-redshift",
+  "warehouse": "azure-synapse",
+  "destination": "amazon-redshift",
+  "category": "databases",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

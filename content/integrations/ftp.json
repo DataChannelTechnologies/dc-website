@@ -1,0 +1,17 @@
+{
+  "name": "FTP",
+  "slug": "ftp",
+  "category": "others",
+  "shortInfo": "Transfer data in CSV, JSON, and EXCEL formats",
+  "icon": "/images/cms/integrations/ftp-e83838.png",
+  "image": "/images/cms/integrations/unnamed-2-1-1-1--d872d8.png",
+  "brief": "The File Transfer Protocol is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client–server model architecture using separate control and data connections between the client and the server",
+  "showAbout": true,
+  "about": "File Transfer Protocol(FTP) is an application layer protocol that moves files between local and remote file systems.  \n  \nLearn more about [FTP API documentation.](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/index.html)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/pipelines/ftp-csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/pipelines/ftp-json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/pipelines/ftp-excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/index.html) here.",
+  "sourceDocsUrl": "https://www.ftp-api.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/ftp/index.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

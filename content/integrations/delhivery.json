@@ -1,0 +1,17 @@
+{
+  "name": "Delhivery",
+  "slug": "delhivery",
+  "category": "others",
+  "shortInfo": "Delhivery enables shipment tracking, logistics management, fulfillment, and delivery analytics.\n",
+  "icon": "/images/cms/integrations/delhivery-74a433.png",
+  "image": "/images/cms/integrations/delhivery-74a433.png",
+  "brief": "Delhivery is primarily used for logistics management, shipment tracking, order fulfillment, and delivery operations. It enables businesses to monitor shipments, track delivery performance, manage returns, and optimize supply chain workflows.",
+  "showAbout": true,
+  "about": "Delhivery Connector enables streaming relevant Delhivery shipment and logistics data into a user-determined data warehouse. This data enables businesses to access shipment tracking, order fulfillment, delivery performance, and logistics operations data, ensuring efficient monitoring and reconciliation of logistics processes. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "Shipment Tracking\n\nThis pipeline can be used to request and retrieve Shipment Tracking Report",
+  "sourceDocsUrl": "https://one.delhivery.com/developer-portal/documents",
+  "docsUrl": "",
+  "releaseDate": "2026-02-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

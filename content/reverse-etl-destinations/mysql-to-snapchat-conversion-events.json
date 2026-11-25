@@ -1,0 +1,13 @@
+{
+  "name": "MySQL to Snapchat Conversion Events",
+  "slug": "mysql-to-snapchat-conversion-events",
+  "warehouse": "mysql",
+  "destination": "snapchat-conversion-events",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**MySQL to Snapchat Conversion Events**\n\n**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a MySQL Warehouse.\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Salesforce.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/salesforce/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImY5N2U3ZWVlY2YwMWM4MDhiZjRhYjkzOTczNDBiZmIyOTgyZTg0NzUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjg4NDY5MDc1LCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY4ODUzNTQ4OSwiZXhwIjoxNjg4NTM5MDg5LCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.hg5lsM0XJt1dXo97YpDQFTZrq_878i1EtnksNKYpcYOYOnh2gcVwNHa1daB1NscfL6_3PqBTD1oQzz6WbQxi5rHqUhwAgw3aog6VsegDl1VIG5c99QxpgngGacKLmJQI1M5CcmAFpyIhVfR2jLZvln7xSJWvptzeqXHtiR2r2AHFgtF9ldF6L5lTptOvcKhOjjvGFYdTS66aupVAnBJq6TWY-V8_WECz4opKlyIokffNmkHx1_Z4WjuYm-KWzzFQgnFNrjCPNbaxwVA3F0LnNnGJPVpHF52Hf0jek2kB4T7IakCQxhQYM59w28qicOoUxA4Dc8rsbkuWE_gD-na3Ww)” Button.\n\nClick on “[+Data Sync](https://console.datachannel.co/reverse-connectors/snapchat/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://www.youtube.com/watch?v=lQXTVReoYCM&t=1s",
+  "seoTitle": "",
+  "seoDescription": ""
+}

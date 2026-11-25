@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Snowflake",
+  "slug": "azure-synapse-analytics-to-snowflake",
+  "warehouse": "azure-synapse",
+  "destination": "snowflake",
+  "category": "databases",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL IThink Logistics Data to Google BigQuery",
+  "slug": "etl-ithink-logistics-data-to-google-bigquery",
+  "source": "ithink-logistics",
+  "warehouse": "google-bigquery",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select IThink Logistics as the data source.\n2.  Select your added Google BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorise DataChannel to connect to your IThink Logistics account with Name, Access Token and Secret Key.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/apollo/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Adjust",
+  "slug": "adjust",
+  "category": "marketing",
+  "shortInfo": "Manage app settings, track in-app events, measure campaigns, and evaluate user performance",
+  "icon": "/images/cms/integrations/adjusticon12-fc93d9.png",
+  "image": "/images/cms/integrations/adjust1logo-234454.png",
+  "brief": "Adjust is a global app marketing analytics platform committed to ensuring the highest privacy and performance standards. Adjust’s solutions include measurement, fraud prevention, cybersecurity, and automation tools. The Adjust connector enables access to the statistics for the mobile apps you track with Adjust. Adjust Connector enables streaming relevant Adjust performance data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Track your marketing efforts across social media platforms and hundreds of networks. Request a demo to start tracking the entire user lifecycle, from install to reinstall.  \n  \nLearn more about [Adjust API documentation.](https://www.adjust.com/)",
+  "availableData": "[App & Event](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust/pipelines/app-and-event.html)\n\nThis pipeline can be used to request and retrieve details about the App KPIs & Event KPIs., typically involving metrics such as clicks, sessions, installs, etc.\n\n[Cohort](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust/pipelines/cohort.html)\n\nThis pipeline can be used to request and retrieve data that has been aggregated by user cohort, e.g. a date on which the user has installed/made a purchase/registered etc.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust/index.html) here.",
+  "sourceDocsUrl": "https://help.adjust.com/en/article/get-started-with-adjust",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/adjust/index.html",
+  "releaseDate": "2022-10-27",
+  "seoTitle": "",
+  "seoDescription": ""
+}

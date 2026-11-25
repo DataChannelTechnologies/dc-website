@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Pipedrive",
+  "slug": "azure-synapse-analytics-to-pipedrive",
+  "warehouse": "azure-synapse",
+  "destination": "pipedrive",
+  "category": "crm-sales",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

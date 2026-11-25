@@ -1,0 +1,13 @@
+{
+  "name": "Move Flipkart Seller data to Amazon Redshift",
+  "slug": "move-flipkart-seller",
+  "source": "flipkart-seller",
+  "warehouse": "amazon-redshift",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Flipkart Seller** as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Flipkart Seller** account using the **(+)** icon with your **Username & Password.** Check more about the process [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pla-search-term-report.html#_data_pipelines_details).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/flipkart-seller/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

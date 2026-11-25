@@ -1,0 +1,17 @@
+{
+  "name": "Intercom",
+  "slug": "intercom",
+  "category": "product",
+  "shortInfo": "Intercom is an AI-first customer service platform.",
+  "icon": "/images/cms/destinations/intercom_logo-a44483.png",
+  "image": "/images/cms/destinations/intercom_logo-a44483.png",
+  "brief": "Intercom is an AI-first customer service platform that provides a customer experience across automation and human support.",
+  "showAbout": true,
+  "about": "The Intercom Reverse ETL connector enables streaming data from a user determined warehouse to the Intercom platform in an automated manner.\n\nCheck more about Intercom api documentation [here](https://developers.intercom.com/docs/references/introduction/).",
+  "availableSync": "[Articles](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/intercom/syncs/articles.html)\n\nThis sync can be used to load articles from a user specified data warehouse to the Intercom platform.\n\n[Companies](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/intercom/syncs/companies.html)\n\nThis sync can be used to load companies' details from a user specified data warehouse to the Intercom platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/intercom/syncs/contacts.html)\n\nThis sync can be used to load contact details from a user specified data warehouse to the Intercom platform.",
+  "sourceDocsUrl": "https://developers.intercom.com/docs/references/introduction/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/intercom/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

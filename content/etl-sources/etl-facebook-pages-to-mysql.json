@@ -1,0 +1,13 @@
+{
+  "name": "ETL Facebook Pages To MySQL",
+  "slug": "etl-facebook-pages-to-mysql",
+  "source": "facebook-pages",
+  "warehouse": "mysql",
+  "category": "social-media",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Facebook Pages as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Facebook account using OAuth, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/facebook-pages/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL FTP To Redshift",
+  "slug": "etl-ftp-to-redshift",
+  "source": "ftp",
+  "warehouse": "amazon-redshift",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select FTP as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your FTP using the [+](https://api.datachannel.co/datasources/ftp/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTA5MTc1NC43NjQxODh9.F5S_ElZmyWwppAHNsw2sHI_tfSBGUUwCy6aqYvhefHcm_n-PwdD5Zbo8T_RSSmfpL4sSjZ7FZILLKOmslnOYVOPjWvbqFcrqJEOte5FoU_xwRUgbbwbIwo6mfe4HJJx8RrCd05yvc5JnOD1nPcUtfzlsqlCzws_59NaFx-_TJpWYwhqEzKXX52SF7GAoWbeLT55PSGRAmM_va9JYiRRjMLkSbaOM21fSnZTif75M2ruYZMBPW6KSfI-mH5CfutnYbTcqhMpnRignP53kliYklTc2SMTBuamsBF3CCDSD7iDGElR8pCUHCEV4P1IDpYAePvlSyRgcAgtbVW4CjmIVwC8ruNC4J9aeOD7zSVQyc3AUMpQcqHIrHnNHPtRFvWFIlta_txHVY9bfqxwEfczHb0OwP3M7HuDsbda0oGe-W6Ov9NNtyZfxIVl21UsdiiDcCADTk3IxTOrQQkvQrnmzW2g6_WXTN1X3lSTsc-CCdWhOebcgfBr2LPbUDM9xjR1S) icon with your **Host IP, Username, Password** & **Port**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/ftp/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

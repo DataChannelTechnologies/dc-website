@@ -1,0 +1,13 @@
+{
+  "name": "ETL Adjust To BigQuery",
+  "slug": "etl-adjust-to-bigquery",
+  "source": "adjust",
+  "warehouse": "google-bigquery",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Adjust as the data source.\n2.  Select your added BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Adjust account using the [+](https://api.datachannel.co/datasources/adjust/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlYjMxMjdiMjRjZTg2MDJjODEyNDUxZThmZTczZDU4MjkyMDg4N2MiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc2NDU3MjI0LCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY3NjU0NDc0MSwiZXhwIjoxNjc2NTQ4MzQxLCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.LlPhTxG6gykAGbEoEVAhfJDTMO5xj1bWX9itQq04CQw-riRba9nPQjkOkJnjfHM1iLO_ODPdbmbdsAw8lw_2p9FV3OCBMWZ19ULvshWFaXGwiphsuMeJgeDdlQkvRVn2Zg7hljLejnawl38KwSFruQvXvsTGwJxCQ8HphlHMpZLWko3r2blFVodEQyys5pcHN8ADcbGva_HBHnMvjdTnvYzLUg0pr_ydDGxFKzuvHqOISU7Lf4xkX8hRljzKPPode1Ik_x84p-gXZUbdAOYFklPSbsYM20bBOtv74Jl62szR0tEzXVz9CdP1lHFeSKlwh1ZMza_c1olbX_UaCi-fhA) icon with your **token**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/adjust/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

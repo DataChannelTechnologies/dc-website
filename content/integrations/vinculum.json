@@ -1,0 +1,17 @@
+{
+  "name": "Vinculum",
+  "slug": "vinculum",
+  "category": "ecommerce",
+  "shortInfo": "Global Omnichannel retail platform",
+  "icon": "/images/cms/integrations/download__15_-removebg-preview-a25642.png",
+  "image": "/images/cms/integrations/viniculum-0e32c0.png",
+  "brief": "Vinculum is a global Omnichannel retailing enabler that help brands and retailers easily scale, reach and delight customers across channels.Vinculum Connector enables streaming relevant Vinculum performance data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Vinculum's solutions are pre-integrated to work with multiple marketplaces across the different countries in which we operate.  \n  \nLearn more about [Vinculum API documentation.](https://www.vinculumgroup.com/)",
+  "availableData": "[Inbound Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/inbound-details.html)\n\nThis pipeline can be used to request and retrieve inbound details related information.\n\n[Inventory Status](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/inventory-status.html)\n\nThis pipeline can be used to request and retrieve inventory status related information.\n\n[Order Pull](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/order-pull.html)\n\nThis pipeline can be used to request and retrieve order pull related information.\n\n[Order Return](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/order-return.html)\n\nThis pipeline can be used to request and retrieve order return related information.\n\n[Order Status](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/order-status.html)\n\nThis pipeline can be used to request and retrieve order status related information.\n\n[Purchase Order Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/pipelines/purchase-order-details.html)\n\nThis pipeline can be used to request and retrieve purchase order details related information.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/index.html) here.",
+  "sourceDocsUrl": "https://docs.vineretail.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/vinculum/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

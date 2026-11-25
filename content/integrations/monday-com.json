@@ -1,0 +1,17 @@
+{
+  "name": "monday.com",
+  "slug": "monday-com",
+  "category": "product",
+  "shortInfo": "The monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
+  "icon": "/images/cms/integrations/monday-1-1-7--bf5c54.png",
+  "image": "/images/cms/integrations/monday-1-1-7--bf5c54.png",
+  "brief": "The monday.com platform is a customizable workOS that empowers teams to build processes, create projects, and complete day-to-day work according to their needs.",
+  "showAbout": true,
+  "about": "The monday.com Connector enables streaming relevant monday.com data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.\n\nCheck more about monday.com api documentation [here](https://dataapi.upscripthealth.org/docs).",
+  "availableData": "[Items](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/monday/pipelines/items.html)\n\nThis pipeline can be used to request and retrieve details of all items on a board.",
+  "sourceDocsUrl": "https://developer.monday.com/api-reference/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/monday/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

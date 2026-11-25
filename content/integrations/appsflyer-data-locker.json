@@ -1,0 +1,17 @@
+{
+  "name": "AppsFlyer Data Locker",
+  "slug": "appsflyer-data-locker",
+  "category": "marketing",
+  "shortInfo": "Send report data to cloud storage for loading into BI systems.",
+  "icon": "/images/cms/integrations/apps-icon-f5dbdc.png",
+  "image": "/images/cms/integrations/appsflyer-datalocker1-31abd4.png",
+  "brief": "AppsFlyer Datalocker is a data privacy solution developed by AppsFlyer, a mobile attribution and marketing analytics company. Datalocker is designed to help mobile app developers and marketers comply with data privacy regulations such as the EU’s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).",
+  "showAbout": true,
+  "about": "Data Locker sends your report data to cloud storage for loading into your BI systems. You can select between different storage destinations: An AppsFlyer-owned bucket in AWS, or storage owned by you in AWS, GCS, BigQuery, and Snowflake. Data Locker supports multiple destinations. That means you can send all data to multiple destinations, segregate data by destination, or a combination of both.  \nLearn more about [AppsFlyer Data Locker API documentation.](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/appsflyer-datalocker/index.html)",
+  "availableData": "[Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/appsflyer-datalocker/pipelines/report.html)\n\nThis pipeline can be used to request and retrieve reports on topics selected by you based on your requirement.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/appsflyer-datalocker/index.html) here.",
+  "sourceDocsUrl": "https://support.appsflyer.com/hc/en-us/sections/6550945728657-Data-Locker",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/appsflyer-datalocker/index.html",
+  "releaseDate": "2023-04-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

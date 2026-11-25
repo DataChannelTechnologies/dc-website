@@ -1,0 +1,13 @@
+{
+  "name": "Move BigCommerce Data to Amazon Redshift",
+  "slug": "move-bigcommerce-data-to-amazon-redshift",
+  "source": "bigcommerce",
+  "warehouse": "amazon-redshift",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **BigCommerce** as the data source.\n2.  Select your added **Amazon Redshift** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Add Access Key and Store Hash to add Credentials.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/bigcommerce/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

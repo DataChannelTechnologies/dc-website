@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Zoho CRM",
+  "slug": "azure-synapse-analytics-to-zoho-crm",
+  "warehouse": "azure-synapse",
+  "destination": "zoho-crm",
+  "category": "crm-sales",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

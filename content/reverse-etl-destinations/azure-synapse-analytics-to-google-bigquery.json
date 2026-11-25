@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Google Bigquery",
+  "slug": "azure-synapse-analytics-to-google-bigquery",
+  "warehouse": "azure-synapse",
+  "destination": "google-bigquery",
+  "category": "databases",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

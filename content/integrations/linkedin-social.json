@@ -1,0 +1,17 @@
+{
+  "name": "LinkedIn Social",
+  "slug": "linkedin-social",
+  "category": "social-media",
+  "shortInfo": "LinkedIn Social provides access to analytics for your organization's LinkedIn pages. ",
+  "icon": "/images/cms/integrations/linkedin-social-100x100-afe4fd.png",
+  "image": "/images/cms/integrations/linkedin-social-100x100-afe4fd.png",
+  "brief": "The LinkedIn Social helps businesses grow by building technology to reach, engage, and convert professional audiences at scale. The platform offers APIs to create LinkedIn marketing campaigns, to report campaign performance, to manage leads, and to grow a company Page.",
+  "showAbout": true,
+  "about": "You can use the LinkedIn social connector to create better engagement with your audiences by monitoring page statistics and follower statistics.DataChannel’s LinkedIn Social Connector enables streaming relevant LinkedIn data into a user determined warehouse.",
+  "availableData": "[Follower Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-social/pipelines/follower-statistics.html)\n\nThis pipeline can be used to request and retrieve statistics on followers for an organization.\n\n[Page Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-social/pipelines/page-insights.html)\n\nThis pipeline can be used to request and retrieve page statistics on views and clicks for an organization.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations/follower-statistics?view=li-lms-2025-05&tabs=http",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-social/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

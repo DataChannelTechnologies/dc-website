@@ -1,0 +1,13 @@
+{
+  "name": "ETL Apple Search Ads To Snowflake",
+  "slug": "etl-apple-search-ads-to-snowflake",
+  "source": "apple-ads",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Apple Search Ads as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Apple Search Ads account using the [+](https://api.datachannel.co/datasources/apple-search-ads/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDQ4NTk1OS41NzMwNzA1fQ.BIGawsvsfsz4kEtB0zx3Rf5kw8_soL1-96iopJ2--vyKSjLhwXwAIZMJQGpnPUbLq1ZLgBTD9vFvo0gPgBW5UOcrxFP2SEegYnK_PZce10mttzIbU1kPx0lkm0ykgyR_ZS3r2LT7zCA_fVaSqiBj_dt8jzhb1X2U0niqwA-IqO8db4LvbAYmtTIV448__MHZnG-6VUXl3Ed5P3RM7tO32Z8tTzYorpkVnw0RSJwWPtEAeOVRO82nV6LQtE0Dx_pZNsghnapcm8ur5ZjVfpPUPioY6fRFXZeAAlP35ZaSBXpPJGT5MRwCNKoJASHqz5dIrcu3OroE7KhplrxxV1r8mS2ojG1p-GzZ1h7MXNpvjofQAR9Um5_c-RP6YVj4nOvOHwPjwM3xbhEQf5Pbbz6PzORB8g6f5x6Gn3VSP44vIa1N41ey6-E-LQphfP1XplfTY_kgITuwnEpWMgJ9nsbT4uIfZkwkP8qZGNKvRth-lxUvhE4FZNwZ7XsVf_SXsV-x) icon with your **Client Id**, **Team ID** & **Key ID**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/apple-search-ads/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/pnmqSng5AI0",
+  "seoTitle": "",
+  "seoDescription": ""
+}

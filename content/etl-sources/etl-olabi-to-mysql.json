@@ -1,0 +1,13 @@
+{
+  "name": "ETL Olabi to MySQL",
+  "slug": "etl-olabi-to-mysql",
+  "source": "olabi",
+  "warehouse": "mysql",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Olabi** as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Olabi Account using the **(+)** icon with your **Username, Password & Sub-Domain.**\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/olabi/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/WW2ZLx2K5qQ",
+  "seoTitle": "",
+  "seoDescription": ""
+}

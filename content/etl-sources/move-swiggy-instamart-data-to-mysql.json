@@ -1,0 +1,13 @@
+{
+  "name": "Move Swiggy Instamart Data to MySQL",
+  "slug": "move-swiggy-instamart-data-to-mysql",
+  "source": "swiggy-instamart",
+  "warehouse": "mysql",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Swiggy Instamart** as the data source.\n2.  Select your added **MySQL** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorise DataChannel to connect to your Swiggy Instamart account with your **Email, Client ID, Refresh token, User/ Seller ID** and **Brand Company Account Name.**\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/instamart/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

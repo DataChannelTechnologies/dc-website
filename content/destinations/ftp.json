@@ -1,0 +1,17 @@
+{
+  "name": "FTP",
+  "slug": "ftp",
+  "category": "others",
+  "shortInfo": "Sync data from your data warehouse to FTP location of your choice",
+  "icon": "/images/cms/integrations/ftp-e83838.png",
+  "image": "/images/cms/destinations/ftp-1-1--01269b.svg",
+  "brief": "",
+  "showAbout": false,
+  "about": "",
+  "availableSync": "",
+  "sourceDocsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/index.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/ftp/setup.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Microsoft Teams",
+  "slug": "azure-synapse-analytics-to-microsoft-teams",
+  "warehouse": "azure-synapse",
+  "destination": "microsoft-teams",
+  "category": "notifications",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

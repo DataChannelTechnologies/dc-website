@@ -1,0 +1,13 @@
+{
+  "name": "Move Everflow data to Redshift",
+  "slug": "move-everflow-data-to-redshift",
+  "source": "everflow",
+  "warehouse": "amazon-redshift",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Everflow** as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Everflow** account using the **(+)** icon with your **API Key.** Read more about how to find these details [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/everflow/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL REST To MySQL",
+  "slug": "etl-rest-to-mysql",
+  "source": "rest",
+  "warehouse": "mysql",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select REST as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your REST API using the [+](https://api.datachannel.co/datasources/rest/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTE4MzAyMS43ODAyMjA1fQ.lSY6a8jhmPlDxezmzC8bl2aS2H9KHLsz8stq0j-8GEKUiRu0FwBpl0VGjhGj1cWweQ1P0MnWWqgDEcGDJEPEhTRpOn9dqfeSSqKsFQDiDMry6OEmPfG-OXOwE72gejIkIlqDPfOFQ8Eo8V-q-dKaRlz_Z_VWBAdPd_JW9T_aL6wH7eAHq9fbUktweypwKU5CMRiWVPBCXZ9BIfmlrY8TYEJFYB0n7pKMqpYrVkFL8Hs_MYX3-uVO2eh20ztVjHqVLtCh_Xm39go4n0HpNPB3T2gPaVd4-4S8P0DJ-mEzu8UQ0qzJ04allNHBhYWvs2ZNSb81sklnSBwPgBVKJXp_VNSkMeTVZrGqu-YrhAw37Plnu8CLwcSTIoZvhOItJgUCMlG7PYlVdAT_jZeGyVBqmW9rFns7kM48Er3yjH5FdfDdCy4AA8we4ETaUyfxOUy7B66h3JnAs06AN4Qb67Z7aDfk-BRu-OAngJ6q9TqlgN0iQNVEB7LiFUnHpk9EiGcK) icon. Select the Authorization Type and set up as per API details.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/rest/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/vPTdkpflCRk",
+  "seoTitle": "",
+  "seoDescription": ""
+}

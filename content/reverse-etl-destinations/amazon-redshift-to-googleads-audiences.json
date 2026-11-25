@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Redshift to GoogleAds Audiences",
+  "slug": "amazon-redshift-to-googleads-audiences",
+  "warehouse": "amazon-redshift",
+  "destination": "google-ads-audiences",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a Redshift Warehouse. \n\n*\\*To understand how to add a Redshift Data Warehouse check out this* [*video*](https://www.youtube.com/watch?v=ZH8IfbBMqts&t=3s)*.*\n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Google Ads.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/google-ads/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNWI0MDljNmYyMmM0MDNlMWY5MWY5ODY3YWM0OTJhOTA2MTk1NTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1MjMxOTgyLCJ1c2VyX2lkIjoiMDdhMjBlYzUxODMwNDY0YTgzY2VjOWNkMzhhOGYyZWMiLCJzdWIiOiIwN2EyMGVjNTE4MzA0NjRhODNjZWM5Y2QzOGE4ZjJlYyIsImlhdCI6MTY3NTIzMTk4MiwiZXhwIjoxNjc1MjM1NTgyLCJlbWFpbCI6ImF5dXNoay5zaW5naEBkZWNpc2lvbi10cmVlLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImF5dXNoay5zaW5naEBkZWNpc2lvbi10cmVlLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.pnWWFBxL7U1DnMGwyIJ3lYC5dJveKVvLbWhFRnSVeNKVsxkep1lU0JigqpXC7i0me9AraLg3p-b1eU4I2LA05QxYs6KiTjOcPeMhS8tmJgISEvSPlrLt2pE_1-7-31rALJqaB9u5-eEmHnMgWrBxfCWqGdGv61ZFwUNL0Ce_buvKy9q3IANw49OpI5mohYk_eO1POW2oSfsooRVRO9BfuwGBGktoJp9nRsh6IVwpBL8siIK38hzSYTg3YEo8vl_j2_IyFGLaUpkMW49HeRXEadLO9KVbg1RomawVuYZKM0RfJDnHCTLT8SdeRyy-Lz_kvfMaJQMYacaALY6exnuJzQ)” Button. You will easily be able to sign up using OAuth.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/gad-reverse/sync/new)” to start adding Data Syncs to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

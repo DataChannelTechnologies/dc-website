@@ -1,0 +1,17 @@
+{
+  "name": "Facebook Ads Audiences",
+  "slug": "facebook-ads-audiences",
+  "category": "marketing",
+  "shortInfo": "Define your audience and advertise to people important to your business on Facebook",
+  "icon": "/images/cms/destinations/download-3--468788.png",
+  "image": "/images/cms/destinations/facebook-ads--860e26.png",
+  "brief": "Facebook Ads Audiences allow you to connect with people who have already shown interest in your business, whether they're loyal customers or people who have used your app or visited your website.",
+  "showAbout": true,
+  "about": "The Facebook Ads Reverse ETL Sync enables streaming data from a user determined warehouse  to the Facebook Ads platform in an automated manner.  \n  \nLearn more about [Facebook Ads Audiences.](https://en-gb.facebook.com/business/ads/ad-targeting)",
+  "availableSync": "[Audience List](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/syncs/audience_list.html)\n\nThis sync can be used to request and retrieve audience list data from a user specified data warehouse to the Facebooks Ads platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/index.html) here.",
+  "sourceDocsUrl": "https://www.meta.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/facebookads/syncs/audience_list.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

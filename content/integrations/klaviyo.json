@@ -1,0 +1,17 @@
+{
+  "name": "Klaviyo",
+  "slug": "klaviyo",
+  "category": "marketing",
+  "shortInfo": "Powerful email and SMS marketing automation",
+  "icon": "/images/cms/integrations/klaviyo-0f0a9a.png",
+  "image": "/images/cms/integrations/klaviyo-214594.png",
+  "brief": "Klaviyo is an email marketing platform created for online businesses — featuring powerful email and SMS marketing automation. DataChannel’s Klaviyo Connector lets you sync data from the Klaviyo API automatically into your data warehouse. To understand how users are interacting with your brand, use this connector and track various performance metrics, to target and personalise better.",
+  "showAbout": true,
+  "about": "Klaviyo, is an ecommerce marketing automation platform for email and sms. With a built-in CDP, businesses can integrate more marketing data for higher ROI.  \n  \nLearn more about [Klaviyo API documentation.](https://www.klaviyo.com/)",
+  "availableData": "[All Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/all-metrics.html)\n\nThis pipeline can be used to request and retrieve a list of all the metrics in your account.\n\n[Campaign Recipients](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/campaign-recipients.html)\n\nThis pipeline can be used to request and retrieve summary information about email recipients for the campaign.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve list of all the campaigns you’ve created.\n\n[Events Data](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/events-data.html)\n\nThis pipeline can be used to request and retrieve event data from Klaviyo, optionally filtering and segmenting on available event properties.\n\n[Events Data - Flows](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/events-data-flow.html)\n\nThis pipeline can be used to request and retrieve event data from Klaviyo grouped by $attributed\\_flow.\n\n[Events For All Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/pipelines/events-for-all-metrics.html)\n\nThis pipeline can be used to request and retrieve event data from Klaviyo.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/index.html) here.",
+  "sourceDocsUrl": "https://developers.klaviyo.com/en/reference/api_overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/klaviyo/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

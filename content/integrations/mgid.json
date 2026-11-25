@@ -1,0 +1,17 @@
+{
+  "name": "MGID",
+  "slug": "mgid",
+  "category": "marketing",
+  "shortInfo": "MGID is an innovative global pioneer in native advertising that drives revenue growth for all participants in the advertising ecosystem.",
+  "icon": "/images/cms/integrations/mgid_icon-removebg-preview-1--ee0f94.png",
+  "image": "/images/cms/integrations/mgid-log-2-c0d227.png",
+  "brief": "MGID is an innovative global pioneer in native advertising that drives revenue growth for all participants in the advertising ecosystem.",
+  "showAbout": true,
+  "about": "MGID helps publishers monetize and nurture audiences, as well as drives performance and awareness for brands. How? By uniquely connecting them to the right audience, at the right time, with the right content.\n\nThis bespoke solution covers every requirement: from planning and strategy to delivery and reporting, a campaign’s potential is established, secured and then exceeded.",
+  "availableData": "[Advertising Campaign Daily Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/pipelines/advertising-campaign-daily-statistics.html)  \nThis pipeline can be used to request and retrieve daily statistics for all advertising campaigns for the chosen period.\n\n[Advertising Campaign Daily Statistics Video Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/pipelines/advertising-campaign-daily-statistics-video-campaigns.html)\n\nThis pipeline can be used to request and retrieve daily statistics for all video advertising campaigns for the chosen period.\n\n[Advertising Campaign Statistics By Site](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/pipelines/advertising-campaign-statistics-by-site.html)\n\nThis pipeline can be used to request and retrieve statistics for all advertising campaigns for the chosen period, aggregated by site.\n\n[Advertising Campaigns Detailed Daily Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/pipelines/advertising-campaigns-detailed-daily-statistics.html)\n\nThis pipeline can be used to request and retrieve detailed daily statistics for all advertising campaigns for the chosen period.",
+  "sourceDocsUrl": "https://help.mgid.com/api-advertisers",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/index.html",
+  "releaseDate": "2024-08-05",
+  "seoTitle": "",
+  "seoDescription": ""
+}

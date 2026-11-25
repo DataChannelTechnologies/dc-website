@@ -1,0 +1,13 @@
+{
+  "name": "ETL Zendesk To Redshift",
+  "slug": "etl-zendesk-to-redshift",
+  "source": "zendesk",
+  "warehouse": "amazon-redshift",
+  "category": "support",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Zendesk as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Zendesk account using the [+](https://api.datachannel.co/datasources/zendesk/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTE3ODU0NC42OTk4OTk3fQ.ZvZrcG6CnFo2SBVnnztSac1TIgR4vJVsjiSdUWg02_NzNynW_aH8M-45rDGkZYLjpVHQ8ot8J1jbRoB5fV-OMxQdeBUBS88ZEOIW1e1YQGCWwf3hM7-lrEY2jOvvcjnZNW4cxF8IAKhQPx4ylJPaoplrMh6IcKFGQfudhmcU_nAEt9Tpa_wXBkKS-0FlbhAEQqNu-5rNnXMAQHR-c_8COJAF1dL71jenaRuOpVcwuQb2Y4jQzk_442ZzFFXulf8GHJtoA3sAxs4bA6CQ79tbfcr_8-6Sy1BMCxZnN9KEhRp4lWXm3TUFjG25YnxoIaWk9K85B7Go47PlyNtmQFoCLSlZT-3c-XtekLSH8uuiStBipoibEnetNQrA4_ma9x1RN-r6olQ9YvBUoVst41fupYig2jAprkAsf_80_H7fXBPXiUN-rzjxxbsnwVxdcHWWr2glP8-K5gRqi2pZnFcIIDyAkwzj9-W6zQaTeux-LV9EgWVjC6GEKCKVPDRLRxV9) icon with your **Username** & **Password**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/zendesk/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

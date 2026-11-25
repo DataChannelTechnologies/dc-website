@@ -1,0 +1,17 @@
+{
+  "name": "Pipedrive",
+  "slug": "pipedrive",
+  "category": "crm-sales",
+  "shortInfo": "Move data from a data warehouse of your choice to the Pipedrive platform.",
+  "icon": "/images/cms/destinations/pipedrive-icon-69f78f.jpg",
+  "image": "/images/cms/destinations/pipedrive-logo-1-e9242f.png",
+  "brief": "Pipedrive is an easy and effective sales customer relationship management (CRM) that drives small business growth.",
+  "showAbout": true,
+  "about": "The Pipedrive Reverse ETL sync enables streaming data from a user determined warehouse to the Pipedrive platform in an automated manner.\n\nLearn more about Pipedrive api documentation [here](https://developers.pipedrive.com/docs/api/v1).",
+  "availableSync": "[Deals](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/deals.html)\n\nThis sync can be used to upload deals data from a user specified data warehouse to the Pipedrive platform.\n\n[Leads](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/leads.html)\n\nThis sync can be used to upload data pertaining to leads from a user specified data warehouse to the Pipedrive Platform.\n\n[Organization](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/organization.html)\n\nThis sync can be used to upload data pertaining to companies from a user specified data warehouse to the Pipedrive Platform..\n\n[Person](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/person.html)\n\nThis sync can be used to upload data pertaining to persons from a user specified data warehouse to the Pipedrive Platform.\n\n[Product](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/product.html)\n\nThis sync can be used to upload data pertaining to products from a user specified data warehouse to the Pipedrive Platform.\n\n[Note](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs/note.html)\n\nThis sync can be used to upload data pertaining to notes from a user specified data warehouse to the Pipedrive Platform.\n\nLearn more about available syncs [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/syncs.html).",
+  "sourceDocsUrl": "https://developers.pipedrive.com/docs/api/v1",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/pipedrive/index.html",
+  "releaseDate": "2023-06-29",
+  "seoTitle": "",
+  "seoDescription": ""
+}

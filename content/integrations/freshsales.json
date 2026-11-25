@@ -1,0 +1,17 @@
+{
+  "name": "Freshsales",
+  "slug": "freshsales",
+  "category": "crm-sales",
+  "shortInfo": "Freshsales Connector enables streaming relevant Freshsales performance data into a user determined data warehouse.",
+  "icon": "/images/cms/integrations/image_519_360-cb290d.png",
+  "image": "/images/cms/integrations/image_522_360-8f2fa7.png",
+  "brief": "Freshsales is Sales CRM that helps you engage with customers, automate sales processes, manage prospects, visualise progress of deals, enhance productivity and measure sales performance.",
+  "showAbout": true,
+  "about": "Freshsales is a cloud-based customer relationship management (CRM) solution that helps businesses across different industry verticals to manage their interactions with existing and potential customers.\n\nCheck more about api doc [here](https://developer.freshsales.io/api/).",
+  "availableData": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/pipelines/accounts.html)\n\nThis pipeline can be used to request and retrieve information regarding all accounts.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/pipelines/contacts.html)\n\nThis pipeline can be used to request and retrieve information regarding all contacts.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/pipelines/deals.html)\n\nThis pipeline can be used to request and retrieve information regarding all deals.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve information regarding all products.",
+  "sourceDocsUrl": "https://developer.freshsales.io/api/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

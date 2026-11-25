@@ -1,0 +1,17 @@
+{
+  "name": "PostgreSQL",
+  "slug": "postgresql",
+  "category": "databases",
+  "shortInfo": "Open-source object-relational database system",
+  "icon": "/images/cms/integrations/postgres12-3a40ac.png",
+  "image": "/images/cms/integrations/postgres1-f3f0f3.png",
+  "brief": "PostgreSQL 15 builds on the performance improvements of recent releases with noticeable gains for managing workloads in both local and distributed deployments, including improved sorting. This release improves the developer experience with the addition of the popular MERGE command, and adds more capabilities for observing the state of the database. PostgreSQL Connector enables streaming data from the PostgreSQL Database into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.  \n  \nLearn more about [PostgreSQL API documentation.](https://www.postgresql.org/)",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/postgresql/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/postgresql/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/postgresql/index.html) here.",
+  "sourceDocsUrl": "https://www.postgresql.org/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/postgresql/index.html",
+  "releaseDate": "2022-11-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

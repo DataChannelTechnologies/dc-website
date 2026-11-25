@@ -1,0 +1,17 @@
+{
+  "name": "Microsoft SharePoint",
+  "slug": "microsoft-sharepoint",
+  "category": "others",
+  "shortInfo": "A web-based platform used for collaboration and document management within organizations.",
+  "icon": "/images/cms/integrations/pngwing.com-1-8e977c.png",
+  "image": "/images/cms/integrations/pngwing.com-1-8e977c.png",
+  "brief": "Microsoft SharePoint is **a web-based platform used for collaboration and document management within organizations**. It's part of the Microsoft 365 suite and allows users to store, organize, share, and access information securely.",
+  "showAbout": true,
+  "about": "Microsoft SharePoint Connector enables streaming Microsoft SharePoint data into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency. You can transfer data in CSV, JSON and EXCEL formats.",
+  "availableData": "[CSV](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/sharepoint/pipelines/csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[Excel](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/sharepoint/pipelines/excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\n[JSON](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/sharepoint/pipelines/json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/sharepoint/index.html",
+  "releaseDate": "2025-05-21",
+  "seoTitle": "",
+  "seoDescription": ""
+}

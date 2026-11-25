@@ -1,0 +1,17 @@
+{
+  "name": "Snowflake",
+  "slug": "snowflake",
+  "category": "databases",
+  "shortInfo": "Enable data storage, processing, and analytic solutions",
+  "icon": "/images/cms/warehouses/snowflake_icon.svg-098b07.png",
+  "image": "/images/cms/warehouses/snowflake_logo.svg-c549d0.png",
+  "brief": "Snowflake enables data storage, processing, and analytics solutions that are flexible, fast, and easy to use. It was not built on any existing database technology or “big data” software platforms such as Hadoop. Instead, Snowflake combines a completely new SQL query engine with an innovative architecture natively designed for the cloud. Snowflake Connector enables streaming data from the Snowflake Data Warehouse into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "The Snowflake Data Cloud that helps eliminate the complexity, cost, and constraints inherent with other solutions. Available on all three major clouds, Snowflake supports a wide range of workloads, such as data warehousing, data lakes, and data science.  \n  \nLearn more about [Snowflake API documentation.](https://www.snowflake.com/en/)",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/snowflake/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/snowflake/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/snowflake/index.html) here.",
+  "sourceDocsUrl": "https://docs.snowflake.com/en/user-guide.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/snowflake/index.html",
+  "releaseDate": "2022-11-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

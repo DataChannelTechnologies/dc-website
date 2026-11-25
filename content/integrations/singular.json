@@ -1,0 +1,17 @@
+{
+  "name": "Singular",
+  "slug": "singular",
+  "category": "marketing",
+  "shortInfo": "Aggregate stats about your marketing campaigns",
+  "icon": "/images/cms/integrations/biv4nbwz_400x400-removebg-preview-97bf1f.png",
+  "image": "/images/cms/integrations/d159d09d-13b6-4eb3-a861-56a145b7f1b2-1-1--1fb7b3.png",
+  "brief": "Singular gathers and synthesizes data from your ad networks, attribution tracker, and other similar sources, which helps you analyze your ROI effectively. DataChannel’s Singular Connector lets you sync data from the Singular API automatically into your data warehouse. This data comes from:\n\n1.  Partner ad networks and agencies, such as campaign cost;\n2.  Attribution tracker/MMP, which you can ingest into your BI system and join to network data as needed;",
+  "showAbout": true,
+  "about": "Zero time chasing data. More time driving growth. Get a complete view of ROI with next-gen attribution, full-funnel marketing data, and best-in-class fraud prevention.  \n  \nLearn more about [Singular API documentation.](https://www.singular.net/)",
+  "availableData": "[Combined Creative Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/combined-creative-report.html)\n\nThis pipeline can be used to request and retrieve a combination of both network (such as cost) and tracker stats (such as installs and revenue) at Creative-level breakdown.\n\n[Combined Keyword Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/combined-keyword-report.html)\n\nThis pipeline can be used to request and retrieve a combination of both network (such as cost) and tracker stats (such as installs and revenue) at Keyword-level breakdown.\n\n[Combined Placement Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/combined-placement-report.html)\n\nThis pipeline can be used to request and retrieve a combination of both network (such as cost) and tracker stats (such as installs and revenue) at Placement-level breakdown.\n\n[Combined Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/combined-report.html)\n\nThis pipeline can be used to request and retrieve a combination of both network (such as cost) and tracker stats (such as installs and revenue).\n\n[Custom Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/custom-report.html)\n\nThis pipeline can be used to request and retrieve data based on a wide variety of dimensions and metrics as per user requirement.\n\n[Network Creative Breakdown](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/pipelines/network-creative-breakdown.html)\n\nThis pipeline can be used to request and retrieve campaign statistics ingested from all the ad networks you have set up in Singular at Creative-level breakdown.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/index.html) here.",
+  "sourceDocsUrl": "https://support.singular.net/hc/en-us/articles/207553433",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/singular/index.html",
+  "releaseDate": "2022-11-02",
+  "seoTitle": "",
+  "seoDescription": ""
+}

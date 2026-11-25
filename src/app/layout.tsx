@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 
-import { homeContent } from "@/lib/content";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { homeContent, siteContent } from "@/lib/content";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -12,11 +14,11 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.datachannel.co"),
-  title: homeContent.seo.title,
+  title: { default: homeContent.seo.title, template: "%s" },
   description: homeContent.seo.description,
   icons: { icon: "/favicon.png" },
   openGraph: {
-    title: homeContent.seo.title,
+    title: { default: homeContent.seo.title, template: "%s" },
     description: homeContent.seo.description,
     type: "website",
   },
@@ -25,7 +27,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={jakarta.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <SiteHeader site={siteContent} />
+        <main>{children}</main>
+        <SiteFooter site={siteContent} />
+      </body>
     </html>
   );
 }

@@ -1,0 +1,13 @@
+{
+  "name": "ETL DP World Data to MySQL",
+  "slug": "etl-dp-world-data-to-mysql",
+  "source": "dp-world",
+  "warehouse": "mysql",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **DP World** as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your DP World account by providing your Username and Password.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/apollo/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

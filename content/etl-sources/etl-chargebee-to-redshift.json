@@ -1,0 +1,13 @@
+{
+  "name": "ETL Chargebee To Redshift",
+  "slug": "etl-chargebee-to-redshift",
+  "source": "chargebee",
+  "warehouse": "amazon-redshift",
+  "category": "financial",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Chargebee as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Chargebee account using the [+](https://api.datachannel.co/datasources/chargebee/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTA4Nzk0OS4zMTkxNzE0fQ.jih0bBGSqFz7SOy__RVheUiC57pizC1e4s2OSuCHvbVrPrPxUuvX_IwYLrYr2M9rMUxoj1DmPnwiKecgo_JKWyIugSH_x7NZoXMvyypfX2ybmz1CfZZmEkZGRykWqUcXCg78wC3ym8ombgzQi2xPhxiefIrAqAGJkT-YlQJ7xsauc5IT5pDH3HMhWGMYxbxmk3qyu8qYhdVBYbbXWdM7I1FFqJdpiRLetELoDZYgx7TYAxIo6RRd1pCnLfwNGSuz-ttKMZwrB0SMzsxZgon1zi1uOJxyewFO7gx9A63gNWHCTCRs9eqgtbtde5Qhg5js5-7qvLp6dJ7z49meiy5GCBMJX91w077t-GEOKmBLlDlX2F6m_5q5kEJKaERnekHYWM4Re8jJPZ6LzM0DVfnv7OKfWcEanJYs22amC55unWlWiQdDzK_wRSorQmMh7noRevFe0-ZBmaKqVp_1VoWo_9lVN10jCqnip0GCmI4dibflRDKYY4izq6E4LPvZRk0C) icon with your **API Key** & **Site Name**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/chargebee/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

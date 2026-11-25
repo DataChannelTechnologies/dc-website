@@ -1,0 +1,13 @@
+{
+  "name": "ETL MoEngage Data Export to Snowflake",
+  "slug": "etl-moengage-data-export-to-snowflake",
+  "source": "moengage-data-export",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **MoEngage Data Export** as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your S3 Bucket using the **(+)** icon with your **Access Key, Secret Key, Bucket Name & AWS Location.**\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/moengage-dataexport/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/WW2ZLx2K5qQ",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Zoho CRM",
+  "slug": "zoho-crm",
+  "category": "crm-sales",
+  "shortInfo": "Zoho CRM helps you create, manage, and organize data in a way that drives sales and revenue.",
+  "icon": "/images/cms/destinations/image-536-1--014e76.png",
+  "image": "/images/cms/destinations/image-536-1--014e76.png",
+  "brief": "The Zoho CRM Reverse ETL connector enables streaming data from a user determined warehouse to the Zoho CRM platform in an automated manner.",
+  "showAbout": true,
+  "about": "Zoho CRM helps helps businesses engage with customers, convert more leads, and grow their revenue by closing more deals.\n\nCheck more about Zoho CRM api doc [here](https://www.zoho.com/crm/developer/docs/api/v5/).",
+  "availableSync": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/accounts.html)\n\nThis sync can be used to upload accounts details from your data warehouse to the Zoho CRM platform.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/campaigns.html)\n\nThis sync can be used to upload campaigns details from your data warehouse to the Zoho CRM platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/contacts.html)\n\nThis sync can be used to upload contacts details from your data warehouse to the Zoho CRM platform.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/deals.html)\n\nThis sync can be used to upload deals details from your data warehouse to the Zoho CRM platform.\n\n[Leads](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/leads.html)\n\nThis sync can be used to upload leads details from your data warehouse to the Zoho CRM platform.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/products.html)\n\nThis sync can be used to upload products details from your data warehouse to the Zoho CRM platform.\n\n[Users](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/syncs/users.html)\n\nThis sync can be used to upload users details from your data warehouse to the Zoho CRM platform.",
+  "sourceDocsUrl": "https://www.zoho.com/crm/developer/docs/api/v5/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/zoho-crm/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

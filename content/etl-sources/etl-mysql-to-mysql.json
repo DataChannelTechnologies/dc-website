@@ -1,0 +1,13 @@
+{
+  "name": "ETL MySQL To MySQL",
+  "slug": "etl-mysql-to-mysql",
+  "source": "mysql",
+  "warehouse": "mysql",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select MySQL as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your MySQL warehouse using the [+](https://api.datachannel.co/datasources/mysql/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDgyOTkyMC4yODEwMzM4fQ.gGsdTT-2v6zg6IrFC1sB5kBwQiOUQKnJcZzC49LCKYgHZodfSDq9GxAhS-Q-YMbSbPKhoMZOWULkFcuMH-UTI5MWuqOGbt9Sjn0T7edx7v24aMS8geddNiSDQYdtQbhN6J_U7lYTMS2fIOsHXSmXSBR5yGnZNjnFgatdMrWQGnXo981Iva235-j7zYNeWELlpcR62hCCtSpD5Ze4ntcx2qbk4-0t5aK7wNaHVkt6GUu0f1Zm9REclIinOUfv6lEYCFW6PJN1NJKeMaReZ00J5722aB6dvMIZBAEF8TrOqrht1z53YH6-UWMtIKs-652ozAosv3Uf3YbKBzQQCGvfl_4YF2CZ1CyiWoh2TyFx5A0dkER5xQUCjp4mF04l1qLVam-QCUa7WZCdKS_XbJYBmzxv6JgLsi41QxhObPYx4PWXRwPmPJ3Iwcz7M6UDDgpKGlmceuVOW1p_52RFC2Bu3dN--Ve76ZkTUO5cvmBtyikioePWobn-J246Y1J_jVZD) icon with your database details.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/mysql/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

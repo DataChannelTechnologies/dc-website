@@ -1,0 +1,13 @@
+{
+  "name": "Move Asana Data to Snowflake",
+  "slug": "move-asana-data-to-snowflake",
+  "source": "asana",
+  "warehouse": "snowflake",
+  "category": "product",
+  "showSteps": true,
+  "steps": "**Asana to Snowflake**\n\n1.  From the DataSources section select Asana as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Asana account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/setup.html) page.\n4.  Click on [\\+ Data Pipeline](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/asana/setup.html) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

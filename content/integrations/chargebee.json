@@ -1,0 +1,17 @@
+{
+  "name": "Chargebee",
+  "slug": "chargebee",
+  "category": "financial",
+  "shortInfo": "Automates the lead-to-ledger workflow across user’s revenue stack",
+  "icon": "/images/cms/integrations/chargebee-icon-brand-2fbf23.svg",
+  "image": "/images/cms/integrations/chargebeelogo-6b71f0.png",
+  "brief": "Chargebee automates the lead-to-ledger workflow across user’s revenue stack. It is a recurring billing and subscription management tool that helps businesses streamline Revenue Operations. It integrates with the leading payment gateways like Stripe, Braintree, PayPal etc. to let its customers automate recurring payment collection along with invoicing, taxes, accounting, email notifications, SaaS Metrics and customer management.",
+  "showAbout": true,
+  "about": "Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.  \n  \nLearn more about [Chargebee API documentation.](https://www.chargebee.com/)",
+  "availableData": "[Coupons](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/coupons.html)\n\nThis pipeline can be used to request and retrieve a list of available coupons satisfying all the conditions specified in the filter parameters below.\n\n[Credit Notes](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/credit-notes.html)\n\nThis pipeline can be used to request and retrieve a list of credit notes satisfying all the conditions specified in the filter parameters below.\n\n[Customers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/customers.html)\n\nThis pipeline can be used to request and retrieve a list of customers satisfying all the conditions specified in the filter parameters below.\n\n[Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/events.html)\n\nThis pipeline can be used to request and retrieve a list of events satisfying all the conditions specified in the filter parameters below.\n\n[Invoices](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/invoices.html)\n\nThis pipeline can be used to request and retrieve a list of invoices satisfying all the conditions specified in the filter parameters below.\n\n[Items](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/pipelines/items.html)\n\nThis pipeline can be used to request and retrieve a list of items satisfying all the conditions specified in the filter parameters below. The list is sorted by date of creation, in descending order.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/index.html) here.",
+  "sourceDocsUrl": "https://apidocs.chargebee.com/docs/api?prod_cat_ver=2",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/chargebee/index.html",
+  "releaseDate": "2022-10-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

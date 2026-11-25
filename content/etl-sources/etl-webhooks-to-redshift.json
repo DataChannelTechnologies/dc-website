@@ -1,0 +1,13 @@
+{
+  "name": "ETL Webhooks To Redshift",
+  "slug": "etl-webhooks-to-redshift",
+  "source": "webhooks",
+  "warehouse": "amazon-redshift",
+  "category": "product",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Webhooks as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/webhooks/report/new) to start generating Webhook URLs with your DataChannel account. \n4.  Each Webhooks pipeline will fetch data at an interval of 15 minutes from the source platform, where it has been set up.\n\n\\**Steps to set up -* *Go to the settings page of your platform/service. From there, click Webhooks, then Add webhook.*",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Webhooks",
+  "slug": "webhooks",
+  "category": "product",
+  "shortInfo": "Data can be sent to webhooks' addresses and will be logged instantly — you don't even have to refresh!",
+  "icon": "/images/cms/destinations/webhooks-icon-512x457-uu80vfm3-1-1--dd8c20.png",
+  "image": "/images/cms/destinations/webhooks-icon-512x457-uu80vfm3-1-1--dd8c20.png",
+  "brief": "Webhooks Reverse ETL connector enables streaming data from a user determined warehouse to any platform (that supports webhooks writeback) in an automated manner.",
+  "showAbout": true,
+  "about": "Webhooks are \"user-defined HTTP callbacks\" that are usually triggered by some event, such as pushing code to a repository or a comment being posted to a blog. When that event occurs, the source site makes an HTTP request to the URL configured for the webhook. Users can configure them to cause events on one site to invoke behavior on another.\n\nLearn more about Webhooks API documentation [here.](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/index.html)",
+  "availableSync": "[Events](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/webhooks/syncs/events.html)\n\nThis sync can be used to upload event details to any platform (that supports webhooks).",
+  "sourceDocsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/index.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/webhooks/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

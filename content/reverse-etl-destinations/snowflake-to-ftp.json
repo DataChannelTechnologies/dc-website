@@ -1,0 +1,13 @@
+{
+  "name": "Snowflake to FTP",
+  "slug": "snowflake-to-ftp",
+  "warehouse": "snowflake",
+  "destination": "ftp",
+  "category": "others",
+  "showSteps": true,
+  "steps": "**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a Snowflake Warehouse. \n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select FTP.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/ftp/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjVhNTA5ZjAxOWY3MGQ3NzlkODBmMTUyZDFhNWQzMzgxMWFiN2NlZjciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1NzU1NTg5LCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY3NTc2Mzc0MywiZXhwIjoxNjc1NzY3MzQzLCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.WyoESaFi_-k1_Ghug6Q7opUxPzbkIIuBMIWu3f4LI_86NHGCAKwuHyA3pvuAwsNg0SbmFcvTgGAqx-sL4Cy0vK7xj6bxQZMOwhQx6rXO8l1VREM3-0wbH5aFgQraLnKK3sioHZ5ehDWiYsP3LqeVwd1Akft0AJ6WgIuWOxstrWHsQKdeDAdhsm6sM8nsCno5stEiLrfJ4tmPWCbKx0-cI4LoFMLLqn_VYNhBtesRDIL2te9PqW5B73IqCmsiS2_FAVif6a90tFPeEaCV5viBXePbeamba5g27akbB0M33wNJfnpRVmzXBuLE57fb7hIdsRcAUdOtzVmJptI7J2oUcw)” Button.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/ftp-reverse/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://www.youtube.com/watch?v=lQXTVReoYCM&t=1s",
+  "seoTitle": "",
+  "seoDescription": ""
+}

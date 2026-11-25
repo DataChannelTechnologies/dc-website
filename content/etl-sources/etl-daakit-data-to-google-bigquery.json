@@ -1,0 +1,13 @@
+{
+  "name": "ETL Daakit Data to Google BigQuery",
+  "slug": "etl-daakit-data-to-google-bigquery",
+  "source": "daakit",
+  "warehouse": "google-bigquery",
+  "category": "others",
+  "showSteps": false,
+  "steps": "1.  From the DataSources section select **Daakit** as the data source.\n2.  Select your Google BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Daakit account by providing your Username and Password.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/apollo/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

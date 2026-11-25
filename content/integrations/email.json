@@ -1,0 +1,17 @@
+{
+  "name": "Email",
+  "slug": "email",
+  "category": "others",
+  "shortInfo": "Extracts one or more attachments from the email, and uploads it into your destination.",
+  "icon": "/images/cms/integrations/image-25-21f5df.png",
+  "image": "/images/cms/integrations/image-25-21f5df.png",
+  "brief": "Extracts one or more attachments from the email, and uploads it into your destination.",
+  "showAbout": true,
+  "about": "The email connector helps you to move CSV, Excel and JSON file attachments from your email to your data warehouse automatically.",
+  "availableData": "[CSV](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/email/pipelines/csv.html)\n\nThis pipeline can be used to transfer data from CSV files into a user determined data warehouse.\n\n[Excel](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/email/pipelines/excel.html)\n\nThis pipeline can be used to transfer data from Excel files into a user determined data warehouse.\n\n[JSON](https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/email/pipelines/json.html)\n\nThis pipeline can be used to transfer data from JSON files into a user determined data warehouse.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/miscellaneous/email/index.html",
+  "releaseDate": "2024-08-06",
+  "seoTitle": "",
+  "seoDescription": ""
+}

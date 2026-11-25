@@ -1,0 +1,17 @@
+{
+  "name": "Google Search Console",
+  "slug": "google-search-console",
+  "category": "marketing",
+  "shortInfo": "Monitor, Maintain, and Troubleshoot your site’s presence",
+  "icon": "/images/cms/integrations/download__11_-removebg-preview-307dc7.png",
+  "image": "/images/cms/integrations/gsc-cc0d9d.png",
+  "brief": "he Search Console API provides programmatic access to much of the functionality of [Google Search Console](https://support.google.com/webmasters/answer/9128668). Use the API to view, add, or remove properties and sitemaps, run advanced queries for Google Search results data for the properties that you manage in Search Console, and test individual pages.",
+  "showAbout": true,
+  "about": "Google Search Console is a free service offered by Google that helps you monitor, maintain, and troubleshoot your site's presence in Google Search results.  \n  \nLearn more about [Google Search Console API documentation.](https://search.google.com/search-console/about)",
+  "availableData": "[Custom Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/custom-report.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions as defined by user.\n\n[Page Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/page-report.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions - date, page, country and device.\n\n[Queries by Page Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/queries-by-page-report.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions - date, page, query, country and device.\n\n[Queries by Site Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/queries-by-site-report.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions - date, query, country and device.\n\n[Search Appearance Report by Day](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/search-appearance-report-by-day.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions - search appearance.\n\n[Site Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/pipelines/site-report.html)\n\nThis pipeline can be used to request and retrieve search traffic data grouped by dimensions - date, country and device.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/webmaster-tools/about",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-search-console/index.html",
+  "releaseDate": "2022-10-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

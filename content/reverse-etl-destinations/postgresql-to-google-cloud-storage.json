@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to Google Cloud Storage",
+  "slug": "postgresql-to-google-cloud-storage",
+  "warehouse": "postgresql",
+  "destination": "google-cloud-storage",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  Create a data model and specify the [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html) from which you want the data for your Google Cloud Storage. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n2.  Authorise DataChannel to connect to your Google Cloud Storage.\n3.  Click on **\\+ Data Sync** to start adding data syncs to your account.\n\n![gcs data sync detail](/images/cms/reverse-etl-destinations/gcs-data-sync-detail-965d55.png)\n\n4.Details of individual syncs are available [here](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/syncs.html).",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Azure Synapse",
+  "slug": "azure-synapse",
+  "logo": "/images/cms/warehouses/azure-synapse-analytics-logo-d841f3.jpg",
+  "logoAlt": "Move data from any data source to Azure Synapse ",
+  "icon": "/images/cms/warehouses/azure-synpase-logo-347a15.jpg",
+  "iconAlt": "Azure Synapse ",
+  "informationLink": "https://azure.microsoft.com/en-in/products/synapse-analytics#:~:text=Azure%20Synapse%20Analytics%20is%20an,log%20and%20time%20series%20analytics.",
+  "managedWarehouseAvailable": false,
+  "seoTitle": "",
+  "seoDescription": ""
+}

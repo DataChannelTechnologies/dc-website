@@ -1,0 +1,13 @@
+{
+  "name": "Move MailChimp data to Azure Synapse",
+  "slug": "move-mailchimp-data-to-azure-synapse",
+  "source": "mailchimp",
+  "warehouse": "azure-synapse",
+  "category": "product",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **MailChimp** as the data source.\n2.  Select your added Azure Synapse data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **MailChimp** account using the **(+)** icon with your **API Key.** Check more about the process [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/mailchimp/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

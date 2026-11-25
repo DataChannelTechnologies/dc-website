@@ -1,0 +1,17 @@
+{
+  "name": "Instacart",
+  "slug": "instacart",
+  "category": "ecommerce",
+  "shortInfo": "Access advertising performance metrics, campaigns, keywords, ad groups, and products.\n",
+  "icon": "/images/cms/integrations/instacart-d05d83.png",
+  "image": "/images/cms/integrations/instacart-d05d83.png",
+  "brief": "Instacart Connector provides access to advertising and product data. It enable businesses to analyze campaign performance, monitor ad groups and keywords, track advertising metrics, and access detailed product information.",
+  "showAbout": true,
+  "about": "Instacart Platform is an online marketplace that helps connect shoppers with their retailer partners near them. It offers services for online grocery shopping and convenient home delivery. Instacart Connector enable businesses to analyze campaign performance, monitor ad groups and keywords, track advertising metrics, and access detailed product information. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[AdGroups Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instacart/pipelines/adgroups-report.html)\n\nThis pipeline can be used to request and retrieve AdGroups' performance metrics from the Instacart platform.\n\n[Campaigns Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instacart/pipelines/campaigns-report.html)\n\nThis pipeline can be used to request and retrieve campaigns' performance metrics from the Instacart platform.\n\n[Keywords Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instacart/pipelines/keywords-report.html)\n\nThis pipeline can be used to request and retrieve keyword performance metrics from the Instacart platform.\n\n[Products Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instacart/pipelines/products-report.html)\n\nThis pipeline can be used to request and retrieve a list of products and their details from the Instacart platform.",
+  "sourceDocsUrl": "https://docs.instacart.com/connect",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instacart/index.html",
+  "releaseDate": "2026-02-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

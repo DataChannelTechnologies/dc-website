@@ -1,0 +1,17 @@
+{
+  "name": "MoEngage",
+  "slug": "moengage",
+  "category": "marketing",
+  "shortInfo": "Optimize your campaigns across multiple channels",
+  "icon": "/images/cms/integrations/icon.png-1-30d0d7.png",
+  "image": "/images/cms/integrations/moengage_1-561428.png",
+  "brief": "MoEngage is a leading customer engagement platform used to optimize your campaigns across multiple channels by leveraging their data-driven insights into customer behavior. DataChannel’s MoEngage Connector lets you sync data from the MoEngage API automatically into your data warehouse. To download the campaign report use this connector and track the performance statistics of various campaigns.",
+  "showAbout": true,
+  "about": "Execute your omnichannel marketing strategy with MoEngage's insights-led customer engagement platform. Leverage the power of personalization with MoEngage. Engage user across lifecycle stages & channels through Push, In App, Web Push & Email.  \nLearn more about [MoEngage API documentation](https://developers.moengage.com/hc/en-us/articles/4409329518484-Campaign-Report-API).",
+  "availableData": "[Campaign Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/moengage-fwd/pipelines/campaign-report.html)\n\nThis pipeline can be used to request and retrieve Campaign report from MoEngage.It may be noted that only campaign reports generated before the scheduled fetch time of the pipeline can be retrieved. Also, users can only backfill reports for a maximum period of 7 days prior to the date of generation.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/moengage-fwd/index.html) here.",
+  "sourceDocsUrl": "https://developers.moengage.com/hc/en-us/articles/4409329518484-Campaign-Report-API",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/moengage-fwd/index.html",
+  "releaseDate": "2023-04-26",
+  "seoTitle": "",
+  "seoDescription": ""
+}

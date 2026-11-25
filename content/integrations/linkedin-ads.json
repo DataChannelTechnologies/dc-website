@@ -1,0 +1,17 @@
+{
+  "name": "Linkedin Ads",
+  "slug": "linkedin-ads",
+  "category": "marketing",
+  "shortInfo": "Generate leads, drive website traffic and build Brand awareness",
+  "icon": "/images/cms/integrations/linkedinads-10d844.png",
+  "image": "/images/cms/integrations/linkedinads-10d844.png",
+  "brief": "Marketing on LinkedIn helps you engage a community of professionals to drive actions that are relevant to your business",
+  "showAbout": true,
+  "about": "Drive website traffic, build awareness & generate higher quality leads with LinkedIn Ads. Maximise B2B growth with personalised ads on the platform for B2B lead generation. Create an ad in minutes. 3.5x higher CVR for B2B. 2x higher engagement.  \n  \nLearn more about [LinkedIn Ads API documentation.](https://business.linkedin.com/marketing-solutions/ads)",
+  "availableData": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/accounts.html)\n\nThis pipeline can be used to request and retrieve Ad Account details.\n\n[Ad Targeting Facet](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/ad-targeting-facet.html)\n\nThis pipeline can be used to request and retrieve ad targeting facet reports.\n\n[Audience Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/audience-insights.html)\n\nThis pipeline can be used to request and retrieve audience insights reports.\n\n[Campaign Groups](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/campaign-groups.html)\n\nThis pipeline can be used to request and retrieve performance campaign group reports.\n\n[Campaign Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/campaign-insights.html)\n\nThis pipeline can be used to request and retrieve performance campaign insights reports.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve campaign related details.\n\n[Creatives](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/pipelines/creatives.html)\n\nThis pipeline can be used to request and retrieve creatives performance reports.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/index.html) here.",
+  "sourceDocsUrl": "https://developer.linkedin.com/product-catalog/marketing",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-ads/index.html",
+  "releaseDate": "2022-10-26",
+  "seoTitle": "",
+  "seoDescription": ""
+}

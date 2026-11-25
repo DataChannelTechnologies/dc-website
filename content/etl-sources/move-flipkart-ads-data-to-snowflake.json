@@ -1,0 +1,13 @@
+{
+  "name": "Move Flipkart Ads Data to Snowflake",
+  "slug": "move-flipkart-ads-data-to-snowflake",
+  "source": "flipkart-ads",
+  "warehouse": "snowflake",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Flipkart Ads** as the data source.\n2.  Select your added SnowFlake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Flipkart Ads** account using the **(+)** icon with your **Username & Password.** You will need to provide the Organization ID & Team ID as well while configuring the data pipelines. Their details can be found [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pla-search-term-report.html#_data_pipelines_details).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/flipkart-ads/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/mDNVBiTvNlU",
+  "seoTitle": "",
+  "seoDescription": ""
+}

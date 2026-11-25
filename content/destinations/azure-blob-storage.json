@@ -1,0 +1,17 @@
+{
+  "name": "Azure Blob Storage",
+  "slug": "azure-blob-storage",
+  "category": "others",
+  "shortInfo": "Azure Blob storage provides scalable, cost-efficient object storage in the cloud.",
+  "icon": "/images/cms/destinations/image-540-1--e0efea.png",
+  "image": "/images/cms/destinations/image-540-1--e0efea.png",
+  "brief": "The Azure Blob Storage Reverse ETL connector enables streaming data from a user determined warehouse to the Azure Blob Storage platform in an automated manner.",
+  "showAbout": true,
+  "about": "Azure Blob Storage stores text and binary data as objects in the cloud. Blob Storage offers the following resources: the storage account, containers, and blobs. Within your storage account, containers provide a way to organize sets of blobs.\n\nCheck more about Azure Blob Storage api doc [here](https://learn.microsoft.com/en-us/rest/api/storageservices/operations-on-blobs).",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/azure-blob-storage/syncs/export.html)\n\nThis sync enables moving data from a user specified datawarehouse to the Azure Blob Storage.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/rest/api/storageservices/operations-on-blobs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/azure-blob-storage/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

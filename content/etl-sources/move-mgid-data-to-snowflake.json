@@ -1,0 +1,13 @@
+{
+  "name": "Move MGID data to Snowflake",
+  "slug": "move-mgid-data-to-snowflake",
+  "source": "mgid",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **MGID** as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **MGID** account using the **(+)** icon with your **Access Token** & **API Client ID.** Read more about how to find these details [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mgid/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/mgid/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

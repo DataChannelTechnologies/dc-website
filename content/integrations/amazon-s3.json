@@ -1,0 +1,17 @@
+{
+  "name": "Amazon S3",
+  "slug": "amazon-s3",
+  "category": "others",
+  "shortInfo": "Amazon S3 is an object storage service offering industry-leading scalability, performance and security.",
+  "icon": "/images/cms/integrations/s3icon-e1708a.png",
+  "image": "/images/cms/integrations/amazons3-6ed9a1.png",
+  "brief": "Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services (AWS) that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its e-commerce network. Amazon S3 can store any type of object, which allows uses like storage for Internet applications, backups, disaster recovery, data archives, data lakes for analytics, and hybrid cloud storage",
+  "showAbout": true,
+  "about": "Experience Reliability & Scalability With AWS Online Storage Solutions. Sign Up For Free! Enforce Data Access Controls, Secure Against Unauthorized Users & Run Big Data Analytics. In-Memory Caching. Secure Solutions. Highly Scalable. No Upfront Commitment.  \n  \nLearn more about [Amazon S3 API documentation.](https://aws.amazon.com/s3/)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-s3/pipelines/amazon-s3-csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-s3/pipelines/amazon-s3-json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-s3/pipelines/amazon-s3-excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-s3/index.html) here.",
+  "sourceDocsUrl": "https://docs.aws.amazon.com/s3/index.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-s3/index.html",
+  "releaseDate": "2022-11-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

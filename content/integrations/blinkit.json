@@ -1,0 +1,17 @@
+{
+  "name": "Blinkit",
+  "slug": "blinkit",
+  "category": "ecommerce",
+  "shortInfo": "Blinkit Commerce Private Limited, formerly Grofers, is an Indian quick-commerce service.",
+  "icon": "/images/cms/integrations/image-29-1--d24840.png",
+  "image": "/images/cms/integrations/image-29-1--d24840.png",
+  "brief": "Blinkit is **India's largest and most convenient hyper-local delivery company**, which enables you to order grocery, fruits & vegetables, and other daily essential products, directly via your mobile or web browser.",
+  "showAbout": true,
+  "about": "Blinkit is **India's largest and most convenient hyper-local delivery company**, which enables you to order grocery, fruits & vegetables, and other daily essential products, directly via your mobile or web browser.",
+  "availableData": "[Invoice](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/pipelines/invoice.html)\n\nThis pipeline can be used to request and retrieve the invoices for the specified period.\n\n[Sales Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/pipelines/sales-report.html)\n\nThis pipeline can be used to request and retrieve the sales report for the specified period.\n\n[Score Card Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/pipelines/score-card-details.html)\n\nThis pipeline can be used to request and retrieve the manufacturer’s score card details for the specified period.\n\n[Score Card Top 5 Potential Loss](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/pipelines/score-card-top-5-potential-loss.html)\n\nThis pipeline can be used to request and retrieve the manufacturer’s score card details for the top 5 potential loss makers, for the specified period.\n\n[Stock on Hand](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/pipelines/stock-on-hand.html)\n\nThis pipeline can be used to request and retrieve the current stock levels on hand.",
+  "sourceDocsUrl": "https://blinkit.com/faq#:~:text=Blinkit%20is%20India's%20largest%20and,your%20mobile%20or%20web%20browser.",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/blinkit/index.html",
+  "releaseDate": "2024-09-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

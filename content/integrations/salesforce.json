@@ -1,0 +1,17 @@
+{
+  "name": "Salesforce",
+  "slug": "salesforce",
+  "category": "crm-sales",
+  "shortInfo": " A single, shared view of every customer",
+  "icon": "/images/cms/integrations/salesforce.com_logo-25416a.png",
+  "image": "/images/cms/integrations/salesforce.com_logo-1-1-1--a99e6d.png",
+  "brief": "Salesforce is a customer relationship management solution that brings companies and customers together. It’s one integrated CRM platform that gives all your departments — including marketing, sales, commerce, and service — a single, shared view of every customer.",
+  "showAbout": true,
+  "about": "Salesforce unites your marketing, sales, commerce, service, and IT teams from anywhere with Customer 360 — one integrated CRM platform that powers our entire suite of connected apps. With Customer 360, you can focus your employees on what’s important right now: stabilising your business, reopening, and getting back to delivering exceptional customer experiences.  \n  \nLearn more about [Salesforce API documentation.](https://developer.salesforce.com/developer-centers/integration-apis)",
+  "availableData": "[Salesforce Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce/pipelines/salesforce-report.html)\n\nThis pipeline can be used to request and retrieve details of the various salesforce objects.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce/index.html) here.",
+  "sourceDocsUrl": "https://developer.salesforce.com/developer-centers/integration-apis",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce/index.html",
+  "releaseDate": "2022-11-02",
+  "seoTitle": "",
+  "seoDescription": ""
+}

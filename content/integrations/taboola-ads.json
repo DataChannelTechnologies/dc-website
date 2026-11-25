@@ -1,0 +1,17 @@
+{
+  "name": "Taboola Ads",
+  "slug": "taboola-ads",
+  "category": "marketing",
+  "shortInfo": "Your native advertising platform to derive key metrics",
+  "icon": "/images/cms/integrations/taboola_logo_dark_blue-2-0e172f.png",
+  "image": "/images/cms/integrations/taboola_logo_dark_blue-2-1ffee0.png",
+  "brief": "Taboola is the world’s largest discovery platform. Empowered with unique content consumption data and world-class AI technology, it helps advertisers reach their audiences with compelling native ads in a brand-safe environment. Consumers see an advertiser’s content or product when they are in ‘discovery mode’, and are most open to discovering something new and interesting Taboola proves to be effective across the buyer journey––from increasing awareness to driving online purchases",
+  "showAbout": true,
+  "about": "Drive business results by reaching people genuinely, effectively and at the right moment. Your ads on the world’s top sites, discovered by consumers just waiting to engage with you.  \n  \nLearn more about [Taboola Ads API documentation.](https://developers.taboola.com/backstage-api/reference/welcome#backstage-api)",
+  "availableData": "[Campaign Summary](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/taboola-ads/pipelines/campaign-summary.html)\n\nThis pipeline can be used to request and retrieve a comprehensive summary of all campaign activity.\n\n[Top Campaign Content](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/taboola-ads/pipelines/top-campaign-content.html)\n\nThis pipeline can be used to request and retrieve the list of top 500 Items for all campaigns, or a specified campaign.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/taboola-ads/index.html) here.",
+  "sourceDocsUrl": "https://developers.taboola.com/backstage-api/reference/welcome#backstage-api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/taboola-ads/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

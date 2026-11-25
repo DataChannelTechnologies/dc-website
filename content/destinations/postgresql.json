@@ -1,0 +1,17 @@
+{
+  "name": "PostgreSQL",
+  "slug": "postgresql",
+  "category": "databases",
+  "shortInfo": "Sync data from your data warehouse to PostgreSQL",
+  "icon": "/images/cms/integrations/postgres12-3a40ac.png",
+  "image": "/images/cms/integrations/postgres1-f3f0f3.png",
+  "brief": "",
+  "showAbout": true,
+  "about": "PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.  \n  \nLearn more about [PosgreSQL.](https://www.postgresql.org/)",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/postgre-sql/syncs/export.html)\n\nThis sync can be used to request and retrieve data from a user specified datawarehouse to the PostgreSQL.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/postgre-sql/index.html) here.",
+  "sourceDocsUrl": "https://www.postgresql.org/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/postgre-sql/setup.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

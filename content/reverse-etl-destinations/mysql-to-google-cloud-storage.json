@@ -1,0 +1,13 @@
+{
+  "name": "MySQL to Google Cloud Storage",
+  "slug": "mysql-to-google-cloud-storage",
+  "warehouse": "mysql",
+  "destination": "google-cloud-storage",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "**1\\. Setup a Data Warehouse** - Go to [Data Warehouses](https://console.datachannel.co/datawarehouse) Tab and add a MySQL Warehouse. \n\n**2\\. Setup a Data Model** - Navigate to [Data Models](https://console.datachannel.co/data-models) tab and click on [Create New](https://console.datachannel.co/data-models/add). Name your Data Model and select your data warehouse from the drop down. Write a SQL query to fetch data from your warehouse. \n\n(Eg. *Select* \\* *from* ***Schema\\_Name***.***Table\\_Name***)\n\n*\\*A simple “select” statement will work, although you can write complex SQL queries in the data model field itself or use our no-code segment builder to filter your data without writing complex SQL Queries.*\n\n**3\\. Configure your Data Destination** - Navigate to [Destinations](https://console.datachannel.co/reverse-connectors) tab and select Google Cloud Storage.\n\n-   Add Your Credentials using the “[+](https://api.datachannel.co/datasources/google-cloud-storage/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjVhNTA5ZjAxOWY3MGQ3NzlkODBmMTUyZDFhNWQzMzgxMWFiN2NlZjciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1NzU1NTg5LCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY3NTc2Nzk5MSwiZXhwIjoxNjc1NzcxNTkxLCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.H97iy_nWb5AxC9DZt7q1gFkVFlrFuBYnIPnz9256IRFLhmNcYmwBRw77iZklfqlYcHNBAfQp7rKtvzoW2gtlpt3FY6kHGI4jLEjTH6PJSSKxlRtMk_6NewWNNkN-W3Bi0qt1GKuZqdulO-kwhOkkRgcJJKW4da6Tsk_sUGRbCYoIiZByo34TIppWJ-N6sRkg4UMCPVuvIjSoV4H7nbVTaG0iRc3Tnzugyt8l5uS0V7SctFLHoXTAKWNS-YPSD4VgH7nZrxvPdY_5YxvHT6SHwYvvfE4H-9mebBY3WmKrzIbf0vQPd44K5WnLJuDAuh6SNVjcVF7YFbjDwMB5o0d71A)” Button.\n-   Click on “[+Data Sync](https://console.datachannel.co/reverse-connectors/gcs-reverse/sync/new) ” to start adding Data Syncs to your account.",
+  "showVideo": true,
+  "videoUrl": "https://www.youtube.com/watch?v=lQXTVReoYCM&t=1s",
+  "seoTitle": "",
+  "seoDescription": ""
+}

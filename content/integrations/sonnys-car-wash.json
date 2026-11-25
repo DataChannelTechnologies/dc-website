@@ -1,0 +1,17 @@
+{
+  "name": "Sonny's Car Wash",
+  "slug": "sonnys-car-wash",
+  "category": "others",
+  "shortInfo": "Sonny Car Wash is a car wash management technology company.",
+  "icon": "/images/cms/integrations/compresskaru_sonnys_enterprises_logo_100x100-7ba3c1.png",
+  "image": "/images/cms/integrations/compresskaru_sonnys_enterprises_logo_100x100-7ba3c1.png",
+  "brief": "This Connector enables streaming relevant Sonny Car Wash transactions data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Get access to transactions report through this Sonny Car Wash connector. It enables streaming of relevant Sonny Car Wash data into a user determined data warehouse automatically once you configure the relevant pipelines.",
+  "availableData": "[Transactions](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/sonny-car-wash/pipelines/transactions.html)\n\nThis pipeline can be used to request and retrieve transactions' details from the Sonny Car wash account.",
+  "sourceDocsUrl": "https://go.sonnysdirect.com/rs/587-KRL-127/images/Sonnys_Controls_BackOffice_User_Manual.pdf",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/sonny-car-wash/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

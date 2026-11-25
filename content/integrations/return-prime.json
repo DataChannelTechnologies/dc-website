@@ -1,0 +1,17 @@
+{
+  "name": "Return Prime",
+  "slug": "return-prime",
+  "category": "ecommerce",
+  "shortInfo": "Helps Shopify brands automate returns and exchanges",
+  "icon": "/images/cms/integrations/returnprime-1-e47537.png",
+  "image": "/images/cms/integrations/returnprime-1-e47537.png",
+  "brief": "Manage your Shopify store's returns and exchanges efficiently with this plug and play solution and drive more revenue per return.",
+  "showAbout": true,
+  "about": "Return Prime is a returns and refunds management solution for online businesses. Return Prime helps online sellers to enhance operational efficiency by creating smooth customer experiences and consolidating and simplifying all return related processes.",
+  "availableData": "[Returns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/return-prime/pipelines/returns.html)\n\nThis pipeline can be used to request and retrieve details of all return requests in Return Prime system.",
+  "sourceDocsUrl": "https://build.returnprime.com/#intro",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/return-prime/index.html",
+  "releaseDate": "2025-03-25",
+  "seoTitle": "",
+  "seoDescription": ""
+}

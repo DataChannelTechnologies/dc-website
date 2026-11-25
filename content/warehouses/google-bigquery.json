@@ -1,0 +1,12 @@
+{
+  "name": "Google BigQuery",
+  "slug": "google-bigquery",
+  "logo": "/images/cms/warehouses/google_bigquery-ar21-f51d92.svg",
+  "logoAlt": "google bigquery logo",
+  "icon": "/images/cms/warehouses/bigquery-icon-cd1af1.png",
+  "iconAlt": "google bigquery icon",
+  "informationLink": "https://cloud.google.com/bigquery",
+  "managedWarehouseAvailable": true,
+  "seoTitle": "",
+  "seoDescription": ""
+}

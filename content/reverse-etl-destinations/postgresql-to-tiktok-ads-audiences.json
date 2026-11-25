@@ -1,0 +1,13 @@
+{
+  "name": "PostgreSQL to TikTok Ads Audiences",
+  "slug": "postgresql-to-tiktok-ads-audiences",
+  "warehouse": "postgresql",
+  "destination": "tiktok-ads-audiences",
+  "category": "marketing",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

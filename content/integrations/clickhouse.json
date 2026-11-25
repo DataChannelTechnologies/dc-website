@@ -1,0 +1,17 @@
+{
+  "name": "ClickHouse",
+  "slug": "clickhouse",
+  "category": "databases",
+  "shortInfo": "ClickHouse is a columnar OLAP database management system for analytics.",
+  "icon": "/images/cms/integrations/clickpost_icon-10cea0.png",
+  "image": "/images/cms/integrations/clickpost_logo-4245cc.png",
+  "brief": "ClickHouse is a open-source column-oriented database management system that allows generating analytical data reports.",
+  "showAbout": true,
+  "about": "ClickhouseDB Connector enables streaming data from the ClickhouseDB into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/clickhousedb/pipelines/custom-query.html)\n\nThis pipeline enables a user to transfer data from ClickhouseDB into the DataChannel with the granularity of a Custom Query result.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/clickhousedb/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the ClickhouseDB based on a table/view and/or columns chosen by the user.",
+  "sourceDocsUrl": "https://clickhouse.com/docs/cloud/overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/clickhousedb/index.html",
+  "releaseDate": "2025-07-08",
+  "seoTitle": "",
+  "seoDescription": ""
+}

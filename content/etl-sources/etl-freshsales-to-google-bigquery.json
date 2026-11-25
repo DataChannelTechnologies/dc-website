@@ -1,0 +1,13 @@
+{
+  "name": "ETL Freshsales to Google Bigquery",
+  "slug": "etl-freshsales-to-google-bigquery",
+  "source": "freshsales",
+  "warehouse": "google-bigquery",
+  "category": "crm-sales",
+  "showSteps": true,
+  "steps": "**Freshsales to Google BigQuery**\n\n1.  From the DataSources section select Freshsales as the data source.\n2.  Select your added Google BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Freshsales account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/freshsales/setup.html) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/freshsales/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/hpc9r-jh3s4",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Unicommerce",
+  "slug": "unicommerce",
+  "category": "ecommerce",
+  "shortInfo": "Manage items, orders, prices, promotions, inventory and reports",
+  "icon": "/images/cms/integrations/unicommerce-logo-851e5e.png",
+  "image": "/images/cms/integrations/unicommerce-logo-1--7102ce.png",
+  "brief": "The Unicommerce Warehouse Management System (WMS) assists sellers and suppliers in centralizing crucial tasks in an omnichannel retail scenario such as automated maintainance of healthy stock levels, auto allocation, purchase management while routing and tracking the shipments, and more. DataChannel’s Unicommerce Connector enables streaming relevant Unicommerce Marketplace data into a user determined warehouse to enable users manage items, orders, prices, promotions, inventory and reports. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Unicommerce is e-commerce solution for seamless management of Warehouse , Inventory, Omnichannel, Multichannel Orders, Multi Vendor, E-commerce. Automate the supply chain of your business with a unified view of operations from a single source of data by using Unicommerce’s cost-efficient e-commerce solutions.  \n  \nLearn more about [Unicommerce API documentation.](https://documentation.unicommerce.com/docs/wms-overview.html)",
+  "availableData": "[Sale Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/pipelines/sale_orders.html)\n\nThis pipeline can be used to request and retrieve detailed information of all the sale orders for specified search criteria.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve detailed information of all the products for specified search criteria.\n\n[Inventory Snapshots](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/pipelines/inventory_snapshots.html)\n\nThis pipeline can be used to request and retrieve complete overview of inventory distribution in the warehouse.\n\n[Report Exports](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/pipelines/report_exports.html)\n\nThis pipeline can be used to request and retrieve the details of all the report exports for specified search criteria.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/index.html) here.",
+  "sourceDocsUrl": "https://documentation.unicommerce.com/docs/wms-overview.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/unicommerce/index.html",
+  "releaseDate": "2022-11-15",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Google Cloud Storage",
+  "slug": "google-cloud-storage",
+  "category": "others",
+  "shortInfo": "Managed service for storing unstructured data",
+  "icon": "/images/cms/integrations/iconcloudstorage-0b4f68.png",
+  "image": "/images/cms/integrations/google-cloud-storage1-f55df3.png",
+  "brief": "Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download",
+  "showAbout": true,
+  "about": "Object *storage* for companies of all sizes. Secure, durable, and with low latency. Store any amount of data. Retrieve it as often as you'd like.  \n  \nLearn more about [Google Cloud Storage API documentation.](https://cloud.google.com/storage)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-cloud-storage/pipelines/google-cloud-storage-csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-cloud-storage/pipelines/google-cloud-storage-json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-cloud-storage/pipelines/google-cloud-storage-excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-cloud-storage/index.html) here.",
+  "sourceDocsUrl": "https://cloud.google.com/storage/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/google-cloud-storage/index.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

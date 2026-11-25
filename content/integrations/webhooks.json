@@ -1,0 +1,17 @@
+{
+  "name": "Webhooks",
+  "slug": "webhooks",
+  "category": "product",
+  "shortInfo": "Sync data from any webhooks supporting API to your data warehouse",
+  "icon": "/images/cms/integrations/webhooks-logo-png-transparent-a6d0df.png",
+  "image": "/images/cms/integrations/webhooks-993189.png",
+  "brief": "Webhooks are \"user-defined HTTP callbacks\" that are usually triggered by some event, such as pushing code to a repository or a comment being posted to a blog. When that event occurs, the source site makes an HTTP request to the URL configured for the webhook. Users can configure them to cause events on one site to invoke behavior on another. DataChannel’s webhooks connector lets you sync data from any webhooks supporting API to your data warehouse automatically. Please note that the incoming data would be uploaded in your data warehouse with a lag of 15 minutes - DataChannel is buffering the incoming data to avoid multiple frequent writes to your data warehouse (costly) and any possible data loss",
+  "showAbout": true,
+  "about": "Webhooks allow you to build or set up integrations, such as GitHub Apps or OAuth Apps, which subscribe to certain events.  \n  \nLearn more about [Webhooks API documentation.](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/index.html)",
+  "availableData": "[Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/pipelines/events.html)\n\nThis pipeline can be used to request and retrieve event details from any platform that supports webhooks.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/index.html) here.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/webhooks/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

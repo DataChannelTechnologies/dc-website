@@ -1,0 +1,17 @@
+{
+  "name": "LinkedIn Community Management",
+  "slug": "linkedin-community-management",
+  "category": "social-media",
+  "shortInfo": "Access LinkedIn page analytics, posts, comments, reactions, and engagement.\n",
+  "icon": "/images/cms/integrations/linkedin-community-4688a7.png",
+  "image": "/images/cms/integrations/linkedin-community-4688a7.png",
+  "brief": "LinkedIn Community Management Connector provides access to page analytics and engagement data. It enable businesses to monitor posts, comments, reactions, audience interactions, and measure community performance effectively.",
+  "showAbout": true,
+  "about": "LinkedIn Community Management is used to manage and analyze engagement on LinkedIn pages. It enables businesses to monitor posts, comments, reactions, audience interactions, and measure community growth and performance.\n\nDataChannel’s LinkedIn Community Management Connector enables streaming relevant LinkedIn data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Post Statistics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-com-mgt/pipelines/post-statistics.html)\n\nThis pipeline can be used to request and retrieve post statistics for the defined period for your LinkedIn account.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-05#step-3-get-started-with-the-community-management-api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/linkedin-com-mgt/index.html",
+  "releaseDate": "2026-03-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

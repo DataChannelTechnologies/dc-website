@@ -1,0 +1,17 @@
+{
+  "name": "Weaviate",
+  "slug": "weaviate",
+  "category": "others",
+  "shortInfo": "Weaviate is an open-source vector database with search, filtering, and cloud scalability.",
+  "icon": "/images/cms/destinations/weaviate_01-100x100-5c90cd.png",
+  "image": "/images/cms/destinations/weaviate_01-100x100-5c90cd.png",
+  "brief": "Weaviate Reverse ETL connector enables streaming data from a user determined warehouse to Weaviate Vector Database in an automated manner.",
+  "showAbout": true,
+  "about": "Weaviate is an AI-native vector database that makes it easy for developers of all levels to build AI applications",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/weaviate/syncs/export.html)\n\nThis sync can be used to load data from a user specified data warehouse to the Weaviate platform.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/weaviate/index.html",
+  "releaseDate": "2024-11-19",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL Unicommerce To Snowflake",
+  "slug": "etl-unicommerce-to-snowflake",
+  "source": "unicommerce",
+  "warehouse": "snowflake",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Unicommerce as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Unicommerce account using the [+](https://api.datachannel.co/datasources/unicommerce/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDkyOTg3My44NzI5Njg3fQ.bA9S47AERqCSOnmpi4rQaShoZ1-oJjNtzfSSioPoOxwImMDON7J_9jfy2jyH9V-9ePYjh7gpST6U9TReJ_OZKcxVazd3V7Iw6tQNuQX-yZ8f8ZiN5rumu8Z-2ULRuOwAR-QiHea3Q4ZEkUE-Ap8kNAPTIMzTxV8WvUkdNcCxDbn4pHKkdax7NbB-dhyXFVLXngzu8iIbd7TG-iDJeKuGBRQEwm6NFt7xHETqEAp_nVwC3287LVtM6gsy06zhHcNN1rCdHUdVy54fiyIT1rKRWZRhgYFpUd6JSjMu8LNuBHQaq2WASyEL_2cyGdj1AnvR9BchRiHL3htkybaecsqD8f0x7BVH_TGhb-tIrUlaxmilMHLnW0BHmEW5gx3u-TbjU_Cmq_W3_DnERQDq5-FwFX3FvnHcOg-P4c1p9yadTZ5isYg5w_QBeUSFQX3IHGTKeVxFqQh6Chu50bxfLu7eqv-SkPHIGgQ4c8O-ElluWStm_e_2CO570lmV02l1J4SZ) icon with your **Username, Password** & **Sub Domain**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/unicommerce/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

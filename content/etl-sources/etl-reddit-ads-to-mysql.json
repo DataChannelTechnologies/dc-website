@@ -1,0 +1,13 @@
+{
+  "name": "ETL Reddit Ads to MySQL",
+  "slug": "etl-reddit-ads-to-mysql",
+  "source": "reddit-ads",
+  "warehouse": "mysql",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Reddit Ads as the data source.\n2.  Select your added MySQL data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Reddit Ads account using the (+) icon with your **Reddit App Details (App Name, Client ID & Client Secret)**\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/reddit/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

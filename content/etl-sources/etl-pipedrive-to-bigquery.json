@@ -1,0 +1,13 @@
+{
+  "name": "ETL Pipedrive To BigQuery",
+  "slug": "etl-pipedrive-to-bigquery",
+  "source": "pipedrive",
+  "warehouse": "google-bigquery",
+  "category": "crm-sales",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Pipedrive as the data source.\n2.  Select your added BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Pipedrive account using the [+](https://api.datachannel.co/datasources/pipedrive/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTExMDQzMi44MzU0MDgyfQ.nEpboghamu7LxwSxgcUdijFCCDnngcEn1Sbx2wjHLk2fp5OLsWt2uzobP91jppVHNN3JBxgsrgv1-ecFbVc8Qg3z5__sTd-MJG2z2g6Xc8RAYSHhWTktMVuvaK3XQ4pwipXrfVJXZn_joHvtQnRlIp4SnYGlGiMgdpx1prUW8WV-G9-jDAWCFRVE48CjNguiKbU5cvaLEAcewyPiSKvXWdcWQh3GQenOOyyf_R8mJ8dg-ASpBxz516Glu-0zkliqzYdfCVj2N7cHSqL3i09MF-XUbuQ3ekTKDctQPf7czhHZvdUnDWS6u4FUHKM_tHDZVxXoG5EHRW2S6QwQogcdVK80AnN8cH3Z7uozDEywkm1MnvWKxHenersIliMwdHcPyS1LFa7eqJAEVPbaht8RPn3PVXB_Mb7ysGp0FCZGNsMffCX1iYIL2wrETP3s8IQ4W8xqHd__Vv2gC1stCvMQHapoJUTmfvoItikHgeb1fNgUjYGQxeOixogDomWs0YSb) icon with your **API Key** & **Subdomain**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/pipedrive/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

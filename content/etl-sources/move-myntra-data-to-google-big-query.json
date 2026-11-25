@@ -1,0 +1,13 @@
+{
+  "name": "Move Myntra data to Google Big Query",
+  "slug": "move-myntra-data-to-google-big-query",
+  "source": "myntra",
+  "warehouse": "google-bigquery",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Myntra as the data source.\n2.  Select your added Google BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Myntra account using the **(+)** icon with your **Secret Key & Merchant Id.** Read more about how to find these details [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/myntra/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/56qL4J5pUzg",
+  "seoTitle": "",
+  "seoDescription": ""
+}

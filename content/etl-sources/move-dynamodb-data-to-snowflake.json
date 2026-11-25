@@ -1,0 +1,13 @@
+{
+  "name": "Move DynamoDB Data to Snowflake",
+  "slug": "move-dynamodb-data-to-snowflake",
+  "source": "dynamo-db",
+  "warehouse": "snowflake",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **DynamoDB** as the data source.\n2.  Select your added **Snowflake** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Add DataBase details - Access Key, Secret Key and AWS Location to add Credentials.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/dynamo-db/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

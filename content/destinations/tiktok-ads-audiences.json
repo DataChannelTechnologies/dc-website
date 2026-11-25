@@ -1,0 +1,17 @@
+{
+  "name": "TikTok Ads Audiences",
+  "slug": "tiktok-ads-audiences",
+  "category": "marketing",
+  "shortInfo": "Sync data from your data warehouse to TikTok custom audiences.",
+  "icon": "/images/cms/integrations/logo-tiktok-229ac8.svg",
+  "image": "/images/cms/integrations/1280px-tiktok_logo.svg-337948.png",
+  "brief": "Move custom data from your data warehouse to create selected audiences in TikTok Ads.",
+  "showAbout": true,
+  "about": "Advertise on TikTok. Make ads that entertain and campaigns that connect. Where large and small businesses, agencies & creators can achieve big results.  \n  \nLearn more about [TikTok Ads.](https://www.tiktok.com/en/)",
+  "availableSync": "[Audience Upload](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/tiktok/syncs/audience-upload.html)\n\nThis sync can be used to upload audience data from a user specified datawarehouse to the TikTok platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/tiktok/index.html) here.",
+  "sourceDocsUrl": "https://www.tiktok.com",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/index.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

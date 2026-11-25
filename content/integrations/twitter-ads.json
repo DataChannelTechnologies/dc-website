@@ -1,0 +1,17 @@
+{
+  "name": "Twitter Ads",
+  "slug": "twitter-ads",
+  "category": "marketing",
+  "shortInfo": "Stream relevant Twitter Ads performance data into a warehouse",
+  "icon": "/images/cms/integrations/twitter_logo_blue.png.twimg.768-f7ebb6.png",
+  "image": "/images/cms/integrations/6268ed1ec4204d4e5f0a8d2a_twitter-ads-2--f5631f.png",
+  "brief": "This Connector enables streaming relevant Twitter Ads performance data into a user determined warehouse. Reporting on various performance metrics relevant to the advertisement forms an integral part of most Advertisement applications. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Advertise on Twitter to increase reach and sales. Twitter helps you build awareness and drive conversions with effective ad formats and targeting tools. Reach the right audience by targeting based on interests, geography, gender, device, or users similar to your followers. In addition, maximize the relevancy of your message by targeting by keywords in people’s Tweets.  \n  \nLearn more about [Twitter Ads API documentation.](https://developer.twitter.com/en/docs/platform-overview)",
+  "availableData": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/accounts.html)\n\nThis pipeline can be used to request and retrieve details of the advertising-enabled accounts.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve details of the campaigns.\n\n[Funding Instruments](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/funding-instruments.html)\n\nThis pipeline can be used to request and retrieve details of the funding instruments.\n\n[Line Items](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/line-items.html)\n\nThis pipeline can be used to request and retrieve details of the line items.\n\n[Media Creatives](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/media-creatives.html)\n\nThis pipeline can be used to request and retrieve details of the media creatives.\n\n[Promoted Tweets](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/promoted-tweets.html)\n\nThis pipeline can be used to request and retrieve details of the promoted tweets.\n\n[Stats Performance](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/pipelines/stats-performance.html)\n\nThis pipeline can be used to request and retrieve performance statistics.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/index.html) here.",
+  "sourceDocsUrl": "https://developer.twitter.com/en/docs/platform-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/twitter-ads/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

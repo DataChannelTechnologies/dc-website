@@ -1,0 +1,17 @@
+{
+  "name": "Walmart Ads",
+  "slug": "walmart-ads",
+  "category": "marketing",
+  "shortInfo": "Advertisers can optimize performance metrics for walmart ads.",
+  "icon": "/images/cms/integrations/abc-1cb205.png",
+  "image": "/images/cms/integrations/abc-1cb205.png",
+  "brief": "DataChannel’s Walmart Ads Connector enables streaming relevant Walmart Ads data into a user determined warehouse.",
+  "showAbout": true,
+  "about": "The Walmart Ads provides campaign management and optimization capabilities and flexibility of access to on-demand performance metrics for Advertisers.",
+  "availableData": "[Ad Groups](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/pipelines/ad-groups.html)\n\nThis pipeline can be used to request and retrieve details of the ad groups.\n\n[Ad Items](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/pipelines/ad-items.html)\n\nThis pipeline can be used to request and retrieve the list of all the products added to the campaign catalog.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve details of the campaigns.\n\n[Keywords](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/pipelines/keywords.html)\n\nThis pipeline can be used to request and retrieve a list of all the keywords that are part of a campaign.\n\n[Snapshot Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/pipelines/snapshot-report.html)  \nThis pipeline can be used to generate and retrieve file-based snapshots of all the performance reports by entity, for a given advertiser, asynchronously.",
+  "sourceDocsUrl": "https://developer.walmart.com/doc/us/us-wmc-ads/us-wmc-ads-introduction/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/walmart-ads/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

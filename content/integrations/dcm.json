@@ -1,0 +1,17 @@
+{
+  "name": "DCM",
+  "slug": "dcm",
+  "category": "marketing",
+  "shortInfo": "An Ad serving and management solutions for your digital advertising campaigns.",
+  "icon": "/images/cms/integrations/google-campaign-manager-logo-03026740fa-seeklogo.com-82c342.png",
+  "image": "/images/cms/integrations/google-campaign-manager-logo-03026740fa-seeklogo.com-1--c22f3d.png",
+  "brief": "Double Click Digital Marketing (DDM) is an integrated ad technology platform that enables advertisers to more effectively create, manage and grow high-impact digital marketing campaigns. DDM solutions include DCM - Double Click Manager, an Ad serving and management solutions for your digital advertising campaigns, including trafficking and reporting.",
+  "showAbout": true,
+  "about": "The Campaign Manager 360 API provides programmatic access to information from your Campaign Manager 360 account. It's used to manage and create campaigns and reports, just as you would through the Campaign Manager 360 and Report Builder web services.  \n  \nLearn more about [DCM API documentation.](https://developers.google.com/doubleclick-advertisers/getting_started)",
+  "availableData": "[Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dcm/pipelines/report.html)\n\nThis pipeline can be used to request and retrieve the DCM report file.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dcm/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/doubleclick-advertisers/getting_started",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dcm/index.html",
+  "releaseDate": "2022-10-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

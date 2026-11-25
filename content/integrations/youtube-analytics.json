@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Analytics",
+  "slug": "youtube-analytics",
+  "category": "social-media",
+  "shortInfo": "Understand user activity, video and channel performance.",
+  "icon": "/images/cms/integrations/youtube_1_360-3f89b9.jpg",
+  "image": "/images/cms/integrations/youtube-reporting-1-7f9885.webp",
+  "brief": "YouTube analytics tracks a variety of metrics at a channel, content and audience level.",
+  "showAbout": true,
+  "about": "The YouTube Analytics Connector enables streaming relevant YouTube Analytics data into a user determined warehouse.\n\nCheck more about YouTube Analytics api documentation [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/youtube-analytics/index.html).",
+  "availableData": "[Custom Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/youtube-analytics/pipelines/custom-report.html)\n\nThis pipeline can be used to request and retrieve custom reports containing YouTube Analytics data.",
+  "sourceDocsUrl": "https://developers.google.com/youtube/analytics/data_model",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/youtube-analytics/index.html",
+  "releaseDate": "2023-08-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

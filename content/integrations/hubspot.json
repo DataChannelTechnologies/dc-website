@@ -1,0 +1,17 @@
+{
+  "name": "HubSpot",
+  "slug": "hubspot",
+  "category": "crm-sales",
+  "shortInfo": "HubSpot is a CRM platform which provides a suite of sales, customer service, content management, and operations tools.",
+  "icon": "/images/cms/integrations/image-18-1--23d510.png",
+  "image": "/images/cms/integrations/image-18-2--91d091.png",
+  "brief": "HubSpot is an inbound marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+  "showAbout": true,
+  "about": "HubSpot is an AI-powered customer platform with all the software, integrations, and resources you need to **connect your marketing, sales, and customer service**. HubSpot's connected platform enables you to grow your business faster by focusing on what matters most: your customers.",
+  "availableData": "[Companies](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/companies.html) - This pipeline can be used to request and retrieve details of all the companies in a HubSpot account.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/contacts.html) \\- This pipeline can be used to request and retrieve details of all contacts that have been created in the HubSpot account.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/deals.html) - This pipeline can be used to request and retrieve all deal data from HubSpot.\n\n[Get All Analytics Views](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/get-all-analytics-views.html) - This pipeline can be used to request and retrieve details for the analytics views set up in the portal. Access to the data from this pipeline will require a Marketing Hub Professional or Enterprise subscription in HubSpot.\n\n[Get Analytics Data Breakdowns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/get-analytics-data-breakdowns.html) - This pipeline can be used to request and retrieve analytics data for a specified category. Access to data using this pipeline will depend on the connected HubSpot account’s permissions.\n\n[Get Analytics Data for Specific Objects](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/get-analytics-data-for-specific-objects.html) - This pipeline can be used to request and retrieve analytics data for specific objects, based on the type of object. Access to data using this pipeline will depend on the connected HubSpot account’s permissions.\n\n[Get Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/get-events.html) - This pipeline can be used to request and retrieve data for all events in a HubSpot account with a Marketing Hub Enterprise subscription.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/pipelines/products.html) - This pipeline can be used to request and retrieve details of all products from a portal.",
+  "sourceDocsUrl": "https://developers.hubspot.com/docs/api/crm/understanding-the-crm",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/hubspot/index.html",
+  "releaseDate": "2024-08-26",
+  "seoTitle": "",
+  "seoDescription": ""
+}

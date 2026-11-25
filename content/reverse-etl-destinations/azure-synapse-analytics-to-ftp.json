@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to FTP",
+  "slug": "azure-synapse-analytics-to-ftp",
+  "warehouse": "azure-synapse",
+  "destination": "ftp",
+  "category": "others",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

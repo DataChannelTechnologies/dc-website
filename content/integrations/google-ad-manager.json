@@ -1,0 +1,17 @@
+{
+  "name": "Google Ad Manager",
+  "slug": "google-ad-manager",
+  "category": "marketing",
+  "shortInfo": "Manages inventory for advertisers, publishers and ad servers.",
+  "icon": "/images/cms/integrations/image-455-2eb231.webp",
+  "image": "/images/cms/integrations/image-456-852524.webp",
+  "brief": "Google Ad Manager is an ad management platform for large publishers who have significant direct sales.",
+  "showAbout": true,
+  "about": "The Google Ad Manager provides granular controls and supports multiple ad exchanges and networks. It helps you define your ad inventory and create, manage, and report on your advertising campaigns. The Google Ad Manager connector will enable you to stream relevant Google Ad Manager reports into a user determined data warehouse.\n\nCheck about Google Ad Manager api documentation [here](https://developers.google.com/ad-manager/api/start).",
+  "availableData": "[Run Saved report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ad-manager/pipelines/run-saved-report.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ad-manager/pipelines/run-saved-report.html)  \nThis pipeline can be used to request and retrieve reports created in the Ad Manager UI.",
+  "sourceDocsUrl": "https://developers.google.com/ad-manager/api/start",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ad-manager/index.html",
+  "releaseDate": "2023-08-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Klaviyo",
+  "slug": "azure-synapse-analytics-to-klaviyo",
+  "warehouse": "azure-synapse",
+  "destination": "klaviyo",
+  "category": "crm-sales",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

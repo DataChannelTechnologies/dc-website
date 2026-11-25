@@ -1,0 +1,17 @@
+{
+  "name": "MoEngage",
+  "slug": "moengage",
+  "category": "product",
+  "shortInfo": "Enable data streams from your data warehouse to MoEngage automatically",
+  "icon": "/images/cms/destinations/moengage_logo-310990.png",
+  "image": "/images/cms/destinations/edtrgi0xyaqmkon-removebg-preview-4c6e3a.png",
+  "brief": "This sync enables adding or updating users and user properties in MoEngage directly from your data warehouse",
+  "showAbout": true,
+  "about": "Lead with Insights, Engage with Heart. MoEngage is an insights-led Customer Engagement platform for consumer brands, that empowers marketers and product.  \n  \nLearn more about [MoEngage](https://www.moengage.com/).",
+  "availableSync": "[User](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/moengage/syncs/user.html)\n\nThis sync can be used to request and retrieve users and user properties from a user specified data warehouse for the MoEngage platform.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/moengage/index.html) here.",
+  "sourceDocsUrl": "https://www.moengage.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/moengage/index.html",
+  "releaseDate": "2022-11-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

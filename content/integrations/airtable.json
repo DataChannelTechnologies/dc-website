@@ -1,0 +1,17 @@
+{
+  "name": "Airtable",
+  "slug": "airtable",
+  "category": "product",
+  "shortInfo": "Airtable is an easy-to-use online platform for creating and sharing relational databases.",
+  "icon": "/images/cms/integrations/image-452-3--49c333.webp",
+  "image": "/images/cms/integrations/airtable-image-2--c67410.webp",
+  "brief": "Airtable attempts to accelerate key workflows such as Product Roadmap or Marketing Campaigns and empowers teams to build custom apps on top of shared data.",
+  "showAbout": true,
+  "about": "Airtable connector can be used to stream your data from Airtable into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.x\n\nCheck about api documentation [here](https://airtable.com/developers/web/api/introduction).",
+  "availableData": "[Table Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/airtable/pipelines/table-report.html)\n\nThis pipeline can be used to request and retrieve records in a table contained in an Airtable base.",
+  "sourceDocsUrl": "https://airtable.com/developers/web/api/introduction",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/airtable/index.html",
+  "releaseDate": "2023-08-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

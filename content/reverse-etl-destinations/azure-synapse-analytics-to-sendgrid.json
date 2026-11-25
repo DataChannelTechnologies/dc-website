@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to SendGrid",
+  "slug": "azure-synapse-analytics-to-sendgrid",
+  "warehouse": "azure-synapse",
+  "destination": "sendgrid",
+  "category": "product",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

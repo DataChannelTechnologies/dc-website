@@ -1,0 +1,17 @@
+{
+  "name": "Klaviyo",
+  "slug": "klaviyo",
+  "category": "crm-sales",
+  "shortInfo": "Klaviyo provides a marketing automation platform, used primarily for email & SMS marketing.",
+  "icon": "/images/cms/destinations/image-541-ed23e2.png",
+  "image": "/images/cms/destinations/image-541-ed23e2.png",
+  "brief": "Klaviyo is a unified customer platform that gives your online brand direct ownership of your consumer data and interactions, empowering you to turn transactions with customers into productive long-term relationships at scale.",
+  "showAbout": true,
+  "about": "The Klaviyo Reverse ETL connector enables streaming data from a user determined warehouse to the Klaviyo platform in an automated manner.",
+  "availableSync": "[Profile](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/klaviyo/syncs/profiles.html)\n\nThis sync can be used to upload profiles from your data warehouse to the Klaviyo platform.\n\n[List](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/klaviyo/syncs/lists.html)\n\nThis sync can be used to upload lists from your data warehouse to the Klaviyo platform.",
+  "sourceDocsUrl": "https://developers.klaviyo.com/en/reference/api_overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/klaviyo/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

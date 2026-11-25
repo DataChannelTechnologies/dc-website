@@ -1,0 +1,17 @@
+{
+  "name": "Apple Search Ads",
+  "slug": "apple-ads",
+  "category": "marketing",
+  "shortInfo": "Discover your app when they search on the App Store, matching customers with your app",
+  "icon": "/images/cms/integrations/apple-icon-8d8400.png",
+  "image": "/images/cms/integrations/apple-search-ads-07f64f.png",
+  "brief": "Apple Search Ads is an efficient and easy way to help people discover your app when they search in the App Store. With Apple Search Ads Campaign Management API 4, you can build campaigns with budgets and daily caps, and create ad groups that include keywords, audience refinement criteria, and scheduling",
+  "showAbout": true,
+  "about": "Apple Search Ads helps people discover your app on the App Store, matching customers with your app at the right moments. We believe that advertising should be based on a foundation of privacy, transparency, and data control — principles that make Apple trusted by people around the world. That’s why our advertising services are designed with consumer privacy built in, while delivering industry-leading performance and value for advertisers.\n\nLearn more about [Apple Search Ads API documentation.](https://developer.apple.com/documentation/apple_search_ads)",
+  "availableData": "[Adgroups](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/pipelines/adgroups.html)\n\nThis pipeline can be used to request and retrieve all ad groups with a campaign identifier.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve an organization’s assigned campaigns.\n\n[Daily Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/pipelines/daily_performance_report.html)\n\nThis pipeline can be used to request and retrieve details about the daily performance of various objects such as campaigns, adgroups, keywords, creative sets, and search terms.\n\n[Geo Locations](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/pipelines/geo_locations.html)\n\nThis pipeline can be used to request and retrieve a list of geolocations for audience refinement.\n\n[Hourly Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/pipelines/hourly_performance_report.html)\n\nThis pipeline can be used to request and retrieve details about the hourly performance of various objects such as campaigns, adgroups, and keywords.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-search-ads/index.html) here.",
+  "sourceDocsUrl": "https://developer.apple.com/documentation/apple_search_ads",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/apple-ads/index.html",
+  "releaseDate": "2022-10-27",
+  "seoTitle": "",
+  "seoDescription": ""
+}

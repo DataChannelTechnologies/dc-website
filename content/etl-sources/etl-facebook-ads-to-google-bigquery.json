@@ -1,0 +1,13 @@
+{
+  "name": "ETL Facebook Ads To Google BigQuery",
+  "slug": "etl-facebook-ads-to-google-bigquery",
+  "source": "facebook-ads",
+  "warehouse": "google-bigquery",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Facebook Ads as the data source.\n2.  Select your added Google BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [data warehouse](https://docs.datachannel.co/getting-started/1.0.0/destinations/index.html#_datachannel_managed_warehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Facebook Ads account using OAuth using the process described [in this documentation page](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth).\n4.  Click on + Data Pipeline to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/qqnvqRPHY0M",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Move LinkedIn Social Data to Snowflake",
+  "slug": "move-linkedin-social-data-to-snowflake",
+  "source": "linkedin-social",
+  "warehouse": "snowflake",
+  "category": "social-media",
+  "showSteps": true,
+  "steps": "1.  From the Data Sources section select **LinkedIn Social** as the datasource.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Enter any desired name for your credentials. Authorise DataChannel to connect to your LinkedIn Social account using OAuth using the process described [here](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth).\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/linkedin-social/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

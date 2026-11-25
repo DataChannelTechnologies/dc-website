@@ -1,0 +1,13 @@
+{
+  "name": "Move GoKwik Data to Google Bigquery",
+  "slug": "move-gokwik-data-to-google-bigquery",
+  "source": "gokwik",
+  "warehouse": "google-bigquery",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **GoKwik** as the data source.\n2.  Select your added **Google Bigquery** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Add Username, Password, and Authorization Token to add Credentials.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/gokwik/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

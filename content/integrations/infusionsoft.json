@@ -1,0 +1,17 @@
+{
+  "name": "Infusionsoft",
+  "slug": "infusionsoft",
+  "category": "crm-sales",
+  "shortInfo": "Manage contacts, place orders, send messages",
+  "icon": "/images/cms/integrations/infusionsoft-372e39.png",
+  "image": "/images/cms/integrations/infusionsoft-logo-eps-vector-image-7e5649.png",
+  "brief": "The Infusionsoft connector is designed to help you analyse and build a comprehensive strategy around your sales and customer data. It enables streaming relevant data from Infusionsoft into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "*Infusionsoft* helps entrepreneurs and their teams grow sales, save time, improve service with CRM, sales & marketing automation, & more! Integrate your favorite payment processors into Infusionsoft so you don't need to jump between systems to run your business and make clients happy.  \n  \nLearn more about [Infusionsoft API documentation.](https://developer.infusionsoft.com/docs/xml-rpc/)",
+  "availableData": "[ActionSequence](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve Name and Id attribute data sets which are created under the Infusionsoft Logo > Marketing Settings > Action Sets by the user.\n\n[AffResource](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve Aff Resources\n\n[Affiliate](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve commission and activities data for affiliates using Callbacks, Commissions, Payouts, Running Totals, and the Activity Summary.\n\n[AssetFeed](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve Asset Feeds\n\n[CCharge](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve CC Charges.\n\n[CProgram](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/pipeline-details.html)\n\nThis pipeline can be used to request and retrieve Continuity Programs (Legacy call for backwards compatibility)\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/index.html) here.",
+  "sourceDocsUrl": "https://developer.infusionsoft.com/docs/xml-rpc/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/infusionsoft/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

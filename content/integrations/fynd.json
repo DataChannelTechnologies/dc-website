@@ -1,0 +1,17 @@
+{
+  "name": "Fynd",
+  "slug": "fynd",
+  "category": "product",
+  "shortInfo": "Access shipping details, shipment tracking, and fulfillment data from Fynd.‍",
+  "icon": "/images/cms/integrations/fynd-5d042b.png",
+  "image": "/images/cms/integrations/fynd-5d042b.png",
+  "brief": "Fynd Connector provides access to shipping and fulfillment data. It enable businesses to track shipments, monitor delivery status, manage order fulfillment processes, and gain visibility into logistics operations across sales channels.",
+  "showAbout": true,
+  "about": "Fynd is an AI platform for commerce businesses. It is built to power end-to-end retail operations—online, offline, and everything in between.\n\nThe Fynd Connector lets you sync data from Fynd platform to your data warehouse automatically.",
+  "availableData": "[Shipment Details](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/fynd/pipelines/shipment-details.html)\n\nThis pipeline can be used to request and retrieve the details about all shipments from the Fynd Platform.",
+  "sourceDocsUrl": "https://docs.fynd.com/partners/commerce/extension/general/development/platform-api/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/fynd/index.html",
+  "releaseDate": "2026-02-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL PostgreSQL To Redshift",
+  "slug": "etl-postgresql-to-redshift",
+  "source": "postgresql",
+  "warehouse": "amazon-redshift",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select PostgreSQL as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your PostgreSQL warehouse using the [+](https://api.datachannel.co/datasources/postgresql/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDU4NTI2Mi4wMjUyNDh9.ErKuApn2AL_U-6TSLlcWc8fodBvg8Pi7vDAUycn5P9qbm2BSvgGXiCH4-ncS6v-v-MRd0pegcRBjezj998dBof7B9yByi10mvcXmdgy1c2I5lfXp-lYW94o00Nb_obSIlmK0P-d3Dz8LZN0VonLT4LgnyYWm64olbGZ6npE1R1jVC_qcDXR0fZaoEgcu-lZ6-p0bXT3AM9xjA0MU3gaX-yphN5w2yHmCh0__Qkv8GwdiIBrcDilxDcA-Cd52CTwBFVZPK2ksqmuA4uNK-cwW_m4THMxwjYjX-AllL86925FRDuMVOyzdiaVvzCrv_uyciTtoYoVOKjNhXNZku-XZU_TCDahN-33Iyx34GIx14Rtj9bQJutWx2LeUzUyIWyAXruI5u5OT4msa7fkgI0c-xR4XOTwUJe39WYHENUrDkMUpS3fDs1d4U8aFpcqjPE2lJLNG5HQwA0wF-rQ9ujIfiWqhmoAz4iQni3R2ud_eO7bVj6YrMuiLQl9PhwoL-uqY) icon with your **database details**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/postgresql/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

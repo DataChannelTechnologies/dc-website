@@ -1,0 +1,13 @@
+{
+  "name": "ETL Freshdesk To Redshift",
+  "slug": "etl-freshdesk-to-redshift",
+  "source": "freshdesk",
+  "warehouse": "amazon-redshift",
+  "category": "support",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Freshdesk as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Freshdesk account using the [+](https://api.datachannel.co/datasources/freshdesk/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDQ5NjMzMy40NzcwODg1fQ.I_pwO1pQ_GkAoDek4YzHatpKm2F7xJVNOUhKWuuNKtFMejv1skmtutCNMii8CYTm3feODbtcWimNjKt4z1mko_JPA0wEhOLpog3T3rO81GhrvI5Ayad0ZuH_rY3ghgnH7lZJGEkdImP_qChV-PX3XsTlJJ2NndFSXX-G4DV6YUOgf8BwjDsurT3StkP2i93jDRc1-H_BH-L3X6AKJxqxrV0KxasVlOa8NecfTQFKUM_uhgaM7uwyQF8xQBe3wMDYariRFqjeUcfGUonAaGYVXFpw6QC_z0ekXivW2Z6BqVDCE-xMWvsODmQ1ph0KijzdU2Rn3zgsCB7w7QSMYMu-051hi3fQnkXWBvkAHcr6Wk3437lDOn-4Wn3NoJybY_JhBldL6OV0qH7RTlj3G8zTmiqKqXP6PO-ACePFoa1yg9Nc0wXs4MwU7HLpdlLobmTjTn8flxP6lEbkij2EYCo5CugTCfnfx564E0plSJWHFfNPuJcKB18QCZUulj2kD7Y_) icon with your **Domain URL** & **API Key**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/freshdesk/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

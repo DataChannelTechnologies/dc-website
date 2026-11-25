@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Active Campaign",
+  "slug": "azure-synapse-analytics-to-active-campaign",
+  "warehouse": "azure-synapse",
+  "destination": "active-campaign",
+  "category": "crm-sales",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

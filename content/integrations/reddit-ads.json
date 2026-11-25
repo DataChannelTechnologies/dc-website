@@ -1,0 +1,17 @@
+{
+  "name": "Reddit Ads",
+  "slug": "reddit-ads",
+  "category": "marketing",
+  "shortInfo": "Users can leverage Reddit to become part of communities based on their interests and passions.",
+  "icon": "/images/cms/integrations/reddit-logo_1_360-d83412.png",
+  "image": "/images/cms/integrations/redditads_1_360-6e8989.png",
+  "brief": "Reddit ads enables advertisers to reach the audiences in moments when opinions are formed and decisions are made.",
+  "showAbout": true,
+  "about": "Reddit offers an ideal platform for people to do research on the products they want to buy, based on the recommendations they get from these communities. Advertising on Reddit helps marketers by giving them a platform to place their ads and to monitor and refine their targeting based on interests, communities, location and so much more.\n\nCheck more about Reddit Ads api documentation [here](https://ads-api.reddit.com/docs/v2/).",
+  "availableData": "[Ad Groups](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/pipelines/ad-groups.html)\n\nThis pipeline can be used to request and retrieve information about ad-groups.\n\n[Ads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/pipelines/ads.html)\n\nThis pipeline can be used to request and retrieve information about ads.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve information about campaigns.\n\n[Custom Audiences](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/pipelines/custom-audiences.html)\n\nThis pipeline can be used to request and retrieve information about custom audiences.\n\n[Reports](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/pipelines/reports.html)\n\nThis pipeline can be used to request and retrieve reports from a given start date.",
+  "sourceDocsUrl": "https://ads-api.reddit.com/docs/v2/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/reddit-ads/index.html",
+  "releaseDate": "2023-09-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

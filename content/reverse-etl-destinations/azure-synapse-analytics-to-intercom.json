@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Intercom",
+  "slug": "azure-synapse-analytics-to-intercom",
+  "warehouse": "azure-synapse",
+  "destination": "intercom",
+  "category": "product",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

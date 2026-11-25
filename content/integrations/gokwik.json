@@ -1,0 +1,17 @@
+{
+  "name": "GoKwik",
+  "slug": "gokwik",
+  "category": "ecommerce",
+  "shortInfo": "Gokwik is an eCommerce enablement platform that offers solutions to eCommerce businesses.",
+  "icon": "/images/cms/integrations/image-38-2x-3dd2a8.png",
+  "image": "/images/cms/integrations/gokwik_-aa0b18.png",
+  "brief": "Gokwik is an eCommerce enablement platform that offers solutions to meet the needs of eCommerce businesses.",
+  "showAbout": true,
+  "about": "GoKwik Connector enables streaming relevant GoKwik Settlement data into a user determined warehouse. This data enables merchants/ eCommerce businesses on GoKwik’s network to access settlement data, ensuring efficient and accurate reconciliation. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Settlement Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/gokwik/pipelines/settlement-report.html)\n\nThis pipeline can be used to request and retrieve the Settlement report for the specified period from the GoKwik Platform.",
+  "sourceDocsUrl": "https://www.gokwik.co/api-doc-integration",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/gokwik/index.html",
+  "releaseDate": "2025-06-18",
+  "seoTitle": "",
+  "seoDescription": ""
+}

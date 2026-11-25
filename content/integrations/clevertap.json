@@ -1,0 +1,17 @@
+{
+  "name": "CleverTap",
+  "slug": "clevertap",
+  "category": "marketing",
+  "shortInfo": "Integrate app analytics and marketing",
+  "icon": "/images/cms/integrations/logo-sq-1024-393cbe.png",
+  "image": "/images/cms/integrations/clevertap-logo-2a82ca747d-seeklogo.com-ff39f6.png",
+  "brief": "CleverTap is a customer retention platform that provides the functionality to integrate app analytics and marketing. The platform helps customers increase user engagement in three ways:\n\nTracks actions users are taking and analyzes how people use the product.\n\nSegment users based on their actions and run targeted campaigns to these segments.\n\nAnalyze each campaign to understand their effect on user engagement and business metrics.",
+  "showAbout": true,
+  "about": "Understand customers with real-time insights and trigger campaigns based on user behavior. World’s first purpose-built database for user engagement and retention, delivering incredible performance, lightning-fast data processing, and unlimited, secure storage capacity.  \n  \nLearn more about [CleverTap API documentation.](https://clevertap.com/)",
+  "availableData": "[Campaign Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/campaign-stats.html)\n\nThis pipeline can be used to request and retrieve the campaign metrics.\n\n[Event Count](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/event-count.html)\n\nThis pipeline can be used to request and retrieve the counts for an event in a specified duration.\n\n[Message Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/message-stats.html)\n\nThis pipeline can be used to request and retrieve a list of messages sent by CleverTap.\n\n[Raw Events](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/raw-events.html)\n\nThis pipeline can be used to request and retrieve the details of user events from CleverTap.\n\n[Trend Analysis - Daily](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/trend-analysis-daily.html)\n\nThis pipeline can be used to request and retrieve the daily event trends in a specified duration.\n\n[Trend Analysis - Weekly](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/trend-analysis-weekly.html)\n\nThis pipeline can be used to request and retrieve the weekly event trends in a specified duration.\n\n[Trend Analysis - Monthly](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/pipelines/trend-analysis-monthly.html)\n\nThis pipeline can be used to request and retrieve the monthly event trends in a specified duration.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/index.html) here.",
+  "sourceDocsUrl": "https://developer.clevertap.com/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/clevertap/index.html",
+  "releaseDate": "2022-10-28",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Google DV360",
+  "slug": "google-dv360",
+  "category": "marketing",
+  "shortInfo": "Display & Video 360 has the end-to-end campaign management features to deliver faster insights, improved collaboration, and better results.",
+  "icon": "/images/cms/integrations/dv360-07c9b1.png",
+  "image": "/images/cms/integrations/dv360_logo-566b3a.svg",
+  "brief": "Google DV360 allows you to take control of your campaigns. Work smarter with end-to-end campaign management for enterprises in one tool — from media planning and creative development to measurement and optimization.",
+  "showAbout": false,
+  "about": "The Display & Video 360 (DV 360) is a programmatic advertising platform developed by Google which provides advertisers and agencies with a single platform to plan, execute, and measure digital ad campaigns across a variety of channels and formats, including display, video, audio, and social media.\n\nLearn more about [Google DV360 API documentation](https://developers.google.com/display-video/api/reference/rest).",
+  "availableData": "[DV 360 Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dv360/pipelines/dv360-report.html)\n\nThis pipeline can be used to request and retrieve data about Display & Video 360 resources.",
+  "sourceDocsUrl": "https://developers.google.com/display-video/api/guides/getting-started/overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/index.html",
+  "releaseDate": "2022-12-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

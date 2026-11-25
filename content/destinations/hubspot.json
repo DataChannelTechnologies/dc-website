@@ -1,0 +1,17 @@
+{
+  "name": "HubSpot",
+  "slug": "hubspot",
+  "category": "crm-sales",
+  "shortInfo": "HubSpot is a CRM platform which provides a suite of sales, customer service, content management, and operations tools.",
+  "icon": "/images/cms/integrations/image-18-1--23d510.png",
+  "image": "/images/cms/integrations/image-18-2--91d091.png",
+  "brief": "HubSpot is an inbound marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+  "showAbout": true,
+  "about": "The HubSpot Reverse ETL connector enables streaming data from a user determined warehouse to the HubSpot platform in an automated manner.\n\nCheck more about HubSpot api documentation [here](https://developers.hubspot.com/docs/api/crm/understanding-the-crm).",
+  "availableSync": "[Companies](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/hubspot/syncs/companies.html)\n\nThis sync can be used to upload companies details from your data warehouse to the HubSpot platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/hubspot/syncs/contacts.html)\n\nThis sync can be used to upload contacts details from your data warehouse to the HubSpot platform.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/hubspot/syncs/deals.html)\n\nThis sync can be used to upload deals details from your data warehouse to the HubSpot platform.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/hubspot/syncs/products.html)\n\nThis sync can be used to upload products details from your data warehouse to the HubSpot platform.",
+  "sourceDocsUrl": "https://developers.hubspot.com/docs/api/crm/understanding-the-crm",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/hubspot/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

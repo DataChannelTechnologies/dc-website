@@ -1,0 +1,17 @@
+{
+  "name": "Freshsales",
+  "slug": "freshsales",
+  "category": "crm-sales",
+  "shortInfo": "Freshsales is an easy to use sales CRM that helps you build pipeline and close deals effortlessly.",
+  "icon": "/images/cms/integrations/image_519_360-cb290d.png",
+  "image": "/images/cms/integrations/image_522_360-8f2fa7.png",
+  "brief": "Freshsales is a cloud-based customer relationship management (CRM) solution that helps businesses across different industry verticals to manage their interactions with existing and potential customers.",
+  "showAbout": true,
+  "about": "The Freshsales Reverse ETL connector enables streaming data from a user determined warehouse to the Freshsales platform in an automated manner.\n\nCheck more about Freshsales api documentation [here](https://developer.freshsales.io/api/#introduction).",
+  "availableSync": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/accounts.html)\n\nThis sync can be used to upload accounts details from your data warehouse to the Freshsales platform.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/contacts.html)\n\nThis sync can be used to upload contacts details from your data warehouse to the Freshsales platform.\n\n[Deals](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/deals.html)\n\nThis sync can be used to upload deals details from your data warehouse to the Freshsales platform.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/products.html)  \nThis sync can be used to upload products details from your data warehouse to the Freshsales platform.\n\n[Product Prices](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/product-prices.html)\n\nThis sync can be used to upload product price details from your data warehouse to the Freshsales platform.\n\n[Product Deal Association](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/syncs/product-deal-association.html)  \nThis sync can be used to upload product deal association details from your data warehouse to the Freshsales platform.",
+  "sourceDocsUrl": "https://developer.freshsales.io/api/#introduction",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/freshsales/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

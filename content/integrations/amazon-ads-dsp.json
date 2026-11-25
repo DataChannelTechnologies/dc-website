@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Ads DSP",
+  "slug": "amazon-ads-dsp",
+  "category": "marketing",
+  "shortInfo": "Buy display, video, and audio ads both on and off Amazon",
+  "icon": "/images/cms/integrations/amazon-icon-socialmedia-iconset-uiconstock-0-e8c333.png",
+  "image": "/images/cms/integrations/amazon_dsp_logo-removebg-preview-1--40f821.png",
+  "brief": "The Amazon Ads DSP is a demand-side platform that allows users you to programmatically buy display, video, and audio ads both on and off Amazon. Using Amazon’s DSP, users can reach audiences across the web on both Amazon sites and apps as well as through our publishing partners and third-party exchanges. Amazon DSP is available to both advertisers who sell products on Amazon and those who do not. DataChannel’s Amazon Ads DSP Connector enables streaming relevant Amazon Ads DSP data into a user determined warehouse facilatating exclusive insights into shopping signals for connecting with the most relevant audiences on and off Amazon",
+  "showAbout": true,
+  "about": "Amazon DSP is a demand-side platform that allows you to programmatically buy ads to reach new and existing audiences on and off Amazon. Dive deeper into understanding how to use Amazon DSP to build programmatic campaigns and inform future strategies with metrics and insights.  \n  \nLearn more about [Amazon Ads DSP API documentation.](https://advertising.amazon.com/API/docs/en-us/dsp/overview)",
+  "availableData": "[Reports](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads-dsp/pipelines/reports.html)\n\nThis pipeline can be used to request and retrieve the details of your Amazon DSP campaigns.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads-dsp/index.html) here.",
+  "sourceDocsUrl": "https://advertising.amazon.com/API/docs/en-us/dsp/overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-ads-dsp/index.html",
+  "releaseDate": "2022-11-16",
+  "seoTitle": "",
+  "seoDescription": ""
+}

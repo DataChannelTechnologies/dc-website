@@ -1,0 +1,13 @@
+{
+  "name": "Move Sonny's Car Wash Data to Snowflake",
+  "slug": "move-walmart-ads-data-to-snowflake",
+  "source": "sonnys-car-wash",
+  "warehouse": "snowflake",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the Data Sources section select **Sonny's Car Wash** as the data source.\n2.  Select your added **Snowflake** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Add Access Key and Store Hash to add Credentials.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/sonny-car-wash/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

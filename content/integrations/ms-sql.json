@@ -1,0 +1,17 @@
+{
+  "name": "MS SQL",
+  "slug": "ms-sql",
+  "category": "databases",
+  "shortInfo": "Relational database management system ",
+  "icon": "/images/cms/integrations/iconvector-0edc91.png",
+  "image": "/images/cms/integrations/microsoft-sql-server-logo-vector-1--2517bf.svg",
+  "brief": "Microsoft SQL Server Connector enables streaming data from the Microsoft SQL Server Database into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Benefit from a consistent, unified experience across your entire SQL portfolio and a full range of deployment options from edge to cloud. The MS SQL family of SQL cloud databases provides flexible options for app migration, modernisation and development.​  \n  \nLearn more about [MS SQL API documentation.](https://www.microsoft.com/en-in/sql-server/sql-server-2019)",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mssql/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mssql/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mssql/index.html) here.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/sql/reporting-services/developer/rest-api?view=sql-server-ver16",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mssql/index.html",
+  "releaseDate": "2022-11-04",
+  "seoTitle": "",
+  "seoDescription": ""
+}

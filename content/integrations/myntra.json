@@ -1,0 +1,17 @@
+{
+  "name": "Myntra",
+  "slug": "myntra",
+  "category": "ecommerce",
+  "shortInfo": "Sellers can access all of their Myntra order data using this connector.",
+  "icon": "/images/cms/integrations/image-17-5819b5.png",
+  "image": "/images/cms/integrations/image-17-5819b5.png",
+  "brief": "Myntra is your one stop shop for all your fashion & lifestyle needs. It is India's largest e-commerce store for fashion and lifestyle products.",
+  "showAbout": true,
+  "about": "Get access to Seller Order data through this Myntra connector. It automatically streams relevant Myntra data into a user-determined data warehouse once you configure the relevant pipelines.\n\nCheck more about api documentation [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra/index.html).",
+  "availableData": "[Seller Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra/pipelines/seller-orders.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra/pipelines/seller-orders.html)This pipeline can be used to request and retrieve the details of orders in your Myntra Seller Account.",
+  "sourceDocsUrl": "https://documenter.getpostman.com/view/34879541/2sA3JNbLQG#b28844bd-80fa-47c3-9b79-beea380c3e6a",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra/index.html",
+  "releaseDate": "2024-08-05",
+  "seoTitle": "",
+  "seoDescription": ""
+}

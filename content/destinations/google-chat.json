@@ -1,0 +1,17 @@
+{
+  "name": "Google Chat",
+  "slug": "google-chat",
+  "category": "notifications",
+  "shortInfo": "Google Chat helps workspace users connect & collaborate securely in real time.",
+  "icon": "/images/cms/destinations/google-chat-icon-e38a18.png",
+  "image": "/images/cms/destinations/google-chat-logo-60ccce.png",
+  "brief": "Google Chat is a Messaging app that lets users within a workspace connect and collaborate in real time or at any time to get things done.",
+  "showAbout": true,
+  "about": "The Google Chat Reverse ETL connector enables streaming data from a user determined warehouse to Google Chat in an automated manner\n\nYou can check out our API Documentation [here.](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-chat/index.html)",
+  "availableSync": "[Message](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-chat/syncs/message.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-chat/syncs/message.html)This sync can be used to request and retrieve data and updates on Google Chat from your data warehouse.",
+  "sourceDocsUrl": "https://developers.google.com/workspace/chat/api/reference/rest",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-chat/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

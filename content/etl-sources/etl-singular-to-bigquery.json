@@ -1,0 +1,13 @@
+{
+  "name": "ETL Singular To BigQuery",
+  "slug": "etl-singular-to-bigquery",
+  "source": "singular",
+  "warehouse": "google-bigquery",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Singular as the data source.\n2.  Select your added BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Singular account using the [+](https://api.datachannel.co/datasources/singular/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTE3Mzk5Mi40NzQ0NjE4fQ.OvuEQIaTEsnk9PA6I7tmL1q_KWCsvNUBW3_HOZef_7RNBVnU46zgYVJ7BFrSDVXeVsLGtIEQfXMpPIaf9k7h8-0ii7l3yX20IOL4Dsw66hBwqc_Pq45jcsdVG_t_3YsyizcUm-u-54tGgUtq-VA0sZTbt7hzlco25d5eH8AKzJI3YtitNUmABdFH6PFkQooDB60rHR-PW7CtxqwDfz5osroV2c33V73u1eABeavwGvnfeqGnf9v3RuUpXkMLBXKIy4dtMinimgqNIcn62EicWHv1gCybcfZfKxUl6NYFNIVDN6wF_wHqR2ZTjDOErguzWFJ5oPvj3IIZMgAxsJ2ZL336QN-ex15dMHLFK0GrEb8OR7br_dC1tFjPRdLQQJWm8RpQk0nC4MCWZH85qHNBkhzWWMS0l9K6SwbDxgGtzi6uu2A46hwQblDBAnUzi7jxttxY6iKBGV3V74FG85xVlMpTv8xfe2no_NQZKUG4iYV12wsOvQl3FGYb2VDNLJ4U) icon with your **Token**. \n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/singular/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

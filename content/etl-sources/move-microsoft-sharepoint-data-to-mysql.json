@@ -1,0 +1,13 @@
+{
+  "name": "Move Microsoft SharePoint Data to MySQL",
+  "slug": "move-microsoft-sharepoint-data-to-mysql",
+  "source": "microsoft-sharepoint",
+  "warehouse": "mysql",
+  "category": "others",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Microsoft SharePoint** as the data source.\n2.  Select your added **MySQL** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Microsoft SharePoint** account by providing your site name and then logging into your account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/sharepoint/setup.html) page.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/sharepoint/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

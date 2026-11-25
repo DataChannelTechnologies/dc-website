@@ -1,0 +1,17 @@
+{
+  "name": "Custom Destination",
+  "slug": "custom-destination",
+  "category": "others",
+  "shortInfo": "Send data to any Destination that supports a Writeback",
+  "icon": "/images/cms/destinations/rest-main-logo-1-1--611fe0.webp",
+  "image": "/images/cms/destinations/rest-main-logo-1-1--611fe0.webp",
+  "brief": "The Custom Destination Reverse ETL connector is a generic all-purpose sync which can be used with any REST API friendly data destination to efficiently Reverse ETL data.",
+  "showAbout": true,
+  "about": "Push data to any REST API friendly data destination through this Custom Reverse connector. It enables streaming of relevant data syncs from a user determined data warehouse automatically once you configure the custom syncs.",
+  "availableSync": "[Load](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/custom-destination/syncs/load.html)\n\nThis sync can be used to load data from your data warehouse into any REST API friendly data destination.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/custom-destination/index.html",
+  "releaseDate": "2023-09-18",
+  "seoTitle": "",
+  "seoDescription": ""
+}

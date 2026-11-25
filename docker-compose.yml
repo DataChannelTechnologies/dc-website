@@ -39,6 +39,14 @@ services:
     ports:
       - "${PREVIEW_PORT:-3101}:3001"
 
+  # Re-imports the integration-family collections from the Webflow API.
+  #   docker compose --profile tools run --rm webflow-import
+  webflow-import:
+    <<: *node
+    profiles: ["tools"]
+    env_file: .env
+    command: sh -c "npm install --no-audit --no-fund && node scripts/webflow/dump.mjs && node scripts/webflow/convert.mjs"
+
 volumes:
   node_modules:
   next_cache:

@@ -1,0 +1,17 @@
+{
+  "name": "Olabi",
+  "slug": "olabi",
+  "category": "ecommerce",
+  "shortInfo": "Empower your retail business with Olabi, a Retail Enterprise Solution on Cloud.",
+  "icon": "/images/cms/integrations/frame-1273-1-1-04442a.png",
+  "image": "/images/cms/integrations/frame-1273-1-1-04442a.png",
+  "brief": "DataChannel’s Olabi connector enables streaming relevant Olabi data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": false,
+  "about": "",
+  "availableData": "",
+  "sourceDocsUrl": "https://www.olabi.ooo/services/#saas",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/olabi/index.html",
+  "releaseDate": "2023-10-12",
+  "seoTitle": "",
+  "seoDescription": ""
+}

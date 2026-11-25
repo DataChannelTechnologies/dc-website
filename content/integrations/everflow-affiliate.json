@@ -1,0 +1,17 @@
+{
+  "name": "Everflow Affiliate",
+  "slug": "everflow-affiliate",
+  "category": "marketing",
+  "shortInfo": "Track affiliate marketers management, attribution, and Analytics, etc.",
+  "icon": "/images/cms/integrations/everflow-icon-a92c84.png",
+  "image": "/images/cms/integrations/everflow-logo-7fe07a.png",
+  "brief": "Everflow is a performance marketing platform designed to help advertisers, affiliate marketers, and businesses partnering manage their marketing data efficiently.",
+  "showAbout": true,
+  "about": "Get access to Raw conversions and reporting data through this Everflow Affiliate connector. It enables streaming of relevant Everflow Affiliate data into a user determined data warehouse automatically once you configure the relevant pipelines.\n\nCheck more about api documentation [here](https://developers.everflow.io/docs/affiliate/).",
+  "availableData": "[**Raw Conversions**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow-affiliate/pipelines/raw-conversions.html)\n\nThis pipeline can be used to request and retrieve reporting metrics from the Everflow platform.\n\n[**Reporting Data**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow-affiliate/pipelines/reporting-data.html)\n\nThis pipeline can be used to request and retrieve unaggregated conversion data where each conversion is a “row” of data.",
+  "sourceDocsUrl": "https://developers.everflow.io/docs/affiliate/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/everflow-affiliate/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

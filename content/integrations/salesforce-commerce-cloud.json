@@ -1,0 +1,17 @@
+{
+  "name": "Salesforce Commerce Cloud",
+  "slug": "salesforce-commerce-cloud",
+  "category": "crm-sales",
+  "shortInfo": "Find, nurture, and convert leads to close deals significantly faster on the top CRM platform for sales.",
+  "icon": "/images/cms/integrations/sfcc-icon-1-d1a8a0.png",
+  "image": "/images/cms/integrations/sfcc-1-acaa11.jpg",
+  "brief": "Salesforce Commerce Cloud is a [cloud-based](https://www.techtarget.com/searchcloudcomputing/definition/cloud-application) suite of products that enable [e-commerce](https://www.techtarget.com/searchcio/definition/e-commerce) businesses to set up e-commerce sites, drive more [automation](https://www.techtarget.com/searchitoperations/definition/IT-automation) and provide customers with seamless shopping experiences.",
+  "showAbout": true,
+  "about": "Salesforce Commerce Cloud is a complete unified commerce experience including digital storefronts, customer acquisition and loyalty tools, reporting and insights, order management, payments, and embedded apps. Salesforce Commerce Cloud helps brands launch sooner, grow faster, and reach more customers by crafting innovative customer experiences that drive higher conversions.",
+  "availableData": "[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce-cc/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve details of the orders from the Salesforce Commerce platform.",
+  "sourceDocsUrl": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/salesforce-cc/index.html",
+  "releaseDate": "2024-01-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

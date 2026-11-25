@@ -1,0 +1,17 @@
+{
+  "name": "Azure Blob Storage",
+  "slug": "azure-blob-storage",
+  "category": "others",
+  "shortInfo": "Massively scalable and secure object storage for cloud-native workloads, archives and data lakes",
+  "icon": "/images/cms/integrations/azureblob-1-1--7dd935.png",
+  "image": "/images/cms/integrations/azureblob-1-1--7dd935.png",
+  "brief": "Azure Blob Storage helps you create data lakes for your analytics needs, and provides storage to build powerful cloud-native and mobile apps. Optimize costs with tiered storage for your long-term data, and flexibly scale up for high-performance computing and machine learning workloads.",
+  "showAbout": true,
+  "about": "Azure Blob Storage is Microsoft’s object storage solution for the cloud. Blob Storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn’t adhere to a particular data model or definition, such as text or binary data.\n\nLearn more about [Azure Blob Storage](https://learn.microsoft.com/en-us/rest/api/storageservices/get-blob?tabs=azure-ad).",
+  "availableData": "[CSV](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-csv.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-csv.html)This pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-json.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-json.html)This pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-excel.html)\n\n[](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/pipelines/azure-blob-storage-excel.html)This pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.",
+  "sourceDocsUrl": "https://learn.microsoft.com/en-us/rest/api/storageservices/get-blob?tabs=azure-ad",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/azure-blob-storage/index.html",
+  "releaseDate": "2023-11-06",
+  "seoTitle": "",
+  "seoDescription": ""
+}

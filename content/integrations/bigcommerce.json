@@ -1,0 +1,17 @@
+{
+  "name": "BigCommerce",
+  "slug": "bigcommerce",
+  "category": "ecommerce",
+  "shortInfo": "BigComBigCommerce is a cloud-based eCommerce platform for online stores.",
+  "icon": "/images/cms/integrations/bigcommerce_icon-a8739d.png",
+  "image": "/images/cms/integrations/bigcomerce_logo-62217a.png",
+  "brief": "BigCommerce is a cloud-based eCommerce platform that enables businesses to create, manage, and scale online stores. It offers customizable templates, payment integration, SEO tools, and multi-channel selling features.",
+  "showAbout": true,
+  "about": "BigCommerce Connector enables streaming relevant BigCommerce data into a user determined warehouse. This data enables merchants to handle product catalogs, orders, customers and much more. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Brands](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/bigcommerce/pipelines/brands.html)\n\nThis pipeline can be used to request and retrieve a list of brands and their details.\n\n[Customers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/bigcommerce/pipelines/customers.html)\n\nThis pipeline can be used to request and retrieve a list of customers and their details.\n\n[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/bigcommerce/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve a list of orders and their details.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/bigcommerce/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve a list of products and their details.",
+  "sourceDocsUrl": "https://developer.bigcommerce.com/docs/rest-management",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/bigcommerce/index.html",
+  "releaseDate": "2025-07-11",
+  "seoTitle": "",
+  "seoDescription": ""
+}

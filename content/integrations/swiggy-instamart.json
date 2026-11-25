@@ -1,0 +1,17 @@
+{
+  "name": "Swiggy Instamart",
+  "slug": "swiggy-instamart",
+  "category": "ecommerce",
+  "shortInfo": "Swiggy's quick commerce platform",
+  "icon": "/images/cms/integrations/instamart-1-e67414.png",
+  "image": "/images/cms/integrations/instamart-1-e67414.png",
+  "brief": "Swiggy Instamart is **Swiggy's quick commerce platform, offering rapid delivery of groceries, daily essentials, and more**. It aims to deliver orders within 15-30 minutes, leveraging a network of strategically placed \"dark stores\" and Swiggy's existing delivery infrastructure.",
+  "showAbout": true,
+  "about": "Swiggy Instamart Platform is a hyperlocal quick commerce convinience platform that allows partners to register their businesses to sell grocery and household goods online.",
+  "availableData": "[Campaigns Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/swiggy-instamart/pipelines/campaigns-report.html)\n\nThis pipeline can be used to request and retrieve the Campaigns Report from the Swiggy Instamart platform.\n\n[Sales Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/swiggy-instamart/pipelines/sales-report.html)\n\nThis pipeline can be used to request and retrieve the Sales Report from the Swiggy Instamart platform.",
+  "sourceDocsUrl": "https://www.swiggy.com/corporate/our-business/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/swiggy-instamart/index.html",
+  "releaseDate": "2025-05-14",
+  "seoTitle": "",
+  "seoDescription": ""
+}

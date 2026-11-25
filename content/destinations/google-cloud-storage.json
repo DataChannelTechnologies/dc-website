@@ -1,0 +1,17 @@
+{
+  "name": "Google Cloud Storage",
+  "slug": "google-cloud-storage",
+  "category": "others",
+  "shortInfo": "Stream data from a user determined warehouse to the Google Cloud Storage in an automated manner",
+  "icon": "/images/cms/destinations/google_storage-logo.wine-60f5f7.svg",
+  "image": "/images/cms/integrations/google-cloud-storage1-f55df3.png",
+  "brief": "Google Cloud Storage is a RESTful online file storage web service for storing and accessing data on Google Cloud Platform infrastructure. The service combines the performance and scalability of Google's cloud with advanced security and sharing capabilities",
+  "showAbout": true,
+  "about": "Store any amount of data & retrieve it as often as you like. Start your free trial today. Safe, secure & flexible storage. Let Google power your apps & sites. Try it now. Deploy In Minutes.  \n  \nLearn more about [Google Cloud Storage.](https://cloud.google.com/storage)",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/syncs/export.html)\n\nThis sync can be used to request and retrieve data from a user specified data warehouse to the Google Cloud Storage of your choice.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-cloud-storage/index.html) here.",
+  "sourceDocsUrl": "https://cloud.google.com/storage",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/google-cloud-storage/index.html",
+  "releaseDate": "2022-11-15",
+  "seoTitle": "",
+  "seoDescription": ""
+}

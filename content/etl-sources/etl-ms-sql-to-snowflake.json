@@ -1,0 +1,13 @@
+{
+  "name": "ETL MS SQL To Snowflake",
+  "slug": "etl-ms-sql-to-snowflake",
+  "source": "ms-sql",
+  "warehouse": "snowflake",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select MSSQL as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your MSSQL Server using the [+](https://api.datachannel.co/datasources/mssql/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MTEwNTYyNi43MjY4MjF9.N7DbeMgj1-09-57yfW3cbVRIyM17BYcO37wUHZzAihhaZT5ail-IT23Rus3EIuAYtiTbf_Q6PbYs5wNE0DdIaXZq3FJ2P_3b0UyZODR35-klfyUnx9PL7QIF1j0Rxnlk-4X99ZklP9D4_pQj4GgdZb--hLlGFogKBKzd7OsA6nGSUQp5X6QlAYsU-2DsWvKBB9Hbmbg1l0GwOCPJtS9hH8uSfd45NDOpthNp0EP1_4Wn-VTp_rAPw1HIdGIuIy6s4ZEJ7Uv_Y23puoKkBF3tW2ljI6hOX6BgR_ae-74UPgCXqcnBHr8fRwkKc5DhwDmifCjgFlAIaT6kyPmdmj8MpIOeHdVHyI-AFekGlOm57Fs-yu5R8K2d1yMPGOOS9EAg0qbXZ2JlzXd2hAkRvXENLiWX2EqCLIKxjkKRwryclpUsclzc8GjUjIdzBuxJ7ugEV1YLuDmhxihdrcSBQpHpM0aT_1BUmXIz6C5fc-Tl55ePGyl-GKR23uEn-OKNFJ9d) icon with your database details.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/mssql/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

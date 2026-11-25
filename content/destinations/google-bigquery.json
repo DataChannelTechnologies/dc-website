@@ -1,0 +1,17 @@
+{
+  "name": "Google BigQuery",
+  "slug": "google-bigquery",
+  "category": "databases",
+  "shortInfo": "Move data from any user determined warehouse into Google BigQuery",
+  "icon": "/images/cms/destinations/frame-1272-1069b3.png",
+  "image": "/images/cms/destinations/frame-1272-1069b3.png",
+  "brief": "Stream data from a user determined warehouse to Google Bigquery warehouse",
+  "showAbout": true,
+  "about": "Google is one of the most popular, scalable, easy to manage data warehouse options for those wanting to setup a Data Warehouse. Read more about the features and how to get started with the popular platform [here](https://cloud.google.com/bigquery?hl=en).",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/bigquery/syncs/export.html)\n\nThis sync can be used to load data from your data warehouse into Google BigQuery platform.",
+  "sourceDocsUrl": "https://cloud.google.com/bigquery?hl=en",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/bigquery/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

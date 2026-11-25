@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Marketing Cloud",
+  "slug": "amazon-marketing-cloud",
+  "category": "marketing",
+  "shortInfo": "AMC provides advertisers with campaign, audience & media analysis",
+  "icon": "/images/cms/integrations/amazon-13e654.webp",
+  "image": "/images/cms/integrations/amc_logo-1ad26d.webp",
+  "brief": "Amazon Marketing Cloud is a secure, privacy-safe, and cloud-based clean room solution, in which advertisers can easily perform analytics across pseudonymized signals, including Amazon Ads signals as well as their own inputs",
+  "showAbout": true,
+  "about": "Amazon Marketing Cloud is a holistic measurement solution that helps advertisers perform custom analytics and generate cross-media insights.  \n  \nLearn more about [Amazon Marketing Cloud API documentation.](https://advertising.amazon.com/solutions/products/amazon-marketing-cloud)",
+  "availableData": "[Query](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/amazon-marketing-cloud/pipelines/query.html)\n\nThis pipeline can be used to request and retrieve data from the Amazon Marketing Cloud into a data warehouse of your choice with the granularity of a Query result you desire.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-marketing-cloud/index.html) here.",
+  "sourceDocsUrl": "https://advertising.amazon.com/API/docs/en-us/info/api-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/index.html",
+  "releaseDate": "2022-12-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

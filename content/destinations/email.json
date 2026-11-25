@@ -1,0 +1,17 @@
+{
+  "name": "Email",
+  "slug": "email",
+  "category": "notifications",
+  "shortInfo": "Stream data from your warehouse to the email platform of your choice in automatically",
+  "icon": "/images/cms/destinations/email-rev2-8bc82b.svg",
+  "image": "/images/cms/destinations/email-rev2-8bc82b.svg",
+  "brief": "",
+  "showAbout": true,
+  "about": "Learn more about [Email.](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/email/index.html)",
+  "availableSync": "[Email](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/email/syncs/email.html)\n\nThis sync can be used to request and retrieve data and updates on email.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/email/index.html) here.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/email/index.html",
+  "releaseDate": "2022-11-24",
+  "seoTitle": "",
+  "seoDescription": ""
+}

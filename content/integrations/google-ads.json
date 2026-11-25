@@ -1,0 +1,17 @@
+{
+  "name": "Google Ads",
+  "slug": "google-ads",
+  "category": "marketing",
+  "shortInfo": "Google Ads performance and conversion data",
+  "icon": "/images/cms/integrations/google-ads1-476ca7.png",
+  "image": "/images/cms/integrations/google-ads-d3fcbf.png",
+  "brief": "This Connector enables streaming relevant Google Ads performance and conversion data into a user determined warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency. The connector API works on a flexible reporting mechanism. A user can choose to focus on the entire campaign or any singular aspect of it depending on their target.",
+  "showAbout": true,
+  "about": "The Google Ads API you can build software that manages accounts from the customer level down to the keyword level. The API can do almost everything the Google Ads UI does, but programmatically. Types of companies that have benefited from the AdWords API include: Ad agencies, Search Engine Marketing (SEM) companies, Big brands managing a large number of accounts, with needs beyond what's possible within the Google Ads UI.  \nLearn more about [GoogleAds API documentation.](https://developers.google.com/adwords/api/docs/guides/start)",
+  "availableData": "[Account Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/account-performance.html)\n\nThis pipeline can be used to request and retrieve statistics aggregated by default at the account level, one row per account.\n\n[Account Conversion Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/account-conversion.html)\n\nThis pipeline can be used to request and retrieve statistics aggregated by default at the account level, one row per account.\n\n[Asset Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/asset-performance.html)\n\nThis pipeline can be used to request and retrieve statistics aggregated by asset performance.\n\n[Asset Conversion Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/asset-conversion.html)\n\nThis pipeline can be used to request and retrieve statistics aggregated by asset conversion.\n\n[Ad Performance Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/ad-performance.html)\n\nThis pipeline can be used to request and retrieve Ad Performance statistics aggregated at the ad level, one row per ad.\n\n[Ad Conversion Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/pipelines/ad-conversion.html)\n\nThis pipeline can be used to request and retrieve Ad Performance statistics aggregated at the ad level, one row per ad.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/google-ads/api/docs/start",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-ads-v2/index.html",
+  "releaseDate": "2022-10-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

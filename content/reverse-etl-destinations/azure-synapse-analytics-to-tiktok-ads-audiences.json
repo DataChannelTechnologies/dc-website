@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to TikTok Ads Audiences",
+  "slug": "azure-synapse-analytics-to-tiktok-ads-audiences",
+  "warehouse": "azure-synapse",
+  "destination": "tiktok-ads-audiences",
+  "category": "marketing",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

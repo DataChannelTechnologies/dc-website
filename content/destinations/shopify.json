@@ -1,0 +1,17 @@
+{
+  "name": "Shopify",
+  "slug": "shopify",
+  "category": "e-commerce",
+  "shortInfo": "Shopify is complete e-commerce platform that lets you start, grow, and manage a business.",
+  "icon": "/images/cms/destinations/image-542-915220.png",
+  "image": "/images/cms/destinations/image-542-915220.png",
+  "brief": "Shopify is a user-friendly e-commerce platform that helps small businesses build an online store and sell online through one streamlined dashboard.",
+  "showAbout": true,
+  "about": "The Shopify Reverse ETL connector enables streaming data from a user determined warehouse to the Shopify platform in an automated manner.",
+  "availableSync": "[Customers](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/shopify/syncs/customers.html)\n\nThis sync can be used to upload customers' details from your data warehouse to the Shopify platform.\n\n[Inventory Items](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/shopify/syncs/inventory-items.html)\n\nThis sync can be used to upload inventory items' details from your data warehouse to the Shopify platform.\n\n[Orders](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/shopify/syncs/orders.html)\n\nThis sync can be used to upload orders' details from your data warehouse to the Shopify platform.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/shopify/syncs/products.html)\n\nThis sync can be used to upload products' details from your data warehouse to the Shopify platform.",
+  "sourceDocsUrl": "https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/klaviyo/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

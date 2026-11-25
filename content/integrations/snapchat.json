@@ -1,0 +1,17 @@
+{
+  "name": "Snapchat Ads",
+  "slug": "snapchat",
+  "category": "marketing",
+  "shortInfo": "With Snapchat Ads, advertisers can reach a global audience and drive meaningful results.",
+  "icon": "/images/cms/integrations/snapchat-1-b4b2f3.svg",
+  "image": "/images/cms/integrations/snapchat-1-1-1-1--b05bd6.svg",
+  "brief": "This integartion enables streaming relevant Snapchat Ads performance data into a user determined warehouse. Reporting on various performance metrics relevant to the advertisement forms an integral part of most Advertisement applications. Create ads, launch campaigns, monitor performance, and optimize toward your goals.",
+  "showAbout": true,
+  "about": "Snapchat is a camera and messaging app that connects people to their friends and the world. With Snapchat Ads, advertisers can reach a global audience and drive meaningful results.\n\nLearn more about [Snapchat API documentation.](https://marketingapi.snapchat.com/docs/#introduction)",
+  "availableData": "[Ad-Squads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/ad-squads.html)\n\nThis pipeline can be used to request and retrieve details about the Ad Squads.\n\n[Ads](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/ads.html)\n\nThis pipeline can be used to request and retrieve Ad related information.\n\n[Campaign Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/campaign-stats.html)\n\nThis pipeline can be used to request and retrieve campaign stats data with TOTAL, DAY, and HOUR granularity options.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve details about the Campaigns.\n\n[Creatives](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/creatives.html)\n\nThis pipeline can be used to request and retrieve details about Creatives.\n\n[DMA](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/pipelines/dma.html)\n\nThis pipeline can be used to request and retrieve the list of metro/dma targeting options.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/index.html) here.",
+  "sourceDocsUrl": "https://marketingapi.snapchat.com/docs/#introduction",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/snapchat/index.html",
+  "releaseDate": "2022-11-02",
+  "seoTitle": "",
+  "seoDescription": ""
+}

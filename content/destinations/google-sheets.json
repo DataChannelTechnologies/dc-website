@@ -1,0 +1,17 @@
+{
+  "name": "Google Sheets",
+  "slug": "google-sheets",
+  "category": "others",
+  "shortInfo": "Write data directly to Google Sheets from any data warehouse",
+  "icon": "/images/cms/destinations/61447d485953a50004ee16dc-668753.png",
+  "image": "/images/cms/destinations/gsheets-1-1--a5d41f.svg",
+  "brief": "This sync enables moving data from a user specified data warehouse to the Google Sheets of your choice",
+  "showAbout": true,
+  "about": "Use Google Sheets to create and edit online spreadsheets. Get insights together with secure sharing in real-time and from any device.  \n  \nLearn more about [Google Sheets.](https://www.google.com/sheets/about/)",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/syncs/export.html)\n\nThis sync can be used to request and retrieve data from a user specified data warehouse to the Google Sheets of your choice.  \n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/index.html) here.",
+  "sourceDocsUrl": "https://www.google.com/sheets/about/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/googlesheets/index.html",
+  "releaseDate": "2022-11-15",
+  "seoTitle": "",
+  "seoDescription": ""
+}

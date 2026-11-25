@@ -1,0 +1,17 @@
+{
+  "name": "Amazon S3",
+  "slug": "amazon-s3",
+  "category": "others",
+  "shortInfo": "Enable streaming data from a user determined warehouse to the Amazon S3 in an automated manner",
+  "icon": "/images/cms/destinations/1_dhe24mbdhtbkoeijzxrfda-67115a.png",
+  "image": "/images/cms/destinations/1_dhe24mbdhtbkoeijzxrfda-67115a.png",
+  "brief": "",
+  "showAbout": true,
+  "about": "Amazon Simple Storage Service is an object storage service offering industry-leading scalability, data availability, security, and performance.  \n  \nLearn more about [Amazon S3.](https://aws.amazon.com/s3/)",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-s3/syncs/export.html)\n\nThis sync can be used to request and retrieve data from a user specified data warehouse to the Amazon S3.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-s3/index.html) here.",
+  "sourceDocsUrl": "https://aws.amazon.com/s3/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/amazon-s3/index.html",
+  "releaseDate": "2022-11-14",
+  "seoTitle": "",
+  "seoDescription": ""
+}

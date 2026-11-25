@@ -1,0 +1,17 @@
+{
+  "name": "Yahoo Gemini",
+  "slug": "yahoo-gemini",
+  "category": "marketing",
+  "shortInfo": "Engage the audience with advanced advertising campaigns",
+  "icon": "/images/cms/integrations/yahooicon-39eb51.png",
+  "image": "/images/cms/integrations/yahoogemini-b9d41d.png",
+  "brief": "The Gemini API provides you with the tools and resources you need to create, manage and retrieve advertiser data for your ads, ad groups and campaigns programmatically. Developers are encouraged to take advantage of Gemini API as mobile traffic continues to increase rapidly, with the majority of ads on Yahoo mobile search inventory being served by Yahoo Gemini. Native advertising across Yahoo mobile inventory is only available through Yahoo Gemini. The sooner you participate in Yahoo Gemini, the sooner the system can begin to build a performance history for your ad, so that your ad can earn better ranking and start getting you the clicks it deserves. As traffic ramps, your ad is then in the best position for cost-effective delivery and performance",
+  "showAbout": true,
+  "about": "Yahoo Native is the only marketplace that offers search and native advertising in one advertising platform. Our native solutions empower you with insightful data, brand-safe premium content, and advanced technologies to deliver engaging advertising campaigns that really drive results.  \n  \nLearn more about [Yahoo Gemini API documentation.](https://developer.yahooinc.com/native/guide/)",
+  "availableData": "[Campaign Bid Performance Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/campaign-bid-performance-stats.html)\n\nThis pipeline can be used to request and retrieve campaign bid performance metrics.\n\n[Conversion Rules Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/conversion-rules-stats.html)\n\nThis pipeline can be used to request and retrieve conversion-related metrics.\n\n[Performance Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/performance-stats.html)\n\nThis pipeline can be used to request and retrieve performance stats of all campaigns.\n\n[Performance Stats Hour](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/performance-stats-hour.html)\n\nThis pipeline can be used to request and retrieve performance stats of all campaigns, at an Hour level.\n\n[Site Performance Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/site-performance-stats.html)\n\nThis pipeline can be used to request and retrieve performance stats of all sites.\n\n[User Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/pipelines/user-stats.html)\n\nThis pipeline can be used to request and retrieve data across various attributes like gender, location etc.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/index.html) here.",
+  "sourceDocsUrl": "https://developer.yahooinc.com/native/guide/v1-api/gsg.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/yahoo-gemini/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

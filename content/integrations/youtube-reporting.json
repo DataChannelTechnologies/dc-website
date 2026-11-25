@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Reporting",
+  "slug": "youtube-reporting",
+  "category": "social-media",
+  "shortInfo": "YouTube Reporting retrieves bulk reports containing YouTube Analytics data.",
+  "icon": "/images/cms/integrations/image-457-30901b.webp",
+  "image": "/images/cms/integrations/youtube-reporting-3-f87038.webp",
+  "brief": "YouTube Reporting retrieves bulk reports containing YouTube Analytics data for a channel or content owner.",
+  "showAbout": true,
+  "about": "YouTube Reporting used to better understand user activity and your video and channel performance. The YouTube Reporting connector enables you to retrieve predefined reports that contain a comprehensive set of YouTube Analytics data for a channel.\n\nCheck more about YouTube Reporting api documentaion [here](https://developers.google.com/youtube/reporting/v1/reports).",
+  "availableData": "[Channel Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/youtube-reporting/pipelines/channel-report.html)\n\nThis pipeline can be used by channel owners to request and retrieve various predefined video and playlist reports from the YouTube Reporting platform.",
+  "sourceDocsUrl": "https://developers.google.com/youtube/reporting/v1/reports",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/youtube-reporting/index.html",
+  "releaseDate": "2023-08-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

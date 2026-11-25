@@ -1,0 +1,13 @@
+{
+  "name": "ETL ClickPost To Snowflake",
+  "slug": "etl-clickpost-to-snowflake",
+  "source": "clickpost",
+  "warehouse": "snowflake",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select ClickPost as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your ClickPost Account using the + icon with your **API Key.**\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/clickpost/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "UpScriptHealth",
+  "slug": "upscripthealth",
+  "category": "others",
+  "shortInfo": "UpScriptHealth is the only fully integrated telehealth provider that allows pharmaceutical companies to market Direct-to-Consumer.",
+  "icon": "/images/cms/integrations/image-1-b04ab1.png",
+  "image": "/images/cms/integrations/image-1-b04ab1.png",
+  "brief": "UpScriptHealth is a telemedicine platform connecting health-care providers with patients seeking treatment through virtual diagnosis and treatment programs, while adhering to strict industry compliance standards.",
+  "showAbout": true,
+  "about": "The UpScriptHealth Connector lets you sync data from UpScript Data API to your data warehouse automatically.\n\nCheck more about UpScriptHealth Api doc [here.](https://dataapi.upscripthealth.org/docs)",
+  "availableData": "[Order](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/upscript-health/pipelines/order.html)\n\nThis pipeline can be used to request and retrieve the details of all orders for a company from the UpScriptHealth platform.\n\n[Patient](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/upscript-health/pipelines/patient.html)\n\nThis pipeline can be used to request and retrieve the details of all patients for a company from the UpScriptHealth platform.\n\n[Product](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/upscript-health/pipelines/product.html)  \nThis pipeline can be used to request and retrieve the details of all products for a company from the UpScriptHealth platform.",
+  "sourceDocsUrl": "https://dataapi.upscripthealth.org/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/upscript-health/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Redshift",
+  "slug": "redshift",
+  "category": "databases",
+  "shortInfo": "Fastest, easiest, and most widely used cloud data warehouse",
+  "icon": "/images/cms/warehouses/redshift-icon-eb42bb.png",
+  "image": "/images/cms/warehouses/cf1808ffcf86f80a5acc9ad6a5d5bf27-36f78e.png",
+  "brief": "Redshift Connector enables streaming data from the Redshift Data Warehouse into a user determined warehouse through DataChannel dashboard. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency. Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. Tens of thousands of customers today rely on Amazon Redshift to analyze exabytes of data and run complex analytical queries, making it the most widely used cloud data warehouse. Run and scale analytics in seconds on all your data without having to manage your data warehouse infrastructure",
+  "showAbout": true,
+  "about": "Tens of thousands of customers today rely on Amazon Redshift to analyze exabytes of data and run complex analytical queries, making it a widely used cloud data warehouse. Run and scale analytics in seconds on all your data without having to manage your data warehouse infrastructure.  \n  \nLearn more about [Redshift API documentation.](https://aws.amazon.com/redshift/)",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/redshift/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/redshift/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/redshift/index.html) here.",
+  "sourceDocsUrl": "https://aws.amazon.com/redshift/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/redshift/index.html",
+  "releaseDate": "2022-11-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

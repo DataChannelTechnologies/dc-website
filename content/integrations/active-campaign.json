@@ -1,0 +1,17 @@
+{
+  "name": "Active Campaign",
+  "slug": "active-campaign",
+  "category": "crm-sales",
+  "shortInfo": "ActiveCampaign is a sales automation and CRM platform that helps sales teams growth.",
+  "icon": "/images/cms/integrations/image-445-8815e5.webp",
+  "image": "/images/cms/integrations/629dfc8845310cb9dd20a0b2-1-bcb3d3.webp",
+  "brief": "Active Campaign helps you automate all of the marketing tasks — engaging with customers via email and SMS, tracking customer relationships and much more.",
+  "showAbout": true,
+  "about": "The Active Campaign Connector lets you sync data from the Active Campaign API automatically into your data warehouse.\n\nCheck more about Active Campaign api documentation [here](https://developers.activecampaign.com/reference/overview).",
+  "availableData": "[Accounts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/active-campaign/pipelines/accounts.html)\n\nThis pipeline can be used to request and retrieve details of all existing accounts.\n\n[Account Contacts Association](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/active-campaign/pipelines/account-contacts-association.html)\n\nThis pipeline can be used to request and retrieve details of all existing account- contact associations.\n\n[Contacts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/active-campaign/pipelines/contacts.html)\n\nThis pipeline can be used to request and retrieve details of all existing contacts in your ActiveCampaign account.",
+  "sourceDocsUrl": "https://developers.activecampaign.com/reference/overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/active-campaign/index.html",
+  "releaseDate": "2023-08-07",
+  "seoTitle": "",
+  "seoDescription": ""
+}

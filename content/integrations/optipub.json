@@ -1,0 +1,17 @@
+{
+  "name": "OptiPub",
+  "slug": "optipub",
+  "category": "marketing",
+  "shortInfo": "OptiPub supports opens/clicks tracking as well as multi-level engagement analysis on every piece of your web and email marketing campaigns.",
+  "icon": "/images/cms/integrations/35578715e9c31a2925fb6966945a4fc4-496062.png",
+  "image": "/images/cms/integrations/35578715e9c31a2925fb6966945a4fc4-1-1--bfd351.png",
+  "brief": "OptiPub connector enables streaming relevant OptiPub email performance data directly into a user determined warehouse. Reporting on various performance metrics relevant to your email forms an integral part of most email optimization applications. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Take your email to the next level with dedicated managed IPs. Manage your IPs with our simple binding system to segregate your subscribers and products increasing overall deliverability. Use our built-in interface or connect your systems to ours. Everything within our UI is available via the API. The choice is yours. Monitor your email reputation using our advanced reporting tools by domain and email service provider. Easily detect mail blocks and quickly resolve them with help from our support team.  \n  \nLearn more about [OptiPub API documentation.](https://docs.optipub.com/)",
+  "availableData": "[OptiPubMessages](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/optipub/pipelines/optipub-messages.html)\n\nThis pipeline can be used to request and retrieve historical details about email message performance over a time range like click percentage, revenue per thousand, etc.\n\n[OptiPubMessagesStats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/optipub/pipelines/optipub-messages-stats.html)\n\nThis pipeline can be used to request and retrieve performance stats of the email messages like clicks, bounce, unsubscribes, opens, opt-outs, etc.\n\n[OptiPubSegmentStats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/optipub/pipelines/optipub-segment-stats.html)\n\nThis pipeline can be used to request and retrieve data pertaining to the message segments created in your account.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/optipub/index.html) here.",
+  "sourceDocsUrl": "https://docs.optipub.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/optipub/index.html",
+  "releaseDate": "2022-11-01",
+  "seoTitle": "",
+  "seoDescription": ""
+}

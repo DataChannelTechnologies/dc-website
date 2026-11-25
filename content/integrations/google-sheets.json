@@ -1,0 +1,17 @@
+{
+  "name": "Google Sheets",
+  "slug": "google-sheets",
+  "category": "others",
+  "shortInfo": "Read, write, and format Google Sheets data ",
+  "icon": "/images/cms/integrations/2965327-b6669c.png",
+  "image": "/images/cms/integrations/google-sheets-full-logo-1-1--d882a5.svg",
+  "brief": "Google Sheets enables your to create and format online spreadsheets. They can be used as a shared workspace where more than one person can work on them simultaneously. Google Sheets Connector enables streaming relevant data stored in a Google Worksheet into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency",
+  "showAbout": true,
+  "about": "Track, update, and collaborate on project tasks with your team in a shared spreadsheet using Google Sheets. Plan and hold meetings from anywhere. Get insights together with secure sharing in real-time and from any device.They can be used as a shared workspace where more than one person can work on them simultaneously.  \n  \nLearn more about [Google Sheets API documentation.](https://developers.google.com/sheets/api)",
+  "availableData": "[Entire Sheet](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-sheets/pipelines/entire-sheet.html)\n\nThis pipeline can be used to request and retrieve the data stored in a worksheet in a single go.\n\n[Manual Range](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-sheets/pipelines/manual-range.html)\n\nThis pipeline can be used to request and retrieve the data stored in a worksheet selectively.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-sheets/index.html) here.",
+  "sourceDocsUrl": "https://developers.google.com/sheets/api/guides/concepts",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/google-sheets/index.html",
+  "releaseDate": "2022-10-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

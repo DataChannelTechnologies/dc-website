@@ -1,0 +1,17 @@
+{
+  "name": "Snowflake",
+  "slug": "snowflake",
+  "category": "databases",
+  "shortInfo": "Move data from any user determined warehouse into snowflake",
+  "icon": "/images/cms/destinations/snow-35164165-1-8ffe56.png",
+  "image": "/images/cms/destinations/snow-35164165-1-8ffe56.png",
+  "brief": "Stream data from a user determined warehouse to an Snowflake warehouse",
+  "showAbout": true,
+  "about": "Snowflake is one of the most popular, scalable, easy to manage data warehouse options for those wanting to setup a Data Warehouse. Read more about the features and how to get started with the popular platform [here](https://docs.snowflake.com/en/user-guide/warehouses-overview).",
+  "availableSync": "[Export](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snowflake/syncs/export.html)\n\nThis sync can be used to load data from your data warehouse into Snowflake platform.",
+  "sourceDocsUrl": "https://docs.snowflake.com/en/user-guide/warehouses-overview",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/snowflake/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

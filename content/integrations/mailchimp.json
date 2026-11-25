@@ -1,0 +1,17 @@
+{
+  "name": "MailChimp",
+  "slug": "mailchimp",
+  "category": "product",
+  "shortInfo": "Mailchimp is an email marketing and marketing automation platform.",
+  "icon": "/images/cms/integrations/image-32-0a6636.png",
+  "image": "/images/cms/integrations/image-32-0a6636.png",
+  "brief": "Mailchimp Connector enables streaming relevant Mailchimp performance data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Get access to campaign reports and much more through this Mailchimp connector.",
+  "availableData": "[Automations](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/pipelines/automations.html)\n\nThis pipeline can be used to request and retrieve a summary of the classic automations in your Mailchimp account.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve the list of all campaigns in your Mailchimp account.\n\n[Lists](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/pipelines/lists.html)\n\nThis pipeline can be used to request and retrieve information about all lists in your Mailchimp account.\n\n[List’s Members](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/pipelines/lists-members.html)\n\nThis pipeline can be used to request and retrieve the information about members in a specific Mailchimp list.\n\n[Reports](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/pipelines/reports.html)\n\nThis pipeline can be used to request and retrieve the campaign reports for all campaigns in your Mailchimp account.",
+  "sourceDocsUrl": "https://mailchimp.com/developer/marketing/api/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/mailchimp/index.html",
+  "releaseDate": "2024-09-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "TikTok Ads",
+  "slug": "tiktok-ads",
+  "category": "marketing",
+  "shortInfo": "Track performance of advertising metrics",
+  "icon": "/images/cms/integrations/logo-tiktok-229ac8.svg",
+  "image": "/images/cms/integrations/1280px-tiktok_logo.svg-337948.png",
+  "brief": "TikTok Ads can help you unleash your brand’s creative side where there’s an audience for every voice. DataChannel’s TikTok Ads Connector lets you sync data from the TikTok Ads API automatically into your data warehouse. To understand how TikTok users are interacting with your brand ’s marketing clips, use this connector to track the performance of variety of advertising metrics such as impression, spend, user action, and so on",
+  "showAbout": true,
+  "about": "Understand how TikTok users are interacting with your brand ’s marketing clips, use this connector to track the performance of variety of advertising metrics such as impression, spend, user action. Meet all your marketing needs with TikTok Ads. Manage and access advertising, creators, commerce and other marketing solutions in one place for quick collaboration and maximum flexibility.  \n  \nLearn more about [TikTok Ads API documentation.](https://developers.tiktok.com/)",
+  "availableData": "[Ad Group](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/ad-group.html)\n\nThis pipeline can be used to request and retrieve detailed information of an ad group, which can be customized by specifying the information needed in the fields.\n\n[Ad](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/ad.html)\n\nThis pipeline can be used to request and retrieve relevant information and status of custom and automated ads in an advertiser account.\n\n[Auction Ads - Audience](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/auction-ads-audience.html)\n\nThis pipeline can be used to request and retrieve data for 8 dimensions such as age, gender, location, and more.\n\n[Auction Ads - Basic](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/auction-ads-basic.html)\n\nThis pipeline can be used to request and retrieve data at an Advertiser, Campaign, Ad Group, and Ad level.\n\n[Auction Ads - Catalog](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/auction-ads-catalog.html)\n\nThis pipeline can be used to request and retrieve data on Dynamic Product Ads level.\n\n[Auction Ads - Playable Material](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/auction-ads-playable-material.html)\n\nThis pipeline can be used to request and retrieve data on playable material level.\n\n[Campaigns](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/pipelines/campaigns.html)\n\nThis pipeline can be used to request and retrieve all the campaigns data for an advertiser account.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/index.html) here.",
+  "sourceDocsUrl": "https://developers.tiktok.com/?enter_method=bottom_navigation",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/tiktok/index.html",
+  "releaseDate": "2022-11-03",
+  "seoTitle": "",
+  "seoDescription": ""
+}

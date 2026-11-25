@@ -1,0 +1,13 @@
+{
+  "name": "Move Shopify Data to Azure Synapse via GraphQL",
+  "slug": "move-shopify-data-to-azure-synapse-via-graphql",
+  "source": "shopify-graph-ql",
+  "warehouse": "azure-synapse",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "**Shopify to Azure Synapse**\n\n1.  From the DataSources section select Shopify as the data source.\n2.  Select your added Azure Synapse data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Shopify account, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify-graphql/setup.html) page.\n4.  Click on **\\+ Data Pipeline** to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

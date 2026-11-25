@@ -1,0 +1,17 @@
+{
+  "name": "Facebook Pages",
+  "slug": "facebook-pages",
+  "category": "social-media",
+  "shortInfo": "Insights from facebook pages like visitor count or share count",
+  "icon": "/images/cms/integrations/untitled-ae0986.png",
+  "image": "/images/cms/integrations/untitled-ae0986.png",
+  "brief": "This Connector enables streaming relevant Facebook Pages performance data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "Build an online business profile and get discovered by fans and customers with a Facebook Page. With a Facebook Page, you can manage all aspects of your business to keep customers updated, publish and promote content, connect people with your products and deliver seamless customer service experiences.  \n  \nLearn more about [Facebook Pages API documentation.](https://developers.facebook.com/docs/pages)",
+  "availableData": "[Insights](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-pages/pipelines/insights.html)\n\nThis pipeline can be used to request and retrieve performance metrics for your Facebook Pages and Page posts.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-pages/index.html) here.",
+  "sourceDocsUrl": "https://developers.facebook.com/docs/pages",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/facebook-pages/index.html",
+  "releaseDate": "2022-10-31",
+  "seoTitle": "",
+  "seoDescription": ""
+}

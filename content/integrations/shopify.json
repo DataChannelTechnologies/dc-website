@@ -1,0 +1,17 @@
+{
+  "name": "Shopify",
+  "slug": "shopify",
+  "category": "ecommerce",
+  "shortInfo": " A single view of your online business, manage multiple sales channels, including web, mobile, social media, and marketplaces",
+  "icon": "/images/cms/integrations/shopify-logo-png-transparent-55f869.png",
+  "image": "/images/cms/integrations/1280px-shopify_logo_2018.svg-3a1674.png",
+  "brief": "Shopify is the leading omni-channel commerce platform. Business owners can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides a powerful back-office and a single view of their business.",
+  "showAbout": true,
+  "about": "Shopify is a user-friendly e-commerce platform that helps small businesses build an online store and sell online through one streamlined dashboard. Shopify merchants can build a modern online store and sell on social media sites, seller marketplaces, other blogs and websites and via email, text and chat. Turn your retail store into an online store and keep serving customers without missing a beat.\n\nLearn more about [Shopify API documentation.](https://shopify.dev/)",
+  "availableData": "[Abandoned Checkouts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/abandoned-checkouts.html)\n\nThis pipeline can be used to request and retrieve details of the abandoned checkouts from the shopify platform.\n\n[Application Charges](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/application-charges.html)\n\nThis pipeline can be used to request and retrieve details of the application charges from the shopify platform.\n\n[Application Credits](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/application-credits.html)\n\nThis pipeline can be used to request and retrieve details of the application credits from the shopify platform.\n\n[Countries](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/countries.html)\n\nThis pipeline can be used to request and retrieve details of the countries and the tax rates set up by the merchant on the shopify platform.\n\n[Currency](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/currency.html)\n\nThis pipeline can be used to request and retrieve details of the currency that the merchant has enabled on the shopify platform.\n\n[Customers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/customers.html)\n\nThis pipeline can be used to request and retrieve details of the customers from the shopify platform.\n\n[Discount Codes](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/pipelines/discount-codes.html)\n\nThis pipeline can be used to request and retrieve details of the discount codes from the shopify platform.  \n  \nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/index.html) here.",
+  "sourceDocsUrl": "https://shopify.dev/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify/index.html",
+  "releaseDate": "2022-11-02",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Salesforce",
+  "slug": "salesforce",
+  "category": "crm-sales",
+  "shortInfo": "Sync data from your data warehouse to Salesforce",
+  "icon": "/images/cms/destinations/salesforce-logo-96ebaa.png",
+  "image": "/images/cms/destinations/salesforce-1-1--3f0d6d.png",
+  "brief": "Using Salesforce, you can now close more deals quickly & create strong customer relations. The largest enterprise app ecosystem that is flexible and scalable to suit any business.",
+  "showAbout": true,
+  "about": "Salesforce is the world’s most trusted customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.  \n  \nLearn more about [Salesforce](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_list.htm).",
+  "availableSync": "[Salesforce Report](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/salesforce/syncs/salesforce-report.html)\n\nThis sync can be used to request and retrieve objects, fields and records data from a user specified data warehouse and send it to the Salesforce platform.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/salesforce/index.html) here.",
+  "sourceDocsUrl": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_list.htm",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/salesforce/index.html",
+  "releaseDate": "2023-05-25",
+  "seoTitle": "",
+  "seoDescription": ""
+}

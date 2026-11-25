@@ -1,0 +1,13 @@
+{
+  "name": "Move Shiprocket Data to MySQL",
+  "slug": "move-shiprocket-data-to-mysql",
+  "source": "shiprocket",
+  "warehouse": "mysql",
+  "category": "ecommerce",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Shiprocket** as the data source.\n2.  Select your added **MySQL** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your **Shiprocket** account by providing your **API User Email** and **Password** as per the process described [here](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shiprocket/setup.html).\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/shiprocket/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

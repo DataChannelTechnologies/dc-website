@@ -1,0 +1,17 @@
+{
+  "name": "Shopify (Graph QL)",
+  "slug": "shopify-graph-ql",
+  "category": "ecommerce",
+  "shortInfo": "Shopify is an ecommerce platform for online stores and retail point-of-sale systems.",
+  "icon": "/images/cms/integrations/shopify_logo_black-358ce0.png",
+  "image": "/images/cms/integrations/shopify_logo_black-358ce0.png",
+  "brief": "A single view of your online business, manage multiple sales channels, including web, mobile, social media, and marketplaces.",
+  "showAbout": true,
+  "about": "The Shopify GraphQL Connector lets you sync data from Shopify GraphQL Admin API to your data warehouse automatically.\n\nCheck more about Shopify GraphQL API Documentation [here](https://shopify.dev/docs/api/admin-graphql).",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify-graphql/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from Shopify store into your data warehouse.",
+  "sourceDocsUrl": "https://shopify.dev/docs/api/shopifyql",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/shopify-graphql/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

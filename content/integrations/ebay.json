@@ -1,0 +1,17 @@
+{
+  "name": "ebay",
+  "slug": "ebay",
+  "category": "ecommerce",
+  "shortInfo": "eBay is a leading global selling platform for online sellers to export products and sell globally",
+  "icon": "/images/cms/integrations/image-546-1--591af9.png",
+  "image": "/images/cms/integrations/image-546-1--591af9.png",
+  "brief": "eBay is a leading global selling platform for online sellers to export products and sell globally",
+  "showAbout": true,
+  "about": "eBay is an online marketplace that connect millions of sellers and buyers in more than 190 markets around the world.\n\neBay Connector enables streaming relevant eBay data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.\n\nYou can find more information on [eBay documentation page](https://developer.ebay.com/api-docs/static/ebay-rest-landing.html).",
+  "availableData": "[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/ebay/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve information regarding all orders.\n\n[Transactions](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/ebay/pipelines/transactions.html)\n\nThis pipeline can be used to request and retrieve information regarding all transactions.",
+  "sourceDocsUrl": "https://developer.ebay.com/api-docs/static/ebay-rest-landing.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/ebay/index.html",
+  "releaseDate": "2024-01-11",
+  "seoTitle": "",
+  "seoDescription": ""
+}

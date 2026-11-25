@@ -1,0 +1,17 @@
+{
+  "name": "NetSuite",
+  "slug": "netsuite",
+  "category": "product",
+  "shortInfo": "NetSuite is the unified business management suite, encompassing ERP/Financials, CRM and ecommerce.",
+  "icon": "/images/cms/integrations/image-617-d6bea3.png",
+  "image": "/images/cms/integrations/image-617-d6bea3.png",
+  "brief": "**NetSuite** is the leading integrated cloud business software suite, including business accounting, ERP, CRM and ecommerce software.",
+  "showAbout": true,
+  "about": "DataChannel’s NetSuite Connector enables streaming relevant NetSuite data into a user determined warehouse.\n\nCheck more about api documentation [here](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_1540810951.html#Listing-All-Record-Instances).",
+  "availableData": "[**NetSuite Objects**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite/pipelines/netsuite-objects.html)\n\nThis pipeline can be used to request and retrieve a list of all records of a record type.\n\n[**NetSuite Objects (SuiteQL)**](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite/pipelines/netsuite-objects-suiteql.html)\n\nThis pipeline can be used to to access NetSuite records by executing SuiteQL queries.",
+  "sourceDocsUrl": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_1540810951.html#Listing-All-Record-Instances",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/netsuite/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Move Purplle Data to Snowflake",
+  "slug": "move-purplle-data-to-snowflake",
+  "source": "purplle",
+  "warehouse": "snowflake",
+  "category": "product",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select **Purplle** as the data source.\n2.  Select your added **Snowflake** data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Add Username, Password, and Authorization Token to add Credentials.\n4.  Click on [+ Data Pipeline](https://console.datachannel.co/datasource/purplle/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Slack",
+  "slug": "slack",
+  "category": "notifications",
+  "shortInfo": "Create automated alerts & notifications directly from your data warehouse to Slack",
+  "icon": "/images/cms/destinations/slack_icon_2019.svg-630a78.png",
+  "image": "/images/cms/destinations/slack-1-9be025.svg",
+  "brief": "Slack is your digital HQ – a place where work flows between your people, systems, partners and customers. From Fortune 100 companies to corner markets, millions of people around the world use Slack to connect their teams, unify their systems and drive their business forwards",
+  "showAbout": true,
+  "about": "Slack is a new way to communicate with your team. It's faster, better organised and more secure than email.  \n  \nLearn more about [Slack.](https://slack.com/intl/en-in)",
+  "availableSync": "[Message](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/slack/syncs/message.html)\n\nThis sync can be used to request and retrieve data and updates on a public or private slack channel.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/slack/index.html) here.",
+  "sourceDocsUrl": "https://slack.com/intl/en-in/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/reverse_etl/destinations_retl/slack/index.html",
+  "releaseDate": "2022-11-17",
+  "seoTitle": "",
+  "seoDescription": ""
+}

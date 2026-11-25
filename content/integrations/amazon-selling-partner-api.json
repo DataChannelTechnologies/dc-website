@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Selling Partner API",
+  "slug": "amazon-selling-partner-api",
+  "category": "ecommerce",
+  "shortInfo": "Users can find multiple resources for integrating with Selling Partner API.",
+  "icon": "/images/cms/integrations/image-268-9533f5.png",
+  "image": "/images/cms/integrations/image-268-9533f5.png",
+  "brief": "The Amazon Selling Partner API connector enables streaming of relevant Amazon Selling Partner orders data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "showAbout": true,
+  "about": "The Selling Partner API (SP-API) connector helps Amazon selling partners programmatically retrieve order information. It provides fine grained data access control which can be used to request access to only the data that is needed. The use of this connector enables to increase selling efficiency, improve response time to customers, and attain better order synchronization, thereby helping selling partners grow their businesses.\n\nRead more about it [here](https://developer-docs.amazon.com/sp-api/docs).",
+  "availableData": "[Notifications](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-sp-api/pipelines/notifications.html)\n\nThis pipeline can be used to request and retrieve information about a subscription for the specified notification type.\n\n[Orders](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-sp-api/pipelines/orders.html)\n\nThis pipeline can be used to request and retrieve information about orders created or updated during the time frame indicated by the specified parameters.",
+  "sourceDocsUrl": "https://developer-docs.amazon.com/sp-api/docs",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/amazon-sp-api/index.html",
+  "releaseDate": "2023-10-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

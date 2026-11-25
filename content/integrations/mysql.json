@@ -1,0 +1,17 @@
+{
+  "name": "MySQL",
+  "slug": "mysql",
+  "category": "databases",
+  "shortInfo": "Open Source Relational Database to stream data from MySQL warehouse to user's warehouse",
+  "icon": "/images/cms/integrations/5968313-fb6348.png",
+  "image": "/images/cms/integrations/mysql-logo.wine-1--c07160.png",
+  "brief": "MySQL is an open-source relational database management system. Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter My, and \"SQL\", the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data. SQL is a language programmers use to create, modify and extract data from the relational database, as well as control user access to the database. In addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a relational database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups",
+  "showAbout": true,
+  "about": "MySQL Cluster enables users to meet the database challenges of next generation web, cloud, and communications services with uncompromising scalability, uptime and agility. The most comprehensive set of advanced features, management tools and technical support to achieve the highest levels of MySQL scalability, security, reliability, and uptime.  \n  \nLearn more about [MySQL API documentation.](https://www.mysql.com/)",
+  "availableData": "[Custom Query](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mysql/pipelines/custom-query.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a custom query entered by the user.\n\n[Table/View](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mysql/pipelines/table-view.html)\n\nThis pipeline can be used to request and retrieve data from the database based on a table/view and/or columns chosen by\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mysql/index.html) here.",
+  "sourceDocsUrl": "https://dev.mysql.com/doc/index-connectors.html",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/databases/mysql/index.html",
+  "releaseDate": "2022-11-04",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Revcontent",
+  "slug": "revcontent",
+  "category": "marketing",
+  "shortInfo": "Connect advertisers to a highly engaged audience",
+  "icon": "/images/cms/integrations/download__14_-removebg-preview-615c53.png",
+  "image": "/images/cms/integrations/revcontent_web_green_black-1-1-1600x250-558778.png",
+  "brief": "RevContent is a Content marketing, native advertising & discovery platform trusted by Microsoft, Nexstar Media & more. It connects advertisers to highly engaged audiences through technology and direct partnerships with the world’s premier digital publishers.",
+  "showAbout": true,
+  "about": "We've perfected the art of native advertising, empowering publishers and advertisers to grow their brand presence and revenues. Enjoy seamless ads that integrate with your content without detracting from the user experience and high-quality traffic with our network of premium publishers.  \n  \nLearn more about [Revcontent API documentation.](https://www.revcontent.com/)",
+  "availableData": "[Boosts Content](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/boosts-content.html)\n\nThis pipeline can be used to request and retrieve the boost’s current content and the statistics for the given time period.\n\n[Boosts Performance](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/boosts-performance.html)\n\nThis pipeline can be used to request and retrieve the Performance Statistics for All Boosts / Specific Boost.\n\n[Boosts](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/boosts.html)\n\nThis pipeline can be used to request and retrieve Performance Statistics for all Boosts / Specific Boost.\n\n[Browsers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/browsers.html)\n\nThis pipeline can be used to request and retrieve supported browser list.\n\n[Content Widget Stats](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/content-widget-stats.html)\n\nThis pipeline can be used to request and retrieve the list content by widget.\n\n[Countries](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/pipelines/countries.html)\n\nThis pipeline can be used to request and retrieve the list of Country codes.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/index.html) here.",
+  "sourceDocsUrl": "https://www.revcontent.com/docs/stats/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/revcontent/index.html",
+  "releaseDate": "2022-11-02",
+  "seoTitle": "",
+  "seoDescription": ""
+}

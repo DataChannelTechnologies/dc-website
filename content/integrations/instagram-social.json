@@ -1,0 +1,17 @@
+{
+  "name": "Instagram Social",
+  "slug": "instagram-social",
+  "category": "social-media",
+  "shortInfo": "Instagram Professionals can manage their presence on Instagram",
+  "icon": "/images/cms/integrations/ig-2--df7c0b.png",
+  "image": "/images/cms/integrations/ig-2--df7c0b.png",
+  "brief": "Instagram Social provides resources for Instagram Businesses and Creators who need insight into, their social media interactions.",
+  "showAbout": true,
+  "about": "DataChannel’s Instagram Social Connector enables streaming relevant Instagram metadata and metrics data into a user determined warehouse.\n\nCheck more about Instagram api documentation [here](https://developers.facebook.com/docs/instagram-api).",
+  "availableData": "[Daily User Interaction Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/daily-user-interaction-metrics.html)\n\nThis pipeline can be used to request and retrieve the total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content; aggregated by day.\n\n[Media](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/media.html)  \nThis pipeline can be used to request and retrieve fields and edges on an Instagram Media.\n\n[Media Comments](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/media-comments.html)\n\nThis pipeline can be used to request and retrieve a list of Instagram comments on an Instagram Media object.\n\n[Reels Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/reels-metrics.html)\n\nThis pipeline can be used to request and retrieve metrics on the reels media type.\n\n[Story Metrics](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/story-metrics.html)\n\nThis pipeline can be used to request and retrieve metrics on the story media type.\n\n[User Stories](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines/user-stories.html)\n\nThis pipeline can be used to request and retrieve a list of story Instagram Media objects on an Instagram User.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/pipelines.html) here.",
+  "sourceDocsUrl": "https://developers.facebook.com/docs/instagram-api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/instagram-social/index.html",
+  "releaseDate": "2023-09-11",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Box",
+  "slug": "box",
+  "category": "others",
+  "shortInfo": "Stream data from the Box repository into a user-determined warehouse",
+  "icon": "/images/cms/integrations/box-_inc._logo.svg-1--8dfdd4.png",
+  "image": "/images/cms/integrations/box-_inc._logo.svg-1--8dfdd4.png",
+  "brief": "Sales contracts, product specs, marketing assets and videos — content is at the heart of your business, no matter your industry. Box consolidates file storage and sharing, content management, collaboration, e-signature, publishing, and workflow onto a single, secure, easy-to-use platform that simplifies how you work while helping you spend less. There’s a reason 67% of the Fortune 500 trust Box. The Content Cloud is where real work gets done",
+  "showAbout": true,
+  "about": "Sales contracts, product specs, marketing assets and videos — content is at the heart of your business, no matter your industry. Box consolidates file storage and sharing, content management, collaboration, e-signature, publishing, and workflow onto a single, secure, easy-to-use platform that simplifies how you work while helping you spend less.  \n  \nLearn more about [Box API documentation.](https://www.box.com/home)",
+  "availableData": "[CSV Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/box/pipelines/box-csv.html)\n\nThis pipeline can be used to request and retrieve CSV files/folders (consisting similar structured CSV files). The transfer is enabled irrespective of whether CSV files are compressed or not.\n\n[JSON Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/box/pipelines/box-json.html)\n\nThis pipeline can be used to request and retrieve JSON files/folders (consisting similar structured JSON files). The transfer is enabled irrespective of whether JSON files are compressed or not.\n\n[Excel Data Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/box/pipelines/box-excel.html)\n\nThis pipeline can be used to request and retrieve Excel files/folders (consisting similar structured Excel files). The transfer is enabled irrespective of whether Excel files are compressed or not.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/box/index.html) here.",
+  "sourceDocsUrl": "https://developer.box.com/",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_storage/box/index.html",
+  "releaseDate": "2022-11-09",
+  "seoTitle": "",
+  "seoDescription": ""
+}

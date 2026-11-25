@@ -1,0 +1,17 @@
+{
+  "name": "Stripe",
+  "slug": "stripe",
+  "category": "financial",
+  "shortInfo": "Payment Infrastructure for the Internet",
+  "icon": "/images/cms/integrations/twitter-80afaafee00af0bc21d345164a2a9bb6-c489a2.png",
+  "image": "/images/cms/integrations/stripe1-8885ca.png",
+  "brief": "Stripe powers payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between. It also helps companies beat fraud, send invoices, issue virtual and physical cards, get financing, manage business spend, and much more",
+  "showAbout": true,
+  "about": "Millions of businesses of all sizes – from startups to large enterprises – use Stripe's software and APIs to accept payments, send payouts, and manage their businesses online. Stripe makes moving money as simple, borderless and programmable as the rest of the internet. Our teams are based in dozens of offices around the world, and we process hundreds of billions of dollars each year for startups to large enterprises.  \n  \nLearn more about [Stripe API documentation.](https://stripe.com/docs/api)",
+  "availableData": "[Charges](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/charges.html)\n\nThis pipeline can be used to request and retrieve details of the Charges.\n\n[Customers](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/customers.html)\n\nThis pipeline can be used to request and retrieve details of the Customers.\n\n[Disputes](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/disputes.html)\n\nThis pipeline can be used to request and retrieve details of the Disputes.\n\n[Invoices](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/invoices.html)\n\nThis pipeline can be used to request and retrieve details of the Invoices.\n\n[Plans](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/plans.html)\n\nThis pipeline can be used to request and retrieve details of the Plans.\n\n[Products](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/products.html)\n\nThis pipeline can be used to request and retrieve details of the Products.\n\n[Refunds](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/pipelines/refunds.html)\n\nThis pipeline can be used to request and retrieve details of the Refunds.\n\nLearn more about what data can be integrated into your data warehouse using DataChannel in the [documentation](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/index.html) here.",
+  "sourceDocsUrl": "https://stripe.com/docs/api",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/stripe/index.html",
+  "releaseDate": "2021-11-14",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL Sizmek To Snowflake",
+  "slug": "etl-sizmek-to-snowflake",
+  "source": "sizmek-ad-suite",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Sizmek as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Sizmek account using the [+](https://api.datachannel.co/datasources/sizmek/credentials/add?token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNWI0MDljNmYyMmM0MDNlMWY5MWY5ODY3YWM0OTJhOTA2MTk1NTgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFhZ2hhdiBHYXVyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDc5X2ExckJaYVBaTzRwTTVNdVJmR3lxcGJpT3hxd2lOc08tZ0E9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXVkIjoiZmlyZWJhc2UtcHJvZC1wcm9qZWN0IiwiYXV0aF90aW1lIjoxNjc1MTYwMDUxLCJ1c2VyX2lkIjoiYjM4ODU1YWJkMDg1NDM2OWFjY2IwN2NkN2ZkZThjZjUiLCJzdWIiOiJiMzg4NTVhYmQwODU0MzY5YWNjYjA3Y2Q3ZmRlOGNmNSIsImlhdCI6MTY3NTE2MDA1NCwiZXhwIjoxNjc1MTYzNjU0LCJlbWFpbCI6InJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA1ODYxMzcxNjcxNzIxMjg2ODk3Il0sImVtYWlsIjpbInJhYWdoYXYuZ2F1ckBkYXRhY2hhbm5lbC5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.Kjd_Boba7eTAorJoUV0bf9o7tj_mrisC96Fq4924pLPNYTHqVJ9-27K8pqltfOwoV0fbV84FeyvLO3dmseQEnCXl8f6FGvzl3FArKt7sWl2bETZsabFmZqivgf9YGUzXMFpTyCneo-2iRbddtVBGSyuz8_sJAVkiy1RdaFmjEDQjL4NkB1reXLkoRpuDq01JQbEZdFSMmMWZSbPXS891rB8WaqLVtWxK-KfifNBOLizfzfYpW33cg7i9T6b6l4OtAWZ5dN1hN6lWGaNJa0dGy4r2GEzQjGRNklKNChqBcZ1uRbBmdX2u6TDYPcRFxrjssfBrWGtCjSCWtLAl2vgf_g) icon with your **Username, Password & API Key.**\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/sizmek/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

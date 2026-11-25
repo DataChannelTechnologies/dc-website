@@ -1,0 +1,17 @@
+{
+  "name": "DP World",
+  "slug": "dp-world",
+  "category": "others",
+  "shortInfo": "Get access to Consignments, Proof of Delivery and much more through DP world connector.",
+  "icon": "/images/cms/integrations/dpworld-b47034.png",
+  "image": "/images/cms/integrations/dpworld-b47034.png",
+  "brief": "DP World is a world leader in end-to-end supply chain solutions. It enables businesses to manage consignments, track shipments, access proof of delivery, monitor logistics performance, and gain end-to-end visibility across their supply chain operations.",
+  "showAbout": true,
+  "about": "DP World Connector enables streaming relevant DP World logistics data into a user-determined data warehouse. This data enables businesses to access consignments, proof of delivery, shipment tracking, and other logistics operations data, It ensures efficient visibility and management of supply chain processes. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Consignments](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dp-world/pipelines/consignments.html)\n\nThis pipeline can be used to request and retrieve the consignments data from DP World platform.\n\n[Proof of Deliverys](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dp-world/pipelines/proof-of-deliverys.html)\n\nThis pipeline can be used to request and retrieve the proof of delivery data from DP World platform.",
+  "sourceDocsUrl": "https://www.dpworld.com/en",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/dp-world/index.html",
+  "releaseDate": "2026-02-10",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL Taboola Ads To Snowflake",
+  "slug": "etl-taboola-ads-to-snowflake",
+  "source": "taboola-ads",
+  "warehouse": "snowflake",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Taboola Ads as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Taboola Ads account using the [+](https://api.datachannel.co/datasources/taboola/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDU3OTgwMy4xNjkxNTk0fQ.TyTYVr5E6vmbhiEmcArWyfrlZvW5pgTJjWz7z_9bfGE-2TURsZaXpeVj6r8w1XBe8RCpT2A2ivZosfm40F-bb6XK5Bv6jCWWZT3CkkIdtSPiK_wGdq3AnZEKRvtSpQjF4CsSASKJ4FfFuDNu0iweBi9yMgfTUj8oXDFaZxqhUWBSEzvmycEOeCHjbelSlNsZJYy5HK4TxulbUfYbPF5riQmg5htST9pt1r3JvnsYtMOHghKQ51EeZR2HOOzYRBVLsN3HaEqkhJhXDqRQRP2M-r_JKVn-5ttsXmp4ti8KBhd0abpYhkAcjGmkcMRje7M_pQ_han46JgSRDTZIGFzqjAOZVhQ2eFwh5ZjcHYYXsQVtVF0dJf9Scck2IFN05SnNRNcen1QekxwDmo5pUXxQLKa1ELoIiBzwtmzMd7RV3ykfk6jHdTh0y8BOYlbT--4TF4_EeAk6q-2354Yw2fyE6LFKyjhG5EYGnqOypaj158442qsxOqrLVdxrGtn3HpoF) icon with your **Client ID** & **Client Secret**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/taboola/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

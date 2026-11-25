@@ -1,0 +1,13 @@
+{
+  "name": "ETL AppsFlyer To BigQuery",
+  "slug": "etl-appsflyer-to-bigquery",
+  "source": "appsflyer",
+  "warehouse": "google-bigquery",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select AppsFlyer as the data source.\n2.  Select your added BigQuery data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your AppsFlyer account using the [+](https://api.datachannel.co/datasources/appsflyer/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDU3NjExOS45NzA2ODl9.DzyJeDgEM24WoZ3caeif8FZ6qX4OLr5dtfwEoMVrgXR6e85Ff4HOmi9GvEBBKBFPNKPZseyvbuPJHmvlBI3xlmV6UxpKnFEfFOlKOaZLS3c10vdQJtqbI5hnE9pooc8mC1VxbQ8uY8jvRSqusiE0hRO4_U3NUYANT-QA5ITw2iEw3gzJLR1F_w46qnq1teLyALvYekDaIVDEsBiGhZDs9aafhT1Ik2SN4FKnaK3UnXww-64CssL5CicGQYRDamagnr_B2iX7-kfNTO4_YPxNa0ylCcJXgJTtvpGOtHqRwtzCuQxYkxUaLUhrm0_rAvB1rtLS3nXh3P4qq2iY8ptA3XBs9ruoZd7m5ZILTGse5k73EDp4-B-Ptx1gA2fEky4-TR8TcfnHiC4UlnOIArPdipkVtOJd7kOY1CZ99ETGRdcZ4yHWSE8WK6iBATc06dikXZ-VcowYrx8NfA18djLshM4w4h2Lwh7NY7ruYrHKHyiHEkijEVnXL_veBZ6lTM5F) icon with your **API Key**.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/appsflyer/report/new) to start adding data pipelines to your account.",
+  "showVideo": true,
+  "videoUrl": "https://youtu.be/D_qZ_J7-tko",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL Redshift To Snowflake",
+  "slug": "etl-redshift-to-snowflake",
+  "source": "redshift",
+  "warehouse": "snowflake",
+  "category": "databases",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select Redshift as the data source.\n2.  Select your added Snowflake data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your Amazon Redshift warehouse using the [+](https://api.datachannel.co/datasources/redshift/credentials/add?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzYW1wbGUtYXV0aC1zZXJ2ZXIiLCJzdWIiOiJjbGllbnRfMSIsInVpZCI6MTcxLCJzY29wZSI6ImZyb250ZW5kLWFwaSxyZXZlcnNlLWFwaSIsImV4cCI6MTY3MDgzODg1MC44NTg4Njg4fQ.cgcv-wvyFN_NIuRc_6TIJh2ok8dNsSyLOizZwOZUnJsK173V1B9WRbCjg1ZSt8LnWLjOmjxm-z4TDcqAUHT9SZtUSKX08EPr5R0MtnBylyGwfgQDxV3Y2PY8LLELqY0nEtJ4d5FsejzdbJhBfO2yg18vOK8SNsV4vhyQXXEniTohZSJpJ26OT5DfghyRCNuaY26D0pLqcrYJU-WAT7uUOVp_Zs-0B7ecqheiLJUkpZHo-MDzKSterOxObvic_4ka2CHDrMLnVgkSyRGLBIAg65UAOypG825VstK-cTD33MzD7N_-7gAhI5rtMNgUmAMWDCb-VW8HgsnKLUZSyvol_8FRoZTWZ717BSmgyRU4GVIeji5qUb2JihTipfYP4MG8-i3-hqxa1__awm5eiy2PMwYE9kaCpmYZmXQY2vL4DN93O3pXQx0ebd8uWSRLkURfbnnr-0Ao4iomeSNszP0KNPt150dCevJseQAWniGCsF7AZqE0Nl6jr3fXDUii7g2k) icon with your database details.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/redshift/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

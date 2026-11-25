@@ -1,0 +1,17 @@
+{
+  "name": "Myntra SJIT",
+  "slug": "myntra-sjit",
+  "category": "ecommerce",
+  "shortInfo": "Myntra SJIT (Just-in-Time) is a business model Myntra uses for B2B2C transactions.",
+  "icon": "/images/cms/integrations/myntra_logo_100x100_trimmed-4fbc91.png",
+  "image": "/images/cms/integrations/myntra_logo_100x100_trimmed-4fbc91.png",
+  "brief": "Myntra raises purchase orders to brands, and these orders are reflected as sales orders in their system. Myntra then manages the order fulfillment, including shipping, on behalf of the brands.",
+  "showAbout": true,
+  "about": "The Myntra SJIT connector assists sellers in maintainance of healthy stock levels, order management, returns management and more.\n\nDataChannel’s Myntra SJIT Connector enables streaming relevant Myntra SJIT data into a user determined warehouse to enable users manage orders, customer returns, inventory and much more.",
+  "availableData": "[Customer Returns Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/pipelines/customer-returns-report.html)\n\nThis pipeline can be used to request and retrieve the Customer Returns Report.\n\n[Inventory Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/pipelines/inventory-report.html)\n\nThis pipeline can be used to request and retrieve the Inventory Report.\n\n[Listings Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/pipelines/listings-report.html)\n\nThis pipeline can be used to request and retrieve the Listings Report.\n\n[Orders Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/pipelines/orders-report.html)\n\nThis pipeline can be used to request and retrieve the Orders Report.\n\n[Returns to Vendor Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/pipelines/returns-to-vendor-report.html)\n\nThis pipeline can be used to request and retrieve the Returns To Vendor Report.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/myntra-sjit/index.html",
+  "releaseDate": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

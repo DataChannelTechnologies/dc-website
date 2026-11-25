@@ -1,0 +1,17 @@
+{
+  "name": "Purplle",
+  "slug": "purplle",
+  "category": "product",
+  "shortInfo": "Purplle is an online beauty and personal care web portal.",
+  "icon": "/images/cms/integrations/purplle-f8f945.png",
+  "image": "/images/cms/integrations/purplle_2-89e26f.png",
+  "brief": "Purplle operates as an online marketplace for beauty and personal care products, offering a vast selection from various brands.",
+  "showAbout": true,
+  "about": "Purplle Connector enables streaming relevant Purplle data into a user determined data warehouse. This sync happens in an automated manner after a user has configured relevant pipelines and determined an update frequency.",
+  "availableData": "[Brand Sales](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/brand-sales.html)\n\nThis pipeline can be used to request and retrieve the Brand Sales Report from Purplle.\n\n[Inventory](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/inventory.html)\n\nThis pipeline can be used to request and retrieve the Inventory Report from Purplle.\n\n[MP Seller](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/mp-seller.html)\n\nThis pipeline can be used to request and retrieve the MP Seller Report from Purplle.\n\n[Payment Dashboard](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/payment-dashboard.html)\n\nThis pipeline can be used to request and retrieve the Payment Dashboard Report from Purplle.\n\n[MP Seller Inventory Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/stock-in-hand.html)\n\nThis pipeline can be used to request and retrieve the MP Seller Inventory Report Report from Purplle.\n\n[Warehouse Summary](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/pipelines/warehouse-summary.html)\n\nThis pipeline can be used to request and retrieve the Warehouse Summary Report from Purplle.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/purplle/index.html",
+  "releaseDate": "2025-06-18",
+  "seoTitle": "",
+  "seoDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ETL DCM To Redshift",
+  "slug": "etl-dcm-to-redshift",
+  "source": "dcm",
+  "warehouse": "amazon-redshift",
+  "category": "marketing",
+  "showSteps": true,
+  "steps": "1.  From the DataSources section select DCM as the data source.\n2.  Select your added Redshift data warehouse as the data destination. If you have not yet added a data warehouse, go to [Data Warehouse](https://console.datachannel.co/datawarehouse) tab and add a warehouse.\n3.  Authorize DataChannel to connect to your DCM account using OAuth, similar to the process described in this [Documentation](https://docs.datachannel.co/getting-started/1.0.0/set-up/authentication.html#_connecting_using_oauth) page.\n4.  Click on [\\+ Data Pipeline](https://console.datachannel.co/datasource/dcm/report/new) to start adding data pipelines to your account.",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}

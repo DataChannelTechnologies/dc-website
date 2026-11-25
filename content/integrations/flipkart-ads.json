@@ -1,0 +1,17 @@
+{
+  "name": "Flipkart Ads",
+  "slug": "flipkart-ads",
+  "category": "marketing",
+  "shortInfo": "An advanced marketing solution provided by Flipkart, enabling you to promote your products to an extensive customer base.",
+  "icon": "/images/cms/integrations/fkads-1-c6784b.png",
+  "image": "/images/cms/integrations/fkads-1-c6784b.png",
+  "brief": "Flipkart Ads is a marketing platform that helps businesses promote their products to Flipkart's large customer base",
+  "showAbout": true,
+  "about": "Flipkart Advertising is an advanced marketing solution provided by Flipkart, enabling you to promote your products to an extensive customer base of Flipkart users every day. By leveraging this platform, you can significantly expand your customer reach, amplify your sales, and unlock greater business opportunities.",
+  "availableData": "[PCA Consolidated Daily Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pca-consolidated-daily-report.html) \\- This pipeline can be used to request and retrieve the PCA( Product Contextual Ads) Consolidated Daily Report for all campaigns in the ad account in the selected duration.\n\n[PLA Consolidated Daily Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pla-consolidated-daily-report.html) - This pipeline can be used to request and retrieve the PLA( Product Listing Ads) Consolidated Daily Report for all campaigns in the ad account in the selected duration.\n\n[PCA Keyword Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pca-keyword-report.html) - This pipeline can be used to request and retrieve the PCA( Product Contextual Ads) Keyword Report.\n\n[PLA Keyword Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pla-keyword-report.html) - This pipeline can be used to request and retrieve the PLA( Product Listing Ads) Keyword Report.\n\n[PCA Search Term Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pca-search-term-report.html) - This pipeline can be used to request and retrieve the PCA( Product Contextual Ads) Search Term Report.\n\n[PLA Search Term Report](https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/pipelines/pla-search-term-report.html) - This pipeline can be used to request and retrieve the PLA( Product Listing Ads) Search Term Report.",
+  "sourceDocsUrl": "",
+  "docsUrl": "https://docs.datachannel.co/getting-started/1.0.0/applications/cloud_application/flipkart-ads/index.html",
+  "releaseDate": "2024-09-04",
+  "seoTitle": "",
+  "seoDescription": ""
+}

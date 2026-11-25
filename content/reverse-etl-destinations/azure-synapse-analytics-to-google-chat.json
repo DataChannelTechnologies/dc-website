@@ -1,0 +1,13 @@
+{
+  "name": "Azure Synapse Analytics to Google Chat",
+  "slug": "azure-synapse-analytics-to-google-chat",
+  "warehouse": "azure-synapse",
+  "destination": "google-chat",
+  "category": "notifications",
+  "showSteps": false,
+  "steps": "",
+  "showVideo": false,
+  "videoUrl": "",
+  "seoTitle": "",
+  "seoDescription": ""
+}
